@@ -1,3 +1,7 @@
 /kg/venv/
 *.iml
 *.xml
+kg/.ipynb_checkpoints/Untitled-checkpoint.ipynb
+*.xlsm#
+*.ods
+*.xlsm

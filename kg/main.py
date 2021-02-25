@@ -1,16 +1,20 @@
-# This is a sample Python script.
+from cfg.conf import Cfg, Defaults
+from extraction.extract import E
+from transformation.transform import T
+from loading.load import L
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+"""
+This module contains the main entry point or 'pipeline' control center.
+"""
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+def _run(c: Cfg):
+    e = E(conf).extract()
+    t = T(conf).transform()
+    l = L(conf).load()
+    return
 
 
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    conf = Cfg(Defaults.CFG_FILE)
+    _run(conf)
