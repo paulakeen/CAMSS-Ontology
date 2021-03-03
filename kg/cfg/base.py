@@ -30,7 +30,9 @@ class CfgWorker:
 
     def _check_file_existence(self, f: str) -> bool:
         if not path.exists(f):
-            logging.warning(f"Configuration file {f} not found. Creating a default configuration file.")
+            logging.warning(f"Info in MODULE 'cfg.base.py', CLASS 'CfgWorker', METHOD '_check_file_existence()'. "
+                            f"Info message follows: 'Default file {f} has not been located, probably because a "
+                            f"non-default path and/or file name are being used.'")
             return False
         return True
 

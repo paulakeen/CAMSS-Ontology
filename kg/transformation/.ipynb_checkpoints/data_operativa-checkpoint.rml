@@ -1,0 +1,822 @@
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix csvw: <http://www.w3.org/ns/csvw#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix : <http://thesaurus.iadb.org/rsc/gsf-thesaurus/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> . 
+@prefix gpt: <http://thesaurus.iadb.org/rsc/gsf-thesaurus/> .
+@prefix idb: <http://thesaurus.iadb.org/ns/idb-core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema> .
+
+# CONCEPT SCHEMES FROM THE GENOME THESAURUS
+@prefix Datasets: <http://thesaurus.iadb.org/rsc/gsf-thesaurus/5b2a8613-0cab-40e2-a6b1-6533b8c0e6cc> .
+@prefix Financial_Instrument: <http://thesaurus.iadb.org/rsc/gsf-thesaurus/cddb1935-146d-43de-9f5f-0f6a32d5d727> .
+@prefix Region: <http://thesaurus.iadb.org/rsc/gsf-thesaurus/f00eafd9-62dc-43b7-92af-7c0f70af4f59> .
+@prefix Instrument_Type: <http://thesaurus.iadb.org/rsc/gsf-thesaurus/ed68e74a-6fbe-4b54-9612-943c409ba025> .
+@prefix Beneficiary_Country: <http://thesaurus.iadb.org/rsc/gsf-thesaurus/934b091b-a189-4a77-bb9c-8be3e0805a3c> .
+@prefix Sector: <http://thesaurus.iadb.org/rsc/gsf-thesaurus/649f0d52-5cc9-489c-927d-fc72bcd5ce17> .
+@prefix Product: <http://thesaurus.iadb.org/rsc/gsf-thesaurus/9f74c474-5ecc-4841-9f00-0121658be270> .
+
+
+# CONSTANT OBJECTS COMING FROM THE GENOME THESAURUS
+@prefix Projects: <http://thesaurus.iadb.org/rsc/gsf-thesaurus/fa8e9b24-a19f-4d13-ac49-6c8b9ee59eb6> . 
+@prefix Operations: <http://thesaurus.iadb.org/rsc/gsf-thesaurus/62c7e16b-3b68-4e59-a3bd-141623639221> .
+@prefix Borrowers: <http://thesaurus.iadb.org/rsc/gsf-thesaurus/9f74c474-5ecc-4841-9f00-0121658be270> .
+
+############
+# Projects #
+############
+
+:TriplesMap a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "edw.sl_vw_oper_prod.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ";"
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+:TriplesMap rr:subjectMap [
+  rr:template "http://thesaurus.iadb.org/rsc/gsf-thesaurus/{PROJECT_NUMBER}"
+].
+
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate skos:prefLabel;
+  rr:objectMap [
+    rml:reference "PROJECT_NUMBER"; rr:language "en-US"
+  ]
+].
+
+
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate idb:hasTitle;
+  rr:objectMap [
+      rr:template "{PROJECT_ENGL_NM}" ; rr:language "en-US"
+  ]
+].
+
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate idb:hasTitle;
+  rr:objectMap [
+      rr:template "{PROJECT_SPANISH_NM}" ; rr:language "es"
+  ]
+].
+
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate idb:hasTitle;
+  rr:objectMap [
+      rr:template "{PROJECT_FRENCH_NM}" ; rr:language "fr"
+  ]
+].
+
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate idb:hasTitle;
+  rr:objectMap [
+      rr:template "{PROJECT_PORTUGUESE_NM}" ; rr:language "pt-BR"
+  ]
+].
+
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate rdf:type;
+  rr:objectMap [
+   rr:constant skos:Concept
+ ]
+].
+
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate skos:broader;
+  rr:objectMap [
+   rr:constant Projects:
+ ]
+].
+
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate skos:inScheme;
+  rr:objectMap [
+   rr:constant Datasets:
+ ]
+].
+
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate rdf:type;
+  rr:objectMap [
+   rr:constant owl:NamedIndividual
+ ]
+].
+
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate rdf:type;
+  rr:objectMap [
+   rr:constant idb:Project
+].
+
+
+
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate idb:hasOperation;
+  rr:objectMap [
+      rr:template "http://thesaurus.iadb.org/rsc/gsf-thesaurus/{OPERATION_NUMBER}"
+  ]
+].
+
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate idb:hasPortfolioStatus;
+  rr:objectMap [
+      rr:template "http://thesaurus.iadb.org/rsc/gsf-thesaurus/{PORTFOLIO_STATUS}"
+  ]
+].
+
+
+##############
+# Operations #
+##############
+:TriplesMapOperation a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "edw.sl_vw_oper_prod.csv";
+      csvw:dialect [
+        a csvw:Dialect;
+        csvw:delimiter ";"
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+:TriplesMapOperation rr:subjectMap [
+  rr:template "http://thesaurus.iadb.org/rsc/gsf-thesaurus/{OPERATION_NUMBER}"
+].
+
+:TriplesMapOperation rr:predicateObjectMap [
+  rr:predicate rdf:type;
+  rr:objectMap [
+   rr:constant skos:Concept
+ ]
+].
+
+:TriplesMapOperation rr:predicateObjectMap [
+  rr:predicate skos:broader;
+  rr:objectMap [
+   rr:constant Operations:
+ ]
+].
+
+:TriplesMapOperation rr:predicateObjectMap [
+  rr:predicate skos:inScheme;
+  rr:objectMap [
+   rr:constant Datasets:
+ ]
+].
+
+:TriplesMapOperation rr:predicateObjectMap [
+  rr:predicate rdf:type;
+  rr:objectMap [
+   rr:constant owl:NamedIndividual
+ ]
+].
+
+:TriplesMapOperation rr:predicateObjectMap [
+  rr:predicate rdf:type;
+  rr:objectMap [
+   rr:constant idb:Operation
+ ]
+].
+
+
+:TriplesMapOperation rr:predicateObjectMap [
+  rr:predicate skos:prefLabel;
+  rr:objectMap [
+    rml:reference "OPERATION_NUMBER" ; rr:language "en-US"
+  ]
+].
+
+:TriplesMapOperation rr:predicateObjectMap [
+  rr:predicate idb:hasFinancialInstrument;
+  rr:objectMap [
+      rr:template "http://thesaurus.iadb.org/rsc/gsf-thesaurus/{FINANCIAL_INSTRUMENT_ID}"
+  ]
+].
+
+:TriplesMapOperation rr:predicateObjectMap [
+  rr:predicate idb:hasApprovalDate;
+  rr:objectMap [
+      rr:template "{APPROVAL_DATE}"; rr:datatype xsd:date
+  ]
+].
+
+:TriplesMapOperation rr:predicateObjectMap [
+  rr:predicate idb:hasCloseDate;
+  rr:objectMap [
+      rr:template "{CLOSE_DATE}"; rr:datatype xsd:date
+  ]
+].
+
+
+:TriplesMapOperation rr:predicateObjectMap [
+  rr:predicate idb:hasInstrumentType;
+  rr:objectMap [
+      rr:template "http://thesaurus.iadb.org/rsc/gsf-thesaurus/{INSTRUMENT_TYPE_ID}"
+  ]
+].
+
+:TriplesMapOperation rr:predicateObjectMap [
+  rr:predicate idb:hasBeneficiaryCountry;
+  rr:objectMap [
+      rr:template "http://thesaurus.iadb.org/rsc/gsf-thesaurus/{BENEFICIARY_COUNTRY_CD}"
+  ]
+].
+
+:TriplesMapOperation rr:predicateObjectMap [
+  rr:predicate idb:hasRegion;
+  rr:objectMap [
+      rr:template "http://thesaurus.iadb.org/rsc/gsf-thesaurus/{REGION_CD}"
+  ]
+].
+
+:TriplesMapOperation rr:predicateObjectMap [
+  rr:predicate idb:hasSector;
+  rr:objectMap [
+      rr:template "http://thesaurus.iadb.org/rsc/gsf-thesaurus/{SECTOR_CD}"
+  ]
+].
+
+:TriplesMapOperation rr:predicateObjectMap [
+  rr:predicate idb:hasProduct;
+  rr:objectMap [
+      rr:template "http://thesaurus.iadb.org/rsc/gsf-thesaurus/{PRODUCT_CD}"
+  ]
+].
+
+:TriplesMapOperation rr:predicateObjectMap [
+  rr:predicate idb:hasBorrower;
+  rr:objectMap [
+      rr:template "http://thesaurus.iadb.org/rsc/gsf-thesaurus/{BORROWER_CD}"
+  ]
+].
+:TriplesMapOperation rr:predicateObjectMap [
+  rr:predicate idb:hasExecutingAgency;
+  rr:objectMap [
+      rr:template "http://thesaurus.iadb.org/rsc/gsf-thesaurus/{EXECUTOR_CD}"
+  ]
+].
+:TriplesMapOperation rr:predicateObjectMap [
+  rr:predicate idb:hasDescription;
+  rr:objectMap [
+      rr:template "{EXECUTOR_CD}"
+  ]
+].
+
+
+########################
+# Financial Instruments#
+########################
+:TriplesMapFinancialInstrument a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "edw.sl_vw_oper_prod.csv";
+      csvw:dialect [
+        a csvw:Dialect;
+        csvw:delimiter ";"
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+:TriplesMapFinancialInstrument rr:subjectMap [
+  rr:template "http://thesaurus.iadb.org/rsc/gsf-thesaurus/{FINANCIAL_INSTRUMENT_ID}"
+].
+
+:TriplesMapFinancialInstrument rr:predicateObjectMap [
+  rr:predicate rdf:type;
+  rr:objectMap [
+   rr:constant skos:Concept
+ ]
+].
+
+:TriplesMapFinancialInstrument rr:predicateObjectMap [
+  rr:predicate rdf:type;
+  rr:objectMap [
+   rr:constant owl:NamedIndividual
+ ]
+].
+
+# Financial Instrument is in the IDB Ontology as a Class
+
+:TriplesMapFinancialInstrument rr:predicateObjectMap [
+  rr:predicate rdf:type;
+  rr:objectMap [
+   rr:constant idb:FinancialInstrument
+ ]
+].
+
+:TriplesMapFinancialInstrument rr:predicateObjectMap [
+  rr:predicate skos:prefLabel;
+  rr:objectMap [
+    rml:reference "FINANCIAL_INSTRUMENT_ENGL_NM"; rr:language "en-US" 
+  ]
+].
+
+:TriplesMapFinancialInstrument rr:predicateObjectMap [
+  rr:predicate skos:prefLabel;
+  rr:objectMap [
+    rml:reference "FINANCIAL_INSTRUMENT_SPANISH_NM"; rr:language "es" 
+  ]
+].
+
+:TriplesMapFinancialInstrument rr:predicateObjectMap [
+  rr:predicate skos:prefLabel;
+  rr:objectMap [
+    rml:reference "FINANCIAL_INSTRUMENT_FRENCH_NM"; rr:language "fr" 
+  ]
+].
+
+:TriplesMapFinancialInstrument rr:predicateObjectMap [
+  rr:predicate skos:prefLabel;
+  rr:objectMap [
+    rml:reference "FINANCIAL_INSTRUMENT_PORTUGUESE_NM"; rr:language "pt-br" 
+  ]
+].
+:TriplesMapFinancialInstrument rr:predicateObjectMap [
+  rr:predicate skos:inScheme;
+  rr:objectMap [
+   rr:constant Financial_Instrument:
+ ]
+].
+
+###################
+# Instrument Type #
+###################
+:TriplesMapInstrumentType a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "edw.sl_vw_oper_prod.csv";
+      csvw:dialect [
+        a csvw:Dialect;
+        csvw:delimiter ";"
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+:TriplesMapInstrumentType rr:subjectMap [
+  rr:template "http://thesaurus.iadb.org/rsc/gsf-thesaurus/{INSTRUMENT_TYPE_ID}"
+].
+
+:TriplesMapInstrumentType rr:predicateObjectMap [
+  rr:predicate rdf:type;
+  rr:objectMap [
+   rr:constant skos:Concept
+ ]
+].
+
+:TriplesMapInstrumentType rr:predicateObjectMap [
+  rr:predicate rdf:type;
+  rr:objectMap [
+   rr:constant owl:NamedIndividual
+ ]
+].
+
+:TriplesMapInstrumentType rr:predicateObjectMap [
+  rr:predicate skos:prefLabel;
+  rr:objectMap [
+    rml:reference "INSTRUMENT_TYPE_ENGL_NM"; rr:language "en-US" 
+  ]
+].
+
+:TriplesMapInstrumentType rr:predicateObjectMap [
+  rr:predicate skos:prefLabel;
+  rr:objectMap [
+    rml:reference "INSTRUMENT_TYPE_SPANISH_NM"; rr:language "es" 
+  ]
+].
+
+:TriplesMapInstrumentType rr:predicateObjectMap [
+  rr:predicate skos:prefLabel;
+  rr:objectMap [
+    rml:reference "INSTRUMENT_TYPE_FRENCH_NM"; rr:language "fr" 
+  ]
+].
+
+:TriplesMapInstrumentType rr:predicateObjectMap [
+  rr:predicate skos:prefLabel;
+  rr:objectMap [
+    rml:reference "INSTRUMENT_TYPE_PORTUGUESE_NM"; rr:language "pt-br" 
+  ]
+].
+:TriplesMapInstrumentType rr:predicateObjectMap [
+  rr:predicate skos:inScheme;
+  rr:objectMap [
+   rr:constant Instrument_Type:
+ ]
+].
+
+##########
+# Regions#
+##########
+:TriplesMapRegions a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "edw.sl_vw_oper_prod.csv";
+      csvw:dialect [
+        a csvw:Dialect;
+        csvw:delimiter ";"
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+:TriplesMapRegions rr:subjectMap [
+  rr:template "http://thesaurus.iadb.org/rsc/gsf-thesaurus/{REGION_CD}"
+].
+
+:TriplesMapRegions rr:predicateObjectMap [
+  rr:predicate rdf:type;
+  rr:objectMap [
+   rr:constant skos:Concept
+ ]
+].
+
+:TriplesMapRegions rr:predicateObjectMap [
+  rr:predicate rdf:type;
+  rr:objectMap [
+   rr:constant owl:NamedIndividual
+ ]
+].
+
+:TriplesMapRegions rr:predicateObjectMap [
+  rr:predicate skos:prefLabel;
+  rr:objectMap [
+    rml:reference "REGION_ENGL_NM"; rr:language "en-US" 
+  ]
+].
+
+:TriplesMapRegions rr:predicateObjectMap [
+  rr:predicate skos:prefLabel;
+  rr:objectMap [
+    rml:reference "REGION_SPANISH_NM"; rr:language "es" 
+  ]
+].
+
+:TriplesMapRegions rr:predicateObjectMap [
+  rr:predicate skos:prefLabel;
+  rr:objectMap [
+    rml:reference "REGION_FRENCH_NM"; rr:language "fr" 
+  ]
+].
+
+:TriplesMapRegions rr:predicateObjectMap [
+  rr:predicate skos:prefLabel;
+  rr:objectMap [
+    rml:reference "REGION_PORTUGUESE_NM"; rr:language "pt-br" 
+  ]
+].
+:TriplesMapRegions rr:predicateObjectMap [
+  rr:predicate skos:inScheme;
+  rr:objectMap [
+   rr:constant Region:
+ ]
+].
+
+#######################
+# Beneficiary Country #
+#######################
+:TriplesMapCountry a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "edw.sl_vw_oper_prod.csv";
+      csvw:dialect [
+        a csvw:Dialect;
+        csvw:delimiter ";"
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+:TriplesMapCountry rr:subjectMap [
+  rr:template "http://thesaurus.iadb.org/rsc/gsf-thesaurus/{BENEFICIARY_COUNTRY_CD}"
+].
+
+:TriplesMapCountry rr:predicateObjectMap [
+  rr:predicate rdf:type;
+  rr:objectMap [
+   rr:constant skos:Concept
+ ]
+].
+
+:TriplesMapCountry rr:predicateObjectMap [
+  rr:predicate rdf:type;
+  rr:objectMap [
+   rr:constant owl:NamedIndividual
+ ]
+].
+
+:TriplesMapCountry rr:predicateObjectMap [
+  rr:predicate skos:prefLabel;
+  rr:objectMap [
+    rml:reference "BENEFICIARY_COUNTRY_ENGL_NM"; rr:language "en-US" 
+  ]
+].
+
+:TriplesMapCountry rr:predicateObjectMap [
+  rr:predicate skos:prefLabel;
+  rr:objectMap [
+    rml:reference "BENEFICIARY_COUNTRY_SPANISH_NM"; rr:language "es" 
+  ]
+].
+
+:TriplesMapCountry rr:predicateObjectMap [
+  rr:predicate skos:prefLabel;
+  rr:objectMap [
+    rml:reference "BENEFICIARY_COUNTRY_FRENCH_NM"; rr:language "fr" 
+  ]
+].
+
+:TriplesMapCountry rr:predicateObjectMap [
+  rr:predicate skos:prefLabel;
+  rr:objectMap [
+    rml:reference "BENEFICIARY_COUNTRY_PORTUGUESE_NM"; rr:language "pt-br" 
+  ]
+].
+:TriplesMapRegions rr:predicateObjectMap [
+  rr:predicate skos:inScheme;
+  rr:objectMap [
+   rr:constant Beneficiary_Country:
+ ]
+].
+
+###########
+# Sectors #
+###########
+:TriplesMapSector a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "edw.sl_vw_oper_prod.csv";
+      csvw:dialect [
+        a csvw:Dialect;
+        csvw:delimiter ";"
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+  
+:TriplesMapSector rr:subjectMap [
+  rr:template "http://thesaurus.iadb.org/rsc/gsf-thesaurus/{SECTOR_CD}"
+].
+
+:TriplesMapSector rr:predicateObjectMap [
+  rr:predicate rdf:type;
+  rr:objectMap [
+   rr:constant skos:Concept
+ ]
+].
+
+:TriplesMapSector rr:predicateObjectMap [
+  rr:predicate rdf:type;
+  rr:objectMap [
+   rr:constant owl:NamedIndividual
+ ]
+].
+
+:TriplesMapSector rr:predicateObjectMap [
+  rr:predicate skos:prefLabel;
+  rr:objectMap [
+    rml:reference "SECTOR_ENGL_NM"; rr:language "en-US" 
+  ]
+].
+
+:TriplesMapSector rr:predicateObjectMap [
+  rr:predicate skos:prefLabel;
+  rr:objectMap [
+    rml:reference "SECTOR_SPANISH_NM"; rr:language "es" 
+  ]
+].
+
+:TriplesMapSector rr:predicateObjectMap [
+  rr:predicate skos:prefLabel;
+  rr:objectMap [
+    rml:reference "SECTOR_FRENCH_NM"; rr:language "fr" 
+  ]
+].
+
+:TriplesMapSector rr:predicateObjectMap [
+  rr:predicate skos:prefLabel;
+  rr:objectMap [
+    rml:reference "SECTOR_PORTUGUESE_NM"; rr:language "pt-br" 
+  ]
+].
+:TriplesMapSector rr:predicateObjectMap [
+  rr:predicate skos:inScheme;
+  rr:objectMap [
+   rr:constant Sector:
+ ]
+].
+############
+# Products #
+############
+:TriplesMapProduct a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "edw.sl_vw_oper_prod.csv";
+      csvw:dialect [
+        a csvw:Dialect;
+        csvw:delimiter ";"
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+  
+:TriplesMapProduct rr:subjectMap [
+  rr:template "http://thesaurus.iadb.org/rsc/gsf-thesaurus/{PRODUCT_CD}"
+].
+
+:TriplesMapProduct rr:predicateObjectMap [
+  rr:predicate rdf:type;
+  rr:objectMap [
+   rr:constant skos:Concept
+ ]
+].
+
+:TriplesMapProduct rr:predicateObjectMap [
+  rr:predicate rdf:type;
+  rr:objectMap [
+   rr:constant owl:NamedIndividual
+ ]
+].
+
+:TriplesMapProduct rr:predicateObjectMap [
+  rr:predicate skos:prefLabel;
+  rr:objectMap [
+    rml:reference "PRODUCT_ENGL_NM"; rr:language "en-US" 
+  ]
+].
+
+:TriplesMapSector rr:predicateObjectMap [
+  rr:predicate skos:prefLabel;
+  rr:objectMap [
+    rml:reference "PRODUCT_SPANISH_NM"; rr:language "es" 
+  ]
+].
+
+:TriplesMapSector rr:predicateObjectMap [
+  rr:predicate skos:prefLabel;
+  rr:objectMap [
+    rml:reference "PRODUCT_FRENCH_NM"; rr:language "fr" 
+  ]
+].
+
+:TriplesMapSector rr:predicateObjectMap [
+  rr:predicate skos:prefLabel;
+  rr:objectMap [
+    rml:reference "PRODUCT_PORTUGUESE_NM"; rr:language "pt-br" 
+  ]
+].
+:TriplesMapSector rr:predicateObjectMap [
+  rr:predicate skos:inScheme;
+  rr:objectMap [
+   rr:constant Product:
+ ]
+].
+
+#############
+# Borrowers #
+#############
+:TriplesMapBorrower a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "edw.sl_vw_oper_prod.csv";
+      csvw:dialect [
+        a csvw:Dialect;
+        csvw:delimiter ";"
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+  
+:TriplesMapBorrower rr:subjectMap [
+  rr:template "http://thesaurus.iadb.org/rsc/gsf-thesaurus/{BORROWER_CD}"
+].
+
+:TriplesMapBorrower rr:predicateObjectMap [
+  rr:predicate rdf:type;
+  rr:objectMap [
+   rr:constant skos:Concept
+ ]
+].
+
+:TriplesMapBorrower rr:predicateObjectMap [
+  rr:predicate rdf:type;
+  rr:objectMap [
+   rr:constant owl:NamedIndividual
+ ]
+].
+
+:TriplesMapBorrower rr:predicateObjectMap [
+  rr:predicate skos:prefLabel;
+  rr:objectMap [
+    rml:reference "BORROWER_ENGL_NM"; rr:language "en-US" 
+  ]
+].
+
+:TriplesMapBorrower rr:predicateObjectMap [
+  rr:predicate skos:prefLabel;
+  rr:objectMap [
+    rml:reference "BORROWER_SPANISH_NM"; rr:language "es" 
+  ]
+].
+
+:TriplesMapBorrower rr:predicateObjectMap [
+  rr:predicate skos:prefLabel;
+  rr:objectMap [
+    rml:reference "BORROWER_FRENCH_NM"; rr:language "fr" 
+  ]
+].
+
+:TriplesMapBorrower rr:predicateObjectMap [
+  rr:predicate skos:prefLabel;
+  rr:objectMap [
+    rml:reference "BORROWER_PORTUGUESE_NM"; rr:language "pt-br" 
+  ]
+].
+:TriplesMapBorrower rr:predicateObjectMap [
+  rr:predicate skos:inScheme;
+  rr:objectMap [
+   rr:constant Datasets:
+ ]
+].
+
+####################
+# Executing Agency #
+####################
+:TriplesMapExecutingAgency a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "edw.sl_vw_oper_prod.csv";
+      csvw:dialect [
+        a csvw:Dialect;
+        csvw:delimiter ";"
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+  
+:TriplesMapExecutingAgency rr:subjectMap [
+  rr:template "http://thesaurus.iadb.org/rsc/gsf-thesaurus/{EXECUTOR_CD}"
+].
+
+:TriplesMapExecutingAgency rr:predicateObjectMap [
+  rr:predicate rdf:type;
+  rr:objectMap [
+   rr:constant skos:Concept
+ ]
+].
+
+:TriplesMapExecutingAgency rr:predicateObjectMap [
+  rr:predicate rdf:type;
+  rr:objectMap [
+   rr:constant owl:NamedIndividual
+ ]
+].
+
+:TriplesMapExecutingAgency rr:predicateObjectMap [
+  rr:predicate skos:prefLabel;
+  rr:objectMap [
+    rml:reference "EXECUTOR_ENGL_NM"; rr:language "en-US" 
+  ]
+].
+
+:TriplesMapExecutingAgency rr:predicateObjectMap [
+  rr:predicate skos:prefLabel;
+  rr:objectMap [
+    rml:reference "EXECUTOR_SPANISH_NM"; rr:language "es" 
+  ]
+].
+
+:TriplesMapExecutingAgency rr:predicateObjectMap [
+  rr:predicate skos:prefLabel;
+  rr:objectMap [
+    rml:reference "EXECUTOR_FRENCH_NM"; rr:language "fr" 
+  ]
+].
+
+:TriplesMapExecutingAgency rr:predicateObjectMap [
+  rr:predicate skos:prefLabel;
+  rr:objectMap [
+    rml:reference "EXECUTOR_PORTUGUESE_NM"; rr:language "pt-br" 
+  ]
+].
+:TriplesMapExecutingAgency rr:predicateObjectMap [
+  rr:predicate skos:inScheme;
+  rr:objectMap [
+   rr:constant Datasets:
+ ]
+].

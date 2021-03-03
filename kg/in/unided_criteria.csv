@@ -1,0 +1,49 @@
+toolkit_id,principle_title,group_title,criterion_title,scenarios,tool_versions,comments
+A1,PRINCIPLES SETTING THE CONTEXT FOR EU ACTIONS ON INTEROPERABILITY,SUBSIDIARITY AND PROPORTIONALITY,The specification has been included in a national catalogue from a Member State whose NIF is fully aligned with at least 4 out of 5 sections of the EIF according to NIFO factsheets.,EIF,3.1.0,
+A2,CORE INTEROPERABILITY PRINCIPLES,OPENNESS,The specification facilitates the publication of public data as open data.,EIF,3.1.0,
+A3,CORE INTEROPERABILITY PRINCIPLES,OPENNESS,All stakeholders have the opportunity to contribute to the development of the specification,EIF,3.1.0,
+A4,CORE INTEROPERABILITY PRINCIPLES,OPENNESS,A public review is part of the decision-making process.,EIF,3.1.0,
+A5,CORE INTEROPERABILITY PRINCIPLES,OPENNESS,The specification is available for everyone to study.,EIF,3.1.0,
+A6,CORE INTEROPERABILITY PRINCIPLES,OPENNESS,The specification is licensed on a (F)RAND basis.,EIF,3.1.0,
+A7,CORE INTEROPERABILITY PRINCIPLES,OPENNESS,The specification is licensed on a royalty-free basis.,EIF,3.1.0,
+A8,CORE INTEROPERABILITY PRINCIPLES,OPENNESS,The specification is sufficiently mature for its use in the development of products and services.,EIF,3.1.0,
+A9,CORE INTEROPERABILITY PRINCIPLES,OPENNESS,The specification has sufficient market acceptance for its use in the development of products and services.,EIF,3.1.0,
+A10,CORE INTEROPERABILITY PRINCIPLES,OPENNESS,The specification fosters the creation of innovative solutions.,EIF,3.1.0,
+A11,CORE INTEROPERABILITY PRINCIPLES,OPENNESS,The specification has a strong support from at least one developer community.,EIF,3.1.0,
+A12,CORE INTEROPERABILITY PRINCIPLES,TRANSPARENCY,"The specification fosters the visibility of administrative rules, data, services and decision-making of a public administration.",EIF,3.1.0,
+A13,CORE INTEROPERABILITY PRINCIPLES,TRANSPARENCY,"The specification fosters the comprehensibility of administrative rules, data, services and decision-making of a public administration.",EIF,3.1.0,
+A14,CORE INTEROPERABILITY PRINCIPLES,TRANSPARENCY,The specification helps to ensure the availability of interfaces with internal information systems of a public administration.,EIF,3.1.0,
+A15,CORE INTEROPERABILITY PRINCIPLES,REUSABILITY,The specification is reusable beyond the domain for which it was originally developed.,EIF,3.1.0,
+A16,CORE INTEROPERABILITY PRINCIPLES,REUSABILITY,"The specification has been made available for its reuse by the organisations, administrations, open communities, etc. that developed it.",EIF,3.1.0,
+A17,CORE INTEROPERABILITY PRINCIPLES,REUSABILITY,The specification is available for free on at least one national or European platform.,EIF,3.1.0,
+A18,CORE INTEROPERABILITY PRINCIPLES,TECHNOLOGICAL NEUTRALITY AND DATA PORTABILITY,The specification is independent of any specific technology and/or platform.,EIF,3.1.0,
+A19,CORE INTEROPERABILITY PRINCIPLES,TECHNOLOGICAL NEUTRALITY AND DATA PORTABILITY,"The specification is proportionate to the needs of its users (citizens, businesses or administrations).",EIF,3.1.0,
+A20,CORE INTEROPERABILITY PRINCIPLES,TECHNOLOGICAL NEUTRALITY AND DATA PORTABILITY,The specification fosters data portability between systems and applications supporting the implementation and evolution of European public.,EIF,3.1.0,
+A21,PRINCIPLES RELATED TO GENERIC USER NEEDS AND EXPECTATIONS,USER-CENTRICITY,The specification eases the implementation of the once-only principle.,EIF,3.1.0,
+A22,PRINCIPLES RELATED TO GENERIC USER NEEDS AND EXPECTATIONS,INCLUSION AND ACCESSIBILITY,The specification fosters e-accessibility.,EIF,3.1.0,
+A23,PRINCIPLES RELATED TO GENERIC USER NEEDS AND EXPECTATIONS,SECURITY AND PRIVACY,"The specification fosters the secure and trustworthy data exchange between citizens and businesses, and public administrations.",EIF,3.1.0,
+A24,PRINCIPLES RELATED TO GENERIC USER NEEDS AND EXPECTATIONS,MULTILINGUALISM,The specification fosters the delivery of multilingual European public services.,EIF,3.1.0,
+A25,FOUNDATION PRINCIPLES FOR COOPERATION AMONG PUBLIC ADMINISTRATIONS,ADMINISTRATIVE SIMPLIFICATION,The adoption of the specification reduces the administrative burden.,EIF,3.1.0,
+A26,FOUNDATION PRINCIPLES FOR COOPERATION AMONG PUBLIC ADMINISTRATIONS,PRESERVATION OF INFORMATION,The specification fosters the long-term preservation of electronic records and other kinds of information.,EIF,3.1.0,
+A27,FOUNDATION PRINCIPLES FOR COOPERATION AMONG PUBLIC ADMINISTRATIONS,ASSESSMENT OF EFFECTIVENESS AND EFFICIENCY,There are already existing studies or documentation assessing the specification in terms of effectiveness and efficiency.,EIF,3.1.0,
+A28,INTEROPERABILITY LAYERS,INTEROPERABILITY GOVERNANCE,The specification can be mapped to the European Interoperability Reference Architecture (EIRA).,EIF,3.1.0,
+A29,INTEROPERABILITY LAYERS,INTEROPERABILITY GOVERNANCE,"Mechanisms to assess conformity of the implementations of the specification (e.g. conformity tests, certifications) are available for free.",EIF,3.1.0,
+A30,INTEROPERABILITY LAYERS,INTEROPERABILITY GOVERNANCE,The specification is recommended by an EU Member State.,EIF,3.1.0,
+A31,INTEROPERABILITY LAYERS,INTEROPERABILITY GOVERNANCE,The specification has been selected for its use in an EU cross-border project or initiative after agreed identification and assessment.,EIF,3.1.0,
+A32,INTEROPERABILITY LAYERS,INTEROPERABILITY GOVERNANCE,The specification is included in a catalogue of standards at national level.,EIF,3.1.0,
+A33,INTEROPERABILITY LAYERS,INTEROPERABILITY GOVERNANCE,The specification is included in a catalogue of standards at EU level.,EIF,3.1.0,
+A34,INTEROPERABILITY LAYERS,INTEGRATED PUBLIC SERVICE GOVERNANCE,The specification is included in an interoperability agreement established between organisations involved in European public service provision.,EIF,3.1.0,
+A35,INTEROPERABILITY LAYERS,LEGAL INTEROPERABILITY,The specification is compliant with a European standardisation regulation (e.g. regulation 1025/2012 on European standardisation).,EIF,3.1.0,
+A36,INTEROPERABILITY LAYERS,ORGANISATIONAL INTEROPERABILITY,The specification is a commonly accepted business process modelling specification.,EIF,3.1.0,
+A37,INTEROPERABILITY LAYERS,ORGANISATIONAL INTEROPERABILITY,"The specification defines organisational interoperability aspects (e.g. skills, language, etc.).",EIF,3.1.0,
+A38,INTEROPERABILITY LAYERS,SEMANTIC INTEROPERABILITY,The specification defines a cross-sector reusable data model.,EIF,3.1.0,
+A39,INTEROPERABILITY LAYERS,SEMANTIC INTEROPERABILITY,The specification fosters the publication of data as Linked Open Data.,EIF,3.1.0,
+A40,INTEROPERABILITY LAYERS,TECHNICAL INTEROPERABILITY,The specification facilitates the publication of public data as open data.,EIF,3.1.0,sameAs  A2
+A41,INTEROPERABILITY LAYERS,TECHNICAL INTEROPERABILITY,All stakeholders have the opportunity to contribute to the development of the specification,EIF,3.1.0,sameAs  A3
+A42,INTEROPERABILITY LAYERS,TECHNICAL INTEROPERABILITY,A public review is part of the decision-making process.,EIF,3.1.0,sameAs  A4
+A43,INTEROPERABILITY LAYERS,TECHNICAL INTEROPERABILITY,The specification is available for everyone to study.,EIF,3.1.0,sameAs  A5
+A44,INTEROPERABILITY LAYERS,TECHNICAL INTEROPERABILITY,The specification is licensed on a (F)RAND basis.,EIF,3.1.0,sameAs  A6
+A45,INTEROPERABILITY LAYERS,TECHNICAL INTEROPERABILITY,The specification is licensed on a royalty-free basis.,EIF,3.1.0,sameAs  A7
+A46,INTEROPERABILITY LAYERS,TECHNICAL INTEROPERABILITY,The specification is sufficiently mature for its use in the development of products and services.,EIF,3.1.0,sameAs  A8
+A47,INTEROPERABILITY LAYERS,TECHNICAL INTEROPERABILITY,The specification has sufficient market acceptance for its use in the development of products and services.,EIF,3.1.0,sameAs  A9
+A48,INTEROPERABILITY LAYERS,TECHNICAL INTEROPERABILITY,The specification fosters the creation of innovative solutions.,EIF,3.1.0,sameAs  A10

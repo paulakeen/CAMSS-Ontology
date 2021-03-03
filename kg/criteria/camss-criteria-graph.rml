@@ -1,0 +1,199 @@
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix csvw: <http://www.w3.org/ns/csvw#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> . 
+@prefix cssv: <http://data.europa.eu/w21/e1f84ab1-bad6-4e95-b37a-e54ba7dfc551#> . 
+@prefix cav: <http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#> .
+@prefix camsso: <http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#> .
+@prefix cccev: <http://data.europa.eu/m8g/> .
+@prefix cbc: <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/> .
+@prefix ct: <http://data.europa.eu/w21/rsc/camss-criterion-type#> .  # This is SKOS code-list that needs to be defined!!!
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix : <http://data.europa.eu/m8g/> .
+
+
+############
+# Criteria #
+############
+
+:TriplesMap a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "../in/ided_criteria.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+
+:TriplesMap rr:subjectMap [
+  rr:template "http://data.europa.eu/m8g/{criterion_id}"
+].
+
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate rdf:type;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/m8g/Criterion"
+  ]
+].
+
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate cbc:description;
+  rr:objectMap [
+      rr:template "{criterion_title}" ; rr:language "en"
+  ]
+].
+
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate cbc:id;
+  rr:objectMap [
+      rr:template "{criterion_id}"; rr:datatype xsd:string
+  ]
+].
+
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate cbc:type;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/rsc/camss-criterion-type#Criterion"
+  ]
+].
+
+
+# In CAMSS Assessments, one Criterion is a sub-criterion of a "Group of Criteria".
+
+:TriplesMapGroup rr:predicateObjectMap [
+  rr:predicate cccev:isRequirementOf;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/m8g/{group_id}"
+  ]
+].
+
+
+##########
+# Groups #
+##########
+
+:TriplesMapGroup a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "../in/ided_criteria.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+
+:TriplesMapGroup rr:subjectMap [
+  rr:template "http://data.europa.eu/m8g/{group_id}"
+].
+
+
+:TriplesMapGroup rr:predicateObjectMap [
+  rr:predicate cbc:description;
+  rr:objectMap [
+      rr:template "{group_title}" ; rr:language "en"
+  ]
+].
+
+:TriplesMapGroup rr:predicateObjectMap [
+  rr:predicate cbc:id;
+  rr:objectMap [
+      rr:template "{group_id}" ; rr:datatype xsd:string
+  ]
+].
+
+
+# In CAMSS Assessments, one Group of Criteria has 'leaf' sub-criteria of type Criterion.
+
+:TriplesMapGroup rr:predicateObjectMap [
+  rr:predicate cccev:hasRequirement;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/m8g/{criterion_id}"
+  ]
+].
+
+
+# In CAMSS Assessments, one Group of Criteria is a sub-criterion of a "Principle".
+
+:TriplesMapGroup rr:predicateObjectMap [
+  rr:predicate cccev:isRequirementOf;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/m8g/{principle_id}"
+  ]
+].
+
+:TriplesMapGroup rr:predicateObjectMap [
+  rr:predicate cbc:id;
+  rr:objectMap [
+      rr:template "{group_id}"; rr:datatype xsd:string
+  ]
+].
+
+:TriplesMapGroup rr:predicateObjectMap [
+  rr:predicate cbc:type;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaGroup"
+  ]
+].
+
+
+##############
+# Principles #
+##############
+
+:TriplesMapPrinciple a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "../in/ided_criteria.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+
+:TriplesMapPrinciple rr:subjectMap [
+  rr:template "http://data.europa.eu/m8g/{principle_id}"
+].
+
+:TriplesMapPrinciple rr:predicateObjectMap [
+  rr:predicate cbc:description;
+  rr:objectMap [
+      rr:template "{principle_title}" ; rr:language "en"
+  ]
+].
+
+:TriplesMapPrinciple rr:predicateObjectMap [
+  rr:predicate cccev:hasRequirement;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/m8g/{group_id}"
+  ]
+].
+
+:TriplesMapGroup rr:predicateObjectMap [
+  rr:predicate cbc:id;
+  rr:objectMap [
+      rr:template "{group_id}"; rr:datatype xsd:string
+  ]
+].
+
+:TriplesMapGroup rr:predicateObjectMap [
+  rr:predicate cbc:type;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaPrinciple"
+  ]
+].

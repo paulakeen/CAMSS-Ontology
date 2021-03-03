@@ -1,0 +1,720 @@
+<http://data.europa.eu/m8g/c42a5a8ff73196201aac3c90c0f9c95f> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#Criterion>.
+<http://data.europa.eu/m8g/c42a5a8ff73196201aac3c90c0f9c95f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/m8g/Criterion>.
+<http://data.europa.eu/m8g/c42a5a8ff73196201aac3c90c0f9c95f> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "The specification has been included in a national catalogue from a Member State whose NIF is fully aligned with at least 4 out of 5 sections of the EIF according to NIFO factsheets."@en.
+<http://data.europa.eu/m8g/c42a5a8ff73196201aac3c90c0f9c95f> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "c42a5a8ff73196201aac3c90c0f9c95f"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/018d36156569392f2aafea23f64a76c2> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#Criterion>.
+<http://data.europa.eu/m8g/018d36156569392f2aafea23f64a76c2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/m8g/Criterion>.
+<http://data.europa.eu/m8g/018d36156569392f2aafea23f64a76c2> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "The specification facilitates the publication of public data as open data."@en.
+<http://data.europa.eu/m8g/018d36156569392f2aafea23f64a76c2> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "018d36156569392f2aafea23f64a76c2"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/6e66052782871e8f735e877ab531746b> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#Criterion>.
+<http://data.europa.eu/m8g/6e66052782871e8f735e877ab531746b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/m8g/Criterion>.
+<http://data.europa.eu/m8g/6e66052782871e8f735e877ab531746b> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "All stakeholders have the opportunity to contribute to the development of the specification"@en.
+<http://data.europa.eu/m8g/6e66052782871e8f735e877ab531746b> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "6e66052782871e8f735e877ab531746b"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/86480aeb679a28b84c21e76373281a89> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#Criterion>.
+<http://data.europa.eu/m8g/86480aeb679a28b84c21e76373281a89> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/m8g/Criterion>.
+<http://data.europa.eu/m8g/86480aeb679a28b84c21e76373281a89> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "A public review is part of the decision-making process."@en.
+<http://data.europa.eu/m8g/86480aeb679a28b84c21e76373281a89> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "86480aeb679a28b84c21e76373281a89"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/4e9a30bee7bc426848739d2f6306a3f4> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#Criterion>.
+<http://data.europa.eu/m8g/4e9a30bee7bc426848739d2f6306a3f4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/m8g/Criterion>.
+<http://data.europa.eu/m8g/4e9a30bee7bc426848739d2f6306a3f4> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "The specification is available for everyone to study."@en.
+<http://data.europa.eu/m8g/4e9a30bee7bc426848739d2f6306a3f4> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "4e9a30bee7bc426848739d2f6306a3f4"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/d9708f7ddb370ef2f423f5ef40e0212f> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#Criterion>.
+<http://data.europa.eu/m8g/d9708f7ddb370ef2f423f5ef40e0212f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/m8g/Criterion>.
+<http://data.europa.eu/m8g/d9708f7ddb370ef2f423f5ef40e0212f> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "The specification is licensed on a (F)RAND basis."@en.
+<http://data.europa.eu/m8g/d9708f7ddb370ef2f423f5ef40e0212f> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "d9708f7ddb370ef2f423f5ef40e0212f"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/1408eabc0d6cf718b6797e574778544c> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#Criterion>.
+<http://data.europa.eu/m8g/1408eabc0d6cf718b6797e574778544c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/m8g/Criterion>.
+<http://data.europa.eu/m8g/1408eabc0d6cf718b6797e574778544c> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "The specification is licensed on a royalty-free basis."@en.
+<http://data.europa.eu/m8g/1408eabc0d6cf718b6797e574778544c> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "1408eabc0d6cf718b6797e574778544c"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/75ae91ad6e35df68c0fdf68310f95632> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#Criterion>.
+<http://data.europa.eu/m8g/75ae91ad6e35df68c0fdf68310f95632> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/m8g/Criterion>.
+<http://data.europa.eu/m8g/75ae91ad6e35df68c0fdf68310f95632> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "The specification is sufficiently mature for its use in the development of products and services."@en.
+<http://data.europa.eu/m8g/75ae91ad6e35df68c0fdf68310f95632> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "75ae91ad6e35df68c0fdf68310f95632"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/077c966676cefd77a045324b17f73f2b> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#Criterion>.
+<http://data.europa.eu/m8g/077c966676cefd77a045324b17f73f2b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/m8g/Criterion>.
+<http://data.europa.eu/m8g/077c966676cefd77a045324b17f73f2b> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "The specification has sufficient market acceptance for its use in the development of products and services."@en.
+<http://data.europa.eu/m8g/077c966676cefd77a045324b17f73f2b> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "077c966676cefd77a045324b17f73f2b"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/bff365d744436a47cb68583789942a3c> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#Criterion>.
+<http://data.europa.eu/m8g/bff365d744436a47cb68583789942a3c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/m8g/Criterion>.
+<http://data.europa.eu/m8g/bff365d744436a47cb68583789942a3c> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "The specification fosters the creation of innovative solutions."@en.
+<http://data.europa.eu/m8g/bff365d744436a47cb68583789942a3c> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "bff365d744436a47cb68583789942a3c"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/e81f968ffcd82a2aa7c9317374724895> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#Criterion>.
+<http://data.europa.eu/m8g/e81f968ffcd82a2aa7c9317374724895> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/m8g/Criterion>.
+<http://data.europa.eu/m8g/e81f968ffcd82a2aa7c9317374724895> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "The specification has a strong support from at least one developer community."@en.
+<http://data.europa.eu/m8g/e81f968ffcd82a2aa7c9317374724895> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "e81f968ffcd82a2aa7c9317374724895"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/eb586dd9bcab05b431f4be7a8fe4c7f3> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#Criterion>.
+<http://data.europa.eu/m8g/eb586dd9bcab05b431f4be7a8fe4c7f3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/m8g/Criterion>.
+<http://data.europa.eu/m8g/eb586dd9bcab05b431f4be7a8fe4c7f3> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "The specification fosters the visibility of administrative rules, data, services and decision-making of a public administration."@en.
+<http://data.europa.eu/m8g/eb586dd9bcab05b431f4be7a8fe4c7f3> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "eb586dd9bcab05b431f4be7a8fe4c7f3"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/18193cd10351ff88c41670f1732ded10> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#Criterion>.
+<http://data.europa.eu/m8g/18193cd10351ff88c41670f1732ded10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/m8g/Criterion>.
+<http://data.europa.eu/m8g/18193cd10351ff88c41670f1732ded10> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "The specification fosters the comprehensibility of administrative rules, data, services and decision-making of a public administration."@en.
+<http://data.europa.eu/m8g/18193cd10351ff88c41670f1732ded10> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "18193cd10351ff88c41670f1732ded10"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/84c9dc669c9d40e2e541ad4e6172ca7f> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#Criterion>.
+<http://data.europa.eu/m8g/84c9dc669c9d40e2e541ad4e6172ca7f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/m8g/Criterion>.
+<http://data.europa.eu/m8g/84c9dc669c9d40e2e541ad4e6172ca7f> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "The specification helps to ensure the availability of interfaces with internal information systems of a public administration."@en.
+<http://data.europa.eu/m8g/84c9dc669c9d40e2e541ad4e6172ca7f> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "84c9dc669c9d40e2e541ad4e6172ca7f"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/a20e9c41d70c67b369048847ef4bb353> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#Criterion>.
+<http://data.europa.eu/m8g/a20e9c41d70c67b369048847ef4bb353> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/m8g/Criterion>.
+<http://data.europa.eu/m8g/a20e9c41d70c67b369048847ef4bb353> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "The specification is reusable beyond the domain for which it was originally developed."@en.
+<http://data.europa.eu/m8g/a20e9c41d70c67b369048847ef4bb353> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "a20e9c41d70c67b369048847ef4bb353"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/50f9b713a1a993210642e0cd97fcdc41> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#Criterion>.
+<http://data.europa.eu/m8g/50f9b713a1a993210642e0cd97fcdc41> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/m8g/Criterion>.
+<http://data.europa.eu/m8g/50f9b713a1a993210642e0cd97fcdc41> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "The specification has been made available for its reuse by the organisations, administrations, open communities, etc. that developed it."@en.
+<http://data.europa.eu/m8g/50f9b713a1a993210642e0cd97fcdc41> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "50f9b713a1a993210642e0cd97fcdc41"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/7b3adb5beefed16606f7bb175e1795c8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#Criterion>.
+<http://data.europa.eu/m8g/7b3adb5beefed16606f7bb175e1795c8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/m8g/Criterion>.
+<http://data.europa.eu/m8g/7b3adb5beefed16606f7bb175e1795c8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "The specification is available for free on at least one national or European platform."@en.
+<http://data.europa.eu/m8g/7b3adb5beefed16606f7bb175e1795c8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "7b3adb5beefed16606f7bb175e1795c8"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/a681ec1bd7d0bd8b99173ab73cc188ba> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#Criterion>.
+<http://data.europa.eu/m8g/a681ec1bd7d0bd8b99173ab73cc188ba> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/m8g/Criterion>.
+<http://data.europa.eu/m8g/a681ec1bd7d0bd8b99173ab73cc188ba> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "The specification is independent of any specific technology and/or platform."@en.
+<http://data.europa.eu/m8g/a681ec1bd7d0bd8b99173ab73cc188ba> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "a681ec1bd7d0bd8b99173ab73cc188ba"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/6c2fa441b1e2040d22325a51f0f53b39> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#Criterion>.
+<http://data.europa.eu/m8g/6c2fa441b1e2040d22325a51f0f53b39> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/m8g/Criterion>.
+<http://data.europa.eu/m8g/6c2fa441b1e2040d22325a51f0f53b39> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "The specification is proportionate to the needs of its users (citizens, businesses or administrations)."@en.
+<http://data.europa.eu/m8g/6c2fa441b1e2040d22325a51f0f53b39> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "6c2fa441b1e2040d22325a51f0f53b39"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/e923b2960846264d3cc7525bbd3a0ee0> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#Criterion>.
+<http://data.europa.eu/m8g/e923b2960846264d3cc7525bbd3a0ee0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/m8g/Criterion>.
+<http://data.europa.eu/m8g/e923b2960846264d3cc7525bbd3a0ee0> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "The specification fosters data portability between systems and applications supporting the implementation and evolution of European public."@en.
+<http://data.europa.eu/m8g/e923b2960846264d3cc7525bbd3a0ee0> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "e923b2960846264d3cc7525bbd3a0ee0"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/0d432b4fa0f143ceb720596f190e0102> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#Criterion>.
+<http://data.europa.eu/m8g/0d432b4fa0f143ceb720596f190e0102> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/m8g/Criterion>.
+<http://data.europa.eu/m8g/0d432b4fa0f143ceb720596f190e0102> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "The specification eases the implementation of the once-only principle."@en.
+<http://data.europa.eu/m8g/0d432b4fa0f143ceb720596f190e0102> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "0d432b4fa0f143ceb720596f190e0102"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/5620615d81f539b396d9e72ede450fd7> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#Criterion>.
+<http://data.europa.eu/m8g/5620615d81f539b396d9e72ede450fd7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/m8g/Criterion>.
+<http://data.europa.eu/m8g/5620615d81f539b396d9e72ede450fd7> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "The specification fosters e-accessibility."@en.
+<http://data.europa.eu/m8g/5620615d81f539b396d9e72ede450fd7> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "5620615d81f539b396d9e72ede450fd7"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/e01abc278514f50624be7a51cb9c72b0> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#Criterion>.
+<http://data.europa.eu/m8g/e01abc278514f50624be7a51cb9c72b0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/m8g/Criterion>.
+<http://data.europa.eu/m8g/e01abc278514f50624be7a51cb9c72b0> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "The specification fosters the secure and trustworthy data exchange between citizens and businesses, and public administrations."@en.
+<http://data.europa.eu/m8g/e01abc278514f50624be7a51cb9c72b0> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "e01abc278514f50624be7a51cb9c72b0"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/dc70f2ddd6b41a5c71727fa353e2f04e> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#Criterion>.
+<http://data.europa.eu/m8g/dc70f2ddd6b41a5c71727fa353e2f04e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/m8g/Criterion>.
+<http://data.europa.eu/m8g/dc70f2ddd6b41a5c71727fa353e2f04e> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "The specification fosters the delivery of multilingual European public services."@en.
+<http://data.europa.eu/m8g/dc70f2ddd6b41a5c71727fa353e2f04e> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "dc70f2ddd6b41a5c71727fa353e2f04e"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/e0b6fd49c17ac62ecd397b9d2102a2c8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#Criterion>.
+<http://data.europa.eu/m8g/e0b6fd49c17ac62ecd397b9d2102a2c8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/m8g/Criterion>.
+<http://data.europa.eu/m8g/e0b6fd49c17ac62ecd397b9d2102a2c8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "The adoption of the specification reduces the administrative burden."@en.
+<http://data.europa.eu/m8g/e0b6fd49c17ac62ecd397b9d2102a2c8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "e0b6fd49c17ac62ecd397b9d2102a2c8"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/d832d0d51143fa0a21d429980dff09be> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#Criterion>.
+<http://data.europa.eu/m8g/d832d0d51143fa0a21d429980dff09be> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/m8g/Criterion>.
+<http://data.europa.eu/m8g/d832d0d51143fa0a21d429980dff09be> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "The specification fosters the long-term preservation of electronic records and other kinds of information."@en.
+<http://data.europa.eu/m8g/d832d0d51143fa0a21d429980dff09be> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "d832d0d51143fa0a21d429980dff09be"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/3015b02174f63fe27ed976eb6be2173a> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#Criterion>.
+<http://data.europa.eu/m8g/3015b02174f63fe27ed976eb6be2173a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/m8g/Criterion>.
+<http://data.europa.eu/m8g/3015b02174f63fe27ed976eb6be2173a> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "There are already existing studies or documentation assessing the specification in terms of effectiveness and efficiency."@en.
+<http://data.europa.eu/m8g/3015b02174f63fe27ed976eb6be2173a> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "3015b02174f63fe27ed976eb6be2173a"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/08ebe98d9906ae121d734e1adfdcbd3f> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#Criterion>.
+<http://data.europa.eu/m8g/08ebe98d9906ae121d734e1adfdcbd3f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/m8g/Criterion>.
+<http://data.europa.eu/m8g/08ebe98d9906ae121d734e1adfdcbd3f> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "The specification can be mapped to the European Interoperability Reference Architecture (EIRA)."@en.
+<http://data.europa.eu/m8g/08ebe98d9906ae121d734e1adfdcbd3f> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "08ebe98d9906ae121d734e1adfdcbd3f"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/3c201dc582f729cddf3b176ab1a3a0d5> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#Criterion>.
+<http://data.europa.eu/m8g/3c201dc582f729cddf3b176ab1a3a0d5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/m8g/Criterion>.
+<http://data.europa.eu/m8g/3c201dc582f729cddf3b176ab1a3a0d5> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "Mechanisms to assess conformity of the implementations of the specification (e.g. conformity tests, certifications) are available for free."@en.
+<http://data.europa.eu/m8g/3c201dc582f729cddf3b176ab1a3a0d5> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "3c201dc582f729cddf3b176ab1a3a0d5"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/790360b73fc300b4f3b3d5781f5c58bf> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#Criterion>.
+<http://data.europa.eu/m8g/790360b73fc300b4f3b3d5781f5c58bf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/m8g/Criterion>.
+<http://data.europa.eu/m8g/790360b73fc300b4f3b3d5781f5c58bf> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "The specification is recommended by an EU Member State."@en.
+<http://data.europa.eu/m8g/790360b73fc300b4f3b3d5781f5c58bf> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "790360b73fc300b4f3b3d5781f5c58bf"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/0fb00f5e00492be3cfa666319c7dd6da> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#Criterion>.
+<http://data.europa.eu/m8g/0fb00f5e00492be3cfa666319c7dd6da> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/m8g/Criterion>.
+<http://data.europa.eu/m8g/0fb00f5e00492be3cfa666319c7dd6da> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "The specification has been selected for its use in an EU cross-border project or initiative after agreed identification and assessment."@en.
+<http://data.europa.eu/m8g/0fb00f5e00492be3cfa666319c7dd6da> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "0fb00f5e00492be3cfa666319c7dd6da"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/5e96722729b950f1830fb73ed3910ef3> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#Criterion>.
+<http://data.europa.eu/m8g/5e96722729b950f1830fb73ed3910ef3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/m8g/Criterion>.
+<http://data.europa.eu/m8g/5e96722729b950f1830fb73ed3910ef3> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "The specification is included in a catalogue of standards at national level."@en.
+<http://data.europa.eu/m8g/5e96722729b950f1830fb73ed3910ef3> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "5e96722729b950f1830fb73ed3910ef3"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/e81e85e531abf618c2b37221f070b982> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#Criterion>.
+<http://data.europa.eu/m8g/e81e85e531abf618c2b37221f070b982> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/m8g/Criterion>.
+<http://data.europa.eu/m8g/e81e85e531abf618c2b37221f070b982> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "The specification is included in a catalogue of standards at EU level."@en.
+<http://data.europa.eu/m8g/e81e85e531abf618c2b37221f070b982> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "e81e85e531abf618c2b37221f070b982"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/87a9ce047cfa7d0978e6a2a7518e53e1> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#Criterion>.
+<http://data.europa.eu/m8g/87a9ce047cfa7d0978e6a2a7518e53e1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/m8g/Criterion>.
+<http://data.europa.eu/m8g/87a9ce047cfa7d0978e6a2a7518e53e1> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "The specification is included in an interoperability agreement established between organisations involved in European public service provision."@en.
+<http://data.europa.eu/m8g/87a9ce047cfa7d0978e6a2a7518e53e1> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "87a9ce047cfa7d0978e6a2a7518e53e1"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/ff059382710638e130d49fe6decff5ba> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#Criterion>.
+<http://data.europa.eu/m8g/ff059382710638e130d49fe6decff5ba> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/m8g/Criterion>.
+<http://data.europa.eu/m8g/ff059382710638e130d49fe6decff5ba> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "The specification is compliant with a European standardisation regulation (e.g. regulation 1025/2012 on European standardisation)."@en.
+<http://data.europa.eu/m8g/ff059382710638e130d49fe6decff5ba> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "ff059382710638e130d49fe6decff5ba"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/76ebc82f8260d19ac83f5938b8db7ed4> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#Criterion>.
+<http://data.europa.eu/m8g/76ebc82f8260d19ac83f5938b8db7ed4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/m8g/Criterion>.
+<http://data.europa.eu/m8g/76ebc82f8260d19ac83f5938b8db7ed4> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "The specification is a commonly accepted business process modelling specification."@en.
+<http://data.europa.eu/m8g/76ebc82f8260d19ac83f5938b8db7ed4> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "76ebc82f8260d19ac83f5938b8db7ed4"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/02710e4406b9d5008e22432fca77b9ef> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#Criterion>.
+<http://data.europa.eu/m8g/02710e4406b9d5008e22432fca77b9ef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/m8g/Criterion>.
+<http://data.europa.eu/m8g/02710e4406b9d5008e22432fca77b9ef> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "The specification defines organisational interoperability aspects (e.g. skills, language, etc.)."@en.
+<http://data.europa.eu/m8g/02710e4406b9d5008e22432fca77b9ef> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "02710e4406b9d5008e22432fca77b9ef"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/c8f3160603854c61e45e977af3ba49d7> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#Criterion>.
+<http://data.europa.eu/m8g/c8f3160603854c61e45e977af3ba49d7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/m8g/Criterion>.
+<http://data.europa.eu/m8g/c8f3160603854c61e45e977af3ba49d7> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "The specification defines a cross-sector reusable data model."@en.
+<http://data.europa.eu/m8g/c8f3160603854c61e45e977af3ba49d7> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "c8f3160603854c61e45e977af3ba49d7"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/a28ab768bf3b6c3c70164f5592627b02> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#Criterion>.
+<http://data.europa.eu/m8g/a28ab768bf3b6c3c70164f5592627b02> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/m8g/Criterion>.
+<http://data.europa.eu/m8g/a28ab768bf3b6c3c70164f5592627b02> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "The specification fosters the publication of data as Linked Open Data."@en.
+<http://data.europa.eu/m8g/a28ab768bf3b6c3c70164f5592627b02> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "a28ab768bf3b6c3c70164f5592627b02"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/018d36156569392f2aafea23f64a76c2> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#Criterion>.
+<http://data.europa.eu/m8g/018d36156569392f2aafea23f64a76c2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/m8g/Criterion>.
+<http://data.europa.eu/m8g/018d36156569392f2aafea23f64a76c2> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "The specification facilitates the publication of public data as open data."@en.
+<http://data.europa.eu/m8g/018d36156569392f2aafea23f64a76c2> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "018d36156569392f2aafea23f64a76c2"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/6e66052782871e8f735e877ab531746b> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#Criterion>.
+<http://data.europa.eu/m8g/6e66052782871e8f735e877ab531746b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/m8g/Criterion>.
+<http://data.europa.eu/m8g/6e66052782871e8f735e877ab531746b> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "All stakeholders have the opportunity to contribute to the development of the specification"@en.
+<http://data.europa.eu/m8g/6e66052782871e8f735e877ab531746b> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "6e66052782871e8f735e877ab531746b"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/86480aeb679a28b84c21e76373281a89> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#Criterion>.
+<http://data.europa.eu/m8g/86480aeb679a28b84c21e76373281a89> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/m8g/Criterion>.
+<http://data.europa.eu/m8g/86480aeb679a28b84c21e76373281a89> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "A public review is part of the decision-making process."@en.
+<http://data.europa.eu/m8g/86480aeb679a28b84c21e76373281a89> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "86480aeb679a28b84c21e76373281a89"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/4e9a30bee7bc426848739d2f6306a3f4> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#Criterion>.
+<http://data.europa.eu/m8g/4e9a30bee7bc426848739d2f6306a3f4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/m8g/Criterion>.
+<http://data.europa.eu/m8g/4e9a30bee7bc426848739d2f6306a3f4> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "The specification is available for everyone to study."@en.
+<http://data.europa.eu/m8g/4e9a30bee7bc426848739d2f6306a3f4> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "4e9a30bee7bc426848739d2f6306a3f4"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/d9708f7ddb370ef2f423f5ef40e0212f> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#Criterion>.
+<http://data.europa.eu/m8g/d9708f7ddb370ef2f423f5ef40e0212f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/m8g/Criterion>.
+<http://data.europa.eu/m8g/d9708f7ddb370ef2f423f5ef40e0212f> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "The specification is licensed on a (F)RAND basis."@en.
+<http://data.europa.eu/m8g/d9708f7ddb370ef2f423f5ef40e0212f> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "d9708f7ddb370ef2f423f5ef40e0212f"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/1408eabc0d6cf718b6797e574778544c> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#Criterion>.
+<http://data.europa.eu/m8g/1408eabc0d6cf718b6797e574778544c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/m8g/Criterion>.
+<http://data.europa.eu/m8g/1408eabc0d6cf718b6797e574778544c> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "The specification is licensed on a royalty-free basis."@en.
+<http://data.europa.eu/m8g/1408eabc0d6cf718b6797e574778544c> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "1408eabc0d6cf718b6797e574778544c"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/75ae91ad6e35df68c0fdf68310f95632> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#Criterion>.
+<http://data.europa.eu/m8g/75ae91ad6e35df68c0fdf68310f95632> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/m8g/Criterion>.
+<http://data.europa.eu/m8g/75ae91ad6e35df68c0fdf68310f95632> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "The specification is sufficiently mature for its use in the development of products and services."@en.
+<http://data.europa.eu/m8g/75ae91ad6e35df68c0fdf68310f95632> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "75ae91ad6e35df68c0fdf68310f95632"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/077c966676cefd77a045324b17f73f2b> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#Criterion>.
+<http://data.europa.eu/m8g/077c966676cefd77a045324b17f73f2b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/m8g/Criterion>.
+<http://data.europa.eu/m8g/077c966676cefd77a045324b17f73f2b> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "The specification has sufficient market acceptance for its use in the development of products and services."@en.
+<http://data.europa.eu/m8g/077c966676cefd77a045324b17f73f2b> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "077c966676cefd77a045324b17f73f2b"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/bff365d744436a47cb68583789942a3c> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#Criterion>.
+<http://data.europa.eu/m8g/bff365d744436a47cb68583789942a3c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/m8g/Criterion>.
+<http://data.europa.eu/m8g/bff365d744436a47cb68583789942a3c> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "The specification fosters the creation of innovative solutions."@en.
+<http://data.europa.eu/m8g/bff365d744436a47cb68583789942a3c> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "bff365d744436a47cb68583789942a3c"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/0fb0de82900b6fc1679057732bea92f6> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/0fb0de82900b6fc1679057732bea92f6>.
+<http://data.europa.eu/m8g/0fb0de82900b6fc1679057732bea92f6> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "SUBSIDIARITY AND PROPORTIONALITY"@en.
+<http://data.europa.eu/m8g/0fb0de82900b6fc1679057732bea92f6> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "0fb0de82900b6fc1679057732bea92f6"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/0fb0de82900b6fc1679057732bea92f6> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/c42a5a8ff73196201aac3c90c0f9c95f>.
+<http://data.europa.eu/m8g/0fb0de82900b6fc1679057732bea92f6> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/2e1974b6c006d2a558a7cf82cf4429d5>.
+<http://data.europa.eu/m8g/0fb0de82900b6fc1679057732bea92f6> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "0fb0de82900b6fc1679057732bea92f6"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/0fb0de82900b6fc1679057732bea92f6> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaGroup>.
+<http://data.europa.eu/m8g/0fb0de82900b6fc1679057732bea92f6> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "0fb0de82900b6fc1679057732bea92f6"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/0fb0de82900b6fc1679057732bea92f6> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaPrinciple>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "OPENNESS"@en.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "536801a526cbca7d986e6b9bc55363b8"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/018d36156569392f2aafea23f64a76c2>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/50e198fe2ecfbde680ab90608126bbfe>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "536801a526cbca7d986e6b9bc55363b8"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaGroup>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "536801a526cbca7d986e6b9bc55363b8"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaPrinciple>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "OPENNESS"@en.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "536801a526cbca7d986e6b9bc55363b8"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/6e66052782871e8f735e877ab531746b>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/50e198fe2ecfbde680ab90608126bbfe>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "536801a526cbca7d986e6b9bc55363b8"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaGroup>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "536801a526cbca7d986e6b9bc55363b8"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaPrinciple>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "OPENNESS"@en.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "536801a526cbca7d986e6b9bc55363b8"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/86480aeb679a28b84c21e76373281a89>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/50e198fe2ecfbde680ab90608126bbfe>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "536801a526cbca7d986e6b9bc55363b8"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaGroup>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "536801a526cbca7d986e6b9bc55363b8"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaPrinciple>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "OPENNESS"@en.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "536801a526cbca7d986e6b9bc55363b8"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/4e9a30bee7bc426848739d2f6306a3f4>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/50e198fe2ecfbde680ab90608126bbfe>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "536801a526cbca7d986e6b9bc55363b8"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaGroup>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "536801a526cbca7d986e6b9bc55363b8"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaPrinciple>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "OPENNESS"@en.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "536801a526cbca7d986e6b9bc55363b8"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/d9708f7ddb370ef2f423f5ef40e0212f>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/50e198fe2ecfbde680ab90608126bbfe>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "536801a526cbca7d986e6b9bc55363b8"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaGroup>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "536801a526cbca7d986e6b9bc55363b8"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaPrinciple>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "OPENNESS"@en.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "536801a526cbca7d986e6b9bc55363b8"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/1408eabc0d6cf718b6797e574778544c>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/50e198fe2ecfbde680ab90608126bbfe>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "536801a526cbca7d986e6b9bc55363b8"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaGroup>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "536801a526cbca7d986e6b9bc55363b8"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaPrinciple>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "OPENNESS"@en.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "536801a526cbca7d986e6b9bc55363b8"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/75ae91ad6e35df68c0fdf68310f95632>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/50e198fe2ecfbde680ab90608126bbfe>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "536801a526cbca7d986e6b9bc55363b8"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaGroup>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "536801a526cbca7d986e6b9bc55363b8"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaPrinciple>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "OPENNESS"@en.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "536801a526cbca7d986e6b9bc55363b8"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/077c966676cefd77a045324b17f73f2b>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/50e198fe2ecfbde680ab90608126bbfe>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "536801a526cbca7d986e6b9bc55363b8"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaGroup>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "536801a526cbca7d986e6b9bc55363b8"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaPrinciple>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "OPENNESS"@en.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "536801a526cbca7d986e6b9bc55363b8"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/bff365d744436a47cb68583789942a3c>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/50e198fe2ecfbde680ab90608126bbfe>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "536801a526cbca7d986e6b9bc55363b8"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaGroup>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "536801a526cbca7d986e6b9bc55363b8"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaPrinciple>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "OPENNESS"@en.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "536801a526cbca7d986e6b9bc55363b8"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/e81f968ffcd82a2aa7c9317374724895>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/50e198fe2ecfbde680ab90608126bbfe>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "536801a526cbca7d986e6b9bc55363b8"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaGroup>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "536801a526cbca7d986e6b9bc55363b8"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaPrinciple>.
+<http://data.europa.eu/m8g/2371574be5e78ae4756191af1f7ca2b2> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/2371574be5e78ae4756191af1f7ca2b2>.
+<http://data.europa.eu/m8g/2371574be5e78ae4756191af1f7ca2b2> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "TRANSPARENCY"@en.
+<http://data.europa.eu/m8g/2371574be5e78ae4756191af1f7ca2b2> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "2371574be5e78ae4756191af1f7ca2b2"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/2371574be5e78ae4756191af1f7ca2b2> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/eb586dd9bcab05b431f4be7a8fe4c7f3>.
+<http://data.europa.eu/m8g/2371574be5e78ae4756191af1f7ca2b2> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/50e198fe2ecfbde680ab90608126bbfe>.
+<http://data.europa.eu/m8g/2371574be5e78ae4756191af1f7ca2b2> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "2371574be5e78ae4756191af1f7ca2b2"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/2371574be5e78ae4756191af1f7ca2b2> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaGroup>.
+<http://data.europa.eu/m8g/2371574be5e78ae4756191af1f7ca2b2> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "2371574be5e78ae4756191af1f7ca2b2"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/2371574be5e78ae4756191af1f7ca2b2> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaPrinciple>.
+<http://data.europa.eu/m8g/2371574be5e78ae4756191af1f7ca2b2> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/2371574be5e78ae4756191af1f7ca2b2>.
+<http://data.europa.eu/m8g/2371574be5e78ae4756191af1f7ca2b2> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "TRANSPARENCY"@en.
+<http://data.europa.eu/m8g/2371574be5e78ae4756191af1f7ca2b2> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "2371574be5e78ae4756191af1f7ca2b2"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/2371574be5e78ae4756191af1f7ca2b2> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/18193cd10351ff88c41670f1732ded10>.
+<http://data.europa.eu/m8g/2371574be5e78ae4756191af1f7ca2b2> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/50e198fe2ecfbde680ab90608126bbfe>.
+<http://data.europa.eu/m8g/2371574be5e78ae4756191af1f7ca2b2> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "2371574be5e78ae4756191af1f7ca2b2"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/2371574be5e78ae4756191af1f7ca2b2> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaGroup>.
+<http://data.europa.eu/m8g/2371574be5e78ae4756191af1f7ca2b2> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "2371574be5e78ae4756191af1f7ca2b2"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/2371574be5e78ae4756191af1f7ca2b2> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaPrinciple>.
+<http://data.europa.eu/m8g/2371574be5e78ae4756191af1f7ca2b2> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/2371574be5e78ae4756191af1f7ca2b2>.
+<http://data.europa.eu/m8g/2371574be5e78ae4756191af1f7ca2b2> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "TRANSPARENCY"@en.
+<http://data.europa.eu/m8g/2371574be5e78ae4756191af1f7ca2b2> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "2371574be5e78ae4756191af1f7ca2b2"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/2371574be5e78ae4756191af1f7ca2b2> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/84c9dc669c9d40e2e541ad4e6172ca7f>.
+<http://data.europa.eu/m8g/2371574be5e78ae4756191af1f7ca2b2> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/50e198fe2ecfbde680ab90608126bbfe>.
+<http://data.europa.eu/m8g/2371574be5e78ae4756191af1f7ca2b2> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "2371574be5e78ae4756191af1f7ca2b2"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/2371574be5e78ae4756191af1f7ca2b2> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaGroup>.
+<http://data.europa.eu/m8g/2371574be5e78ae4756191af1f7ca2b2> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "2371574be5e78ae4756191af1f7ca2b2"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/2371574be5e78ae4756191af1f7ca2b2> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaPrinciple>.
+<http://data.europa.eu/m8g/c76293089bcf211cfeb1456db71a35dc> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/c76293089bcf211cfeb1456db71a35dc>.
+<http://data.europa.eu/m8g/c76293089bcf211cfeb1456db71a35dc> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "REUSABILITY"@en.
+<http://data.europa.eu/m8g/c76293089bcf211cfeb1456db71a35dc> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "c76293089bcf211cfeb1456db71a35dc"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/c76293089bcf211cfeb1456db71a35dc> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/a20e9c41d70c67b369048847ef4bb353>.
+<http://data.europa.eu/m8g/c76293089bcf211cfeb1456db71a35dc> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/50e198fe2ecfbde680ab90608126bbfe>.
+<http://data.europa.eu/m8g/c76293089bcf211cfeb1456db71a35dc> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "c76293089bcf211cfeb1456db71a35dc"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/c76293089bcf211cfeb1456db71a35dc> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaGroup>.
+<http://data.europa.eu/m8g/c76293089bcf211cfeb1456db71a35dc> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "c76293089bcf211cfeb1456db71a35dc"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/c76293089bcf211cfeb1456db71a35dc> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaPrinciple>.
+<http://data.europa.eu/m8g/c76293089bcf211cfeb1456db71a35dc> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/c76293089bcf211cfeb1456db71a35dc>.
+<http://data.europa.eu/m8g/c76293089bcf211cfeb1456db71a35dc> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "REUSABILITY"@en.
+<http://data.europa.eu/m8g/c76293089bcf211cfeb1456db71a35dc> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "c76293089bcf211cfeb1456db71a35dc"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/c76293089bcf211cfeb1456db71a35dc> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/50f9b713a1a993210642e0cd97fcdc41>.
+<http://data.europa.eu/m8g/c76293089bcf211cfeb1456db71a35dc> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/50e198fe2ecfbde680ab90608126bbfe>.
+<http://data.europa.eu/m8g/c76293089bcf211cfeb1456db71a35dc> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "c76293089bcf211cfeb1456db71a35dc"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/c76293089bcf211cfeb1456db71a35dc> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaGroup>.
+<http://data.europa.eu/m8g/c76293089bcf211cfeb1456db71a35dc> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "c76293089bcf211cfeb1456db71a35dc"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/c76293089bcf211cfeb1456db71a35dc> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaPrinciple>.
+<http://data.europa.eu/m8g/c76293089bcf211cfeb1456db71a35dc> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/c76293089bcf211cfeb1456db71a35dc>.
+<http://data.europa.eu/m8g/c76293089bcf211cfeb1456db71a35dc> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "REUSABILITY"@en.
+<http://data.europa.eu/m8g/c76293089bcf211cfeb1456db71a35dc> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "c76293089bcf211cfeb1456db71a35dc"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/c76293089bcf211cfeb1456db71a35dc> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/7b3adb5beefed16606f7bb175e1795c8>.
+<http://data.europa.eu/m8g/c76293089bcf211cfeb1456db71a35dc> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/50e198fe2ecfbde680ab90608126bbfe>.
+<http://data.europa.eu/m8g/c76293089bcf211cfeb1456db71a35dc> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "c76293089bcf211cfeb1456db71a35dc"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/c76293089bcf211cfeb1456db71a35dc> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaGroup>.
+<http://data.europa.eu/m8g/c76293089bcf211cfeb1456db71a35dc> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "c76293089bcf211cfeb1456db71a35dc"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/c76293089bcf211cfeb1456db71a35dc> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaPrinciple>.
+<http://data.europa.eu/m8g/29d173128de6b7db7d30b2a87a6d2b59> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/29d173128de6b7db7d30b2a87a6d2b59>.
+<http://data.europa.eu/m8g/29d173128de6b7db7d30b2a87a6d2b59> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "TECHNOLOGICAL NEUTRALITY AND DATA PORTABILITY"@en.
+<http://data.europa.eu/m8g/29d173128de6b7db7d30b2a87a6d2b59> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "29d173128de6b7db7d30b2a87a6d2b59"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/29d173128de6b7db7d30b2a87a6d2b59> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/a681ec1bd7d0bd8b99173ab73cc188ba>.
+<http://data.europa.eu/m8g/29d173128de6b7db7d30b2a87a6d2b59> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/50e198fe2ecfbde680ab90608126bbfe>.
+<http://data.europa.eu/m8g/29d173128de6b7db7d30b2a87a6d2b59> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "29d173128de6b7db7d30b2a87a6d2b59"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/29d173128de6b7db7d30b2a87a6d2b59> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaGroup>.
+<http://data.europa.eu/m8g/29d173128de6b7db7d30b2a87a6d2b59> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "29d173128de6b7db7d30b2a87a6d2b59"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/29d173128de6b7db7d30b2a87a6d2b59> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaPrinciple>.
+<http://data.europa.eu/m8g/29d173128de6b7db7d30b2a87a6d2b59> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/29d173128de6b7db7d30b2a87a6d2b59>.
+<http://data.europa.eu/m8g/29d173128de6b7db7d30b2a87a6d2b59> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "TECHNOLOGICAL NEUTRALITY AND DATA PORTABILITY"@en.
+<http://data.europa.eu/m8g/29d173128de6b7db7d30b2a87a6d2b59> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "29d173128de6b7db7d30b2a87a6d2b59"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/29d173128de6b7db7d30b2a87a6d2b59> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/6c2fa441b1e2040d22325a51f0f53b39>.
+<http://data.europa.eu/m8g/29d173128de6b7db7d30b2a87a6d2b59> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/50e198fe2ecfbde680ab90608126bbfe>.
+<http://data.europa.eu/m8g/29d173128de6b7db7d30b2a87a6d2b59> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "29d173128de6b7db7d30b2a87a6d2b59"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/29d173128de6b7db7d30b2a87a6d2b59> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaGroup>.
+<http://data.europa.eu/m8g/29d173128de6b7db7d30b2a87a6d2b59> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "29d173128de6b7db7d30b2a87a6d2b59"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/29d173128de6b7db7d30b2a87a6d2b59> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaPrinciple>.
+<http://data.europa.eu/m8g/29d173128de6b7db7d30b2a87a6d2b59> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/29d173128de6b7db7d30b2a87a6d2b59>.
+<http://data.europa.eu/m8g/29d173128de6b7db7d30b2a87a6d2b59> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "TECHNOLOGICAL NEUTRALITY AND DATA PORTABILITY"@en.
+<http://data.europa.eu/m8g/29d173128de6b7db7d30b2a87a6d2b59> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "29d173128de6b7db7d30b2a87a6d2b59"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/29d173128de6b7db7d30b2a87a6d2b59> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/e923b2960846264d3cc7525bbd3a0ee0>.
+<http://data.europa.eu/m8g/29d173128de6b7db7d30b2a87a6d2b59> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/50e198fe2ecfbde680ab90608126bbfe>.
+<http://data.europa.eu/m8g/29d173128de6b7db7d30b2a87a6d2b59> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "29d173128de6b7db7d30b2a87a6d2b59"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/29d173128de6b7db7d30b2a87a6d2b59> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaGroup>.
+<http://data.europa.eu/m8g/29d173128de6b7db7d30b2a87a6d2b59> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "29d173128de6b7db7d30b2a87a6d2b59"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/29d173128de6b7db7d30b2a87a6d2b59> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaPrinciple>.
+<http://data.europa.eu/m8g/55a9437665f0a25a2f922644d24b08bb> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/55a9437665f0a25a2f922644d24b08bb>.
+<http://data.europa.eu/m8g/55a9437665f0a25a2f922644d24b08bb> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "USER-CENTRICITY"@en.
+<http://data.europa.eu/m8g/55a9437665f0a25a2f922644d24b08bb> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "55a9437665f0a25a2f922644d24b08bb"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/55a9437665f0a25a2f922644d24b08bb> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/0d432b4fa0f143ceb720596f190e0102>.
+<http://data.europa.eu/m8g/55a9437665f0a25a2f922644d24b08bb> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/e79e6e9d64c364c2b6d7564f4d079dd0>.
+<http://data.europa.eu/m8g/55a9437665f0a25a2f922644d24b08bb> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "55a9437665f0a25a2f922644d24b08bb"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/55a9437665f0a25a2f922644d24b08bb> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaGroup>.
+<http://data.europa.eu/m8g/55a9437665f0a25a2f922644d24b08bb> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "55a9437665f0a25a2f922644d24b08bb"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/55a9437665f0a25a2f922644d24b08bb> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaPrinciple>.
+<http://data.europa.eu/m8g/df49b4b9d958dd70da407c57c0b98998> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/df49b4b9d958dd70da407c57c0b98998>.
+<http://data.europa.eu/m8g/df49b4b9d958dd70da407c57c0b98998> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "INCLUSION AND ACCESSIBILITY"@en.
+<http://data.europa.eu/m8g/df49b4b9d958dd70da407c57c0b98998> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "df49b4b9d958dd70da407c57c0b98998"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/df49b4b9d958dd70da407c57c0b98998> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/5620615d81f539b396d9e72ede450fd7>.
+<http://data.europa.eu/m8g/df49b4b9d958dd70da407c57c0b98998> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/e79e6e9d64c364c2b6d7564f4d079dd0>.
+<http://data.europa.eu/m8g/df49b4b9d958dd70da407c57c0b98998> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "df49b4b9d958dd70da407c57c0b98998"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/df49b4b9d958dd70da407c57c0b98998> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaGroup>.
+<http://data.europa.eu/m8g/df49b4b9d958dd70da407c57c0b98998> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "df49b4b9d958dd70da407c57c0b98998"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/df49b4b9d958dd70da407c57c0b98998> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaPrinciple>.
+<http://data.europa.eu/m8g/df095202cf8cb4979ca494853e979f8b> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/df095202cf8cb4979ca494853e979f8b>.
+<http://data.europa.eu/m8g/df095202cf8cb4979ca494853e979f8b> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "SECURITY AND PRIVACY"@en.
+<http://data.europa.eu/m8g/df095202cf8cb4979ca494853e979f8b> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "df095202cf8cb4979ca494853e979f8b"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/df095202cf8cb4979ca494853e979f8b> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/e01abc278514f50624be7a51cb9c72b0>.
+<http://data.europa.eu/m8g/df095202cf8cb4979ca494853e979f8b> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/e79e6e9d64c364c2b6d7564f4d079dd0>.
+<http://data.europa.eu/m8g/df095202cf8cb4979ca494853e979f8b> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "df095202cf8cb4979ca494853e979f8b"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/df095202cf8cb4979ca494853e979f8b> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaGroup>.
+<http://data.europa.eu/m8g/df095202cf8cb4979ca494853e979f8b> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "df095202cf8cb4979ca494853e979f8b"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/df095202cf8cb4979ca494853e979f8b> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaPrinciple>.
+<http://data.europa.eu/m8g/9c108b37e49f6e29f754e5b710b5affb> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/9c108b37e49f6e29f754e5b710b5affb>.
+<http://data.europa.eu/m8g/9c108b37e49f6e29f754e5b710b5affb> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "MULTILINGUALISM"@en.
+<http://data.europa.eu/m8g/9c108b37e49f6e29f754e5b710b5affb> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "9c108b37e49f6e29f754e5b710b5affb"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/9c108b37e49f6e29f754e5b710b5affb> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/dc70f2ddd6b41a5c71727fa353e2f04e>.
+<http://data.europa.eu/m8g/9c108b37e49f6e29f754e5b710b5affb> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/e79e6e9d64c364c2b6d7564f4d079dd0>.
+<http://data.europa.eu/m8g/9c108b37e49f6e29f754e5b710b5affb> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "9c108b37e49f6e29f754e5b710b5affb"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/9c108b37e49f6e29f754e5b710b5affb> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaGroup>.
+<http://data.europa.eu/m8g/9c108b37e49f6e29f754e5b710b5affb> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "9c108b37e49f6e29f754e5b710b5affb"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/9c108b37e49f6e29f754e5b710b5affb> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaPrinciple>.
+<http://data.europa.eu/m8g/1a5ce74dfd9b1c6d65690b45c40ad5b8> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/1a5ce74dfd9b1c6d65690b45c40ad5b8>.
+<http://data.europa.eu/m8g/1a5ce74dfd9b1c6d65690b45c40ad5b8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "ADMINISTRATIVE SIMPLIFICATION"@en.
+<http://data.europa.eu/m8g/1a5ce74dfd9b1c6d65690b45c40ad5b8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "1a5ce74dfd9b1c6d65690b45c40ad5b8"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/1a5ce74dfd9b1c6d65690b45c40ad5b8> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/e0b6fd49c17ac62ecd397b9d2102a2c8>.
+<http://data.europa.eu/m8g/1a5ce74dfd9b1c6d65690b45c40ad5b8> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/611e14e3297e9a66e687917009b8ee8c>.
+<http://data.europa.eu/m8g/1a5ce74dfd9b1c6d65690b45c40ad5b8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "1a5ce74dfd9b1c6d65690b45c40ad5b8"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/1a5ce74dfd9b1c6d65690b45c40ad5b8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaGroup>.
+<http://data.europa.eu/m8g/1a5ce74dfd9b1c6d65690b45c40ad5b8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "1a5ce74dfd9b1c6d65690b45c40ad5b8"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/1a5ce74dfd9b1c6d65690b45c40ad5b8> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaPrinciple>.
+<http://data.europa.eu/m8g/83f3454b0d81b521bc83d5e71b853bc6> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/83f3454b0d81b521bc83d5e71b853bc6>.
+<http://data.europa.eu/m8g/83f3454b0d81b521bc83d5e71b853bc6> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "PRESERVATION OF INFORMATION"@en.
+<http://data.europa.eu/m8g/83f3454b0d81b521bc83d5e71b853bc6> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "83f3454b0d81b521bc83d5e71b853bc6"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/83f3454b0d81b521bc83d5e71b853bc6> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/d832d0d51143fa0a21d429980dff09be>.
+<http://data.europa.eu/m8g/83f3454b0d81b521bc83d5e71b853bc6> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/611e14e3297e9a66e687917009b8ee8c>.
+<http://data.europa.eu/m8g/83f3454b0d81b521bc83d5e71b853bc6> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "83f3454b0d81b521bc83d5e71b853bc6"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/83f3454b0d81b521bc83d5e71b853bc6> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaGroup>.
+<http://data.europa.eu/m8g/83f3454b0d81b521bc83d5e71b853bc6> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "83f3454b0d81b521bc83d5e71b853bc6"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/83f3454b0d81b521bc83d5e71b853bc6> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaPrinciple>.
+<http://data.europa.eu/m8g/9716d5a0ae029ed5b88e31483afb97ac> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/9716d5a0ae029ed5b88e31483afb97ac>.
+<http://data.europa.eu/m8g/9716d5a0ae029ed5b88e31483afb97ac> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "ASSESSMENT OF EFFECTIVENESS AND EFFICIENCY"@en.
+<http://data.europa.eu/m8g/9716d5a0ae029ed5b88e31483afb97ac> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "9716d5a0ae029ed5b88e31483afb97ac"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/9716d5a0ae029ed5b88e31483afb97ac> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/3015b02174f63fe27ed976eb6be2173a>.
+<http://data.europa.eu/m8g/9716d5a0ae029ed5b88e31483afb97ac> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/611e14e3297e9a66e687917009b8ee8c>.
+<http://data.europa.eu/m8g/9716d5a0ae029ed5b88e31483afb97ac> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "9716d5a0ae029ed5b88e31483afb97ac"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/9716d5a0ae029ed5b88e31483afb97ac> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaGroup>.
+<http://data.europa.eu/m8g/9716d5a0ae029ed5b88e31483afb97ac> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "9716d5a0ae029ed5b88e31483afb97ac"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/9716d5a0ae029ed5b88e31483afb97ac> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaPrinciple>.
+<http://data.europa.eu/m8g/727698edfb4b6c3fb25c6beea351ec69> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/727698edfb4b6c3fb25c6beea351ec69>.
+<http://data.europa.eu/m8g/727698edfb4b6c3fb25c6beea351ec69> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "INTEROPERABILITY GOVERNANCE"@en.
+<http://data.europa.eu/m8g/727698edfb4b6c3fb25c6beea351ec69> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "727698edfb4b6c3fb25c6beea351ec69"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/727698edfb4b6c3fb25c6beea351ec69> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/08ebe98d9906ae121d734e1adfdcbd3f>.
+<http://data.europa.eu/m8g/727698edfb4b6c3fb25c6beea351ec69> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/2aa1f43abf1372e287ea40b0e949b5c2>.
+<http://data.europa.eu/m8g/727698edfb4b6c3fb25c6beea351ec69> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "727698edfb4b6c3fb25c6beea351ec69"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/727698edfb4b6c3fb25c6beea351ec69> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaGroup>.
+<http://data.europa.eu/m8g/727698edfb4b6c3fb25c6beea351ec69> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "727698edfb4b6c3fb25c6beea351ec69"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/727698edfb4b6c3fb25c6beea351ec69> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaPrinciple>.
+<http://data.europa.eu/m8g/727698edfb4b6c3fb25c6beea351ec69> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/727698edfb4b6c3fb25c6beea351ec69>.
+<http://data.europa.eu/m8g/727698edfb4b6c3fb25c6beea351ec69> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "INTEROPERABILITY GOVERNANCE"@en.
+<http://data.europa.eu/m8g/727698edfb4b6c3fb25c6beea351ec69> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "727698edfb4b6c3fb25c6beea351ec69"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/727698edfb4b6c3fb25c6beea351ec69> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/3c201dc582f729cddf3b176ab1a3a0d5>.
+<http://data.europa.eu/m8g/727698edfb4b6c3fb25c6beea351ec69> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/2aa1f43abf1372e287ea40b0e949b5c2>.
+<http://data.europa.eu/m8g/727698edfb4b6c3fb25c6beea351ec69> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "727698edfb4b6c3fb25c6beea351ec69"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/727698edfb4b6c3fb25c6beea351ec69> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaGroup>.
+<http://data.europa.eu/m8g/727698edfb4b6c3fb25c6beea351ec69> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "727698edfb4b6c3fb25c6beea351ec69"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/727698edfb4b6c3fb25c6beea351ec69> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaPrinciple>.
+<http://data.europa.eu/m8g/727698edfb4b6c3fb25c6beea351ec69> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/727698edfb4b6c3fb25c6beea351ec69>.
+<http://data.europa.eu/m8g/727698edfb4b6c3fb25c6beea351ec69> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "INTEROPERABILITY GOVERNANCE"@en.
+<http://data.europa.eu/m8g/727698edfb4b6c3fb25c6beea351ec69> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "727698edfb4b6c3fb25c6beea351ec69"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/727698edfb4b6c3fb25c6beea351ec69> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/790360b73fc300b4f3b3d5781f5c58bf>.
+<http://data.europa.eu/m8g/727698edfb4b6c3fb25c6beea351ec69> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/2aa1f43abf1372e287ea40b0e949b5c2>.
+<http://data.europa.eu/m8g/727698edfb4b6c3fb25c6beea351ec69> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "727698edfb4b6c3fb25c6beea351ec69"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/727698edfb4b6c3fb25c6beea351ec69> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaGroup>.
+<http://data.europa.eu/m8g/727698edfb4b6c3fb25c6beea351ec69> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "727698edfb4b6c3fb25c6beea351ec69"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/727698edfb4b6c3fb25c6beea351ec69> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaPrinciple>.
+<http://data.europa.eu/m8g/727698edfb4b6c3fb25c6beea351ec69> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/727698edfb4b6c3fb25c6beea351ec69>.
+<http://data.europa.eu/m8g/727698edfb4b6c3fb25c6beea351ec69> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "INTEROPERABILITY GOVERNANCE"@en.
+<http://data.europa.eu/m8g/727698edfb4b6c3fb25c6beea351ec69> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "727698edfb4b6c3fb25c6beea351ec69"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/727698edfb4b6c3fb25c6beea351ec69> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/0fb00f5e00492be3cfa666319c7dd6da>.
+<http://data.europa.eu/m8g/727698edfb4b6c3fb25c6beea351ec69> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/2aa1f43abf1372e287ea40b0e949b5c2>.
+<http://data.europa.eu/m8g/727698edfb4b6c3fb25c6beea351ec69> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "727698edfb4b6c3fb25c6beea351ec69"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/727698edfb4b6c3fb25c6beea351ec69> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaGroup>.
+<http://data.europa.eu/m8g/727698edfb4b6c3fb25c6beea351ec69> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "727698edfb4b6c3fb25c6beea351ec69"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/727698edfb4b6c3fb25c6beea351ec69> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaPrinciple>.
+<http://data.europa.eu/m8g/727698edfb4b6c3fb25c6beea351ec69> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/727698edfb4b6c3fb25c6beea351ec69>.
+<http://data.europa.eu/m8g/727698edfb4b6c3fb25c6beea351ec69> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "INTEROPERABILITY GOVERNANCE"@en.
+<http://data.europa.eu/m8g/727698edfb4b6c3fb25c6beea351ec69> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "727698edfb4b6c3fb25c6beea351ec69"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/727698edfb4b6c3fb25c6beea351ec69> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/5e96722729b950f1830fb73ed3910ef3>.
+<http://data.europa.eu/m8g/727698edfb4b6c3fb25c6beea351ec69> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/2aa1f43abf1372e287ea40b0e949b5c2>.
+<http://data.europa.eu/m8g/727698edfb4b6c3fb25c6beea351ec69> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "727698edfb4b6c3fb25c6beea351ec69"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/727698edfb4b6c3fb25c6beea351ec69> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaGroup>.
+<http://data.europa.eu/m8g/727698edfb4b6c3fb25c6beea351ec69> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "727698edfb4b6c3fb25c6beea351ec69"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/727698edfb4b6c3fb25c6beea351ec69> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaPrinciple>.
+<http://data.europa.eu/m8g/727698edfb4b6c3fb25c6beea351ec69> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/727698edfb4b6c3fb25c6beea351ec69>.
+<http://data.europa.eu/m8g/727698edfb4b6c3fb25c6beea351ec69> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "INTEROPERABILITY GOVERNANCE"@en.
+<http://data.europa.eu/m8g/727698edfb4b6c3fb25c6beea351ec69> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "727698edfb4b6c3fb25c6beea351ec69"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/727698edfb4b6c3fb25c6beea351ec69> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/e81e85e531abf618c2b37221f070b982>.
+<http://data.europa.eu/m8g/727698edfb4b6c3fb25c6beea351ec69> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/2aa1f43abf1372e287ea40b0e949b5c2>.
+<http://data.europa.eu/m8g/727698edfb4b6c3fb25c6beea351ec69> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "727698edfb4b6c3fb25c6beea351ec69"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/727698edfb4b6c3fb25c6beea351ec69> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaGroup>.
+<http://data.europa.eu/m8g/727698edfb4b6c3fb25c6beea351ec69> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "727698edfb4b6c3fb25c6beea351ec69"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/727698edfb4b6c3fb25c6beea351ec69> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaPrinciple>.
+<http://data.europa.eu/m8g/f643fbb4fd7feee385dd146baaac565b> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/f643fbb4fd7feee385dd146baaac565b>.
+<http://data.europa.eu/m8g/f643fbb4fd7feee385dd146baaac565b> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "INTEGRATED PUBLIC SERVICE GOVERNANCE"@en.
+<http://data.europa.eu/m8g/f643fbb4fd7feee385dd146baaac565b> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "f643fbb4fd7feee385dd146baaac565b"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/f643fbb4fd7feee385dd146baaac565b> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/87a9ce047cfa7d0978e6a2a7518e53e1>.
+<http://data.europa.eu/m8g/f643fbb4fd7feee385dd146baaac565b> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/2aa1f43abf1372e287ea40b0e949b5c2>.
+<http://data.europa.eu/m8g/f643fbb4fd7feee385dd146baaac565b> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "f643fbb4fd7feee385dd146baaac565b"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/f643fbb4fd7feee385dd146baaac565b> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaGroup>.
+<http://data.europa.eu/m8g/f643fbb4fd7feee385dd146baaac565b> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "f643fbb4fd7feee385dd146baaac565b"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/f643fbb4fd7feee385dd146baaac565b> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaPrinciple>.
+<http://data.europa.eu/m8g/30e066f7cff4878eca3b6ca7036e9112> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/30e066f7cff4878eca3b6ca7036e9112>.
+<http://data.europa.eu/m8g/30e066f7cff4878eca3b6ca7036e9112> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "LEGAL INTEROPERABILITY"@en.
+<http://data.europa.eu/m8g/30e066f7cff4878eca3b6ca7036e9112> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "30e066f7cff4878eca3b6ca7036e9112"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/30e066f7cff4878eca3b6ca7036e9112> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/ff059382710638e130d49fe6decff5ba>.
+<http://data.europa.eu/m8g/30e066f7cff4878eca3b6ca7036e9112> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/2aa1f43abf1372e287ea40b0e949b5c2>.
+<http://data.europa.eu/m8g/30e066f7cff4878eca3b6ca7036e9112> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "30e066f7cff4878eca3b6ca7036e9112"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/30e066f7cff4878eca3b6ca7036e9112> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaGroup>.
+<http://data.europa.eu/m8g/30e066f7cff4878eca3b6ca7036e9112> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "30e066f7cff4878eca3b6ca7036e9112"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/30e066f7cff4878eca3b6ca7036e9112> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaPrinciple>.
+<http://data.europa.eu/m8g/1ec956a110dc70e41f057b2259f132c5> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/1ec956a110dc70e41f057b2259f132c5>.
+<http://data.europa.eu/m8g/1ec956a110dc70e41f057b2259f132c5> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "ORGANISATIONAL INTEROPERABILITY"@en.
+<http://data.europa.eu/m8g/1ec956a110dc70e41f057b2259f132c5> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "1ec956a110dc70e41f057b2259f132c5"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/1ec956a110dc70e41f057b2259f132c5> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/76ebc82f8260d19ac83f5938b8db7ed4>.
+<http://data.europa.eu/m8g/1ec956a110dc70e41f057b2259f132c5> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/2aa1f43abf1372e287ea40b0e949b5c2>.
+<http://data.europa.eu/m8g/1ec956a110dc70e41f057b2259f132c5> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "1ec956a110dc70e41f057b2259f132c5"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/1ec956a110dc70e41f057b2259f132c5> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaGroup>.
+<http://data.europa.eu/m8g/1ec956a110dc70e41f057b2259f132c5> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "1ec956a110dc70e41f057b2259f132c5"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/1ec956a110dc70e41f057b2259f132c5> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaPrinciple>.
+<http://data.europa.eu/m8g/1ec956a110dc70e41f057b2259f132c5> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/1ec956a110dc70e41f057b2259f132c5>.
+<http://data.europa.eu/m8g/1ec956a110dc70e41f057b2259f132c5> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "ORGANISATIONAL INTEROPERABILITY"@en.
+<http://data.europa.eu/m8g/1ec956a110dc70e41f057b2259f132c5> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "1ec956a110dc70e41f057b2259f132c5"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/1ec956a110dc70e41f057b2259f132c5> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/02710e4406b9d5008e22432fca77b9ef>.
+<http://data.europa.eu/m8g/1ec956a110dc70e41f057b2259f132c5> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/2aa1f43abf1372e287ea40b0e949b5c2>.
+<http://data.europa.eu/m8g/1ec956a110dc70e41f057b2259f132c5> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "1ec956a110dc70e41f057b2259f132c5"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/1ec956a110dc70e41f057b2259f132c5> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaGroup>.
+<http://data.europa.eu/m8g/1ec956a110dc70e41f057b2259f132c5> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "1ec956a110dc70e41f057b2259f132c5"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/1ec956a110dc70e41f057b2259f132c5> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaPrinciple>.
+<http://data.europa.eu/m8g/15481e636126fb21e59840bc29191693> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/15481e636126fb21e59840bc29191693>.
+<http://data.europa.eu/m8g/15481e636126fb21e59840bc29191693> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "SEMANTIC INTEROPERABILITY"@en.
+<http://data.europa.eu/m8g/15481e636126fb21e59840bc29191693> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "15481e636126fb21e59840bc29191693"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/15481e636126fb21e59840bc29191693> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/c8f3160603854c61e45e977af3ba49d7>.
+<http://data.europa.eu/m8g/15481e636126fb21e59840bc29191693> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/2aa1f43abf1372e287ea40b0e949b5c2>.
+<http://data.europa.eu/m8g/15481e636126fb21e59840bc29191693> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "15481e636126fb21e59840bc29191693"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/15481e636126fb21e59840bc29191693> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaGroup>.
+<http://data.europa.eu/m8g/15481e636126fb21e59840bc29191693> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "15481e636126fb21e59840bc29191693"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/15481e636126fb21e59840bc29191693> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaPrinciple>.
+<http://data.europa.eu/m8g/15481e636126fb21e59840bc29191693> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/15481e636126fb21e59840bc29191693>.
+<http://data.europa.eu/m8g/15481e636126fb21e59840bc29191693> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "SEMANTIC INTEROPERABILITY"@en.
+<http://data.europa.eu/m8g/15481e636126fb21e59840bc29191693> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "15481e636126fb21e59840bc29191693"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/15481e636126fb21e59840bc29191693> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/a28ab768bf3b6c3c70164f5592627b02>.
+<http://data.europa.eu/m8g/15481e636126fb21e59840bc29191693> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/2aa1f43abf1372e287ea40b0e949b5c2>.
+<http://data.europa.eu/m8g/15481e636126fb21e59840bc29191693> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "15481e636126fb21e59840bc29191693"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/15481e636126fb21e59840bc29191693> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaGroup>.
+<http://data.europa.eu/m8g/15481e636126fb21e59840bc29191693> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "15481e636126fb21e59840bc29191693"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/15481e636126fb21e59840bc29191693> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaPrinciple>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "TECHNICAL INTEROPERABILITY"@en.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "8f889f045a9ee76a9a9c1481bf788a41"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/018d36156569392f2aafea23f64a76c2>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/2aa1f43abf1372e287ea40b0e949b5c2>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "8f889f045a9ee76a9a9c1481bf788a41"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaGroup>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "8f889f045a9ee76a9a9c1481bf788a41"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaPrinciple>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "TECHNICAL INTEROPERABILITY"@en.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "8f889f045a9ee76a9a9c1481bf788a41"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/6e66052782871e8f735e877ab531746b>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/2aa1f43abf1372e287ea40b0e949b5c2>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "8f889f045a9ee76a9a9c1481bf788a41"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaGroup>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "8f889f045a9ee76a9a9c1481bf788a41"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaPrinciple>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "TECHNICAL INTEROPERABILITY"@en.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "8f889f045a9ee76a9a9c1481bf788a41"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/86480aeb679a28b84c21e76373281a89>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/2aa1f43abf1372e287ea40b0e949b5c2>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "8f889f045a9ee76a9a9c1481bf788a41"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaGroup>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "8f889f045a9ee76a9a9c1481bf788a41"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaPrinciple>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "TECHNICAL INTEROPERABILITY"@en.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "8f889f045a9ee76a9a9c1481bf788a41"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/4e9a30bee7bc426848739d2f6306a3f4>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/2aa1f43abf1372e287ea40b0e949b5c2>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "8f889f045a9ee76a9a9c1481bf788a41"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaGroup>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "8f889f045a9ee76a9a9c1481bf788a41"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaPrinciple>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "TECHNICAL INTEROPERABILITY"@en.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "8f889f045a9ee76a9a9c1481bf788a41"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/d9708f7ddb370ef2f423f5ef40e0212f>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/2aa1f43abf1372e287ea40b0e949b5c2>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "8f889f045a9ee76a9a9c1481bf788a41"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaGroup>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "8f889f045a9ee76a9a9c1481bf788a41"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaPrinciple>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "TECHNICAL INTEROPERABILITY"@en.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "8f889f045a9ee76a9a9c1481bf788a41"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/1408eabc0d6cf718b6797e574778544c>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/2aa1f43abf1372e287ea40b0e949b5c2>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "8f889f045a9ee76a9a9c1481bf788a41"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaGroup>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "8f889f045a9ee76a9a9c1481bf788a41"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaPrinciple>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "TECHNICAL INTEROPERABILITY"@en.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "8f889f045a9ee76a9a9c1481bf788a41"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/75ae91ad6e35df68c0fdf68310f95632>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/2aa1f43abf1372e287ea40b0e949b5c2>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "8f889f045a9ee76a9a9c1481bf788a41"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaGroup>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "8f889f045a9ee76a9a9c1481bf788a41"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaPrinciple>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "TECHNICAL INTEROPERABILITY"@en.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "8f889f045a9ee76a9a9c1481bf788a41"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/077c966676cefd77a045324b17f73f2b>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/2aa1f43abf1372e287ea40b0e949b5c2>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "8f889f045a9ee76a9a9c1481bf788a41"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaGroup>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "8f889f045a9ee76a9a9c1481bf788a41"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaPrinciple>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "TECHNICAL INTEROPERABILITY"@en.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "8f889f045a9ee76a9a9c1481bf788a41"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/bff365d744436a47cb68583789942a3c>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <http://data.europa.eu/m8g/isRequirementOf> <http://data.europa.eu/m8g/2aa1f43abf1372e287ea40b0e949b5c2>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "8f889f045a9ee76a9a9c1481bf788a41"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaGroup>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/id> "8f889f045a9ee76a9a9c1481bf788a41"^^<http://www.w3.org/2001/XMLSchema#string>.
+<http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/type> <http://data.europa.eu/w21/rsc/camss-criterion-type#CriteriaPrinciple>.
+<http://data.europa.eu/m8g/2e1974b6c006d2a558a7cf82cf4429d5> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "PRINCIPLES SETTING THE CONTEXT FOR EU ACTIONS ON INTEROPERABILITY"@en.
+<http://data.europa.eu/m8g/2e1974b6c006d2a558a7cf82cf4429d5> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/0fb0de82900b6fc1679057732bea92f6>.
+<http://data.europa.eu/m8g/50e198fe2ecfbde680ab90608126bbfe> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "CORE INTEROPERABILITY PRINCIPLES"@en.
+<http://data.europa.eu/m8g/50e198fe2ecfbde680ab90608126bbfe> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8>.
+<http://data.europa.eu/m8g/50e198fe2ecfbde680ab90608126bbfe> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "CORE INTEROPERABILITY PRINCIPLES"@en.
+<http://data.europa.eu/m8g/50e198fe2ecfbde680ab90608126bbfe> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8>.
+<http://data.europa.eu/m8g/50e198fe2ecfbde680ab90608126bbfe> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "CORE INTEROPERABILITY PRINCIPLES"@en.
+<http://data.europa.eu/m8g/50e198fe2ecfbde680ab90608126bbfe> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8>.
+<http://data.europa.eu/m8g/50e198fe2ecfbde680ab90608126bbfe> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "CORE INTEROPERABILITY PRINCIPLES"@en.
+<http://data.europa.eu/m8g/50e198fe2ecfbde680ab90608126bbfe> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8>.
+<http://data.europa.eu/m8g/50e198fe2ecfbde680ab90608126bbfe> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "CORE INTEROPERABILITY PRINCIPLES"@en.
+<http://data.europa.eu/m8g/50e198fe2ecfbde680ab90608126bbfe> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8>.
+<http://data.europa.eu/m8g/50e198fe2ecfbde680ab90608126bbfe> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "CORE INTEROPERABILITY PRINCIPLES"@en.
+<http://data.europa.eu/m8g/50e198fe2ecfbde680ab90608126bbfe> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8>.
+<http://data.europa.eu/m8g/50e198fe2ecfbde680ab90608126bbfe> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "CORE INTEROPERABILITY PRINCIPLES"@en.
+<http://data.europa.eu/m8g/50e198fe2ecfbde680ab90608126bbfe> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8>.
+<http://data.europa.eu/m8g/50e198fe2ecfbde680ab90608126bbfe> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "CORE INTEROPERABILITY PRINCIPLES"@en.
+<http://data.europa.eu/m8g/50e198fe2ecfbde680ab90608126bbfe> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8>.
+<http://data.europa.eu/m8g/50e198fe2ecfbde680ab90608126bbfe> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "CORE INTEROPERABILITY PRINCIPLES"@en.
+<http://data.europa.eu/m8g/50e198fe2ecfbde680ab90608126bbfe> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8>.
+<http://data.europa.eu/m8g/50e198fe2ecfbde680ab90608126bbfe> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "CORE INTEROPERABILITY PRINCIPLES"@en.
+<http://data.europa.eu/m8g/50e198fe2ecfbde680ab90608126bbfe> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/536801a526cbca7d986e6b9bc55363b8>.
+<http://data.europa.eu/m8g/50e198fe2ecfbde680ab90608126bbfe> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "CORE INTEROPERABILITY PRINCIPLES"@en.
+<http://data.europa.eu/m8g/50e198fe2ecfbde680ab90608126bbfe> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/2371574be5e78ae4756191af1f7ca2b2>.
+<http://data.europa.eu/m8g/50e198fe2ecfbde680ab90608126bbfe> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "CORE INTEROPERABILITY PRINCIPLES"@en.
+<http://data.europa.eu/m8g/50e198fe2ecfbde680ab90608126bbfe> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/2371574be5e78ae4756191af1f7ca2b2>.
+<http://data.europa.eu/m8g/50e198fe2ecfbde680ab90608126bbfe> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "CORE INTEROPERABILITY PRINCIPLES"@en.
+<http://data.europa.eu/m8g/50e198fe2ecfbde680ab90608126bbfe> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/2371574be5e78ae4756191af1f7ca2b2>.
+<http://data.europa.eu/m8g/50e198fe2ecfbde680ab90608126bbfe> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "CORE INTEROPERABILITY PRINCIPLES"@en.
+<http://data.europa.eu/m8g/50e198fe2ecfbde680ab90608126bbfe> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/c76293089bcf211cfeb1456db71a35dc>.
+<http://data.europa.eu/m8g/50e198fe2ecfbde680ab90608126bbfe> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "CORE INTEROPERABILITY PRINCIPLES"@en.
+<http://data.europa.eu/m8g/50e198fe2ecfbde680ab90608126bbfe> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/c76293089bcf211cfeb1456db71a35dc>.
+<http://data.europa.eu/m8g/50e198fe2ecfbde680ab90608126bbfe> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "CORE INTEROPERABILITY PRINCIPLES"@en.
+<http://data.europa.eu/m8g/50e198fe2ecfbde680ab90608126bbfe> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/c76293089bcf211cfeb1456db71a35dc>.
+<http://data.europa.eu/m8g/50e198fe2ecfbde680ab90608126bbfe> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "CORE INTEROPERABILITY PRINCIPLES"@en.
+<http://data.europa.eu/m8g/50e198fe2ecfbde680ab90608126bbfe> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/29d173128de6b7db7d30b2a87a6d2b59>.
+<http://data.europa.eu/m8g/50e198fe2ecfbde680ab90608126bbfe> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "CORE INTEROPERABILITY PRINCIPLES"@en.
+<http://data.europa.eu/m8g/50e198fe2ecfbde680ab90608126bbfe> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/29d173128de6b7db7d30b2a87a6d2b59>.
+<http://data.europa.eu/m8g/50e198fe2ecfbde680ab90608126bbfe> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "CORE INTEROPERABILITY PRINCIPLES"@en.
+<http://data.europa.eu/m8g/50e198fe2ecfbde680ab90608126bbfe> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/29d173128de6b7db7d30b2a87a6d2b59>.
+<http://data.europa.eu/m8g/e79e6e9d64c364c2b6d7564f4d079dd0> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "PRINCIPLES RELATED TO GENERIC USER NEEDS AND EXPECTATIONS"@en.
+<http://data.europa.eu/m8g/e79e6e9d64c364c2b6d7564f4d079dd0> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/55a9437665f0a25a2f922644d24b08bb>.
+<http://data.europa.eu/m8g/e79e6e9d64c364c2b6d7564f4d079dd0> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "PRINCIPLES RELATED TO GENERIC USER NEEDS AND EXPECTATIONS"@en.
+<http://data.europa.eu/m8g/e79e6e9d64c364c2b6d7564f4d079dd0> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/df49b4b9d958dd70da407c57c0b98998>.
+<http://data.europa.eu/m8g/e79e6e9d64c364c2b6d7564f4d079dd0> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "PRINCIPLES RELATED TO GENERIC USER NEEDS AND EXPECTATIONS"@en.
+<http://data.europa.eu/m8g/e79e6e9d64c364c2b6d7564f4d079dd0> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/df095202cf8cb4979ca494853e979f8b>.
+<http://data.europa.eu/m8g/e79e6e9d64c364c2b6d7564f4d079dd0> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "PRINCIPLES RELATED TO GENERIC USER NEEDS AND EXPECTATIONS"@en.
+<http://data.europa.eu/m8g/e79e6e9d64c364c2b6d7564f4d079dd0> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/9c108b37e49f6e29f754e5b710b5affb>.
+<http://data.europa.eu/m8g/611e14e3297e9a66e687917009b8ee8c> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "FOUNDATION PRINCIPLES FOR COOPERATION AMONG PUBLIC ADMINISTRATIONS"@en.
+<http://data.europa.eu/m8g/611e14e3297e9a66e687917009b8ee8c> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/1a5ce74dfd9b1c6d65690b45c40ad5b8>.
+<http://data.europa.eu/m8g/611e14e3297e9a66e687917009b8ee8c> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "FOUNDATION PRINCIPLES FOR COOPERATION AMONG PUBLIC ADMINISTRATIONS"@en.
+<http://data.europa.eu/m8g/611e14e3297e9a66e687917009b8ee8c> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/83f3454b0d81b521bc83d5e71b853bc6>.
+<http://data.europa.eu/m8g/611e14e3297e9a66e687917009b8ee8c> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "FOUNDATION PRINCIPLES FOR COOPERATION AMONG PUBLIC ADMINISTRATIONS"@en.
+<http://data.europa.eu/m8g/611e14e3297e9a66e687917009b8ee8c> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/9716d5a0ae029ed5b88e31483afb97ac>.
+<http://data.europa.eu/m8g/2aa1f43abf1372e287ea40b0e949b5c2> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "INTEROPERABILITY LAYERS"@en.
+<http://data.europa.eu/m8g/2aa1f43abf1372e287ea40b0e949b5c2> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/727698edfb4b6c3fb25c6beea351ec69>.
+<http://data.europa.eu/m8g/2aa1f43abf1372e287ea40b0e949b5c2> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "INTEROPERABILITY LAYERS"@en.
+<http://data.europa.eu/m8g/2aa1f43abf1372e287ea40b0e949b5c2> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/727698edfb4b6c3fb25c6beea351ec69>.
+<http://data.europa.eu/m8g/2aa1f43abf1372e287ea40b0e949b5c2> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "INTEROPERABILITY LAYERS"@en.
+<http://data.europa.eu/m8g/2aa1f43abf1372e287ea40b0e949b5c2> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/727698edfb4b6c3fb25c6beea351ec69>.
+<http://data.europa.eu/m8g/2aa1f43abf1372e287ea40b0e949b5c2> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "INTEROPERABILITY LAYERS"@en.
+<http://data.europa.eu/m8g/2aa1f43abf1372e287ea40b0e949b5c2> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/727698edfb4b6c3fb25c6beea351ec69>.
+<http://data.europa.eu/m8g/2aa1f43abf1372e287ea40b0e949b5c2> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "INTEROPERABILITY LAYERS"@en.
+<http://data.europa.eu/m8g/2aa1f43abf1372e287ea40b0e949b5c2> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/727698edfb4b6c3fb25c6beea351ec69>.
+<http://data.europa.eu/m8g/2aa1f43abf1372e287ea40b0e949b5c2> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "INTEROPERABILITY LAYERS"@en.
+<http://data.europa.eu/m8g/2aa1f43abf1372e287ea40b0e949b5c2> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/727698edfb4b6c3fb25c6beea351ec69>.
+<http://data.europa.eu/m8g/2aa1f43abf1372e287ea40b0e949b5c2> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "INTEROPERABILITY LAYERS"@en.
+<http://data.europa.eu/m8g/2aa1f43abf1372e287ea40b0e949b5c2> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/f643fbb4fd7feee385dd146baaac565b>.
+<http://data.europa.eu/m8g/2aa1f43abf1372e287ea40b0e949b5c2> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "INTEROPERABILITY LAYERS"@en.
+<http://data.europa.eu/m8g/2aa1f43abf1372e287ea40b0e949b5c2> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/30e066f7cff4878eca3b6ca7036e9112>.
+<http://data.europa.eu/m8g/2aa1f43abf1372e287ea40b0e949b5c2> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "INTEROPERABILITY LAYERS"@en.
+<http://data.europa.eu/m8g/2aa1f43abf1372e287ea40b0e949b5c2> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/1ec956a110dc70e41f057b2259f132c5>.
+<http://data.europa.eu/m8g/2aa1f43abf1372e287ea40b0e949b5c2> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "INTEROPERABILITY LAYERS"@en.
+<http://data.europa.eu/m8g/2aa1f43abf1372e287ea40b0e949b5c2> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/1ec956a110dc70e41f057b2259f132c5>.
+<http://data.europa.eu/m8g/2aa1f43abf1372e287ea40b0e949b5c2> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "INTEROPERABILITY LAYERS"@en.
+<http://data.europa.eu/m8g/2aa1f43abf1372e287ea40b0e949b5c2> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/15481e636126fb21e59840bc29191693>.
+<http://data.europa.eu/m8g/2aa1f43abf1372e287ea40b0e949b5c2> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "INTEROPERABILITY LAYERS"@en.
+<http://data.europa.eu/m8g/2aa1f43abf1372e287ea40b0e949b5c2> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/15481e636126fb21e59840bc29191693>.
+<http://data.europa.eu/m8g/2aa1f43abf1372e287ea40b0e949b5c2> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "INTEROPERABILITY LAYERS"@en.
+<http://data.europa.eu/m8g/2aa1f43abf1372e287ea40b0e949b5c2> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41>.
+<http://data.europa.eu/m8g/2aa1f43abf1372e287ea40b0e949b5c2> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "INTEROPERABILITY LAYERS"@en.
+<http://data.europa.eu/m8g/2aa1f43abf1372e287ea40b0e949b5c2> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41>.
+<http://data.europa.eu/m8g/2aa1f43abf1372e287ea40b0e949b5c2> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "INTEROPERABILITY LAYERS"@en.
+<http://data.europa.eu/m8g/2aa1f43abf1372e287ea40b0e949b5c2> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41>.
+<http://data.europa.eu/m8g/2aa1f43abf1372e287ea40b0e949b5c2> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "INTEROPERABILITY LAYERS"@en.
+<http://data.europa.eu/m8g/2aa1f43abf1372e287ea40b0e949b5c2> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41>.
+<http://data.europa.eu/m8g/2aa1f43abf1372e287ea40b0e949b5c2> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "INTEROPERABILITY LAYERS"@en.
+<http://data.europa.eu/m8g/2aa1f43abf1372e287ea40b0e949b5c2> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41>.
+<http://data.europa.eu/m8g/2aa1f43abf1372e287ea40b0e949b5c2> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "INTEROPERABILITY LAYERS"@en.
+<http://data.europa.eu/m8g/2aa1f43abf1372e287ea40b0e949b5c2> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41>.
+<http://data.europa.eu/m8g/2aa1f43abf1372e287ea40b0e949b5c2> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "INTEROPERABILITY LAYERS"@en.
+<http://data.europa.eu/m8g/2aa1f43abf1372e287ea40b0e949b5c2> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41>.
+<http://data.europa.eu/m8g/2aa1f43abf1372e287ea40b0e949b5c2> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "INTEROPERABILITY LAYERS"@en.
+<http://data.europa.eu/m8g/2aa1f43abf1372e287ea40b0e949b5c2> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41>.
+<http://data.europa.eu/m8g/2aa1f43abf1372e287ea40b0e949b5c2> <https://github.com/SEMICeu/CCCEV/tree/CV-2.0.0/cccev/2.0.0/description> "INTEROPERABILITY LAYERS"@en.
+<http://data.europa.eu/m8g/2aa1f43abf1372e287ea40b0e949b5c2> <http://data.europa.eu/m8g/hasRequirement> <http://data.europa.eu/m8g/8f889f045a9ee76a9a9c1481bf788a41>.
