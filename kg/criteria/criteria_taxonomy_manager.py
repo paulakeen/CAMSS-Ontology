@@ -1,20 +1,24 @@
 import pandas as p
 import util.math as math
+import requests as http
 from rdflib import Graph
 from cfg.conf import Cfg
 from util.io import xst_file
+from util.store import Store
 from subprocess import PIPE, Popen
 
 
-class CriteriaWorker:
+class CriteriaTaxonomyWorker:
 
     cfg: Cfg            # The global cfg json file
     df: p.DataFrame     # A pandas DataFrame used to manage the criteria taxonomy
     ided: bool          # Indicates whether the criteria are identified or the re-generation of ids is to be done
+    store_cfg: Cfg
 
-    def __init__(self, cfg: Cfg):
+    def __init__(self, cfg: Cfg, store_cfg: Cfg):
         self.cfg = cfg
         self.ided = False
+        self.store_cfg = store_cfg
         return
 
     def is_ided(self) -> bool:
@@ -30,7 +34,7 @@ class CriteriaWorker:
             pass
         return ret
 
-    def _generate_id(self, text: str) -> str:
+    def generate_id(self, text: str) -> str:
         """
         Beware that the text is 1: blank and period stripped and lowerised...So it is case insensitive, since what is important is
         that the contentn of the text is matched, regardless of it form.
@@ -51,21 +55,18 @@ class CriteriaWorker:
         # If the data frame contains and ided Criteria Taxonomy return, since no action needs to be done.
         if self.is_ided():
             return self.df
-
         df_data = []
-
         # Otherwise iterate the data frame and generate the criteria ids.
         for index, row in self.df.iterrows():
             data = [row['toolkit_id'],
-                    self._generate_id(row['principle_title']),
+                    self.generate_id(row['principle_title']),
                     row['principle_title'],
-                    self._generate_id(row['group_title']),
+                    self.generate_id(row['group_title']),
                     row['group_title'],
-                    self._generate_id(row['criterion_title']),
+                    self.generate_id(row['criterion_title']),
                     row['criterion_title'], row['scenarios'],
                     row['tool_versions'], row['comments']]
             df_data.append(data)
-
         self.ided = True
         self.df = p.DataFrame(data=df_data, columns=['toolkit_id',
                                                      'principle_id',
@@ -86,6 +87,15 @@ class CriteriaWorker:
         """
         if self.is_ided():
             self.df.to_csv(self.cfg.get[5]['ided_criteria_csv'])
+
+    def store(self) -> http.Response:
+        """
+        Stores the CAMSS Criteria Taxonomy ttl file into a graph store
+        :return: the resulting http code, hopefully 204 (OK with no results)
+        """
+        s = Store(self.store_cfg)
+        result = s.post(self.cfg.get[7]['camss_criteria_graph_ttl'])
+        return result
 
     def load(self, file_path: str = None, graph: Graph = None, force_id_generation: bool = False) -> p.DataFrame:
         """

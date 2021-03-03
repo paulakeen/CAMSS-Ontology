@@ -1,11 +1,11 @@
 import unittest
-from criteria.criteria_manager import CriteriaWorker
+from criteria.criteria_taxonomy_manager import CriteriaTaxonomyWorker
 from cfg.conf import Cfg, Defaults
 
 
 class CriteriaLoadingTest(unittest.TestCase):
 
-    cw: CriteriaWorker
+    cw: CriteriaTaxonomyWorker
 
     def __init__(self, *args, **kwargs):
         super(CriteriaLoadingTest, self).__init__(*args, **kwargs)
@@ -21,7 +21,7 @@ class CriteriaLoadingTest(unittest.TestCase):
         {"id": 5, "ided_criteria_csv": "../in/ided_criteria.csv", ...
         """
         self.cfg = Cfg('../cfg/cfg.json')
-        self.cw = CriteriaWorker(self.cfg)
+        self.cw = CriteriaTaxonomyWorker(self.cfg)
         self.cw.load()
 
     def tearDown(self) -> None:

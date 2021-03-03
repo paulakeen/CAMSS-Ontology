@@ -1,0 +1,7 @@
+[
+    {"id": 0, "end_point": "http://localhost:7200/repositories"},
+    {"id": 1, "db_id": "camss"},
+    {"id": 2, "db_type": "graphdb"},
+    {"id": 3, "user": "admin"},
+    {"id": 4, "password": "admin"}
+]

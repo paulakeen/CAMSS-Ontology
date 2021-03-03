@@ -6,6 +6,7 @@ class Defaults:
     Configuration constants and other defaults
     """
     CFG_FILE = './cfg/cfg.json'
+    GS_CFG_FILE = './cfg/store.json'
     DEF_LANG = 'en'
 
 

@@ -23,7 +23,7 @@
   rml:logicalSource [
     rml:source [
       a csvw:Table;
-      csvw:url "../in/ided_criteria.csv";
+      csvw:url "./in/ided_criteria.csv";
       csvw:dialect [ 
         a csvw:Dialect;
         csvw:delimiter ","
@@ -84,7 +84,7 @@
   rml:logicalSource [
     rml:source [
       a csvw:Table;
-      csvw:url "../in/ided_criteria.csv";
+      csvw:url "./in/ided_criteria.csv";
       csvw:dialect [ 
         a csvw:Dialect;
         csvw:delimiter ","
@@ -156,7 +156,7 @@
   rml:logicalSource [
     rml:source [
       a csvw:Table;
-      csvw:url "../in/ided_criteria.csv";
+      csvw:url "./in/ided_criteria.csv";
       csvw:dialect [ 
         a csvw:Dialect;
         csvw:delimiter ","

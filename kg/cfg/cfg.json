@@ -8,6 +8,4 @@
     {"id": 6, "rml_mapper_jar_path": "./rml/rmlmapper-4.9.1.jar", "comment": "The jar distributed by rml.io for the mapping of CSV into RDF."},
     {"id": 7, "camss_criteria_graph_ttl": "./out/camss-criteria-graph.ttl", "comment": "The Turtle file containing the CAMSS criteria definitions and identifiers."},
     {"id": 8, "camss_criteria_graph_rml": "./criteria/camss-criteria-graph.rml", "comment": "The Turtle file with the instructions to map the CAMSS ided criteria taxonomy into a RDF file."}
-
-
 ]
