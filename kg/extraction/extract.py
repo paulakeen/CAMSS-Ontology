@@ -3,6 +3,7 @@ import pandas as p
 from util.io import get_files, pv, drop_file
 from cfg.conf import Cfg
 from enum import Enum
+from criteria.criteria_taxonomy_manager import CriteriaTaxonomyWorker as ctw
 
 
 class ToolVersion(Enum):
@@ -80,6 +81,18 @@ class E:
         elif o == 'nan':
             return 2
 
+    def _add_criterion(self, init: int, end: int, line: int, line_step: int):
+        for i in range(init, end):
+            element = 'A' + str(i)
+            # Criterion ID
+            self.data[element + '_C'] = ctw.generate_id(str(self.in_df.loc[line, 'Unnamed: 2']))
+            # Criterion Answer Y,N,N/A
+            self.data[element + '_A'] = self._choice(str(self.in_df.loc[line, 'Unnamed: 6']))
+            # Criterion Justification
+            self.data[element + '_J'] = self.in_df.loc[line, 'Unnamed: 8']
+            line += line_step
+        return
+
     def _extract_version_310_EIF(self):
         self.data['tool_version'] = self.tool_version
         rd = self.in_df.loc[14, 'Unnamed: 4']
@@ -108,100 +121,34 @@ class E:
         self.in_df = p.read_excel(self.cur_ass, sheet_name='Assessment_EIF')
         self.data['assessment_date'] = self.in_df.loc[0, 'Unnamed: 4']  # date of the assessment
         self.data['io_spec_type'] = self.in_df.loc[8, 'Unnamed: 4']  # interoperability specification type
-        self.data['A1_A'] = self._choice(str(self.in_df.loc[16, 'Unnamed: 6']))  # Criterion Answer Y,N,N/A
-        self.data['A1_J'] = self.in_df.loc[16, 'Unnamed: 8']  # Criterion Justification
+
+        self._add_criterion(init=1, end=2, line=16, line_step=2)
         # OPENNESS
-        self.data['A2_A'] = self._choice(str(self.in_df.loc[22, 'Unnamed: 6']))  # Criterion Answer Y,N,N/A
-        self.data['A2_J'] = self.in_df.loc[22, 'Unnamed: 8']  # Criterion Justification
-        self.data['A3_A'] = self._choice(str(self.in_df.loc[24, 'Unnamed: 6']))  # Criterion Answer Y,N,N/A
-        self.data['A3_J'] = self.in_df.loc[24, 'Unnamed: 8']  # Criterion Justification
-        self.data['A4_A'] = self._choice(str(self.in_df.loc[26, 'Unnamed: 6']))  # Criterion Answer Y,N,N/A
-        self.data['A4_J'] = self.in_df.loc[26, 'Unnamed: 8']  # Criterion Justification
-        self.data['A5_A'] = self._choice(str(self.in_df.loc[28, 'Unnamed: 6']))  # Criterion Answer Y,N,N/A
-        self.data['A5_J'] = self.in_df.loc[28, 'Unnamed: 8']  # Criterion Justification
-        self.data['A6_A'] = self._choice(str(self.in_df.loc[30, 'Unnamed: 6']))  # Criterion Answer Y,N,N/A
-        self.data['A6_J'] = self.in_df.loc[30, 'Unnamed: 8']  # Criterion Justification
-        self.data['A7_A'] = self._choice(str(self.in_df.loc[32, 'Unnamed: 6']))  # Criterion Answer Y,N,N/A
-        self.data['A7_J'] = self.in_df.loc[32, 'Unnamed: 8']  # Criterion Justification
-        self.data['A8_A'] = self._choice(str(self.in_df.loc[34, 'Unnamed: 6']))  # Criterion Answer Y,N,N/A
-        self.data['A8_J'] = self.in_df.loc[34, 'Unnamed: 8']  # Criterion Justification
-        self.data['A9_A'] = self._choice(str(self.in_df.loc[36, 'Unnamed: 6']))  # Criterion Answer Y,N,N/A
-        self.data['A9_J'] = self.in_df.loc[36, 'Unnamed: 8']  # Criterion Justification
-        self.data['A10_A'] = self._choice(str(self.in_df.loc[38, 'Unnamed: 6']))  # Criterion Answer Y,N,N/A
-        self.data['A10_J'] = self.in_df.loc[38, 'Unnamed: 8']  # Criterion Justification
-        self.data['A11_A'] = self._choice(str(self.in_df.loc[40, 'Unnamed: 6']))  # Criterion Answer Y,N,N/A
-        self.data['A11_J'] = self.in_df.loc[40, 'Unnamed: 8']  # Criterion Justification
+        self._add_criterion(init=2, end=12, line=22, line_step=2)
         # TRANSPARENCY
-        self.data['A12_A'] = self._choice(str(self.in_df.loc[44, 'Unnamed: 6']))  # Criterion Answer Y,N,N/A
-        self.data['A12_J'] = self.in_df.loc[44, 'Unnamed: 8']  # Criterion Justification
-        self.data['A13_A'] = self._choice(str(self.in_df.loc[46, 'Unnamed: 6']))  # Criterion Answer Y,N,N/A
-        self.data['A13_J'] = self.in_df.loc[46, 'Unnamed: 8']  # Criterion Justification
-        self.data['A14_A'] = self._choice(str(self.in_df.loc[48, 'Unnamed: 6']))  # Criterion Answer Y,N,N/A
-        self.data['A14_J'] = self.in_df.loc[48, 'Unnamed: 8']  # Criterion Justification
+        self._add_criterion(init=12, end=15, line=44, line_step=2)
         # REUSABILITY
-        self.data['A15_A'] = self._choice(str(self.in_df.loc[52, 'Unnamed: 6']))  # Criterion Answer Y,N,N/A
-        self.data['A15_J'] = self.in_df.loc[52, 'Unnamed: 8']  # Criterion Justification
-        self.data['A16_A'] = self._choice(str(self.in_df.loc[54, 'Unnamed: 6']))  # Criterion Answer Y,N,N/A
-        self.data['A16_J'] = self.in_df.loc[54, 'Unnamed: 8']  # Criterion Justification
-        self.data['A17_A'] = self._choice(str(self.in_df.loc[56, 'Unnamed: 6']))  # Criterion Answer Y,N,N/A
-        self.data['A17_J'] = self.in_df.loc[56, 'Unnamed: 8']  # Criterion Justification
-        # TECHNOLOGICAL NEUTRALITY
-        self.data['A18_A'] = self._choice(str(self.in_df.loc[60, 'Unnamed: 6']))  # Criterion Answer Y,N,N/A
-        self.data['A18_J'] = self.in_df.loc[60, 'Unnamed: 8']  # Criterion Justification
-        self.data['A19_A'] = self._choice(str(self.in_df.loc[62, 'Unnamed: 6']))  # Criterion Answer Y,N,N/A
-        self.data['A19_J'] = self.in_df.loc[62, 'Unnamed: 8']  # Criterion Justification
-        self.data['A20_A'] = self._choice(str(self.in_df.loc[64, 'Unnamed: 6']))  # Criterion Answer Y,N,N/A
-        self.data['A20_J'] = self.in_df.loc[64, 'Unnamed: 8']  # Criterion Justification
+        self._add_criterion(init=15, end=18, line=52, line_step=2)
+        # # TECHNOLOGICAL NEUTRALITY
+        self._add_criterion(init=18, end=21, line=60, line_step=2)
         # USER CENTRICITY
-        self.data['A21_A'] = self._choice(str(self.in_df.loc[70, 'Unnamed: 6']))  # Criterion Answer Y,N,N/A
-        self.data['A21_J'] = self.in_df.loc[70, 'Unnamed: 8']  # Criterion Justification
         # INCLUSION AND ACCESSIBILITY
-        self.data['A22_A'] = self._choice(str(self.in_df.loc[74, 'Unnamed: 6']))  # Criterion Answer Y,N,N/A
-        self.data['A22_J'] = self.in_df.loc[74, 'Unnamed: 8']  # Criterion Justification
         # SECURITY AND PRIVACY
-        self.data['A23_A'] = self._choice(str(self.in_df.loc[78, 'Unnamed: 6']))  # Criterion Answer Y,N,N/A
-        self.data['A23_J'] = self.in_df.loc[78, 'Unnamed: 8']  # Criterion Justification
         # MULTILINGUALISM
-        self.data['A24_A'] = self._choice(str(self.in_df.loc[82, 'Unnamed: 6']))  # Criterion Answer Y,N,N/A
-        self.data['A24_J'] = self.in_df.loc[82, 'Unnamed: 8']  # Criterion Justification
+        self._add_criterion(init=21, end=25, line=70, line_step=4)
         # ADMINISTRATIVE SIMPLIFICATION
-        self.data['A25_A'] = self._choice(str(self.in_df.loc[88, 'Unnamed: 6']))  # Criterion Answer Y,N,N/A
-        self.data['A25_J'] = self.in_df.loc[88, 'Unnamed: 8']  # Criterion Justification
         # PRESERVATION OF INFORMATION
-        self.data['A26_A'] = self._choice(str(self.in_df.loc[92, 'Unnamed: 6']))  # Criterion Answer Y,N,N/A
-        self.data['A26_J'] = self.in_df.loc[92, 'Unnamed: 8']  # Criterion Justification
         # ASSESSMENT OF EFFECTIVENESS AND EFFICIENCY
-        self.data['A27_A'] = self._choice(str(self.in_df.loc[96, 'Unnamed: 6']))  # Criterion Answer Y,N,N/A
-        self.data['A27_J'] = self.in_df.loc[96, 'Unnamed: 8']  # Criterion Justification
+        self._add_criterion(init=25, end=28, line=88, line_step=4)
         # INTEROPERABILITY GOVERNANCE
-        self.data['A28_A'] = self._choice(str(self.in_df.loc[102, 'Unnamed: 6']))  # Criterion Answer Y,N,N/A
-        self.data['A28_J'] = self.in_df.loc[102, 'Unnamed: 8']  # Criterion Justification
-        self.data['A29_A'] = self._choice(str(self.in_df.loc[104, 'Unnamed: 6']))  # Criterion Answer Y,N,N/A
-        self.data['A29_J'] = self.in_df.loc[104, 'Unnamed: 8']  # Criterion Justification
-        self.data['A30_A'] = self._choice(str(self.in_df.loc[106, 'Unnamed: 6']))  # Criterion Answer Y,N,N/A
-        self.data['A30_J'] = self.in_df.loc[106, 'Unnamed: 8']  # Criterion Justification
-        self.data['A31_A'] = self._choice(str(self.in_df.loc[108, 'Unnamed: 6']))  # Criterion Answer Y,N,N/A
-        self.data['A31_J'] = self.in_df.loc[108, 'Unnamed: 8']  # Criterion Justification
-        self.data['A32_A'] = self._choice(str(self.in_df.loc[110, 'Unnamed: 6']))  # Criterion Answer Y,N,N/A
-        self.data['A32_J'] = self.in_df.loc[110, 'Unnamed: 8']  # Criterion Justification
-        self.data['A33_A'] = self._choice(str(self.in_df.loc[112, 'Unnamed: 6']))  # Criterion Answer Y,N,N/A
-        self.data['A33_J'] = self.in_df.loc[112, 'Unnamed: 8']  # Criterion Justification
+        self._add_criterion(init=28, end=34, line=102, line_step=2)
         # INTEGRATED PUBLIC SERVICE GOVERNANCE
-        self.data['A34_A'] = self._choice(str(self.in_df.loc[116, 'Unnamed: 6']))  # Criterion Answer Y,N,N/A
-        self.data['A34_J'] = self.in_df.loc[116, 'Unnamed: 8']  # Criterion Justification
         # LEGAL INTEROPERABILITY
-        self.data['A35_A'] = self._choice(str(self.in_df.loc[116, 'Unnamed: 6']))  # Criterion Answer Y,N,N/A
-        self.data['A35_J'] = self.in_df.loc[116, 'Unnamed: 8']  # Criterion Justification
+        self._add_criterion(init=34, end=36, line=116, line_step=4)
         # ORGANISATIONAL INTEROPERABILITY
-        self.data['A36_A'] = self._choice(str(self.in_df.loc[127, 'Unnamed: 6']))  # Criterion Answer Y,N,N/A
-        self.data['A36_J'] = self.in_df.loc[127, 'Unnamed: 8']  # Criterion Justification
-        self.data['A37_A'] = self._choice(str(self.in_df.loc[129, 'Unnamed: 6']))  # Criterion Answer Y,N,N/A
-        self.data['A37_J'] = self.in_df.loc[129, 'Unnamed: 8']  # Criterion Justification
+        self._add_criterion(init=36, end=38, line=127, line_step=2)
         # SEMANTIC INTEROPERABILITY
-        self.data['A38_A'] = self._choice(str(self.in_df.loc[133, 'Unnamed: 6']))  # Criterion Answer Y,N,N/A
-        self.data['A38_J'] = self.in_df.loc[133, 'Unnamed: 8']  # Criterion Justification
-        self.data['A39_A'] = self._choice(str(self.in_df.loc[135, 'Unnamed: 6']))  # Criterion Answer Y,N,N/A
-        self.data['A39_J'] = self.in_df.loc[135, 'Unnamed: 8']  # Criterion Justification
+        self._add_criterion(init=38, end=40, line=133, line_step=2)
         return
 
     def _extract_version(self, version: ToolVersion):
@@ -212,18 +159,17 @@ class E:
 
     def _to_csv(self, tell: bool):
         data = [list(self.data.values())]
-        file_path = self.cfg.get[3]['EIF_310_csv']
+        columns = list(self.data.keys())
+        file_path = self.cfg.get[3]['eif_310_csv']
         if tell:
             drop_file(file_path)
-            columns = list(self.data.keys())
-            self.out_df = p.DataFrame(data=data, columns=columns)
-
         # Opens the CSV to append. The method f.tell helps to detect whether this is the first time
         # an append is done or not, in which case the header is added or not.
 
         with open(file_path, 'a') as f:
-            tell = f.tell() == 0
+            self.out_df = p.DataFrame(data=data, columns=columns)
             self.out_df.to_csv(f, header=tell)
+            tell = f.tell() == 0
         return tell
 
     def extract(self):

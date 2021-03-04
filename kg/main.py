@@ -49,10 +49,12 @@ def _run(cfg: Cfg,
          store_cfg: Cfg,
          reid: bool = False,
          store_taxo: bool = False,
-         rml: bool = False,
+         rml_taxo: bool = False,
          verbosity: bool = True):
 
-    _prepare_taxonomy(cfg=cfg, store_cfg=store_cfg, reid=reid, store=store_taxo, rml=rml, verbosity=verbosity)
+    if reid or store_taxo or rml_taxo:
+        _prepare_taxonomy(cfg=cfg, store_cfg=store_cfg, reid=reid, store=store_taxo, rml=rml_taxo, verbosity=verbosity)
+
     e = E(conf).extract()
     t = T(conf).transform()
     l = L(conf).load()
@@ -69,9 +71,9 @@ if __name__ == '__main__':
     # '_st' stands for 'store taxonomy': the criteria taxonomy, as well as the criteria assessments will be stored in
     # the default graph store.
     _st = False
-    # '_rml' stands for 'rml map', indicates whether to rebuild the mapping and create a new CAMSS taxonomy
-    # criteria ttl file
-    _rml = False
+    # '_rml_taxo' stands for 'rml map taxonomy', indicates whether to rebuild the mapping and create
+    # a new CAMSS taxonomy criteria ttl file
+    _rml_taxo = False
 
     # '_vb' stands for 'verbosity'
     _vb = False
@@ -83,7 +85,7 @@ if __name__ == '__main__':
                 _rc = True
             if t[0] == '--store-taxo' and t[1] == 'True':
                 _st = True
-            if t[0] == '--rml' and t[1] == 'True':
+            if t[0] == '--rml-taxo' and t[1] == 'True':
                 _rml = True
             if t[0] == '--verbose' and t[1] == 'True':
                 _vb = True
@@ -93,4 +95,4 @@ if __name__ == '__main__':
 
     conf = Cfg(Defaults.CFG_FILE)
     store_conf = Cfg(Defaults.GS_CFG_FILE)
-    _run(cfg=conf, store_cfg=store_conf, reid=_rc, store_taxo=_st, rml=_rml, verbosity=_vb)
+    _run(cfg=conf, store_cfg=store_conf, reid=_rc, store_taxo=_st, rml_taxo=_rml_taxo, verbosity=_vb)

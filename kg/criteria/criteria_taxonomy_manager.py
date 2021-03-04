@@ -34,7 +34,8 @@ class CriteriaTaxonomyWorker:
             pass
         return ret
 
-    def generate_id(self, text: str) -> str:
+    @staticmethod
+    def generate_id(text: str) -> str:
         """
         Beware that the text is 1: blank and period stripped and lowerised...So it is case insensitive, since what is important is
         that the contentn of the text is matched, regardless of it form.
