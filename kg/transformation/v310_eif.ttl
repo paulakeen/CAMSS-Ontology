@@ -1,2 +1,0 @@
-<https://www.w3.org/TR/xhtml1/> <http://www.w3.org/2004/02/skos/core#prefLabel> "Extensible HyperText Markup Language (XHTML) v1.0"@en-US.
-<https://www.w3.org/TR/xhtml1/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.europa.eu/w21/e1f84ab1-bad6-4e95-b37a-e54ba7dfc551#Specification>.

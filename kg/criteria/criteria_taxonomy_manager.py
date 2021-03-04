@@ -5,7 +5,7 @@ from rdflib import Graph
 from cfg.conf import Cfg
 from util.io import xst_file
 from util.store import Store
-from subprocess import PIPE, Popen
+from rml.rml_manager import RMLWorker
 
 
 class CriteriaTaxonomyWorker:
@@ -148,14 +148,7 @@ class CriteriaTaxonomyWorker:
         Executes an rml mapper file and creates a ttl file with the definition and ids of the CAMSS Criteria Taxonomy
         :return: Nothing, the ttl file is created in the 'out' directory specified in the cfg json file.
         """
-        mapper_jar = self.cfg.get[6]['rml_mapper_jar_path']
         out_ttl_file_path = self.cfg.get[7]['camss_criteria_graph_ttl']
         rml_file_path = self.cfg.get[8]['camss_criteria_graph_rml']
-        process = Popen(['java',
-                         '-jar', mapper_jar,
-                         '-m', rml_file_path,
-                         '-o', out_ttl_file_path],
-                        stdout=PIPE, stderr=PIPE)
-        result = process.communicate()
-        print(result)
+        RMLWorker(self.cfg).rml(out_ttl=out_ttl_file_path, rml_path=rml_file_path)
         return

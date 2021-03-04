@@ -1,16 +1,10 @@
 import re
+import uuid
 import pandas as p
 from util.io import get_files, pv, drop_file
 from cfg.conf import Cfg
-from enum import Enum
+from cfg.versions import ToolVersion
 from criteria.criteria_taxonomy_manager import CriteriaTaxonomyWorker as ctw
-
-
-class ToolVersion(Enum):
-    v1_0 = 1
-    v2_0_0 = 2
-    v3_0_0 = 3
-    v3_1_0 = 4
 
 
 class E:
@@ -28,7 +22,8 @@ class E:
         return
 
     def _init(self):
-        self.data = {"tool_version": None,
+        self.data = {"assessment_id": str(uuid.uuid4()),
+                     "tool_version": None,
                      "tool_release_date": None,
                      'scenario': None}
 
@@ -100,16 +95,22 @@ class E:
         self.data['scenario'] = self.in_df.loc[18, 'Unnamed: 4'].strip()
         # Setup_EIF
         self.in_df = p.read_excel(self.cur_ass, sheet_name='Setup_EIF')
+        self.data['submitter_unit_id'] = ctw.generate_id(str(self.in_df.loc[5, 'Unnamed: 7'])) # Submitter_id
         self.data['L1'] = self.in_df.loc[5, 'Unnamed: 7']                  # Submitter_name *
-        self.data['L2'] = self.in_df.loc[7, 'Unnamed: 7']                  # submitter_organisation *
+        self.data['submitter_org_id'] = ctw.generate_id(str(self.in_df.loc[7, 'Unnamed: 7']))  # submitter_organisation_id
+        self.data['L2'] = self.in_df.loc[7, 'Unnamed: 7']                  # submitter_organisation
         self.data['L3'] = self.in_df.loc[9, 'Unnamed: 7']                  # submitter_role
         self.data['L4'] = self.in_df.loc[11, 'Unnamed: 7']                 # submitter_address
         self.data['L5'] = self.in_df.loc[13, 'Unnamed: 7']                 # submitter_phone
-        self.data['L6'] = self.in_df.loc[15, 'Unnamed: 7']                 # submitter_email *
-        self.data['L7'] = self.in_df.loc[17, 'Unnamed: 7']                 # submission_date *
+        self.data['L6'] = self.in_df.loc[15, 'Unnamed: 7']                 # submitter_email
+        self.data['L7'] = self.in_df.loc[17, 'Unnamed: 7']                 # submission_date
+        self.data['scenario_id'] = ctw.generate_id(str(self.in_df.loc[19, 'Unnamed: 7']))  # scenario_id
         self.data['L8'] = self.in_df.loc[19, 'Unnamed: 7']                 # scenario
+        self.data['spec_id'] = ctw.generate_id(str(self.in_df.loc[35, 'Unnamed: 7']))  # spec_id, the MD5 of the title
+        self.data['distribution_id'] = str(uuid.uuid4())                   # distribution_id
         self.data['P1'] = self.in_df.loc[35, 'Unnamed: 7']                 # spec_title
         self.data['P2'] = self.in_df.loc[37, 'Unnamed: 7']                 # spec_download_url
+        self.data['sdo_id'] = ctw.generate_id(str(self.in_df.loc[39, 'Unnamed: 7']))  # sdo_id (for the Agent instance)
         self.data['P3'] = self.in_df.loc[39, 'Unnamed: 7']                 # sdo_name
         self.data['P4'] = self.in_df.loc[41, 'Unnamed: 7']                 # sdo_contact_point
         self.data['P5'] = self.in_df.loc[43, 'Unnamed: 7']                 # submission_rationale
@@ -117,6 +118,7 @@ class E:
         self.data['C1'] = self.in_df.loc[93, 'Unnamed: 7']                 # correctness
         self.data['C2'] = self.in_df.loc[95, 'Unnamed: 7']                 # completeness
         self.data['C3'] = self.in_df.loc[97, 'Unnamed: 7']                 # egov_interoperability
+        self.data['score_id'] = uuid.uuid4()                               # an id for the cav:Score instance
         # Assessment_EIF
         self.in_df = p.read_excel(self.cur_ass, sheet_name='Assessment_EIF')
         self.data['assessment_date'] = self.in_df.loc[0, 'Unnamed: 4']  # date of the assessment

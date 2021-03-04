@@ -56,8 +56,8 @@ def _run(cfg: Cfg,
         _prepare_taxonomy(cfg=cfg, store_cfg=store_cfg, reid=reid, store=store_taxo, rml=rml_taxo, verbosity=verbosity)
 
     e = E(conf).extract()
-    t = T(conf).transform()
-    l = L(conf).load()
+    #t = T(conf).transform()
+    #l = L(conf).load()
     return
 
 
