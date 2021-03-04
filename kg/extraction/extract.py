@@ -81,9 +81,11 @@ class E:
             element = 'A' + str(i)
             # Criterion ID
             self.data[element + '_C'] = ctw.generate_id(str(self.in_df.loc[line, 'Unnamed: 2']))
-            # Criterion Answer Y,N,N/A
-            self.data[element + '_A'] = self._choice(str(self.in_df.loc[line, 'Unnamed: 6']))
-            # Criterion Justification
+            # Score element ID and Value
+            self.data[element + '_S'] = uuid.uuid4()
+            self.data[element + '_V'] = self._choice(str(self.in_df.loc[line, 'Unnamed: 6']))
+            # Criterion Justification Id and Judgement text
+            self.data[element + '_I'] = uuid.uuid4()
             self.data[element + '_J'] = self.in_df.loc[line, 'Unnamed: 8']
             line += line_step
         return
@@ -118,7 +120,6 @@ class E:
         self.data['C1'] = self.in_df.loc[93, 'Unnamed: 7']                 # correctness
         self.data['C2'] = self.in_df.loc[95, 'Unnamed: 7']                 # completeness
         self.data['C3'] = self.in_df.loc[97, 'Unnamed: 7']                 # egov_interoperability
-        self.data['score_id'] = uuid.uuid4()                               # an id for the cav:Score instance
         # Assessment_EIF
         self.in_df = p.read_excel(self.cur_ass, sheet_name='Assessment_EIF')
         self.data['assessment_date'] = self.in_df.loc[0, 'Unnamed: 4']  # date of the assessment

@@ -10,6 +10,7 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix org: <http://www.w3.org/ns/org#> .
+@prefix camsso: <http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#> .
 @prefix : <http://data.europa.eu/w21/e1f84ab1-bad6-4e95-b37a-e54ba7dfc551#> .
 
 
@@ -31,8 +32,17 @@
   ].
 
 
+# These individuals are instantiated in the namespace of CAMSS
+
 :TriplesMap rr:subjectMap [
-  rr:template "http://data.europa.eu/w21/e1f84ab1-bad6-4e95-b37a-e54ba7dfc551#{spec_id}"
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{spec_id}"
+].
+
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate rdf:type;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/e1f84ab1-bad6-4e95-b37a-e54ba7dfc551#Specification"
+  ]
 ].
 
 :TriplesMap rr:predicateObjectMap [
@@ -52,7 +62,7 @@
 :TriplesMap rr:predicateObjectMap [
   rr:predicate dcat:distribution;
   rr:objectMap [
-      rr:template "http://data.europa.eu/w21/e1f84ab1-bad6-4e95-b37a-e54ba7dfc551#{distribution_id}"
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{distribution_id}"
   ]
 ].
 
@@ -75,7 +85,7 @@
 
 
 :TriplesMapDistribution rr:subjectMap [
-  rr:template "http://data.europa.eu/w21/e1f84ab1-bad6-4e95-b37a-e54ba7dfc551#{distribution_id}"
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{distribution_id}"
 ].
 
 :TriplesMapDistribution rr:predicateObjectMap [
@@ -111,7 +121,7 @@
 
 
 :TriplesMapSDO rr:subjectMap [
-  rr:template "http://data.europa.eu/w21/e1f84ab1-bad6-4e95-b37a-e54ba7dfc551#{sdo_id}"
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{sdo_id}"
 ].
 
 :TriplesMapSDO rr:predicateObjectMap [
