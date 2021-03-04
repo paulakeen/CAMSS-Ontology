@@ -62,7 +62,45 @@
 :TriplesMap rr:predicateObjectMap [
   rr:predicate cav:resultsIn;
   rr:objectMap [
-      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A7_I}"
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A1_I}",
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A2_I}",
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A3_I}",
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A4_I}",
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A5_I}",                  
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A6_I}",
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A7_I}",
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A8_I}",
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A9_I}",                  
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A10_I}",
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A11_I}",
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A12_I}",
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A13_I}",
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A14_I}",
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A15_I}",
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A16_I}",                  
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A17_I}",
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A18_I}",
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A19_I}",
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A20_I}",                  
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A21_I}",
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A22_I}",
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A23_I}",
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A24_I}",                                    
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A25_I}",
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A26_I}",
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A27_I}",
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A28_I}",                  
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A29_I}",
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A30_I}",
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A31_I}",
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A32_I}",                                    
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A33_I}",
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A34_I}",
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A35_I}",
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A36_I}",                  
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A37_I}",
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A38_I}",
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A39_I}"
   ]
 ].
 
@@ -2562,6 +2600,359 @@
       rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{submitter_unit_id}"
   ]
 ].
+
+
+################
+# Score A1_S #
+################
+
+:TriplesMapA1_S a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "../out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+:TriplesMapA1_S rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A1_S}"
+].
+
+:TriplesMapA1_S rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Score"
+  ]
+].
+
+:TriplesMapA1_S rr:predicateObjectMap [
+  rr:predicate cav:value ;
+  rr:objectMap [
+      rr:template "{A1_V}" ; rr:datatype xsd:int
+  ]
+].
+
+################
+# Score A2_S #
+################
+
+:TriplesMapA2_S a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "../out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+:TriplesMapA2_S rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A2_S}"
+].
+
+:TriplesMapA2_S rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Score"
+  ]
+].
+
+:TriplesMapA2_S rr:predicateObjectMap [
+  rr:predicate cav:value ;
+  rr:objectMap [
+      rr:template "{A2_V}" ; rr:datatype xsd:int
+  ]
+].
+
+################
+# Score A3_S #
+################
+
+:TriplesMapA3_S a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "../out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+:TriplesMapA3_S rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A3_S}"
+].
+
+:TriplesMapA3_S rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Score"
+  ]
+].
+
+:TriplesMapA3_S rr:predicateObjectMap [
+  rr:predicate cav:value ;
+  rr:objectMap [
+      rr:template "{A3_V}" ; rr:datatype xsd:int
+  ]
+].
+
+##############
+# Score A4_S #
+##############
+
+:TriplesMapA4_S a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "../out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+:TriplesMapA4_S rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A4_S}"
+].
+
+:TriplesMapA4_S rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Score"
+  ]
+].
+
+:TriplesMapA4_S rr:predicateObjectMap [
+  rr:predicate cav:value ;
+  rr:objectMap [
+      rr:template "{A4_V}" ; rr:datatype xsd:int
+  ]
+].
+
+##############
+# Score A5_S #
+##############
+
+:TriplesMapA5_S a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "../out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+:TriplesMapA5_S rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A5_S}"
+].
+
+:TriplesMapA5_S rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Score"
+  ]
+].
+
+:TriplesMapA5_S rr:predicateObjectMap [
+  rr:predicate cav:value ;
+  rr:objectMap [
+      rr:template "{A5_V}" ; rr:datatype xsd:int
+  ]
+].
+
+##############
+# Score A6_S #
+##############
+
+:TriplesMapA6_S a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "../out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+:TriplesMapA6_S rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A6_S}"
+].
+
+:TriplesMapA6_S rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Score"
+  ]
+].
+
+:TriplesMapA6_S rr:predicateObjectMap [
+  rr:predicate cav:value ;
+  rr:objectMap [
+      rr:template "{A6_V}" ; rr:datatype xsd:int
+  ]
+].
+
+##############
+# Score A7_S #
+##############
+
+:TriplesMapA7_S a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "../out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+:TriplesMapA7_S rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A7_S}"
+].
+
+:TriplesMapA7_S rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Score"
+  ]
+].
+
+:TriplesMapA7_S rr:predicateObjectMap [
+  rr:predicate cav:value ;
+  rr:objectMap [
+      rr:template "{A7_V}" ; rr:datatype xsd:int
+  ]
+].
+
+##############
+# Score A8_S #
+##############
+
+:TriplesMapA8_S a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "../out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+:TriplesMapA8_S rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A8_S}"
+].
+
+:TriplesMapA8_S rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Score"
+  ]
+].
+
+:TriplesMapA8_S rr:predicateObjectMap [
+  rr:predicate cav:value ;
+  rr:objectMap [
+      rr:template "{A8_V}" ; rr:datatype xsd:int
+  ]
+].
+
+##############
+# Score A9_S #
+##############
+
+:TriplesMapA9_S a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "../out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+:TriplesMapA9_S rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A9_S}"
+].
+
+:TriplesMapA9_S rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Score"
+  ]
+].
+
+:TriplesMapA9_S rr:predicateObjectMap [
+  rr:predicate cav:value ;
+  rr:objectMap [
+      rr:template "{A9_V}" ; rr:datatype xsd:int
+  ]
+].
+
+##############
+# Score A10_S #
+##############
+
+:TriplesMapA10_S a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "../out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+:TriplesMapA10_S rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A10_S}"
+].
+
+:TriplesMapA10_S rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Score"
+  ]
+].
+
+:TriplesMapA10_S rr:predicateObjectMap [
+  rr:predicate cav:value ;
+  rr:objectMap [
+      rr:template "{A10_V}" ; rr:datatype xsd:int
+  ]
+].
+
+
 
 
 #################################
