@@ -1,7 +1,8 @@
 import sys
 import requests as http
 from cfg.conf import Cfg, Defaults
-from extraction.extract import E
+from extraction.assessments import AssessmentExtractor as E
+# from extraction.extract import E
 from transformation.transform import T
 from loading.load import L
 from util.io import pv, drop_file
@@ -55,9 +56,9 @@ def _run(cfg: Cfg,
     if reid or store_taxo or rml_taxo:
         _prepare_taxonomy(cfg=cfg, store_cfg=store_cfg, reid=reid, store=store_taxo, rml=rml_taxo, verbosity=verbosity)
 
-    e = E(conf).extract()
-    t = T(conf).transform()
-    #l = L(conf).load()
+    E(conf).extract()
+    T(conf).transform()
+    # l = L(conf).load()
     return
 
 

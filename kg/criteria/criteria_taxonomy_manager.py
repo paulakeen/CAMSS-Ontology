@@ -34,16 +34,6 @@ class CriteriaTaxonomyWorker:
             pass
         return ret
 
-    @staticmethod
-    def generate_id(text: str) -> str:
-        """
-        Beware that the text is 1: blank and period stripped and lowerised...So it is case insensitive, since what is important is
-        that the contentn of the text is matched, regardless of it form.
-        :param text:
-        :return:
-        """
-        return math.hash(text.strip().strip('.').lower())
-
     def id(self) -> p.DataFrame:
         """
         1. Checks whether the data frame is already and ided one or not. If yes, nothing is done. If yes:
