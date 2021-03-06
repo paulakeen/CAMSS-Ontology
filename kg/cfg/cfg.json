@@ -15,6 +15,6 @@
     {"id": 13, "eif_310_ass_metadata_csv": "./out/v310-eif-ass-metadata.csv", "comment": "The filepath for the dataset containing the metadata about the assessments of the Scenario EIF, v3.1.0."},
     {"id": 14, "eif_310_ass_metadata_ttl": "./out/v310-eif-ass-metadata.ttl", "comment": "The filepath for the dataset containing the metadata about the assessments of the Scenario EIF, v3.1.0."},
     {"id": 15, "eif_310_ass_statements_ttl": "./out/v310-eif-ass-statements.ttl", "comment": "The filepath for the dataset containing the statememts of assessments of the Scenario EIF, v3.1.0."},
-    {"id": 16, "eif_310_ass_metadata_rml": "./out/v310-eif-ass-metadata.rml", "comment": "Rules for the transformation of the metadata of Scenario EIF, v3.1.0."},
-    {"id": 17, "eif_310_ass_statements_rml": "./out/v310-eif-ass-statements.rml", "comment": "Rules for the transformation of the statements for assessments of Scenario EIF, v3.1.0."}
+    {"id": 16, "eif_310_ass_metadata_rml": "./transformation/v310-eif-ass-metadata.rml", "comment": "Rules for the transformation of the metadata of Scenario EIF, v3.1.0."},
+    {"id": 17, "eif_310_ass_statements_rml": "./transformation/v310-eif-ass-statements.rml", "comment": "Rules for the transformation of the statements for assessments of Scenario EIF, v3.1.0."}
 ]

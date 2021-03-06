@@ -56,9 +56,9 @@ def _run(cfg: Cfg,
     if reid or store_taxo or rml_taxo:
         _prepare_taxonomy(cfg=cfg, store_cfg=store_cfg, reid=reid, store=store_taxo, rml=rml_taxo, verbosity=verbosity)
 
-    E(conf).extract()
+    # E(conf).extract()
     T(conf).transform()
-    # l = L(conf).load()
+    # L(conf).load()
     return
 
 

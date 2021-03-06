@@ -1,8 +1,7 @@
 from cfg.conf import Cfg
-from cfg.versions import ToolVersion
 from cssv.cssv_manager import CSSVWorker
 from util.io import xst_file
-
+from rml.rml_manager import RMLWorker
 
 class T:
 
@@ -19,11 +18,19 @@ class T:
         sw.rml(out_ttl=out_ttl_file_path, rml_path=rml_file_path)
 
     def transform_assessments(self):
+        """
         out_ttl_file_path = self.cfg.get[11]['eif_310_ass_graph_ttl']
         rml_file_path = self.cfg.get[12]['eif_310_ass_graph_rml']
         sw = CSSVWorker(cfg=self.cfg)
         sw.rml(out_ttl=out_ttl_file_path, rml_path=rml_file_path)
         return
+        """
+        metadata_ttl = self.cfg.get[14]['eif_310_ass_metadata_ttl']
+        metadata_rml = self.cfg.get[16]['eif_310_ass_metadata_rml']
+        RMLWorker(self.cfg).rml(out_ttl=metadata_ttl, rml_path=metadata_rml)
+        statements_ttl = self.cfg.get[15]['eif_310_ass_statements_ttl']
+        statements_rml = self.cfg.get[17]['eif_310_ass_statements_rml']
+        RMLWorker(self.cfg).rml(out_ttl=statements_ttl, rml_path=statements_rml)
 
     def transform(self):
         """
@@ -33,8 +40,9 @@ class T:
         and converts each line of the CSV into RDF assessment-related triples.
         :return: Nothing.
         """
-        v310_eif = xst_file(self.cfg.get[3]['eif_310_csv'])
-        if v310_eif:
+        v310_eif_metadata = xst_file(self.cfg.get[13]['eif_310_ass_metadata_csv'])
+        v310_eif_statements = xst_file(self.cfg.get[3]['eif_310_ass_statements_csv'])
+        if v310_eif_metadata and v310_eif_statements:
             self.transform_specs()
             self.transform_assessments()
         return

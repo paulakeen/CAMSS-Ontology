@@ -24,7 +24,7 @@
   rml:logicalSource [
     rml:source [
       a csvw:Table;
-      csvw:url "../out/v310-eif-ass-metadata.csv";
+      csvw:url "./out/v310-eif-ass-metadata.csv";
       csvw:dialect [ 
         a csvw:Dialect;
         csvw:delimiter ","
@@ -97,7 +97,7 @@
   rml:logicalSource [
     rml:source [
       a csvw:Table;
-      csvw:url "../out/v310-eif-ass-metadata.csv";
+      csvw:url "./out/v310-eif-ass-metadata.csv";
       csvw:dialect [ 
         a csvw:Dialect;
         csvw:delimiter ","
@@ -132,7 +132,7 @@
   rml:logicalSource [
     rml:source [
       a csvw:Table;
-      csvw:url "../out/v310-eif-ass-metadata.csv";
+      csvw:url "./out/v310-eif-ass-metadata.csv";
       csvw:dialect [ 
         a csvw:Dialect;
         csvw:delimiter ","
@@ -159,7 +159,7 @@
   rml:logicalSource [
     rml:source [
       a csvw:Table;
-      csvw:url "../out/v310-eif-ass-metadata.csv";
+      csvw:url "./out/v310-eif-ass-metadata.csv";
       csvw:dialect [ 
         a csvw:Dialect;
         csvw:delimiter ","
@@ -217,7 +217,7 @@
   rml:logicalSource [
     rml:source [
       a csvw:Table;
-      csvw:url "../out/v310-eif-ass-metadata.csv";
+      csvw:url "./out/v310-eif-ass-metadata.csv";
       csvw:dialect [ 
         a csvw:Dialect;
         csvw:delimiter ","

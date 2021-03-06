@@ -17,7 +17,7 @@
   rml:logicalSource [
     rml:source [
       a csvw:Table;
-      csvw:url "../out/v310-eif-ass-statements.csv";
+      csvw:url "./out/v310-eif-ass-statements.csv";
       csvw:dialect [ 
         a csvw:Dialect;
         csvw:delimiter ","
@@ -54,7 +54,7 @@
   rml:logicalSource [
     rml:source [
       a csvw:Table;
-      csvw:url "../out/v310-eif-ass-statements.csv";
+      csvw:url "./out/v310-eif-ass-statements.csv";
       csvw:dialect [ 
         a csvw:Dialect;
         csvw:delimiter ","
@@ -107,7 +107,7 @@
   rml:logicalSource [
     rml:source [
       a csvw:Table;
-      csvw:url "../out/v310-eif-ass-statements.csv";
+      csvw:url "./out/v310-eif-ass-statements.csv";
       csvw:dialect [ 
         a csvw:Dialect;
         csvw:delimiter ","
