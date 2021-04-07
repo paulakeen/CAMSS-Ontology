@@ -1,8 +1,7 @@
 import sys
 import requests as http
 from cfg.conf import Cfg, Defaults
-from extraction.assessments import AssessmentExtractor as E
-# from extraction.extract import E
+from extraction.extract import E
 from transformation.transform import T
 from loading.load import L
 from util.io import pv, drop_file

@@ -88,7 +88,7 @@ class CriteriaTaxonomyWorker:
         result = s.post(self.cfg.get[7]['camss_criteria_graph_ttl'])
         return result
 
-    def load(self, file_path: str = None, graph: Graph = None, force_id_generation: bool = False) -> p.DataFrame:
+    def load(self) -> p.DataFrame:
         """
         Loads the CAMSS criteria either from file or from a Graph Store:
         1. Check what is the indication option, either file system or remote triple store. They should be disjoint
@@ -98,18 +98,24 @@ class CriteriaTaxonomyWorker:
         :param file_path: the file-containing the criteria. If the file contains the ids, the ids are not
                         to be regenerated, unless the option FORCE is set to true
         :param graph:
-        :param force_id_generation: signals that the re-generations of ids is to be performed
         :return: the data frame keeping the criteria and its ids.
         """
+        """
+        criteria_cfg_path = self.cfg.get[4]['criteria.cfg']
+        criteria_cfg_worker = Cfg(criteria_cfg_path).load()
+        file_path = criteria_cfg_worker.get[3]['ided.path']
+        """
+        # If file with ided criteria is present, return it.
+        file_path = self.cfg.get[5]['ided.criteria.csv']
+        if xst_file(file_path):
+            self.df = p.read_csv(file_path)
+            return self.df
 
-        if not file_path and not graph:
-            # Check if ided csv is present
-            file_path = self.cfg.get[5]['ided_criteria_csv']
-            if xst_file(file_path):
-                self.df = p.read_csv(file_path)
-                return self.df
-            # If ided not present check if un-ided is present.
-            file_path = self.cfg.get[4]['unided_criteria_csv']
+        # If file with ided criteria not present check if un-ided are present.
+        criteria_cfg_path = self.cfg.get[4]['criteria.cfg']
+        criteria_cfg_worker = Cfg(criteria_cfg_path).load()
+        for d in criteria_cfg_worker:
+            file_path = d['path']
             if xst_file(file_path):
                 self.df = p.read_csv(file_path)
                 # Creates a new data frame with the ids of the criteria re-generated and saves it into the
@@ -123,12 +129,12 @@ class CriteriaTaxonomyWorker:
                             "the configuration file and make sure that either a version of the "
                             "'CAMSS Criteria Taxonomy' is available.")
 
-        if file_path and not graph:
+        if file_path:
             self.df = p.read_csv(file_path)
             self.id()
             return self.df
 
-        if file_path and graph:
+        if file_path:
             raise Exception("Exception raised in MODULE 'criteria.criteria_manager'. CLASS 'CriteriaWorker'. "
                             "METHOD 'Load()'. Exception message follows: "
                             "Specify either a file path name or a graph instance, but not both.")

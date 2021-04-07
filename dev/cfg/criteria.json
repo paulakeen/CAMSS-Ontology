@@ -1,0 +1,6 @@
+[
+  {"id": "msp-300-unid-file", "path": "./in/msp-300-unided_criteria.ods"},
+  {"id": "eif-300-unid-file", "path": "./in/eif-300-unided_criteria.ods"},
+  {"id": "msp-310-unid-file", "path": "./in/eif-310-unided_criteria.ods"},
+  {"id": "camss-criteria-file", "path": "./out/ided-camss-criteria.csv"}
+]

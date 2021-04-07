@@ -28,7 +28,8 @@ class CfgWorker:
         """
         return
 
-    def _check_file_existence(self, f: str) -> bool:
+    @staticmethod
+    def _check_file_existence(f: str) -> bool:
         if not path.exists(f):
             logging.warning(f"Info in MODULE 'cfg.base.py', CLASS 'CfgWorker', METHOD '_check_file_existence()'. "
                             f"Info message follows: 'Default file {f} has not been located, probably because a "

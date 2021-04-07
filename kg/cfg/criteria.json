@@ -1,0 +1,5 @@
+[
+  {"id": 0, "scenario": "msp-300-unid-file", "path": "./in/msp-300-unided_criteria.ods"},
+  {"id": 1, "scenario": "eif-300-unid-file", "path": "./in/eif-300-unided_criteria.ods"},
+  {"id": 2, "scenario": "msp-310-unid-file", "path": "./in/eif-310-unided_criteria.ods"}
+]

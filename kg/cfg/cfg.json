@@ -1,20 +1,8 @@
 [
-    {"id": 0, "corpus": "./corpus/EIF310", "comment": "A directory in the local file system containing the CAMSS Assessments to be processed."},
+    {"id": 0, "corpus": "./corpus/test", "comment": "A directory in the local file system containing the CAMSS Assessments to be processed."},
     {"id": 1, "in": "./in", "comment": "A directory containing artefacts used as input for the ETL operations, e.g. RML files, amongst other."},
     {"id": 2, "out":  "./out", "comment": "A directory containing the artefacts produced during the ETL operations, e.g. TTL files."},
-    {"id": 3, "eif_310_ass_statements_csv": "./out/v310-eif-ass-statements.csv", "comment": "the filepath for the dataset containing the assessments of the Scenario EIF, v3.1.0."},
-    {"id": 4, "unided_criteria_csv": "./in/unided_criteria.csv", "comment": "the filepath for the file containing the definition of the CAMSS Criteria prior to its unique identification. This file is processed only once. Once processed, the ids are not mutable any more (they become CAMSS enshrined 'records'."},
-    {"id": 5, "ided_criteria_csv": "./in/ided_criteria.csv", "comment": "the filepath for the file containing the definition of the CAMSS Criteria after unique identification. This file can be generated when needed, but in principle should not be regenerated if the criteria are not updated. It contains the unique and immutable ids of the criteria, jointly with its structure and definitions."},
-    {"id": 6, "rml_mapper_jar_path": "./rml/rmlmapper-4.9.1.jar", "comment": "The jar distributed by rml.io for the mapping of CSV into RDF."},
-    {"id": 7, "camss_criteria_graph_ttl": "./out/camss-criteria-graph.ttl", "comment": "The Turtle file containing the CAMSS criteria definitions and identifiers."},
-    {"id": 8, "camss_criteria_graph_rml": "./criteria/camss-criteria-graph.rml", "comment": "The Turtle file with the instructions to map the CAMSS ided criteria taxonomy into a RDF file."},
-    {"id": 9, "eif_310_cssv_graph_ttl": "./out/cssv-graph.ttl", "comment": "The Turtle file containing the specifications assessed in CAMSS."},
-    {"id": 10, "eif_310_cssv_graph_rml": "./cssv/cssv-graph.rml", "comment": "The Turtle file with the instructions to map the specifications and standards assessed in CAMBSS into a RDF file."},
-    {"id": 11, "eif_310_ass_graph_ttl": "./out/v310-eif.ttl", "comment": "The Turtle file containing the CAMSS assessments"},
-    {"id": 12, "eif_310_ass_graph_rml": "./transformation/v310-eif-graph.rml", "comment": "The Turtle file with the instructions to map the specifications and standards assessed in CAMBSS into a RDF file."},
-    {"id": 13, "eif_310_ass_metadata_csv": "./out/v310-eif-ass-metadata.csv", "comment": "The filepath for the dataset containing the metadata about the assessments of the Scenario EIF, v3.1.0."},
-    {"id": 14, "eif_310_ass_metadata_ttl": "./out/v310-eif-ass-metadata.ttl", "comment": "The filepath for the dataset containing the metadata about the assessments of the Scenario EIF, v3.1.0."},
-    {"id": 15, "eif_310_ass_statements_ttl": "./out/v310-eif-ass-statements.ttl", "comment": "The filepath for the dataset containing the statememts of assessments of the Scenario EIF, v3.1.0."},
-    {"id": 16, "eif_310_ass_metadata_rml": "./transformation/v310-eif-ass-metadata.rml", "comment": "Rules for the transformation of the metadata of Scenario EIF, v3.1.0."},
-    {"id": 17, "eif_310_ass_statements_rml": "./transformation/v310-eif-ass-statements.rml", "comment": "Rules for the transformation of the statements for assessments of Scenario EIF, v3.1.0."}
+    {"id": 3, "store.cfg":  "./cfg/store.json", "comment": "The file containing the parameters for the connections for persistence."},
+    {"id": 4, "criteria.cfg":  "./cfg/criteria.json", "comment": "The file containing the parameters for the management of the CAMSS criteria."},
+    {"id": 5, "ided.criteria.csv": "./in/ided_criteria.csv", "comment": "the filepath for the file containing the definition of the CAMSS Criteria after unique identification. This file can be generated when needed, but in principle should not be regenerated if the criteria are not updated. It contains the unique and immutable ids of the criteria, jointly with its structure and definitions."}
 ]

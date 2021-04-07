@@ -1,0 +1,129 @@
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix csvw: <http://www.w3.org/ns/csvw#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> . 
+@prefix cssv: <http://data.europa.eu/w21/e1f84ab1-bad6-4e95-b37a-e54ba7dfc551#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix : <http://data.europa.eu/w21/e1f84ab1-bad6-4e95-b37a-e54ba7dfc551#> .
+
+
+#################
+# Specification #
+#################
+
+:TriplesMap a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "../out/v310_eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+
+:TriplesMap rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/e1f84ab1-bad6-4e95-b37a-e54ba7dfc551#{spec_id}"
+].
+
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate dct:identifier;
+  rr:objectMap [
+      rr:template "{spec_id}"
+  ]
+].
+
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate cssv:shortName;
+  rr:objectMap [
+      rr:template "{P1}" ; rr:language "en"
+  ]
+].
+
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate dcat:distribution;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/e1f84ab1-bad6-4e95-b37a-e54ba7dfc551#{distribution_id}"
+  ]
+].
+
+#################
+# Distribution  #
+#################
+
+:TriplesMapDistribution a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "../out/v310_eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+
+:TriplesMapDistribution rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/e1f84ab1-bad6-4e95-b37a-e54ba7dfc551#{distribution_id}"
+].
+
+:TriplesMapDistribution rr:predicateObjectMap [
+  rr:predicate rdf:type;
+  rr:objectMap [
+      rr:template "http://www.w3.org/ns/dcat#Distribution"
+  ]
+].
+
+:TriplesMapDistribution rr:predicateObjectMap [
+  rr:predicate dcat:accessURL;
+  rr:objectMap [
+      rr:template "{P2}" ; rr:datatype xsd:anyURI
+  ]
+].
+
+########################
+# Organisation (SDOs)  #
+########################
+
+:TriplesMapSDO a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "../out/v310_eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+
+:TriplesMapSDO rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/e1f84ab1-bad6-4e95-b37a-e54ba7dfc551#{sdo_id}"
+].
+
+:TriplesMapSDO rr:predicateObjectMap [
+  rr:predicate rdf:type;
+  rr:objectMap [
+      rr:template "http://www.w3.org/ns/org#Organization"
+  ]
+].
+
+:TriplesMapSDO rr:predicateObjectMap [
+  rr:predicate skos:prefLabel;
+  rr:objectMap [
+      rr:template "{P3}" ; rr:language "en"
+  ]
+].
