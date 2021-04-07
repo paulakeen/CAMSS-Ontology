@@ -1,5 +1,7 @@
-from util.io import get_files
+import pandas as p
+from util.io import get_files, pv
 from cfg.conf import Cfg
+from ass.assessment import Assessment
 
 
 class Assessments:
@@ -7,15 +9,29 @@ class Assessments:
     Handles off collections of assessments.
     """
     cfg: Cfg
+    metadata: []
+    CSV_METADATA_COLS = ['ASSESSMENT_ID', 'SCENARIO', 'TOOLKIT_VERSION', 'ASSESSMENT_TITLE']
 
     def __init__(self, cfg: Cfg):
         self.cfg = cfg
+        self.metadata = []
 
-    def get_ass_metadata(self) -> []:
+    def get_ass_metadata_list(self) -> []:
         """
         Given a corpus of assessments, returns the basic metadata about the assessments contained therein
         :return: A vector with the basic metadata of each assessment found in the corpus
         """
         corpus_dir = self.cfg.get[0]['corpus']
-        for ass in get_files(corpus_dir):
-            print(ass)
+        for _, fp, _, _ in get_files(corpus_dir):
+            pv(top=f'processing file {fp} ...', verbose=True, nl=False)
+            ass = Assessment(self.cfg, fp)
+            md = [ass.get_id(), ass.get_scenario(), ass.get_toolkit_version().value, ass.get_title()]
+            self.metadata.append(md)
+            pv(top=f'Done!', verbose=True, nl=True)
+        pv(top='All files processed.')
+        return self.metadata
+
+    def to_csv(self, out_file_pathname: str):
+        data = self.get_ass_metadata_list()
+        df = p.DataFrame(data=data, columns=self.CSV_METADATA_COLS)
+        df.to_csv(out_file_pathname, index=False)

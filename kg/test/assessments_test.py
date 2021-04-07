@@ -17,12 +17,8 @@ class AssessmentTest(unittest.TestCase):
 
     def test_get_ass_list(self):
         ass = Assessments(self.cfg)
-        ass.get_ass_metadata()
+        ass.to_csv('../out/ass_basic_metadata.csv')
         return
-
-    def test_list(self):
-        assl = Assessments(self.cfg)
-        print(assl.get_ass_metadata())
 
     def tearDown(self) -> None:
         return

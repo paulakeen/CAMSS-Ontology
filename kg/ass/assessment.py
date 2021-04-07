@@ -92,9 +92,13 @@ class Assessment:
         if self.tool_version == ToolVersion.v1_0:
             self._open_sheet('CAMSS Proposal')
             self.title = self.ass_df.loc[1, 'Unnamed: 8']
+
         if self.tool_version == ToolVersion.v2_0_0 and self.scenario == 'MSP':
             self._open_sheet('Setup_MSP')
             self.title = self.ass_df.loc[22, 'Unnamed: 7']
+        elif self.tool_version == ToolVersion.v3_0_0 and self.scenario == 'MSP':
+            self._open_sheet('Setup_MSP')
+            self.title = self.ass_df.loc[21, 'Unnamed: 7']
         elif self.scenario == 'EIF' and (self.tool_version == ToolVersion.v3_0_0 or self.tool_version == ToolVersion.v3_1_0):
             self._open_sheet('Setup_EIF')
             self.title = self.ass_df.loc[35, 'Unnamed: 7']
@@ -105,6 +109,6 @@ class Assessment:
         Creates a unique identifier for this assessment.
         :return: Returns a SHA-256 hash of the concatenation of 'scenario + toolkit_version + title'
         """
-        ret = self.get_toolkit_version().value + self.get_scenario() + self.get_title()
+        ret = str(self.get_toolkit_version().value) + self.get_scenario() + self.get_title()
         self.id = sha256(ret)
         return self.id

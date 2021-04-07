@@ -20,7 +20,8 @@ class AssessmentTest(unittest.TestCase):
               f'toolkit version: {str(self.ass.get_toolkit_version().value)}, '
               f'title: {self.ass.get_title()}, '
               f'id: {self.ass.get_id()}')
-        self.ass = Assessment(self.cfg, '../corpus/misc/CAMSS Assessment_ASiC Baseline Profile_EIF Scenario_v.1.0.0.xlsm')
+        self.ass = Assessment(self.cfg,
+                              '../corpus/misc/CAMSS Assessment_ASiC Baseline Profile_EIF Scenario_v.1.0.0.xlsm')
         print(f'scenario: {self.ass.get_scenario()}, '
               f'toolkit version: {str(self.ass.get_toolkit_version().value)}, '
               f'title: {self.ass.get_title()}, '
