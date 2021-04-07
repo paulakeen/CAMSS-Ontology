@@ -1,6 +1,6 @@
 import unittest
 from cfg.conf import Cfg
-from extraction.assessment import Assessment
+from ass.assessment import Assessment
 
 
 class AssessmentTest(unittest.TestCase):
@@ -35,8 +35,6 @@ class AssessmentTest(unittest.TestCase):
               f'toolkit version: {str(self.ass.get_toolkit_version().value)}, '
               f'title: {self.ass.get_title()}, '
               f'id: {self.ass.get_id()}')
-
-
         return
 
     def tearDown(self) -> None:

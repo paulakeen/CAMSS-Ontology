@@ -1,5 +1,5 @@
 [
-    {"id": 0, "corpus": "./corpus/test", "comment": "A directory in the local file system containing the CAMSS Assessments to be processed."},
+    {"id": 0, "corpus": "./corpus/misc", "comment": "A directory in the local file system containing the CAMSS Assessments to be processed."},
     {"id": 1, "in": "./in", "comment": "A directory containing artefacts used as input for the ETL operations, e.g. RML files, amongst other."},
     {"id": 2, "out":  "./out", "comment": "A directory containing the artefacts produced during the ETL operations, e.g. TTL files."},
     {"id": 3, "store.cfg":  "./cfg/store.json", "comment": "The file containing the parameters for the connections for persistence."},
