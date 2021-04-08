@@ -18,7 +18,7 @@ class Assessment:
     MSP_300_TOOLKIT_VERSION_LINE_NUMBER = 13
     MSP_300_COL_DATA_ID = 'Unnamed: 4'
 
-    def __init__(self, cfg: Cfg, file_path: str = None):
+    def __init__(self, cfg: Cfg = None, file_path: str = None):
         self.cfg = cfg
         self.ass_file_path = file_path
         self.tool_version = None
@@ -28,22 +28,22 @@ class Assessment:
         self._init()
         return
 
-    def _open_ass(self):
+    def open_ass(self) -> p.DataFrame:
         """
         Loads the page 0 of an assessment into a Data Frame
         """
         self.ass_df = p.read_excel(self.ass_file_path)
-        return
+        return self.ass_df
 
-    def _open_sheet(self, sheet_name: str):
+    def open_sheet(self, sheet_name: str):
         """
-                Loads the page 0 of an assessment into a Data Frame
-                """
+        Loads a named page of an assessment into a Data Frame
+        """
         self.ass_df = p.read_excel(self.ass_file_path, sheet_name)
         return
 
     def _init(self):
-        self._open_ass()
+        self.open_ass()
         self.get_toolkit_version()
         self.get_scenario()
 
@@ -90,17 +90,16 @@ class Assessment:
 
     def get_title(self) -> str:
         if self.tool_version == ToolVersion.v1_0:
-            self._open_sheet('CAMSS Proposal')
+            self.open_sheet('CAMSS Proposal')
             self.title = self.ass_df.loc[1, 'Unnamed: 8']
-
         if self.tool_version == ToolVersion.v2_0_0 and self.scenario == 'MSP':
-            self._open_sheet('Setup_MSP')
+            self.open_sheet('Setup_MSP')
             self.title = self.ass_df.loc[22, 'Unnamed: 7']
         elif self.tool_version == ToolVersion.v3_0_0 and self.scenario == 'MSP':
-            self._open_sheet('Setup_MSP')
+            self.open_sheet('Setup_MSP')
             self.title = self.ass_df.loc[21, 'Unnamed: 7']
         elif self.scenario == 'EIF' and (self.tool_version == ToolVersion.v3_0_0 or self.tool_version == ToolVersion.v3_1_0):
-            self._open_sheet('Setup_EIF')
+            self.open_sheet('Setup_EIF')
             self.title = self.ass_df.loc[35, 'Unnamed: 7']
         return self.title.strip('\n').strip('.').strip(';').strip()
 
@@ -112,3 +111,6 @@ class Assessment:
         ret = str(self.get_toolkit_version().value) + self.get_scenario() + self.get_title()
         self.id = sha256(ret)
         return self.id
+
+    def get_cfg(self) -> Cfg:
+        return self.cfg
