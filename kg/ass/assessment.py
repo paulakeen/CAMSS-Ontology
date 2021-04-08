@@ -14,6 +14,7 @@ class Assessment:
     ass_file_path: str
     ass_df: p.DataFrame
     id: str
+    ss: p.ExcelFile
 
     MSP_300_TOOLKIT_VERSION_LINE_NUMBER = 13
     MSP_300_COL_DATA_ID = 'Unnamed: 4'
@@ -25,25 +26,34 @@ class Assessment:
         self.scenario = None
         self.title = None
         self.id = None
+        self.book = None
         self._init()
+
         return
 
-    def open_ass(self) -> p.DataFrame:
+    def open(self) -> p.ExcelFile:
         """
-        Loads the page 0 of an assessment into a Data Frame
+        Loads the page 0 of an assessment into a Data Frame.
+        Please check this page for details on the use of open and sheet:
+        https://stackoverflow.com/questions/26521266/using-pandas-to-pd-read-excel-for-multiple-worksheets-of-the-same-workbook
+        :return: the book containing the CAMSS Assessment
         """
-        self.ass_df = p.read_excel(self.ass_file_path)
-        return self.ass_df
+        self.book = p.ExcelFile(self.ass_file_path)
+        self.ass_df = p.read_excel(self.book, sheet_name=0)
+        return self.book
 
-    def open_sheet(self, sheet_name: str):
+    def sheet(self, sheet_name: str) -> p.DataFrame:
         """
         Loads a named page of an assessment into a Data Frame
+        Please check this page for details on the use of open and sheet:
+        https://stackoverflow.com/questions/26521266/using-pandas-to-pd-read-excel-for-multiple-worksheets-of-the-same-workbook
+        :return: the specific book-spread-sheet indicated in the parameter
         """
-        self.ass_df = p.read_excel(self.ass_file_path, sheet_name)
-        return
+        self.ass_df = p.read_excel(self.book, sheet_name)
+        return self.ass_df
 
     def _init(self):
-        self.open_ass()
+        self.open()
         self.get_toolkit_version()
         self.get_scenario()
 
@@ -90,16 +100,16 @@ class Assessment:
 
     def get_title(self) -> str:
         if self.tool_version == ToolVersion.v1_0:
-            self.open_sheet('CAMSS Proposal')
+            self.sheet('CAMSS Proposal')
             self.title = self.ass_df.loc[1, 'Unnamed: 8']
         if self.tool_version == ToolVersion.v2_0_0 and self.scenario == 'MSP':
-            self.open_sheet('Setup_MSP')
+            self.sheet('Setup_MSP')
             self.title = self.ass_df.loc[22, 'Unnamed: 7']
         elif self.tool_version == ToolVersion.v3_0_0 and self.scenario == 'MSP':
-            self.open_sheet('Setup_MSP')
+            self.sheet('Setup_MSP')
             self.title = self.ass_df.loc[21, 'Unnamed: 7']
         elif self.scenario == 'EIF' and (self.tool_version == ToolVersion.v3_0_0 or self.tool_version == ToolVersion.v3_1_0):
-            self.open_sheet('Setup_EIF')
+            self.sheet('Setup_EIF')
             self.title = self.ass_df.loc[35, 'Unnamed: 7']
         return self.title.strip('\n').strip('.').strip(';').strip()
 

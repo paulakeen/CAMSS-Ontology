@@ -1,6 +1,7 @@
 from cfg.conf import Cfg
 from util.io import get_files
 from ass.assessment import Assessment
+from ass.extractor import Extractor
 
 CFG_FILE = './cfg/cfg.json'
 
@@ -12,8 +13,10 @@ def _get_assessments(cfg: Cfg):
 
 
 def _run(cfg: Cfg):
+
     for ass in _get_assessments(cfg):
-        ass.extract()
+        # Extracts the content of a CAMSS Assessment into a 'flattened' CSV file (see ./out dir in cfg file).
+        Extractor(ass).to_csv()
     return
 
 

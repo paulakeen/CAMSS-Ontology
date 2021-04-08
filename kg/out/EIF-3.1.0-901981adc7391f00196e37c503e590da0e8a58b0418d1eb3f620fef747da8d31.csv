@@ -1,0 +1,162 @@
+assessment_id,assessment_title,tool_version,tool_release_date,scenario,submitter_unit_id,L1,submitter_org_id,L2,L3,L4,L5,L6,L7,scenario_id,L8,spec_id,distribution_id,P1,P2,sdo_id,P3,P4,P5,P6,C1,C2,C3,assessment_date,io_spec_type,A1_Criterion_ID,A1_Criterion_Value_ID,A1_Criterion_Value,A1_Criterion_Justification_ID,A1_Criterion_Justification,A2_Criterion_ID,A2_Criterion_Value_ID,A2_Criterion_Value,A2_Criterion_Justification_ID,A2_Criterion_Justification,A3_Criterion_ID,A3_Criterion_Value_ID,A3_Criterion_Value,A3_Criterion_Justification_ID,A3_Criterion_Justification,A4_Criterion_ID,A4_Criterion_Value_ID,A4_Criterion_Value,A4_Criterion_Justification_ID,A4_Criterion_Justification,A5_Criterion_ID,A5_Criterion_Value_ID,A5_Criterion_Value,A5_Criterion_Justification_ID,A5_Criterion_Justification,A6_Criterion_ID,A6_Criterion_Value_ID,A6_Criterion_Value,A6_Criterion_Justification_ID,A6_Criterion_Justification,A7_Criterion_ID,A7_Criterion_Value_ID,A7_Criterion_Value,A7_Criterion_Justification_ID,A7_Criterion_Justification,A8_Criterion_ID,A8_Criterion_Value_ID,A8_Criterion_Value,A8_Criterion_Justification_ID,A8_Criterion_Justification,A9_Criterion_ID,A9_Criterion_Value_ID,A9_Criterion_Value,A9_Criterion_Justification_ID,A9_Criterion_Justification,A10_Criterion_ID,A10_Criterion_Value_ID,A10_Criterion_Value,A10_Criterion_Justification_ID,A10_Criterion_Justification,A11_Criterion_ID,A11_Criterion_Value_ID,A11_Criterion_Value,A11_Criterion_Justification_ID,A11_Criterion_Justification,A12_Criterion_ID,A12_Criterion_Value_ID,A12_Criterion_Value,A12_Criterion_Justification_ID,A12_Criterion_Justification,A13_Criterion_ID,A13_Criterion_Value_ID,A13_Criterion_Value,A13_Criterion_Justification_ID,A13_Criterion_Justification,A14_Criterion_ID,A14_Criterion_Value_ID,A14_Criterion_Value,A14_Criterion_Justification_ID,A14_Criterion_Justification,A15_Criterion_ID,A15_Criterion_Value_ID,A15_Criterion_Value,A15_Criterion_Justification_ID,A15_Criterion_Justification,A16_Criterion_ID,A16_Criterion_Value_ID,A16_Criterion_Value,A16_Criterion_Justification_ID,A16_Criterion_Justification,A17_Criterion_ID,A17_Criterion_Value_ID,A17_Criterion_Value,A17_Criterion_Justification_ID,A17_Criterion_Justification,A18_Criterion_ID,A18_Criterion_Value_ID,A18_Criterion_Value,A18_Criterion_Justification_ID,A18_Criterion_Justification,A19_Criterion_ID,A19_Criterion_Value_ID,A19_Criterion_Value,A19_Criterion_Justification_ID,A19_Criterion_Justification,A20_Criterion_ID,A20_Criterion_Value_ID,A20_Criterion_Value,A20_Criterion_Justification_ID,A20_Criterion_Justification,A21_Criterion_ID,A21_Criterion_Value_ID,A21_Criterion_Value,A21_Criterion_Justification_ID,A21_Criterion_Justification,A22_Criterion_ID,A22_Criterion_Value_ID,A22_Criterion_Value,A22_Criterion_Justification_ID,A22_Criterion_Justification,A23_Criterion_ID,A23_Criterion_Value_ID,A23_Criterion_Value,A23_Criterion_Justification_ID,A23_Criterion_Justification,A24_Criterion_ID,A24_Criterion_Value_ID,A24_Criterion_Value,A24_Criterion_Justification_ID,A24_Criterion_Justification,A25_Criterion_ID,A25_Criterion_Value_ID,A25_Criterion_Value,A25_Criterion_Justification_ID,A25_Criterion_Justification,A26_Criterion_ID,A26_Criterion_Value_ID,A26_Criterion_Value,A26_Criterion_Justification_ID,A26_Criterion_Justification,A27_Criterion_ID,A27_Criterion_Value_ID,A27_Criterion_Value,A27_Criterion_Justification_ID,A27_Criterion_Justification,A28_Criterion_ID,A28_Criterion_Value_ID,A28_Criterion_Value,A28_Criterion_Justification_ID,A28_Criterion_Justification,A29_Criterion_ID,A29_Criterion_Value_ID,A29_Criterion_Value,A29_Criterion_Justification_ID,A29_Criterion_Justification,A30_Criterion_ID,A30_Criterion_Value_ID,A30_Criterion_Value,A30_Criterion_Justification_ID,A30_Criterion_Justification,A31_Criterion_ID,A31_Criterion_Value_ID,A31_Criterion_Value,A31_Criterion_Justification_ID,A31_Criterion_Justification,A32_Criterion_ID,A32_Criterion_Value_ID,A32_Criterion_Value,A32_Criterion_Justification_ID,A32_Criterion_Justification,A33_Criterion_ID,A33_Criterion_Value_ID,A33_Criterion_Value,A33_Criterion_Justification_ID,A33_Criterion_Justification,A34_Criterion_ID,A34_Criterion_Value_ID,A34_Criterion_Value,A34_Criterion_Justification_ID,A34_Criterion_Justification,A35_Criterion_ID,A35_Criterion_Value_ID,A35_Criterion_Value,A35_Criterion_Justification_ID,A35_Criterion_Justification,A36_Criterion_ID,A36_Criterion_Value_ID,A36_Criterion_Value,A36_Criterion_Justification_ID,A36_Criterion_Justification,A37_Criterion_ID,A37_Criterion_Value_ID,A37_Criterion_Value,A37_Criterion_Justification_ID,A37_Criterion_Justification,A38_Criterion_ID,A38_Criterion_Value_ID,A38_Criterion_Value,A38_Criterion_Justification_ID,A38_Criterion_Justification,A39_Criterion_ID,A39_Criterion_Value_ID,A39_Criterion_Value,A39_Criterion_Justification_ID,A39_Criterion_Justification
+901981adc7391f00196e37c503e590da0e8a58b0418d1eb3f620fef747da8d31,Asset Description Metadata Schema (ADMS),ToolVersion.v3_1_0,31/03/2020,EIF,5c0509f7568696d426de2893d44096f36d8ae2ba4a3fea25d0943a9fd276d640,CAMSS Team,ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164,everis,,,,CAMSS@everis.com,2020-06-30,fa3a7cf6ccb859ff672f6579e000e61d96f0756c83c13b96e3139ae97beb13bd,European Interoperability Framework (EIF),e4940944a20f90dcd28ec5ccaa3bbd3cb74c15004568cc32968faeb0819a69a2,96855401-887f-4ff6-a255-9b966758bddb,Asset Description Metadata Schema (ADMS),https://www.w3.org/TR/vocab-adms/,9636eed232bdd72a742cfe71b68d60e9ec229b756af663ec6518b2809a843c23,W3C (http://www.w3.org),,,,,,,2020-06-30,Generic Specification,8eb17470327d32b3bb523447fe72ee5c60ddb03e81dae318b485fbe05f48a844,061ea0fb-2e98-4937-84aa-ebd6ebed842e,1,0fb268c3-fbe7-4fe4-a3fd-58e3445e0224,"ADMS is included in the national catalogue of Slovakia. The National Interoperability Framework (NIF) of this Member State is fully aligned with at least 4 out of 5 sections of the European Interoperability Framework (EIF) according to the National Interoperability Framework Observatory (NIFO) factsheets. 
+
+Slovakia’s Catalogue:
+http://www.informatizacia.sk/standardy-is-vs/596s
+
+NIFO factsheets:
+https://joinup.ec.europa.eu/collection/national-interoperability-framework-observatory-nifo/nifo-factsheets",02333ef99fbcb4f101a106bcf97c9559888756b085b1729b7c2ac9626dc4bc63,484a1bf8-3c33-485b-9ba9-c2d4675a7c62,1,e6c1bd60-c661-49af-84a8-af5010aa651e,"ADMS is an RDF vocabulary for representing concepts of a repository, intended to facilitate the co-operation. By describing the assets, releases, and distributions of a repository, it fosters the publications of data and its discoverability. _x000D_In fact, ADMS is the basis for the ADMS-AP used in Joinup to describe the different reusable solutions and make them better discoverable and reusable across borders. _x000D_
+_x000D_
+ADMS in Joinup:_x000D_
+https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/adms",f70d8bc1b4b6e186d69ea3f7f8cc7b2d75314b84e7f481ebe13b4e6ed8b36598,264b667c-61e5-48e7-800e-6f3feddb612f,1,b39553d4-ffbe-489a-add6-7c5a65b0354b,"W3C has a defined and publicly available Process for the Development and approval process of the specification as a recommended standard. Also, a clear Release Notes tracking the changes of the different versions is archived. 
+             
+W3C Process document:
+https://www.w3.org/2018/Process-20180201/#Policies",7aa038b5496afb8cb229c692be9a2adc175deb2d5d47e35ad67e027c9eac28ba,5059d02c-372c-4e5f-92ef-3100a7ee1c63,1,17258a5f-81e8-43a0-8c5c-2f80110f5ef5,"W3C has a defined and publicly available Process for the Development and approval process of the specification as a recommended standard, including a public review.
+
+W3C Process document:
+https://www.w3.org/2018/Process-20180201/#Policies",31bf959b6c4a983ec70eb87e0177f2739575ebce42c7c3b95b9012ef3bfe673e,ecbef6fa-de79-4115-a39f-03c54d083218,1,1d586d60-7037-4a6c-967b-01d85f71acd9,"ADMS is publicly available for implementation and study for free on W3C's webpage. 
+
+ADMS Specification W3C:
+https://www.w3.org/TR/vocab-adms/
+
+ADMS in Joinup:
+https://joinup.ec.europa.eu/solution/asset-description-metadata-schema-adms/about",a81c4b8658f57e819297eb0b7977407f8d814c6fe749c74a8ac497277ca7d9d8,b4e0013b-601f-4aa5-a861-a4bef8436cc5,1,098f4a0e-ed36-4a29-a272-bae873547d1f,"The W3C Royalty-Free IPR licenses granted under the W3C Patent Policy apply to all W3C specifications, including ADMS.
+
+W3C Patent practice:
+https://www.w3.org/TR/patent-practice#ref-AC",1cd71a7b6d54631ba58cc8b0655a443d696f49ec74a0f4cccc871de7789d6a60,9ae6afc5-3de4-48f8-a20d-39ec1afcbe9f,1,60a64260-0814-4193-afe9-79be107e457b,"The W3C Royalty-Free IPR licenses granted under the W3C Patent Policy apply to all W3C specifications, including ADMS.
+
+W3C Patent practice:
+https://www.w3.org/TR/patent-practice#ref-AC",6bedf555bffb837990b9eb353447fa116eb9d2384770b1dd3de46d3c5901d4f4,765852cd-02b5-4c5c-a84f-b79973f8fdaf,1,f1e4b7f4-0025-4be8-b4b3-c6883fe78e2c,"The specification was developed in 2012 and has been implemented at European level, and it has been evolved together with the application profile used in the European Platform for the reusability of interoperability Solutions, Joinup. 
+
+ADMS in Joinup:
+https://joinup.ec.europa.eu/solution/asset-description-metadata-schema-adms/about",d129862d6c9639e131c7d5eef095af16ef94d57ec0d52f955bf909ba8ec688e8,49289f7d-fde3-4f56-902e-062835444597,1,209be3b3-5e9a-4856-bee4-4f4bf9f96bb9,"The specification is currently implemented in several initiatives in the public sector. This is a key point that reflects the market acceptance of the specification by the public administrations and institutions in Europe. 
+Some implementations of the ADMS are Metadata Registry (MDR), ADMS-enabled description of a vocabulary implemented in PoolParty Thesaurus Manager 3.1.0, and the Implementation for the XRepository of the German Federal Ministry of the interior. 
+
+ADMS in Joinup:
+https://joinup.ec.europa.eu/solution/asset-description-metadata-schema-adms/about",21276471c1781fa2c7e78c8e03851e076b840beddbf5cf64f53b54b8855a01b8,a2d7992f-0918-423e-8c3d-fd8c914709b4,0,63d891c4-5b4d-465c-a236-43730f3100a5,"Even though at the moment of elaborating the assessment the specification is used in the context of the cross-border reusability of interoperability solutions, the specification in itself is used to describe these solutions in a repository. Therefore, ADMS does not foster the creation of innovative solutions. ",b21a3eb972a2119979bc57368474efa809e8dd16cede48bc492e8b64da1abee9,33e2969e-3175-438e-bf56-decb5372145e,1,53b7ffbb-f16a-484e-bd39-10d1263aa1b8,"ADMS was developed and it is maintained by W3C which is an international community developing open standards.
+
+ADMS in W3C:
+https://www.w3.org/TR/vocab-adms/
+
+ADMS in Joinup:
+https://joinup.ec.europa.eu/solution/asset-description-metadata-schema-adms/about",19598487b8ba278c3438dcfd74b74d9aad51beac08c53dbf40bf108ed09e72b2,5e631957-d7cc-4d68-a34b-d5ad6c86c0bf,1,0e85a41f-2f19-4e42-bba3-20674a697d9b,"By using ADMS to describe assets/solutions, the administrations ensure and enhance the visibility of these solutions and assets that are involved in the development of EU administrations’ activity. 
+
+ADMS on Joinup:
+https://joinup.ec.europa.eu/solution/asset-description-metadata-schema-adms/about
+
+ADMS Specification W3C:
+https://www.w3.org/TR/vocab-adms/",7ab883158b51681c78f90d1a00bbb3840aa2c86e309a9abd1ad6e6eedb5e2735,3d3d2ef6-53fb-4139-9381-f2c775312826,1,0172e1b0-7675-4dd1-bb3d-1b58a6bb2c96,"ADMS provides a standardised method for describing assets and their distributions. Therefore, while providing a common way and components for the metadata provision, it helps the comprehensibility of data and services of Public administrations across borders.
+
+ADMS on Joinup:
+https://joinup.ec.europa.eu/solution/asset-description-metadata-schema-adms/about
+
+ADMS Specification W3C:
+https://www.w3.org/TR/vocab-adms/",33ea90f5c1bb01d4398c57d03a25934dc5722d5ddbc98a43911ea4fb302ec54c,c552f50e-9882-48a0-9e7c-c0c6e9e81621,1,3aecd9a9-1fe8-47f0-9339-572e5b82eb46,"ADMS does not directly help with the provision of application programming interfaces (APIs) or Web services. However, the specification allows to provide a standardised description for assets in a repository. As well, it allows the discoverability of resources from a single access point. An example of this is the European platform, Joinup. 
+
+ADMS on Joinup:
+https://joinup.ec.europa.eu/solution/asset-description-metadata-schema-adms/about
+
+ADMS Specification W3C:
+https://www.w3.org/TR/vocab-adms/",3aec34db3622bf18675b8216d0fc1d68fc7eeb501b4f3326402038a3ceb95c21,2bc55967-e229-482f-89f7-0bbb40799f75,1,961f8eb9-e169-4846-b09a-708378041798,"Although ADMS was developed taking into account the perspective of the eGovernment System Development, it is a vocabulary that could be reused beyond this domain. It aims to ease the standardisation of assets description in assets repositories, to enhance the discoverability and reuse of assets and solutions. 
+
+ADMS Specification W3C:
+https://www.w3.org/TR/vocab-adms/",c2cedd44f05183dae5548108bdeace2c092b84c7c5d89c475b0741ddae7fc7b2,18c5246a-d76e-4120-8256-235ffeea2ea4,1,e46a2e40-e339-417c-ad7b-0b13d9a555d6,"ADMS is publicly available for implementation and use for free on W3C's webpage. Therefore, it can be reused by the organisations, administrations, open communities, etc. that developed it.
+
+ADMS on Joinup:
+https://joinup.ec.europa.eu/solution/asset-description-metadata-schema-adms/about
+
+ADMS Specification W3C:
+https://www.w3.org/TR/vocab-adms/",17bea234285e6e633e4e21105358610ad5f5f0eaaf82f4bd50cb64ec11538984,169c2b8b-6579-4750-9e2d-2d21e701f8d1,1,40738a75-db9a-4c81-96a7-c582b1754bfa,"ADMS can be found for free along within the European Collaborative Platform, Joinup.
+
+ADMS on Joinup:
+https://joinup.ec.europa.eu/solution/asset-description-metadata-schema-adms/about",5879b43fc249f0098f3ed687235f432f71bf0c11bd3aa95e063dfdacd64606c8,d635e1bc-003b-4938-8e7f-c2789f8ee0db,0,e4909dda-a418-44c2-a0ce-28c5ffdc01e2,"Like other vocabularies, ADMS reuses components from other vocabularies. (e.g. foaf, dcat), and also the resource Description Framework (RDF). This causes a dependency that can hamper the interoperability in those cases where new releases of the reused vocabularies are not backward compatible. 
+
+ADMS Specification W3C:
+https://www.w3.org/TR/vocab-adms/",ba46c76c10ad769a23ce4a9a34cb4d96a00407d5fc14ad1c791a870be7563c2b,efd95c83-3c4e-4545-9ca1-0ba67fec5be4,1,53c7c5ed-023e-4d4e-9c1b-8caba82ce1c7,"ADMS, as a vocabulary, can be implemented and reused independently of the amounts of data without hampering the scalability or the interoperability of systems. The reuse of the specification for the description of Interoperability Solutions or assets would ease and enhance the interoperability. 
+
+ADMS Specification W3C:
+https://www.w3.org/TR/vocab-adms/",ab64f97c21ac8b84c75d6f52a89765b1c8fd1856d2d2060926d05e94f306a88d,fa93de01-4739-46b1-9fb2-39e753ca6656,1,5a50edd5-6619-4c04-9c6d-d478bf27b750,"ADMS supports the evolution of European Public Services by enhancing the discoverability and reuse of interoperability solutions. 
+
+ADMS on Joinup:
+https://joinup.ec.europa.eu/solution/asset-description-metadata-schema-adms/about
+
+ADMS Specification W3C:
+https://www.w3.org/TR/vocab-adms/",624bc49501d58649e27cae4fb89fb5a56844685e54c5ce1625633894f8f752e1,43601ea6-c525-4a39-810d-619401b08731,0,a1569633-cda5-42a5-a67d-bd4da37d8e01,"ADMS’s purpose is the description of Assets within a Catalogue (repository), making them easy to discover and reuse. However, it is not related to foster the one-only principle between administrations and stakeholders.
+
+ADMS Specification W3C:
+https://www.w3.org/TR/vocab-adms/",fef5941bab92019b7692f8544de94715a42ed9ff76d89cbec4fb6f9821611925,76a69646-83fb-45cd-8e33-6aa065f3e067,2,4cfadaac-bcd8-4e15-b472-8b88ba469892,"The purpose of ADMS is not related to e-accessibility. Therefore, this criterion is considered not applicable to this specification.
+
+ADMS Specification W3C:
+https://www.w3.org/TR/vocab-adms/",483e8900c47b40bc67a6bd1cbfce07884b9ac5f2c85e0214f334cc37e4e65c35,b1c2473c-f3f0-48a6-ae4e-8f672bfdd987,1,fca4ccbd-f5c9-4a70-a12e-470b8f5f19d5,"As a vocabulary to describe assets within a Repository, it provides concepts and properties identifying the content creators and other informative metadata such as dates involved in the release of the solutions described. These facts increase the reliability of the exchanged data. _x000D_
+_x000D_
+ADMS Specification W3C:_x000D_
+https://www.w3.org/TR/vocab-adms/",4ac14cafe608f1dbe7e48f96edd7574c55f0aac2c2e99ede0418dae7225977af,d71a2a9c-46c6-4e6b-9668-b7fb86a13112,2,ed143dbe-2c25-4666-a9c6-27fa45ea17cd,"The purpose of ADMS is not related to the delivery of multilingual public services. Therefore, this criterion is not applicable to this specification. 
+
+ADMS Specification W3C:
+https://www.w3.org/TR/vocab-adms/",ffdbd22af1ff3c1ebb100043d062a3df160007af761caf0a8c9f50f02e609c9e,76dd4f75-e306-4144-9f6c-55136ed4407a,1,b79be331-b846-435f-8ec0-193ee42130fc,"ADMS helps to search, identify, retrieve, compare semantic assets to be reused by public administrations, it can help to reduce the administrative burden related to the development and design of solutions. 
+
+ADMS on Joinup:
+https://joinup.ec.europa.eu/solution/asset-description-metadata-schema-adms/about
+
+ADMS Specification W3C:
+https://www.w3.org/TR/vocab-adms/",8a34a40e5bc5436b3530d898d75a57cf0488591887b31a5169499fe78952d84c,0ee9fc3d-3fb6-4414-8d53-491eb543bf8d,1,56800a76-b2dc-47b2-9bed-fad459d55e98,"Although ADMS’s purpose is not the long-term preservations, it can be used to document and store semantic assets. 
+
+ADMS on Joinup:
+https://joinup.ec.europa.eu/solution/asset-description-metadata-schema-adms/about
+
+ADMS Specification W3C:
+https://www.w3.org/TR/vocab-adms/",cc5bd9a7d0b2acc7f246522414fd5f5d579b977180bb04fa60a545cb35dae90f,047902e7-bb0e-40a2-b4d3-496fbfcddd19,0,c420edc5-467d-4136-a14e-a3bfb963b90f,"After having researched the effectiveness and efficiency of the ADMS, no study or documentation assessing the specification in terms of effectiveness and efficiency has been found to justify this criterion. ",7d28663fdb5deb361d5ad773d7b7ece3c6acf8d2eb7a1222a60cb08df4c93aac,69c689fc-aa72-45d8-b803-d67a7bcbb4ff,1,9b8b906b-33bf-4c16-ab62-835f7182f844,"ADMS is already associated with EIRA ABBs in the European Library Of Specifications (ELIS). More specifically, ADMS can define the interoperability aspects of the ""Data"" ABB from the Semantic View, and ""Metadata Management Component”, “Metadata Management Service”, “Data Publication Component”, and “Data Publication Service” ABBs of the EIRA Technical View.
+
+EIRA Library of Interoperability Specifications (ELIS):
+https://joinup.ec.europa.eu/solution/elis/release/v100",c967c90bfc7bc13426924eca012de349ae51d4e8f652fe64bfbec2cccc8c8146,f4553b2c-809c-4551-b238-ce7c9d54ce10,0,f85fbbfe-812c-4c15-9461-5ab74b292fee,After searching for a certification or conformity test to validate ADMS no tool has been found that assess the conformity of the specification.,8c09094de9d71f12686896827a205db683b6df58fa363bc5be2a7d99989e7dd0,038e5663-9acf-46dc-be66-a87060518ea2,1,94454073-4793-4be1-889b-51b5ea7ccd5f,"Slovakia is recommending ADMS in its ICT National Catalogues. 
+
+Slovakia’s Catalogue:
+http://www.informatizacia.sk/standardy-is-vs/596s
+
+CAMSS List of standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards",39ffef052c31580b50b418f3991e9de7db4dc182fcf96f5a447d7f8e09560612,32130ed6-e7f2-48b4-9452-f6a8fd16b0c3,1,998474f0-c2c0-4c54-966b-c55f70065a8f,"ADMS is used as the basis for the ADMS-AP, which is the backbone of the European cross-border platform for the reuse of interoperability solutions Joinup. 
+
+ADMS on Joinup:
+https://joinup.ec.europa.eu/solution/asset-description-metadata-schema-adms/about",838030847fa0adf54939e3feaac0ac2510924c54035e1cb671b223b54b02fd70,fdba0254-0b79-47da-83ce-402da944a612,1,6a1e7442-e7ac-4194-9bd5-31aa9eadc008,"The specification is included in Slovakia’s catalogue of recommended specifications. 
+
+Slovakia’s Catalogue:
+http://www.informatizacia.sk/standardy-is-vs/596s
+
+CAMSS List of standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards",7a18abe4842e04b608025fd70e54c3db5c2a10130c0dab0495479e7d5effb55d,0acc78b5-4817-4e82-86b1-f4005637a879,0,c6bf2615-0fd2-4331-944d-6ed91e344796,"After checking the different standard catalogues at supra-national level, there is no evidence of the inclusion of ADMS within any European catalogue of standards.
+
+ICT technical specifications:
+https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en
+
+CEN search tool catalogue:
+https://standards.cen.eu/dyn/www/f?p=CENWEB:105::RESET::::
+
+CENELEC search tool catalogue:
+https://www.cenelec.eu/dyn/www/f?p=104:107:0::::FSP_LANG_ID:25",5df7a9f6081c945a22f500aa0ba2c452b8b9cd9497bd643ac76c39d34a18c319,4f368c02-02b4-4093-a685-a0b199999dda,1,b2c6cfcc-8641-447a-b93d-e3aa159e77b4,"ADMS is being used as the basis of the European Platform for sharing and reuse Interoperability Solutions Joinup. It is done by an application profile developed to address the specific requirements of the platforms and stakeholder. The ADMS-AP is the schema used for the description of the assets included in Joinup, aiming to increase the cooperation between participants. 
+
+ADMS on Joinup:
+https://joinup.ec.europa.eu/solution/asset-description-metadata-schema-adms/about
+
+ADMS Specification W3C:
+https://www.w3.org/TR/vocab-adms/",53abe85b1365f86aa58a25566e54e082ea2d70ee8d9fbaf09ccab20af30f3332,96381a6a-434b-47a1-810d-d9e3206f0a87,0,565121e3-3eef-4636-9362-d3627b63c140,"After checking the assessments performed by CAMSS and the list of specifications identified by the MSP Multi-stakeholder-platform, no assessment verifying the compliance of the specification with the European standardisation regulation has been found.
+
+ICT technical specifications:
+https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en",c265ca0c56e0f29a34039d496ba707b5486ccf6d445f9f058c19b4ece977861f,d168dcbd-1581-4d92-8da3-47e201a9ac7e,2,56d972d5-066b-49f1-8308-2fea842e7318,"The purpose of ADMS is not related to the modelling of business processes. Therefore, this criterion is not applicable to the specification. 
+
+ADMS Specification W3C:
+https://www.w3.org/TR/vocab-adms/",6d48464387e608d3022bd07338cd3859acfb0f84139186a979ef3b96baa51086,d0ed7e96-8e26-4b35-bcaa-fad33cd8572f,2,f979c577-9385-4f7a-87eb-00136ee862c2,"The purpose of ADMS is not related to organisational interoperability. Therefore, this criterion is not applicable to the specification. 
+
+ADMS Specification W3C:
+https://www.w3.org/TR/vocab-adms/",8954ddabf37f4899562b9ea4c8f0bbf204f3e48c9203043bc231f368092396a2,7c79a582-927a-4a41-b9d0-022d4d604f23,1,32c8c0d7-acf9-4646-9fd7-45c43f5d5a8b,"ADMS, as a vocabulary for the description of assets included within a Repository (Catalogue), it can be used to define Interoperability Solutions catalogues, beyond the eGovernement scope. 
+
+ADMS on Joinup:
+https://joinup.ec.europa.eu/solution/asset-description-metadata-schema-adms/about
+
+ADMS Specification W3C:
+https://www.w3.org/TR/vocab-adms/",138786a6e7517e10b94e83ec3b3e7ac79b4c49dcbeaef8d8e993c8df0d173529,273b51d4-7872-464f-94b9-8121f9affeaa,1,6e3464f3-46f1-41d0-befa-336c65dc42df,"ADMS is a vocabulary based on DCAT for the description of Assets, specifically interoperability solutions). In this sense, the ADMS helps the publication and reusability of solutions and their data.
+
+ADMS on Joinup:
+https://joinup.ec.europa.eu/solution/asset-description-metadata-schema-adms/about
+
+ADMS Specification W3C:
+https://www.w3.org/TR/vocab-adms/"
