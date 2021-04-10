@@ -1,5 +1,6 @@
 import pandas as p
 import uuid
+import datetime
 from cfg.conf import Cfg
 from cfg.versions import ToolVersion
 from ass.assessment import Assessment
@@ -41,10 +42,78 @@ class Extractor:
         elif o == 'nan':
             return 2
 
-    def _get_eif_310_metadata(self):
-        self.metadata['assessment_id'] = self.ass.get_id()
-        self.metadata['assessment_title'] = self.ass.get_title()
-        self.metadata['tool_version'] = str(self.version.value)
+    @staticmethod
+    def _reformat_date(rd: str) -> str:
+        rd = rd[len(rd) - 10:]
+        try:
+            rd = str(datetime.datetime.strptime(rd, "%d/%m/%Y").strftime("%Y-%m-%d"))
+        except:
+            pass
+        return rd
+
+    def _get_msp_metadata(self):
+        # 'rd' stands for release date
+        self.metadata['tool_release_date'] = self._reformat_date(rd=str(self.in_df.loc[14, 'Unnamed: 4']))
+        self.metadata['scenario'] = self.in_df.loc[18, 'Unnamed: 4'].strip()
+        # Setup_EIF
+        self.in_df = self.ass.sheet('Setup_EIF')
+        self.metadata['submitter_unit_id'] = sha256(str(self.in_df.loc[5, 'Unnamed: 7']))  # Submitter_id
+        self.metadata['L1'] = self.in_df.loc[5, 'Unnamed: 7']  # Submitter_name *
+        self.metadata['submitter_org_id'] = sha256(str(self.in_df.loc[7, 'Unnamed: 7']))  # submitter_organisation_id
+        self.metadata['L2'] = self.in_df.loc[7, 'Unnamed: 7']  # submitter_organisation
+        self.metadata['L3'] = self.in_df.loc[9, 'Unnamed: 7']  # submitter_role
+        self.metadata['L4'] = self.in_df.loc[11, 'Unnamed: 7']  # submitter_address
+        self.metadata['L5'] = self.in_df.loc[13, 'Unnamed: 7']  # submitter_phone
+        self.metadata['L6'] = self.in_df.loc[15, 'Unnamed: 7']  # submitter_email
+        self.metadata['L7'] = self.in_df.loc[17, 'Unnamed: 7']  # submission_date
+        self.metadata['scenario_id'] = sha256(str(self.in_df.loc[19, 'Unnamed: 7']))  # scenario_id
+        self.metadata['L8'] = self.in_df.loc[19, 'Unnamed: 7']  # scenario
+        self.metadata['spec_id'] = sha256(str(self.in_df.loc[35, 'Unnamed: 7']))  # spec_id, the MD5 of the title
+        self.metadata['distribution_id'] = str(uuid.uuid4())  # distribution_id
+        self.metadata['P1'] = self.in_df.loc[35, 'Unnamed: 7']  # spec_title
+        self.metadata['P2'] = self.in_df.loc[37, 'Unnamed: 7']  # spec_download_url
+        self.metadata['sdo_id'] = sha256(str(self.in_df.loc[39, 'Unnamed: 7']))  # sdo_id (for the Agent instance)
+        self.metadata['P3'] = self.in_df.loc[39, 'Unnamed: 7']  # sdo_name
+        self.metadata['P4'] = self.in_df.loc[41, 'Unnamed: 7']  # sdo_contact_point
+        self.metadata['P5'] = self.in_df.loc[43, 'Unnamed: 7']  # submission_rationale
+        self.metadata['P6'] = self.in_df.loc[45, 'Unnamed: 7']  # other_evaluations
+        self.metadata['C1'] = self.in_df.loc[93, 'Unnamed: 7']  # correctness
+        self.metadata['C2'] = self.in_df.loc[95, 'Unnamed: 7']  # completeness
+        self.metadata['C3'] = self.in_df.loc[97, 'Unnamed: 7']  # egov_interoperability
+        return
+
+    def _get_eif_300_criteria(self):
+        # Criteria
+        self._add_criterion(init=1, end=2, line=16, line_step=2)
+        # OPENNESS
+        self._add_criterion(init=2, end=11, line=22, line_step=2)
+        # TRANSPARENCY
+        self._add_criterion(init=11, end=13, line=42, line_step=2)
+        # REUSABILITY
+        self._add_criterion(init=13, end=15, line=48, line_step=2)
+        # # TECHNOLOGICAL NEUTRALITY
+        self._add_criterion(init=15, end=18, line=54, line_step=2)
+        # USER CENTRICITY
+        # INCLUSION AND ACCESSIBILITY
+        # SECURITY AND PRIVACY
+        # MULTILINGUALISM
+        self._add_criterion(init=18, end=22, line=64, line_step=4)
+        # ADMINISTRATIVE SIMPLIFICATION
+        # PRESERVATION OF INFORMATION
+        # ASSESSMENT OF EFFECTIVENESS AND EFFICIENCY
+        self._add_criterion(init=22, end=25, line=82, line_step=4)
+        # INTEROPERABILITY GOVERNANCE
+        self._add_criterion(init=25, end=31, line=96, line_step=2)
+        # INTEGRATED PUBLIC SERVICE GOVERNANCE
+        # LEGAL INTEROPERABILITY
+        self._add_criterion(init=31, end=33, line=110, line_step=4)
+        # ORGANISATIONAL INTEROPERABILITY
+        self._add_criterion(init=33, end=35, line=121, line_step=2)
+        # SEMANTIC INTEROPERABILITY
+        self._add_criterion(init=35, end=38, line=127, line_step=2)
+        return
+
+    def _get_eif_3x_metadata(self):
         # 'rd' stands for release date
         rd = self.in_df.loc[14, 'Unnamed: 4']
         self.metadata['tool_release_date'] = rd[len(rd) - 10:]
@@ -71,10 +140,20 @@ class Extractor:
         self.metadata['P4'] = self.in_df.loc[41, 'Unnamed: 7']                 # sdo_contact_point
         self.metadata['P5'] = self.in_df.loc[43, 'Unnamed: 7']                 # submission_rationale
         self.metadata['P6'] = self.in_df.loc[45, 'Unnamed: 7']                 # other_evaluations
+        # The following 'Pn' are necessary to build a harmonised CSV that can be later be transformed in the same
+        # way. These additional 'Ps' come from the MSP_300 version
+        self.metadata['P7'] = ''
+        self.metadata['P8'] = ''
+        self.metadata['P9'] = ''
+        self.metadata['P10'] = ''
+        # Considerations
         self.metadata['C1'] = self.in_df.loc[93, 'Unnamed: 7']                 # correctness
         self.metadata['C2'] = self.in_df.loc[95, 'Unnamed: 7']                 # completeness
         self.metadata['C3'] = self.in_df.loc[97, 'Unnamed: 7']                 # egov_interoperability
-        # Assessment_EIF
+        # These other 'Cn' are defined in MSP_300,thus we need to add then to harmonise the CSV
+        self.metadata['C4'] = ''
+        self.metadata['C5'] = ''
+        # Open Criteria page, which name is common for all EIF_3x: 'Assessment_EIF'
         self.in_df = self.ass.sheet('Assessment_EIF')
         self.metadata['assessment_date'] = self.in_df.loc[0, 'Unnamed: 4']  # date of the assessment
         self.metadata['io_spec_type'] = self.in_df.loc[8, 'Unnamed: 4']  # interoperability specification type
@@ -136,10 +215,78 @@ class Extractor:
             data.append(md + criterion)
         return data
 
+    def _get_basic_metadata(self):
+        """
+        The following metadata is common to all versions, calculated in th Assessment class
+        :return: nothing
+        """
+        self.metadata['assessment_id'] = self.ass.get_id()
+        self.metadata['assessment_title'] = self.ass.get_title()
+        self.metadata['tool_version'] = str(self.version.value)
+        return
+
+    def _get_msp_300_metadata(self):
+        # 'rd' stands for release date
+        rd = self.in_df.loc[14, 'Unnamed: 4']
+        self.metadata['tool_release_date'] = rd[len(rd) - 10:]
+        self.metadata['scenario'] = self.in_df.loc[18, 'Unnamed: 4'].strip()
+        # Setup_MSP
+        self.in_df = self.ass.sheet('Setup_MSP')
+        self.metadata['submitter_unit_id'] = sha256(str(self.in_df.loc[5, 'Unnamed: 7']))  # Submitter_id
+        self.metadata['L1'] = self.in_df.loc[5, 'Unnamed: 7']  # Submitter_name *
+        self.metadata['submitter_org_id'] = sha256(str(self.in_df.loc[7, 'Unnamed: 7']))  # submitter_organisation_id
+        self.metadata['L2'] = self.in_df.loc[7, 'Unnamed: 7']  # submitter_organisation
+        self.metadata['L3'] = self.in_df.loc[9, 'Unnamed: 7']  # submitter_role
+        self.metadata['L4'] = self.in_df.loc[11, 'Unnamed: 7']  # submitter_address
+        self.metadata['L5'] = self.in_df.loc[13, 'Unnamed: 7']  # submitter_phone
+        self.metadata['L6'] = self.in_df.loc[15, 'Unnamed: 7']  # submitter_email
+        self.metadata['L7'] = str(self.in_df.loc[17, 'Unnamed: 7'])  # submission_date
+        self.metadata['scenario_id'] = sha256(str(self.in_df.loc[19, 'Unnamed: 7']))  # scenario_id
+        self.metadata['spec_id'] = sha256(str(self.in_df.loc[21, 'Unnamed: 7']))  # spec_id, the MD5 of the title
+        self.metadata['distribution_id'] = str(uuid.uuid4())  # distribution_id
+        self.metadata['P1'] = self.in_df.loc[21, 'Unnamed: 7']  # spec_title
+        self.metadata['P2'] = self.in_df.loc[23, 'Unnamed: 7']  # spec_download_url
+        self.metadata['sdo_id'] = sha256(str(self.in_df.loc[25, 'Unnamed: 7']))  # sdo_id (for the Agent instance)
+        self.metadata['P3'] = self.in_df.loc[25, 'Unnamed: 7']  # sdo_name
+        self.metadata['P4'] = self.in_df.loc[27, 'Unnamed: 7']  # sdo_contact_point
+        self.metadata['P5'] = self.in_df.loc[29, 'Unnamed: 7']  # submission_rationale
+        self.metadata['P6'] = self.in_df.loc[31, 'Unnamed: 7']  # any other evaluation of this spec known
+        self.metadata['P7'] = self.in_df.loc[33, 'Unnamed: 7']  # submission scope
+        self.metadata['P8'] = self.in_df.loc[35, 'Unnamed: 7']  # backward and forward compatibility
+        self.metadata['P9'] = self.in_df.loc[37, 'Unnamed: 7']  # no longer compliance
+        self.metadata['P10'] = self.in_df.loc[39, 'Unnamed: 7']  # first SDO spec?
+        self.metadata['C1'] = self.in_df.loc[45, 'Unnamed: 7']  # correctness
+        self.metadata['C2'] = self.in_df.loc[47, 'Unnamed: 7']  # completeness
+        self.metadata['C3'] = self.in_df.loc[51, 'Unnamed: 7']  # egov_interoperability
+        self.metadata['C4'] = self.in_df.loc[53, 'Unnamed: 7']  # egov_interoperability
+        self.metadata['C5'] = self.in_df.loc[57, 'Unnamed: 7']  # egov_interoperability
+        # Assessment_EIF
+        self.in_df = self.ass.sheet('Assessment_EIF')
+        self.metadata['assessment_date'] = self.in_df.loc[0, 'Unnamed: 4']  # date of the assessment
+        self.metadata['io_spec_type'] = self.in_df.loc[8, 'Unnamed: 4']  # interoperability specification type
+        return
+
+    def _get_msp_300_criteria(self):
+        # Assessment_MSP
+        self.in_df = self.ass.sheet('Assessment_MSP')
+        self.metadata['assessment_date'] = self.in_df.loc[0, 'Unnamed: 4']  # date of the assessment
+        self.metadata['io_spec_type'] = self.in_df.loc[8, 'Unnamed: 4']  # interoperability specification type
+        return
+
     def extract(self) -> []:
-        if self.ass.tool_version == ToolVersion.v3_1_0:
-            self._get_eif_310_metadata()
-            self._get_eif_310_criteria()
+        self._get_basic_metadata()
+        if self.ass.scenario == 'EIF':
+            if self.ass.tool_version == ToolVersion.v3_1_0 or self.ass.tool_version == ToolVersion.v3_0_0:
+                self._get_eif_3x_metadata()
+            if self.ass.tool_version == ToolVersion.v3_1_0:
+                self._get_eif_310_criteria()
+            if self.ass.tool_version == ToolVersion.v3_0_0:
+                self._get_eif_300_criteria()
+        elif self.ass.scenario == 'MSP':
+            if self.ass.tool_version == ToolVersion.v3_0_0:
+                self._get_msp_300_metadata()
+                self._get_msp_300_criteria()
+
         return self._build_data()
 
     def to_csv(self) -> str:
