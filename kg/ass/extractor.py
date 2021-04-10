@@ -148,10 +148,10 @@ class Extractor:
             columns = list(self.metadata.keys()) + \
                       ['criterion_camss_id',
                        'criterion_sha_id',
-                       'criterion_score_id',
-                       'criterion_score',
-                       'criterion_justification_id',
-                       'criterion_justification']
+                       'score_id',
+                       'score',
+                       'statement_id',
+                       'statement']
             file_path = slash(self.cfg.get[6]['out.csv']) + \
                 self.ass.get_scenario() + '-' + \
                 self.ass.get_toolkit_version().value + '-' + \

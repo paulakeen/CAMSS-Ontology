@@ -1,18 +1,23 @@
 import os
+import uuid
 import pandas as p
 from ass.csv import CSV
 from cfg.conf import Cfg
 from rdflib import URIRef, Literal, Namespace, Graph
-from rdflib.namespace import RDF, SKOS, OWL, DCTERMS
+from rdflib.namespace import RDF, SKOS, OWL, DCTERMS, XSD
 from util.io import slash
 
 # Namespaces
 CAMSS = Namespace("http://data.europa.eu/2sa#")
 CAV = Namespace("http://data.europa.eu/2sa/cav#")
 CSSV = Namespace("http://data.europa.eu/2sa/cssv#")
-CAMSSO = Namespace("http://data.europa.eu/2sa/assessments/")
+CAMSSA = Namespace("http://data.europa.eu/2sa/assessments/")
 CSSV_RSC = Namespace("http://data.europa.eu/2sa/cssv/rsc/")
 STATUS = Namespace("http://data.europa.eu/2sa/rsc/assessment-status#")
+TOOL = Namespace("http://data.europa.eu/2sa/rsc/toolkit-version#")
+SC = Namespace("http://data.europa.eu/2sa/scenarios#")
+ORG = Namespace("http://www.w3.org/ns/org")
+SCHEMA = Namespace("http://schema.org/")
 
 
 class Transformer:
@@ -44,26 +49,72 @@ class Transformer:
         self.g.bind('skos', SKOS)
         self.g.bind('dct', DCTERMS)
         self.g.bind('owl', OWL)
+        self.g.bind('org', ORG)
+        self.g.bind('schema', SCHEMA)
         self.g.bind('camss', CAMSS)
         self.g.bind('cav', CAV)
         self.g.bind('cssv', CSSV)
         self.g.bind('camssa', CAMSSA)
         self.g.bind('cssvrsc', CSSV_RSC)
         self.g.bind('status', STATUS)
+        self.g.bind('tool', TOOL)
+        self.g.bind('sc', SC)
         return self.g
 
-    def _add_ass(self, row: p.Series):
-        uri = URIRef(CAMSSO + row['assessment_id'], CAMSSO)
-        self.g.add((uri, RDF.type, CAV.Assessment))
-        self.g.add((uri, RDF.type, OWL.NamedIndividual))
-        self.g.add((uri, CAV.status, STATUS.Complete))
-        return
+    def _add_assessment(self, row: p.Series) -> Graph:
+        ass_uri = URIRef(CAMSSA + row['assessment_id'], CAMSSA)
+        self.g.add((ass_uri, RDF.type, CAV.Assessment))
+        self.g.add((ass_uri, RDF.type, OWL.NamedIndividual))
+        self.g.add((ass_uri, DCTERMS.title, Literal(row['assessment_title'], lang='en')))
+        self.g.add((ass_uri, CAMSS.toolVersion, URIRef(TOOL + row['tool_version'], TOOL)))
+        self.g.add((ass_uri, CAV.contextualisedBy, URIRef(SC + 's-' + row['scenario_id'], SC)))
+        self.g.add((ass_uri, CAMSS.assesses, URIRef(CSSV_RSC + row['spec_id'], CSSV_RSC)))
+        self.g.add((ass_uri, CAV.status, STATUS.Complete))
+        self.g.add((ass_uri, CAMSS.submissionDate, Literal(row['L7'], datatype=XSD.date)))
+        self.g.add((ass_uri, CAMSS.assessmentDate, Literal(row['assessment_date'], datatype=XSD.date)))
+        return self.g
+
+    def _add_assessor(self, row: p.Series) -> Graph:
+        uri_assessor = URIRef(CAMSSA + row['submitter_org_id'], CAMSSA)
+        self.g.add((uri_assessor, RDF.type, ORG.Organization))
+        self.g.add((uri_assessor, RDF.type, OWL.NamedIndividual))
+        self.g.add((uri_assessor, SKOS.prefLabel, Literal(row['L1'], lang='en')))
+        # Contact Point
+        cp_uri = URIRef(CAMSSA + str(uuid.uuid4()), CAMSSA)
+        self.g.add((uri_assessor, CAMSS.contactPoint, cp_uri))
+        self.g.add((cp_uri, RDF.type, SCHEMA.ContactPoint))
+        self.g.add((cp_uri, RDF.type, OWL.NamedIndividual))
+        self.g.add((cp_uri, SCHEMA.email, Literal(row['L6'])))
+        return self.g
+
+    def _add_answer(self, row: p.Series) -> Graph:
+        """
+        Adds the statements and scores provided by the assessor
+        :returns: the Graph
+        """
+        # Score
+        score_uri = URIRef(CAMSSA + row['score_id'], CAMSSA)
+        self.g.add((score_uri, RDF.type, CAV.Score))
+        self.g.add((score_uri, RDF.type, OWL.NamedIndividual))
+        self.g.add((score_uri, CAV.value, Literal(row['score'], datatype=XSD.int)))
+        self.g.add((score_uri, CAV.assignedTo, URIRef(SC + 'c-' + row['criterion_sha_id'], SC)))
+        # Statement
+        statement_uri = URIRef(CAMSSA + row['statement_id'], CAMSSA)
+        self.g.add((statement_uri, RDF.type, CAV.Statement))
+        self.g.add((statement_uri, RDF.type, OWL.NamedIndividual))
+        self.g.add((statement_uri, CAV.refersTo, score_uri))
+        self.g.add((statement_uri, CAV.judgement, Literal(row['statement'], lang='en')))
+        # Assessment
+        ass_uri = URIRef(CAMSSA + row['assessment_id'], CAMSSA)
+        self.g.add((ass_uri, CAV.resultsIn, statement_uri))
+        return self.g
 
     def transform(self) -> Graph:
+        row = self.df.iloc[0]
+        self._add_assessment(row)
+        self._add_assessor(row)
         for index, row in self.df.iterrows():
-            self._add_ass(row)
-            # temporary break
-            break
+            self._add_answer(row)
         return self.g
 
     def serialize(self) -> str:
@@ -80,4 +131,3 @@ class Transformer:
         self._create_graph(CAMSSA)
         self.transform()
         return self.serialize()
-
