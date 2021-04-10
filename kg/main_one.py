@@ -2,6 +2,7 @@ import sys
 from cfg.conf import Cfg
 from util.io import get_files, pv
 from ass.assessment import Assessment
+from ass.csv import CSV
 from ass.extractor import Extractor
 from ass.transformer import Transformer
 
@@ -16,8 +17,9 @@ def _get_camss_assessments(cfg: Cfg):
 
 def _get_csv_assessments(cfg: Cfg):
     # The CSV files have been saved in the out dir during the extraction process
-    for _, ass_file_path, _, _ in get_files(cfg.get[6]['out.csv']):
-        yield ass_file_path
+    for _, ass_file_path, filename, _ in get_files(cfg.get[6]['out.csv']):
+        csv = CSV(cfg, file_pathname=ass_file_path, filename=filename)
+        yield csv
 
 
 def _run(cfg: Cfg, x: bool, t: bool, s: bool, v: bool):

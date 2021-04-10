@@ -1,0 +1,9 @@
+@prefix camssa: <http://data.europa.eu/2sa/assessments/> .
+@prefix cav: <http://data.europa.eu/2sa/cav#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix status: <http://data.europa.eu/2sa/rsc/assessment-status#> .
+
+camssa:901981adc7391f00196e37c503e590da0e8a58b0418d1eb3f620fef747da8d31 a cav:Assessment,
+        owl:NamedIndividual ;
+    cav:status status:Complete .
+

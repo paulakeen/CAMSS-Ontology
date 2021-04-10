@@ -44,7 +44,7 @@ class Extractor:
     def _get_eif_310_metadata(self):
         self.metadata['assessment_id'] = self.ass.get_id()
         self.metadata['assessment_title'] = self.ass.get_title()
-        self.metadata['tool_version'] = self.version
+        self.metadata['tool_version'] = str(self.version.value)
         # 'rd' stands for release date
         rd = self.in_df.loc[14, 'Unnamed: 4']
         self.metadata['tool_release_date'] = rd[len(rd) - 10:]
