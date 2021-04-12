@@ -1,10 +1,10 @@
 [
-    {"id": 0, "corpus": "./corpus/misc", "comment": "A directory in the local file system containing the CAMSS Assessments to be processed."},
-    {"id": 1, "in": "./in", "comment": "A directory containing artefacts used as input for the ETL operations, e.g. RML files, amongst other."},
-    {"id": 2, "out":  "./out", "comment": "A directory containing the artefacts produced during the ETL operations, e.g. TTL files."},
-    {"id": 3, "store.cfg":  "./cfg/store.json", "comment": "The file containing the parameters for the connections for persistence."},
-    {"id": 4, "criteria.cfg":  "./cfg/criteria.json", "comment": "The file containing the parameters for the management of the CAMSS criteria."},
-    {"id": 5, "ided.criteria.csv": "./in/ided_criteria.csv", "comment": "the filepath for the file containing the definition of the CAMSS Criteria after unique identification. This file can be generated when needed, but in principle should not be regenerated if the criteria are not updated. It contains the unique and immutable ids of the criteria, jointly with its structure and definitions."},
-    {"id": 6, "out.csv": "./out/csv", "comment": "the directory to collect the CSV files generated during the ETL process."},
-    {"id": 7, "out.ttl": "./out/ttl", "comment": "the directory to collect the TTL files generated during the ETL process."}
+    {"id": 0, "corpus": "../corpus", "comment": "A directory in the local file system containing the CAMSS Assessments to be processed."},
+    {"id": 1, "in": "../in", "comment": "A directory containing artefacts used as input for the ETL operations, e.g. RML files, amongst other."},
+    {"id": 2, "out":  "../out", "comment": "A directory containing the artefacts produced during the ETL operations, e.g. TTL files."},
+    {"id": 3, "store.cfg":  "../cfg/store.json", "comment": "The file containing the parameters for the connections for persistence."},
+    {"id": 4, "criteria.cfg":  "../cfg/criteria.json", "comment": "The file containing the parameters for the management of the CAMSS criteria."},
+    {"id": 5, "ided.criteria.csv": "../in/ided_criteria.csv", "comment": "the filepath for the file containing the definition of the CAMSS Criteria after unique identification. This file can be generated when needed, but in principle should not be regenerated if the criteria are not updated. It contains the unique and immutable ids of the criteria, jointly with its structure and definitions."},
+    {"id": 6, "out.csv": "../out/csv", "comment": "the directory to collect the CSV files generated during the ETL process."},
+    {"id": 7, "out.ttl": "../out/ttl", "comment": "the directory to collect the TTL files generated during the ETL process."}
 ]

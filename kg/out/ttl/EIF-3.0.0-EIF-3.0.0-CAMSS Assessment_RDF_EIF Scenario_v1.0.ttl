@@ -1,0 +1,526 @@
+@prefix camss: <http://data.europa.eu/2sa#> .
+@prefix camssa: <http://data.europa.eu/2sa/assessments/> .
+@prefix cav: <http://data.europa.eu/2sa/cav#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sc: <http://data.europa.eu/2sa/scenarios#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix status: <http://data.europa.eu/2sa/rsc/assessment-status#> .
+@prefix tool: <http://data.europa.eu/2sa/rsc/toolkit-version#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+camssa:a86112691da8759a108fa48c02f657314a2fcdc6bbb425f727bb89f419fde3f8 a cav:Assessment,
+        owl:NamedIndividual ;
+    camss:assesses cssvrsc:a4a7987e596ba4b307e31ac3ee5f8011e0bc7baf38f31bdda3122c2d25cd461e ;
+    camss:assessmentDate "1201-01-01"^^xsd:date ;
+    camss:submissionDate "2019-12-31"^^xsd:date ;
+    camss:toolVersion tool:3.0.0 ;
+    cav:contextualisedBy sc:s-fa3a7cf6ccb859ff672f6579e000e61d96f0756c83c13b96e3139ae97beb13bd ;
+    cav:resultsIn camssa:03e85d9e-f2cc-461c-bda8-831753b52119,
+        camssa:11fad861-b7a5-4620-bf94-87621f3e8f3c,
+        camssa:14c94f2d-a470-4dde-a6ad-17a2a12946a6,
+        camssa:1e549bd7-2ba6-45b1-b6cb-d2c20577bf4e,
+        camssa:23ca2ae7-e6be-4839-8b49-e9f841f2c944,
+        camssa:35aae725-fb38-458d-b1d9-50b58707d647,
+        camssa:4146c929-f7f0-48ae-8d31-7c44c571d54e,
+        camssa:451f41f3-e291-4953-b785-6e4a6f6a3cce,
+        camssa:46a44b5a-1b7a-4fe1-9123-10058f763153,
+        camssa:48c8be01-e49d-490e-b2b3-ebdfc0c38864,
+        camssa:4dc227f9-3a81-4a9f-9127-a9132fdf4810,
+        camssa:4dfb8ce5-2318-415d-b651-c79da6af6c51,
+        camssa:603050e4-8b14-408f-b993-124e1e2706f1,
+        camssa:6419ab3d-1acd-4145-a6fa-a9bba4063837,
+        camssa:6907e120-d67d-486a-a99c-cf4223625631,
+        camssa:6bae260e-c7ae-4612-a164-47b70a712284,
+        camssa:6e635c31-185c-49df-9114-89438119d98d,
+        camssa:721f81bb-01d5-47a7-ba8b-719fc3666a54,
+        camssa:77b349a7-8340-456c-888d-6cfa1cbda608,
+        camssa:79e85fea-2cd9-4a31-834d-0b1918f0776c,
+        camssa:832834b8-9e2d-452d-b365-7dd82ddab05c,
+        camssa:88bb3fe7-45ae-4482-8d2f-4167ca27ed89,
+        camssa:8a84e322-0a56-4281-a6a7-9f0735e9cd43,
+        camssa:92b2bf5f-ddb7-408b-a619-63d59e666a11,
+        camssa:9c2cc1c7-3df8-4448-805a-8d09e85e49e0,
+        camssa:a6f8c897-7641-45e9-a21c-d1a8176425bf,
+        camssa:b6879ff9-0458-4bda-9824-a71335012458,
+        camssa:c1b455b1-43c7-45b3-9c7d-6706560bdc26,
+        camssa:cc960cb0-b021-4cd6-b06e-08a253f06cfd,
+        camssa:db5c3dfa-1553-4212-8f2d-7919465605bc,
+        camssa:dcaf4d1c-30ef-4aff-9b4f-b51e2fadb12f,
+        camssa:dea8b1cd-d45d-4588-ab19-db60bf5f945e,
+        camssa:e4375e71-ce8e-44c4-a3e0-3ecdd25b291e,
+        camssa:f115e1be-70f4-40bc-9d64-0fcc33a0cd39,
+        camssa:f20faaf2-1021-4b7d-9a0c-2e6b6befcd04,
+        camssa:fc7d5c05-3556-4430-b1fb-69f1c7ce653d,
+        camssa:fe49483f-43d9-45a0-be8b-ac83c3d8dde8 ;
+    cav:status status:Complete ;
+    dct:title "Resource Description Framework 1.1 (RDF 1.1)"@en .
+
+camssa:ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164 a owl:NamedIndividual,
+        org:Organization ;
+    camss:contactPoint camssa:973e182e-a854-449b-854f-de7a81714729 ;
+    skos:prefLabel "CAMSS Team"@en .
+
+camssa:009653ab-1c7c-4a97-8408-7874b6dce135 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a0101cb11c30c1bbf94adb74479472f2a40c53ccc4b442180fece91506c20a9d ;
+    cav:value "1"^^xsd:int .
+
+camssa:03e85d9e-f2cc-461c-bda8-831753b52119 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """RDF is maintained by W3C which is an international community developing open standards. 
+See:
+https://www.w3.org/TR/rdf11-primer"""@en ;
+    cav:refersTo camssa:50c6ea0a-d476-427c-b798-c7384b0b60ad .
+
+camssa:04ec9743-c5b4-4b0b-9a63-3d012588d91d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-450e8a1f4cffbbf3de202e37bd642f098174559028df90ccc657473a6086bc0b ;
+    cav:value "1"^^xsd:int .
+
+camssa:11fad861-b7a5-4620-bf94-87621f3e8f3c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of RDF is not related to the delivery of multilingual services. Therefore this criterion is not applicable to this specification."@en ;
+    cav:refersTo camssa:c80b630b-58fa-4405-9026-e8564be8a1ba .
+
+camssa:135e480f-e89b-478b-aa41-6882d51ceb00 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-4a006ad6785e066d16c13daf48a60ee43ec33d1de1b06613c8e656ccf330a6d5 ;
+    cav:value "1"^^xsd:int .
+
+camssa:14c94f2d-a470-4dde-a6ad-17a2a12946a6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The rules on European standardisation allow the European Commission to identify information and communication technology (ICT) technical specifications - that are not national, European or international standards - to be eligible for referencing in public procurement. This allows public authorities to make use of the full range of specifications when buying IT hardware, software and services, allowing for more competition in the field and reducing the risk of lock-in to proprietary systems.
+
+After being evaluated compliant with the regulation on standardisation 1025/2012, RDF 1.1 has been identified by Commission Implementing Decision.
+
+See:
+https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en"""@en ;
+    cav:refersTo camssa:76ab9604-2eba-4802-89f8-548ab62df245 .
+
+camssa:17abb741-5f12-4ada-a2cf-9c4caf875ceb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a67ecbc29e70e62b18dba3ae4f8d1f91d5b3196777dbf8b58c6713cd517eb768 ;
+    cav:value "1"^^xsd:int .
+
+camssa:1e549bd7-2ba6-45b1-b6cb-d2c20577bf4e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The W3C Royalty-Free IPR licenses granted under the W3C Patent Policy apply to all W3C specifications, including RDF.
+
+See:
+https://www.w3.org/TR/patent-practice#ref-AC """@en ;
+    cav:refersTo camssa:2c86bc9d-d69d-4042-ba36-fafcf483c966 .
+
+camssa:23ca2ae7-e6be-4839-8b49-e9f841f2c944 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "RDF was carried out initially in 1997 by the W3C working group that included representation from several companies with an important market share (e.g. IBM, Microsoft, Netscape, Nokia). RDF has been widely adopted and developed by means of W3C working groups that have worked on the continuous improvement and consolidation of the specification. RDF has strong support as a tool for publishing data as Linked Open Data. This support comes from public administrations but also for companies with relevant market share. This fact demonstrates the maturity and market acceptance for its use in the development of products and services."@en ;
+    cav:refersTo camssa:17abb741-5f12-4ada-a2cf-9c4caf875ceb .
+
+camssa:2c86bc9d-d69d-4042-ba36-fafcf483c966 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e370a4af17e89cbb70bb5079082a1e21cdee85435c8fc30b12a8987f18db367f ;
+    cav:value "1"^^xsd:int .
+
+camssa:35aae725-fb38-458d-b1d9-50b58707d647 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """As specification to structure data in order to allow the maximum interoperability between systems, RDF fosters the data portability between administrations at the same time that helps to enhance data discoverability and enabling the cross-data set queries using SPARQL. 
+Specifically, RDF helps data portability and exchange between databases. The serialisation of RFD has several forms that ensure the availability of data. 
+See: 
+https://www.w3.org/TR/rdf11-primer/"""@en ;
+    cav:refersTo camssa:eaa92b11-63f3-4100-a41e-246d4625b38a .
+
+camssa:35b919f8-4fa1-4d48-b28b-721dbaa95816 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f41cca0d171e6f64dbc2bdeae9fbc87f2ea51ac00185b22114d59ab8a06e78d0 ;
+    cav:value "0"^^xsd:int .
+
+camssa:4146c929-f7f0-48ae-8d31-7c44c571d54e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "As RDF defines a common framework to express information that can be exchanged between applications without losing meaning, it fosters the trustworthy data exchange between administrations and stakeholders."@en ;
+    cav:refersTo camssa:4713f330-fbd5-4117-bcd6-5307bd4ca221 .
+
+camssa:43051048-8764-45ac-acc0-f96bb68a0cf4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-41c6fd2dadb03cc64aad82cfa14f545c084f1a955a3ab7a61aab416a138c5dce ;
+    cav:value "1"^^xsd:int .
+
+camssa:451f41f3-e291-4953-b785-6e4a6f6a3cce a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "As specification fostering the interoperability between public administrations, RDF helps to enhance the data exchange and reuse in a cross-border way and impacts positively on the development of eGovernment. This fact includes the support to Once-only principle implementation."@en ;
+    cav:refersTo camssa:f3d730f5-2bd1-428a-a248-40d8cbf74a20 .
+
+camssa:46a44b5a-1b7a-4fe1-9123-10058f763153 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """At the moment of performing the assessment, Linked Data and Open Data repositories and initiatives are a key point, and public administrations are putting efforts to develop a cross-border environment for open data exchange and reuse. 
+
+Many initiatives and projects are raising using RDF as a foundation to collide their purpose and objectives. The creation of Linked Open Data solutions can be considered as innovative solutions as they help to evolve the eGoverment."""@en ;
+    cav:refersTo camssa:9bf2e01e-9fa9-4469-9663-dc50a985a737 .
+
+camssa:4713f330-fbd5-4117-bcd6-5307bd4ca221 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-483e8900c47b40bc67a6bd1cbfce07884b9ac5f2c85e0214f334cc37e4e65c35 ;
+    cav:value "1"^^xsd:int .
+
+camssa:48c8be01-e49d-490e-b2b3-ebdfc0c38864 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The rules on European standardisation allow the European Commission to identify information and communication technology (ICT) technical specifications - that are not national, European or international standards - to be eligible for referencing in public procurement. This allows public authorities to make use of the full range of specifications when buying IT hardware, software and services, allowing for more competition in the field and reducing the risk of lock-in to proprietary systems.
+
+After being evaluated compliant with the regulation on standardisation 1025/2012, RDF has been identified by Commission Implementing Decision. During the evaluation process, all the Member States are invited to share their doubts. The positive evaluation of RDF and its identification is considered an interoperability agreement.
+
+See:
+https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en"""@en ;
+    cav:refersTo camssa:addfee21-a11d-4780-86b5-772b12d0a397 .
+
+camssa:4dc227f9-3a81-4a9f-9127-a9132fdf4810 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The W3C Royalty-Free IPR licenses granted under the W3C Patent Policy apply to all W3C specifications, including RDF.
+
+See:
+https://www.w3.org/TR/patent-practice#ref-AC """@en ;
+    cav:refersTo camssa:9f3ed87b-9b68-4b72-b99c-8dde8b34f3f3 .
+
+camssa:4dfb8ce5-2318-415d-b651-c79da6af6c51 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """RDF is included in 4 national catalogues of recommended specifications. They belong to the Netherlands, Slovakia, Spain, and Sweden. The National Interoperability Framework (NIF) of these Member States is fully aligned with at least 4 out of 5 sections of the European Interoperability Framework (EIF) according to the National Interoperability Framework Observatory (NIFO) factsheets.
+See:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards
+https://joinup.ec.europa.eu/collection/national-interoperability-framework-observatory-nifo/nifo-factsheets"""@en ;
+    cav:refersTo camssa:7f645fc0-89a0-44e8-a91d-e25c48910d7a .
+
+camssa:50c6ea0a-d476-427c-b798-c7384b0b60ad a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b45c8f7e446b1343c6b6961290d2106768aa43c1f123f5e436d0255c003abb50 ;
+    cav:value "1"^^xsd:int .
+
+camssa:51137183-04aa-475b-b17a-2ebc6e4e3b35 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-105c699a138c27ab9a1af9174253cd7488b278f700acdbb1bdbcc3e0b9c5ec3d ;
+    cav:value "1"^^xsd:int .
+
+camssa:5499e226-2736-4a2b-8fa7-6f4954fb5b27 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1d35b341bcafc21377ae6ac358b9dc087e8ad32870012c2743e49e4566440f41 ;
+    cav:value "2"^^xsd:int .
+
+camssa:54c10948-143d-404e-bfaf-230ec035b9c9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a1eafd9c95081eeabe19f0511239b88139f02f95e2349049eeea058a89c80f49 ;
+    cav:value "1"^^xsd:int .
+
+camssa:603050e4-8b14-408f-b993-124e1e2706f1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """RDF is publicly available for implementation and study for free on W3C's webpage. 
+
+See:
+https://www.w3.org/TR/rdf11-primer"""@en ;
+    cav:refersTo camssa:135e480f-e89b-478b-aa41-6882d51ceb00 .
+
+camssa:6419ab3d-1acd-4145-a6fa-a9bba4063837 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The specification is aimed to represent information in order to be readable in both formats, machine-readable, and human-readable format. Despite this, RDF does not help the availability of interfaces with internal information."@en ;
+    cav:refersTo camssa:35b919f8-4fa1-4d48-b28b-721dbaa95816 .
+
+camssa:6907e120-d67d-486a-a99c-cf4223625631 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The adoption of RDF helps to the reduction of the administrative burden by easing the publication and reuse of the administration's data. The publication of administrations' data allows the consumption by stakeholders avoiding extra steps while information is needed. In addition, the availability of public information fosters the development of efficient eGovernment and the reduction of administrative burden. 
+
+Additionally, its availability for free is as well an interesting point on the reduction of administrative burden."""@en ;
+    cav:refersTo camssa:fca4d3b1-0457-49f5-91d8-409daa03ac7c .
+
+camssa:6bae260e-c7ae-4612-a164-47b70a712284 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The adoption of RDF does not hamper the interoperability of systems as it was developed to improve the interrelationship between systems easing the information retrieval and data reuse. The common framework that establishes RDF allows using common parsers and exchange information between different applications avoiding interoperability hampering. The different RDF serialisation specifications help on this purpose.
+Additionally, the flexibility of RDF allows the creation of new vocabularies when users need/want to add new concepts without hampering interoperability.  """@en ;
+    cav:refersTo camssa:dfc5cff3-05c2-470b-bf63-1fb7a2cfd8e8 .
+
+camssa:6e635c31-185c-49df-9114-89438119d98d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is compliant with Tim Berners Lee's principles for the Linked Data and, as well, is highly aligned with the different levels of maturity of Tim Berners Lee's 5 stars schema for open data. In fact, RDF is one of the proposed standards for the publication of data as Linked Data. 
+See: 
+https://www.w3.org/DesignIssues/LinkedData.html
+https://5stardata.info/en/
+https://www.w3.org/TR/ld-bp/"""@en ;
+    cav:refersTo camssa:b5ac25f0-48ac-4815-af38-679929cb548b .
+
+camssa:721f81bb-01d5-47a7-ba8b-719fc3666a54 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """W3C has a defined and publicly available Process for the Development and approval process of the specification as a recommended standard, including a public review.
+
+W3C Process document:
+https://www.w3.org/2018/Process-20180201/#Policies """@en ;
+    cav:refersTo camssa:bd70ac39-9013-448e-8f35-2805b95357bd .
+
+camssa:76ab9604-2eba-4802-89f8-548ab62df245 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e9e0cf4a339c837607828404dd0e9b360d643528fcc1df488a95ca67166acea3 ;
+    cav:value "1"^^xsd:int .
+
+camssa:77b349a7-8340-456c-888d-6cfa1cbda608 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of RDF is not related to organisational interoperability. Therefore, this criterion is not applicable to the specification."@en ;
+    cav:refersTo camssa:caecd20e-7465-40da-b35c-e383b797f327 .
+
+camssa:79e85fea-2cd9-4a31-834d-0b1918f0776c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of RDF is not related to the modelling of business processes. Therefore, this criterion is not applicable to the specification."@en ;
+    cav:refersTo camssa:5499e226-2736-4a2b-8fa7-6f4954fb5b27 .
+
+camssa:7f645fc0-89a0-44e8-a91d-e25c48910d7a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d7be9f0dd52944e6c25f5469c86355a42ae446838bd9759b4986d21f7db4814b ;
+    cav:value "1"^^xsd:int .
+
+camssa:818836ff-4ba7-4c42-97b9-03cad360d29d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f70d8bc1b4b6e186d69ea3f7f8cc7b2d75314b84e7f481ebe13b4e6ed8b36598 ;
+    cav:value "1"^^xsd:int .
+
+camssa:832834b8-9e2d-452d-b365-7dd82ddab05c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are already existing studies and documentation assessing different RDF features. For example, there is a study assessing the effectiveness and efficiency of RDF queries. As well there are studies focused on specific topics as is the fact of using RDF in the Smart Cities Modelling. 
+See: 
+https://www.researchgate.net/publication/221466941_Effective_and_Efficient_Entity_Search_in_RDF_Data 
+https://www.sciencedirect.com/science/article/pii/S1045926X1730246X"""@en ;
+    cav:refersTo camssa:f19b2272-2f3d-4c7d-9165-d9226e9b2b65 .
+
+camssa:88bb3fe7-45ae-4482-8d2f-4167ca27ed89 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is included in 10 Member States' catalogues of recommended specifications. Some examples of Member States including RDF on their catalogues are the Netherlands, Slovenia, Spain or Sweden.
+
+See: 
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:b9c5d22a-eb60-4e03-9a47-a5d146dc4f12 .
+
+camssa:8a84e322-0a56-4281-a6a7-9f0735e9cd43 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """W3C has a defined and publicly available Process for the Development and approval process of the specification as a recommended standard. Also, a clear Release Notes tracking the changes of the different versions is archived.
+
+W3C Process document:
+https://www.w3.org/2018/Process-20180201/#Policies """@en ;
+    cav:refersTo camssa:818836ff-4ba7-4c42-97b9-03cad360d29d .
+
+camssa:8cd6fe50-0005-4fb4-b4e0-87f3e07c5b51 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5839144ecfb6c41a2c3cf5c1e86a6b3ad7a9e3ec9c4efa5650a6e7b9e3586335 ;
+    cav:value "1"^^xsd:int .
+
+camssa:92b2bf5f-ddb7-408b-a619-63d59e666a11 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """RDF is available at the Belgian Interoperability Framework website. 
+See: 
+https://www.belgif.be/nl/specificatie/rdf"""@en ;
+    cav:refersTo camssa:e84da48b-ec3e-4e23-b1ec-196f33608ce1 .
+
+camssa:955f5b33-3f97-418f-985f-7ab7b7126b15 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-83d21357ecad07668ab7f2010aefed3cebb92dab384eeae6eb7aa77def06cfc3 ;
+    cav:value "1"^^xsd:int .
+
+camssa:973e182e-a854-449b-854f-de7a81714729 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "CAMSS@everis.com" .
+
+camssa:9bf2e01e-9fa9-4469-9663-dc50a985a737 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cf1de0bf03a8ee372af0deddf9ef5c4609f5a7bb9c7e001c89d887c6789eaf56 ;
+    cav:value "1"^^xsd:int .
+
+camssa:9c2cc1c7-3df8-4448-805a-8d09e85e49e0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "RDF is a business domain agnostic specification that can be used at any business domain requiring RDF features."@en ;
+    cav:refersTo camssa:43051048-8764-45ac-acc0-f96bb68a0cf4 .
+
+camssa:9dffcb8c-242f-4e98-8f4f-55731b191974 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-396b6535162f7bba7733ebcc30d2e467321ce07cd8e48b86ab8201acf27031f9 ;
+    cav:value "1"^^xsd:int .
+
+camssa:9f3ed87b-9b68-4b72-b99c-8dde8b34f3f3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ef096f898c938883daab1b22e784cfaf985b5e5c855e170ecf6eab6f37b01b50 ;
+    cav:value "1"^^xsd:int .
+
+camssa:a6f8c897-7641-45e9-a21c-d1a8176425bf a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """RDF is already associated with EIRA ABBs in the European Library Of Specifications (ELIS). More specifically, RDF can define the interoperability aspects of the "Data model" and "Representation" ABBs of the EIRA Semantic View.
+
+See: 
+https://joinup.ec.europa.eu/solution/elis/distribution/eliscataloguev100betaxlsx"""@en ;
+    cav:refersTo camssa:8cd6fe50-0005-4fb4-b4e0-87f3e07c5b51 .
+
+camssa:addfee21-a11d-4780-86b5-772b12d0a397 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0c9dd43038136296b52f50e05f9d6eef39f7b8018517224007990b15be2eb19e ;
+    cav:value "1"^^xsd:int .
+
+camssa:b5ac25f0-48ac-4815-af38-679929cb548b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b6ba3f2f556446c68c55833e72b217be87ad5f0dd07744e2c39c6070aff6c10f ;
+    cav:value "1"^^xsd:int .
+
+camssa:b6879ff9-0458-4bda-9824-a71335012458 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The rules on European standardisation allow the European Commission to identify information and communication technology (ICT) technical specifications - that are not national, European or international standards - to be eligible for referencing in public procurement. This allows public authorities to make use of the full range of specifications when buying IT hardware, software and services, allowing for more competition in the field and reducing the risk of lock-in to proprietary systems.
+
+After being evaluated compliant with the regulation on standardisation 1025/2012, RDF has been identified by Commission Implementing Decision and included in the European list of ICT Standards for e-procurement.
+
+See: 
+https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en"""@en ;
+    cav:refersTo camssa:9dffcb8c-242f-4e98-8f4f-55731b191974 .
+
+camssa:b9c5d22a-eb60-4e03-9a47-a5d146dc4f12 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3671439b412291ce208a0ade6313c64aeb2942059c7543ca39322c56458bcf96 ;
+    cav:value "1"^^xsd:int .
+
+camssa:bd70ac39-9013-448e-8f35-2805b95357bd a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7aa038b5496afb8cb229c692be9a2adc175deb2d5d47e35ad67e027c9eac28ba ;
+    cav:value "1"^^xsd:int .
+
+camssa:c03c3e41-cd2c-4aa3-aa6e-28b751b3636a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-093c1e09f5a65e4cba0247dcab5a8f4854f3e512db336b1855b9a4c48d3659e0 ;
+    cav:value "1"^^xsd:int .
+
+camssa:c1b455b1-43c7-45b3-9c7d-6706560bdc26 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """RDF is compliant with one of the maximum levels of maturity provided by Tim Berners Lee’s 5 stars schema for open data. Moreover, RDF is highly aligned with the principles for Linked Data promoted by W3C and Tim Berners Lee. In fact, RDF is one of the proposed standards for the publication of Linked Open Data. 
+
+The specification is compliant with Tim Berners Lee's principles for the Linked Data and, as well, is highly aligned with the different levels of maturity of Tim Berners Lee's 5 stars schema for open data. In fact, RDF is one of the proposed standards for the publication of Linked Data. 
+
+See: 
+https://www.w3.org/DesignIssues/LinkedData.html
+https://5stardata.info/en/
+https://www.w3.org/TR/ld-bp/"""@en ;
+    cav:refersTo camssa:04ec9743-c5b4-4b0b-9a63-3d012588d91d .
+
+camssa:c236030c-12af-4558-b98f-a6c770b7b2d5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7a64b01ca9e737c550b205ba3a8a46b3fcfc9447b648ba8ef15d62d3ada26141 ;
+    cav:value "2"^^xsd:int .
+
+camssa:c80b630b-58fa-4405-9026-e8564be8a1ba a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-19c639047dab46befb5839503733c8f1e7ed8278f788a089d11d2caee84a8f7c ;
+    cav:value "2"^^xsd:int .
+
+camssa:caecd20e-7465-40da-b35c-e383b797f327 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-73a8058bec757a2fdb0f8513c2f11841e982cbef76c3be82af67707c294da8b8 ;
+    cav:value "2"^^xsd:int .
+
+camssa:cc960cb0-b021-4cd6-b06e-08a253f06cfd a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """10 Member States are recommending RDF in their ICT National Catalogues. 
+
+See: 
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:fa2fd0d1-f856-47ef-88d1-969fcbf2b4b7 .
+
+camssa:d1df2a89-bbca-4288-be88-8fb86a962d47 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0229101dfe08cbe58da1e454363d30a8178a2e120466c8db23965488cae5c8b1 ;
+    cav:value "1"^^xsd:int .
+
+camssa:d2a68a88-a901-4e12-bfc3-0a3b683f0447 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e8c3529a6146f0b0d269112be717ba4e9c5979ea4f43f57d217c0f998d26ce17 ;
+    cav:value "1"^^xsd:int .
+
+camssa:db5c3dfa-1553-4212-8f2d-7919465605bc a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "Although the main purpose of the specifications is not the preservation of information it can be used in the context of eArchiving. An example of this aim is DCAT and DCAT-AP, data catalogues vocabularies built around RDF and which are used with the purpose of describing datasets included in data catalogues. The enrichment by means of metadata according to RDF schema could help to the long term preservation of digital documents."@en ;
+    cav:refersTo camssa:955f5b33-3f97-418f-985f-7ab7b7126b15 .
+
+camssa:dcaf4d1c-30ef-4aff-9b4f-b51e2fadb12f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """RDF is maintained by W3C which is an international community developing open standards. 
+
+See:
+https://www.w3.org/Consortium/
+https://www.w3.org/TR/rdf11-primer/"""@en ;
+    cav:refersTo camssa:d1df2a89-bbca-4288-be88-8fb86a962d47 .
+
+camssa:dea8b1cd-d45d-4588-ab19-db60bf5f945e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of RDF is not related to e-accessibility. Therefore this criterion is considered not applicable to this specification."@en ;
+    cav:refersTo camssa:c236030c-12af-4558-b98f-a6c770b7b2d5 .
+
+camssa:dfc5cff3-05c2-470b-bf63-1fb7a2cfd8e8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1435ad894742693c2b99e329ef12399cd411ed6900f49b9658fd2231de3f201a ;
+    cav:value "1"^^xsd:int .
+
+camssa:e4375e71-ce8e-44c4-a3e0-3ecdd25b291e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """W3C provides a free source for RDF validation. 
+See:
+https://www.w3.org/RDF/Validator/"""@en ;
+    cav:refersTo camssa:c03c3e41-cd2c-4aa3-aa6e-28b751b3636a .
+
+camssa:e84da48b-ec3e-4e23-b1ec-196f33608ce1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-4017a1ae4d077fbb3847280a1c20b41bf00c32d65fc9beaa2bea8cce550ac463 ;
+    cav:value "1"^^xsd:int .
+
+camssa:eaa92b11-63f3-4100-a41e-246d4625b38a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-6ec33e201b803a1cc0150c0da8dc42b2a0f1029cf31e7a2c0fc81d1d8336ef36 ;
+    cav:value "1"^^xsd:int .
+
+camssa:f115e1be-70f4-40bc-9d64-0fcc33a0cd39 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """RDF defines a data model that can be reused in a cross-sector way. There is an extension of RDF vocabulary which extends the definition. This specific section (RDF Schema) belongs to the RDF stack focusing especially on main elements for the data modelling. 
+As RDF is an agnostic specification is defining a reusable cross-sector data model.  
+See: 
+https://www.w3.org/TR/rdf-schema/
+https://www.w3.org/TR/rdf11-primer/#section-data-model"""@en ;
+    cav:refersTo camssa:009653ab-1c7c-4a97-8408-7874b6dce135 .
+
+camssa:f19b2272-2f3d-4c7d-9165-d9226e9b2b65 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-58010a47630ff9ea23336bf3fc558deff59905e0292551fcabc95740082cb378 ;
+    cav:value "1"^^xsd:int .
+
+camssa:f20faaf2-1021-4b7d-9a0c-2e6b6befcd04 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """RDF has been selected within several initiatives at European level in order to provide open data and linked data to be used for Member States, citizens, and businesses.
+
+An example of RDF use is the European cross-border project ESCO (European Skills, Competences, Qualifications, and Occupations). The project uses Turtle extension of RDF in order to make available the project's data. At ESCO's webpage can be found the link to data resources and as well as information resources needed for the proper use of provided data. 
+
+Additionally, RDF has been selected as one of the core elements on the euCASES project, a platform for linking legal documentation and offer it as Linked Open Data. 
+
+See:
+https://ec.europa.eu/esco/portal/escopedia/RDF
+http://eucases.eu/start.html"""@en ;
+    cav:refersTo camssa:54c10948-143d-404e-bfaf-230ec035b9c9 .
+
+camssa:f3d730f5-2bd1-428a-a248-40d8cbf74a20 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-01e6c1ce016de128117697d51a8fdaebb57c1f50343c081dfd72e2fbc56733a8 ;
+    cav:value "1"^^xsd:int .
+
+camssa:fa2fd0d1-f856-47ef-88d1-969fcbf2b4b7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b4f0d1b7f1d41c70797fa200c6fc73ac01f2f1659319e5cb1cebe8f5e79c1fcb ;
+    cav:value "1"^^xsd:int .
+
+camssa:fc7d5c05-3556-4430-b1fb-69f1c7ce653d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "As a specification with the aim of helping to represent information which can be documents, persons, physical object or abstract objects, it helps administrations to provide information to stakeholders. Therefore, RDF fosters the visibility of the administration's data and services. As a way to make data reusable, it eases the decision-making process."@en ;
+    cav:refersTo camssa:51137183-04aa-475b-b17a-2ebc6e4e3b35 .
+
+camssa:fca4d3b1-0457-49f5-91d8-409daa03ac7c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-39e7870e79b2999a8b61c97f0c356312b88174320d6464fce5639e57ec0de011 ;
+    cav:value "1"^^xsd:int .
+
+camssa:fe49483f-43d9-45a0-be8b-ac83c3d8dde8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "RDF is built around specifications as XML or URL (URI). Even though, both web standards are well known and widely extended avoiding interoperability hampering."@en ;
+    cav:refersTo camssa:d2a68a88-a901-4e12-bfc3-0a3b683f0447 .
+

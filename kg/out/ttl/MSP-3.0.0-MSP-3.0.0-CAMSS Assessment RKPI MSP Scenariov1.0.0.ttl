@@ -1,0 +1,390 @@
+@prefix camss: <http://data.europa.eu/2sa#> .
+@prefix camssa: <http://data.europa.eu/2sa/assessments/> .
+@prefix cav: <http://data.europa.eu/2sa/cav#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sc: <http://data.europa.eu/2sa/scenarios#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix status: <http://data.europa.eu/2sa/rsc/assessment-status#> .
+@prefix tool: <http://data.europa.eu/2sa/rsc/toolkit-version#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+camssa:ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164 a owl:NamedIndividual,
+        org:Organization ;
+    camss:contactPoint camssa:d80cfe61-5809-4606-b509-81271cad3c7c ;
+    skos:prefLabel "CAMSS Team"@en .
+
+camssa:eb1103f14367ca26bfd30fdbd0a755dd581fef800f771894dec113718a531803 a cav:Assessment,
+        owl:NamedIndividual ;
+    camss:assesses cssvrsc:382532edd2a639d8d82badf47d7852b2c18f3430bf564f603ef4c406cfea4a9d ;
+    camss:assessmentDate "3/31/2020"^^xsd:date ;
+    camss:submissionDate "2020-03-31"^^xsd:date ;
+    camss:toolVersion tool:3.0.0 ;
+    cav:contextualisedBy sc:s-9b2d5b4678781e53038e91ea5324530a03f27dc1d0e5f6c9bc9d493a23be9de0 ;
+    cav:resultsIn camssa:0c0cd06d-22f5-4f7c-b4ff-4d6239bf71e7,
+        camssa:11d4c63f-2363-4727-bf2b-6f04b4a1220c,
+        camssa:15c27e88-3b4f-4b05-8833-fc7ccb512aa5,
+        camssa:1c0a900b-5115-4307-a561-dbbb9e1ab73e,
+        camssa:27be80bc-9390-49d5-8cd7-50c7b32e4df0,
+        camssa:2b60a337-cecd-442e-ac77-9bce56f9df1b,
+        camssa:3df0b2c2-cbc1-446d-8bb3-8b4d3e267f1a,
+        camssa:3e6d89f1-ba07-4457-813a-e5cffc11171f,
+        camssa:5118fd02-9015-42cb-bdd6-4274053dfc53,
+        camssa:52e059e7-bda6-4e83-809a-305093853758,
+        camssa:6229a426-3c21-4c02-8fa6-f89d1a89ddd6,
+        camssa:64fbc044-8dd0-46b6-84bb-7ca464b1e007,
+        camssa:6fca91d4-09c0-4ed9-9769-2861784b9b4b,
+        camssa:7b9a99d7-3fe3-43b1-840f-7f7ea6bd36e3,
+        camssa:80cf915a-568d-46b2-8b0b-c6eb50cfd05d,
+        camssa:8a8c89d7-e9c5-4f26-b53b-f750ad9a5c6e,
+        camssa:a2ef0567-82d9-4098-a2ed-34c6f449fc37,
+        camssa:a6363828-993e-451d-a979-0860a2d5a73f,
+        camssa:b84d2856-5692-4357-8856-d770503f31fa,
+        camssa:d0189c71-72bf-4a79-93e1-5a4ef4cc01e5,
+        camssa:ea495510-6d4e-4c95-9f18-53747105ca41,
+        camssa:f4593df6-62d2-4a3f-aac7-363b920291fb,
+        camssa:f7767fb8-4b13-413e-a2f1-733bc81d90ee,
+        camssa:fb1c21f6-2c29-4e8f-ab5c-cf7bc6ffeb94 ;
+    cav:status status:Complete ;
+    dct:title "Resource Public Key Infrastructure"@en .
+
+camssa:06fc129b-7163-45a4-bbe4-13d20a727359 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-54c6979e14b0fde712302882b436570c15837c2941dd6060e9b8615052bca4e1 ;
+    cav:value "1"^^xsd:int .
+
+camssa:0c0cd06d-22f5-4f7c-b4ff-4d6239bf71e7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There is documentation and examples of the use of services of Regional Internet Services, and examples of tooling and rooter implementations: 
+https://www.ripe.net/manage-ips-and-asns/resource-management/certification
+https://www.arin.net/resources/rpki/
+https://www.apnic.net/get-ip/faqs/rpki/
+https://afrinic.net/resource-certification
+https://www.lacnic.net/640/2/lacnic/general-information-resource-certification-system-rpki
+https://rpki.readthedocs.io/en/latest/
+https://www.juniper.net/documentation/en_US/junos/topics/topic-map/bgp-origin-as-validation.html
+https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/iproute_bgp/configuration/15-s/irg-15-s-book/irg-origin-as.html
+https://infocenter.alcatel-lucent.com/public/7750SR160R4A/index.jsp?topic=%2Fcom.sr.unicast%2Fhtml%2Fbgp.html&cp=22_4_7_2&anchor=d2e5366
+
+
+And there are various websites where compliance can be tested and is even present in various software packages that support the standard:
+https://ct.cloudflare.com/logs/cirrus
+https://nusenu.github.io/RPKI-Observatory/
+https://rpki-validator.ripe.net/bgp-preview
+"""@en ;
+    cav:refersTo camssa:3e50dfe3-9f49-41f0-9dc0-f68658169afe .
+
+camssa:11d4c63f-2363-4727-bf2b-6f04b4a1220c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """All the IETF standards are free and open technical specification, built on IETF standards and licenses from the Open Web Foundation.
+
+See:
+https://www.ietf.org/rfc/rfc6749.txt  """@en ;
+    cav:refersTo camssa:368aabff-b8fe-44a9-a686-9440b0a09296 .
+
+camssa:133baa9d-6358-4551-a3bb-c3ab69dd8322 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cd828c0ec9887027bdb6b981560bde593cda27c080298ab36323ba5441ba4c31 ;
+    cav:value "1"^^xsd:int .
+
+camssa:15c27e88-3b4f-4b05-8833-fc7ccb512aa5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The information on (new) standardisation activities is widely announced via the IETF websites and working group activities. There also is a mailing list one can subscribe to for announcements. This so-called IETF Announce list receives announcements about IETF meetings, the activities and actions of the IESG, the RFC Editor, the NomCom, and other announcements of interest to the IETF community.
+
+See:
+https://www.ietf.org/how/lists/announcement/"""@en ;
+    cav:refersTo camssa:3c3ca13c-a8af-4abf-91fd-0a0d31f0ee7a .
+
+camssa:1c0a900b-5115-4307-a561-dbbb9e1ab73e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The information on (new) standardisation activities is widely announced via the IETF websites and working group activities. There also is a mailing list one can subscribe to for announcements. This so-called IETF Announce list receives announcements about IETF meetings, the activities and actions of the IESG, the RFC Editor, the NomCom, and other announcements of interest to the IETF community.
+
+See:
+https://www.ietf.org/how/lists/announcement/"""@en ;
+    cav:refersTo camssa:863d4525-7f7b-4226-a157-03a76d6cd296 .
+
+camssa:27be80bc-9390-49d5-8cd7-50c7b32e4df0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The specification can be used on any operating system and hardware platform."@en ;
+    cav:refersTo camssa:2904cc69-e06f-49f8-96b5-24c014435f75 .
+
+camssa:2904cc69-e06f-49f8-96b5-24c014435f75 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-aa6ea51e02f049efbd153499fb071e07c5f49ba6a0343203440380497057d70e ;
+    cav:value "1"^^xsd:int .
+
+camssa:2b60a337-cecd-442e-ac77-9bce56f9df1b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The IETF is a consensus-based group, and authority to act on behalf of the community requires a high degree of consensus and the continued consent of the community. The process of creating an Internet Standard is straightforward: a specification undergoes a period of development and several iterations of review by the Internet community and revision based upon experience, is adopted as a Standard by the appropriate body... and is published. In practice, the process is more complicated, due to (1) the difficulty of creating specifications of high technical quality; (2) the need to consider the interests of all of the affected parties; (3) the importance of establishing widespread community consensus; and (4) the difficulty of evaluating the utility of a particular specification for the Internet community. The goals of the Internet Standards Process are:
+
+- technical excellence
+
+- prior implementation and testing;
+
+- clear, concise, and easily understood documentation;
+
+- openness and fairness; and 
+
+- timeliness
+
+The goal of technical competence, the requirement for prior implementation and testing, and the need to allow all interested parties to comment all require significant time and effort. The Internet Standards Process is intended to balance these conflicting goals. The process is believed to be as short and simple as possible without sacrificing technical excellence, thorough testing before adoption of a standard, or openness and fairness.
+
+See:https://www.ietf.org/standards/process/"""@en ;
+    cav:refersTo camssa:8825afc4-8f4b-4914-bde9-2a0903b0bdc3 .
+
+camssa:2fa3026b-e09f-4e79-ae27-1a929d12ed32 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d310596912dbc916997008f4aed16a81cf5e708cd907e3c53a2e4207468b468b ;
+    cav:value "1"^^xsd:int .
+
+camssa:35d9e2f9-bd54-41fd-8806-2dc6aad789fc a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a085272697eadd8638ed45af45c77ae88aed7cadb14f84d957c5c3b2248bd986 ;
+    cav:value "1"^^xsd:int .
+
+camssa:368aabff-b8fe-44a9-a686-9440b0a09296 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7ede9122e530b12ca81694e3ce1f21fa7cf4d6d071d0edb0a2082a0e0d2ad8e4 ;
+    cav:value "1"^^xsd:int .
+
+camssa:3703efdf-3aeb-446f-be10-795c28764f4a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ab118934e7af3d561b9036668a1de9f17c020207e8ebb0ed33d9405e12eeef4c ;
+    cav:value "1"^^xsd:int .
+
+camssa:3c3ca13c-a8af-4abf-91fd-0a0d31f0ee7a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5b29a4581c52656a3bcf08224b259c29610cb540c56af4512ebe0ded3adeeac1 ;
+    cav:value "1"^^xsd:int .
+
+camssa:3df0b2c2-cbc1-446d-8bb3-8b4d3e267f1a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """IETF has a formal review and approval process so that all the relevant stakeholders can formally appeal or raise objections to the development and approval of specifications.
+
+Each distinct version of an Internet standards-related specification is published as part of the Request for Comments (RFC) document series. This archival series is the official publication channel for Internet standards documents and other publications. 
+
+During the development of a specification, draft versions of the document are made available for informal review and comment by placing them in the IETF's Internet-Drafts directory, which is replicated on a number of Internet hosts. This makes an evolving working document readily available to a wide audience, facilitating the process of review and revision.  
+
+See:
+https://www.ietf.org/standards/process/  
+https://tools.ietf.org/html/rfc2026 """@en ;
+    cav:refersTo camssa:3703efdf-3aeb-446f-be10-795c28764f4a .
+
+camssa:3e50dfe3-9f49-41f0-9dc0-f68658169afe a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-2d94fbefdcc4c566f135fc475a1c159d175029719782a303705dfb2e4cada6a6 ;
+    cav:value "1"^^xsd:int .
+
+camssa:3e6d89f1-ba07-4457-813a-e5cffc11171f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """IETF has a defined set of processes for the modification and revocation of standards. 
+
+See:
+https://www.ietf.org/standards/process/  
+https://tools.ietf.org/html/rfc2026  """@en ;
+    cav:refersTo camssa:517c52a2-062d-4876-830c-725703fce884 .
+
+camssa:5118fd02-9015-42cb-bdd6-4274053dfc53 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "There are no competitors for RPKI since no standards with overlapping functional scope have been found. No interoperability issues with the implementation of existing European or international standards exist."@en ;
+    cav:refersTo camssa:9c2a2005-54b7-4894-b9e9-25f56a7c8289 .
+
+camssa:517c52a2-062d-4876-830c-725703fce884 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cac1c963ee5c3624035d7a98a8577db18d04ad6528afc51785f1230f23566ff1 ;
+    cav:value "1"^^xsd:int .
+
+camssa:52e059e7-bda6-4e83-809a-305093853758 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The fact that the specification is documented in several IETF request for comments (RFCs) since 2012 and that it has been widely and successfully implemented is evidence that the specification is stable and sufficiently developed for the development of products and services. "@en ;
+    cav:refersTo camssa:dc22a8b5-38cc-485f-9c3e-13ff16992c2e .
+
+camssa:6229a426-3c21-4c02-8fa6-f89d1a89ddd6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """All the IETF standards are free and open technical specification, built on IETF standards and licenses from the Open Web Foundation. The specification is therefore licensed on a royalty-free basis.
+
+See:
+https://tools.ietf.org/html/rfc3668  """@en ;
+    cav:refersTo camssa:133baa9d-6358-4551-a3bb-c3ab69dd8322 .
+
+camssa:64fbc044-8dd0-46b6-84bb-7ca464b1e007 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "There are no existing European standards with market uptake covering the same area as RPKI."@en ;
+    cav:refersTo camssa:c4fc3c1d-d8a2-48ad-8158-d3a79a708a6a .
+
+camssa:6e0fe8de-ccba-4e1f-8086-d5774333ee74 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-33b5b305bcc0a995fd3c592dc8a6f52d0749a6e817aa85844f3e4f31c7dea344 ;
+    cav:value "1"^^xsd:int .
+
+camssa:6f457c71-9937-40b8-92fd-b6328327b0dd a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-4386f49ebcfb474f011867d54ec0e7a7c561f91c288f5809299a05d781432bf0 ;
+    cav:value "1"^^xsd:int .
+
+camssa:6fca91d4-09c0-4ed9-9769-2861784b9b4b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """IETF is a non-profit making organisation. It is large open community of network designers, operators, vendors, and researchers. It is open to any interested individual with the evolution of the Internet architecture and the smooth operation of the Internet.
+
+See: 
+https://www.ietf.org/rfc/rfc3935.txt"""@en ;
+    cav:refersTo camssa:35d9e2f9-bd54-41fd-8806-2dc6aad789fc .
+
+camssa:7b9a99d7-3fe3-43b1-840f-7f7ea6bd36e3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """IETF has a formal review and approval process so that all the relevant stakeholders can formally appeal or raise objections to the development and approval of specifications.
+
+Each distinct version of an Internet standards-related specification is published as part of the Request for Comments (RFC) document series. This archival series is the official publication channel for Internet standards documents and other publications. 
+
+During the development of a specification, draft versions of the document are made available for informal review and comment by placing them in the IETF's Internet-Drafts directory, which is replicated on a number of Internet hosts. This makes an evolving working document readily available to a wide audience, facilitating the process of review and revision.  
+
+See:
+https://www.ietf.org/standards/process/  
+https://tools.ietf.org/html/rfc2026 """@en ;
+    cav:refersTo camssa:e9df61b0-e4b5-4e7a-a55d-7cece5b142a3 .
+
+camssa:80cf915a-568d-46b2-8b0b-c6eb50cfd05d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """All the IETF specifications are made available free of charge to the general public via the website. IETF drafts are published publicly discussions take place online in archived mailing lists. Moreover, the IETF Datatracker is the day-to-day front-end to the IETF database for people who work on IETF standards. It contains data about the documents, working groups, meetings, agendas, minutes, presentations, and more, of the IETF.
+
+During the development of a specification, draft versions of the document are made available for informal review and comment by placing them in the IETF's Internet-Drafts directory. This makes an evolving working document readily available to a wide audience, facilitating the process of review and revision.
+
+See:
+
+https://datatracker.ietf.org/
+
+http://www.ietf.org/id-info/"""@en ;
+    cav:refersTo camssa:2fa3026b-e09f-4e79-ae27-1a929d12ed32 .
+
+camssa:863d4525-7f7b-4226-a157-03a76d6cd296 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5b29a4581c52656a3bcf08224b259c29610cb540c56af4512ebe0ded3adeeac1 ;
+    cav:value "1"^^xsd:int .
+
+camssa:8825afc4-8f4b-4914-bde9-2a0903b0bdc3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-2614723a75c6a002b733f97562482608046dd2e6da97e3073312dbbdaf482279 ;
+    cav:value "1"^^xsd:int .
+
+camssa:8a8c89d7-e9c5-4f26-b53b-f750ad9a5c6e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "There are no technical specifications being under consideration to become a European standard that have the same application area. "@en ;
+    cav:refersTo camssa:c806773a-816e-4181-b601-c52eece1861e .
+
+camssa:9c2a2005-54b7-4894-b9e9-25f56a7c8289 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17edaee27de1ada5f8ee772a0aff160ecdce7a05ce9db18b9a2025f463d0e3a7 ;
+    cav:value "0"^^xsd:int .
+
+camssa:a2ef0567-82d9-4098-a2ed-34c6f449fc37 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """All the IETF standards are free and open technical specification, built on IETF standards and licenses from the Open Web Foundation. The specification is therefore licensed on a royalty-free basis.
+
+See:
+https://tools.ietf.org/html/rfc3668  """@en ;
+    cav:refersTo camssa:c75d8bbf-2207-49c6-a9fc-bd550d0d9ae3 .
+
+camssa:a6363828-993e-451d-a979-0860a2d5a73f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The specification can be used independently from specific vendor products."@en ;
+    cav:refersTo camssa:6e0fe8de-ccba-4e1f-8086-d5774333ee74 .
+
+camssa:ae7753f2-889d-4c2b-9a05-c51608f0d362 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c3d200f09880d91d08826557de1524471d65e2807cbd8bc6c5c2bbed77fe47ea ;
+    cav:value "0"^^xsd:int .
+
+camssa:b84d2856-5692-4357-8856-d770503f31fa a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """By adopting this standard every organisation contributes to securing their own routing and ensures that problems caused by others are not spread further. 
+The specification contributes to a safe and secure internet."""@en ;
+    cav:refersTo camssa:f6ec085a-a912-4530-aabf-a45ad03dd78e .
+
+camssa:bb39aa05-70da-4068-9ddd-fb927c25d200 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d310596912dbc916997008f4aed16a81cf5e708cd907e3c53a2e4207468b468b ;
+    cav:value "1"^^xsd:int .
+
+camssa:c40ac765-ae64-43ca-b5a6-c081c748e440 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8aee43521f6b3ab69785784831b651574a5496fd5996bb8c61a80e479f633fa0 ;
+    cav:value "1"^^xsd:int .
+
+camssa:c4fc3c1d-d8a2-48ad-8158-d3a79a708a6a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-923825ea86a7939a1cbdcdeb83be96b047beaaeb51b65f1f119e75f841841181 ;
+    cav:value "0"^^xsd:int .
+
+camssa:c75d8bbf-2207-49c6-a9fc-bd550d0d9ae3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-164f43cef11b50b88c51c7115a7b37e506af696852ddaf46dfc1cb1c1521ec6d ;
+    cav:value "1"^^xsd:int .
+
+camssa:c806773a-816e-4181-b601-c52eece1861e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f6669d041c301e6aadc132bb9de2d1d2f620f9fcb8b5d147c7b08c0393b53d0c ;
+    cav:value "1"^^xsd:int .
+
+camssa:d0189c71-72bf-4a79-93e1-5a4ef4cc01e5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """By adopting this standard every organisation contributes to securing their own routing and ensures that problems caused by others are not spread further. 
+The specification contributes to a safe and secure internet."""@en ;
+    cav:refersTo camssa:06fc129b-7163-45a4-bbe4-13d20a727359 .
+
+camssa:d80cfe61-5809-4606-b509-81271cad3c7c a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "CAMSS@everis.com" .
+
+camssa:dc22a8b5-38cc-485f-9c3e-13ff16992c2e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-6f7b3377cc1836eb056d44786260085e36fc1d6856a3aa3d37fe017e16cfc319 ;
+    cav:value "1"^^xsd:int .
+
+camssa:e9df61b0-e4b5-4e7a-a55d-7cece5b142a3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ab118934e7af3d561b9036668a1de9f17c020207e8ebb0ed33d9405e12eeef4c ;
+    cav:value "1"^^xsd:int .
+
+camssa:ea495510-6d4e-4c95-9f18-53747105ca41 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """RPKI statements are published by network services of the Dutch Ministry of Justice and the Central Government
+
+See:
+
+https://rpki-validator.ripe.net/announcement-preview?asn=AS29311&prefix=2a04:9a04::%2F32
+https://rpki-validator.ripe.net/announcement-preview?asn=AS41887&prefix=178.22.80.0%2F21"""@en ;
+    cav:refersTo camssa:c40ac765-ae64-43ca-b5a6-c081c748e440 .
+
+camssa:f4593df6-62d2-4a3f-aac7-363b920291fb a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The IETF is completely open to newcomers. There is no formal membership, no membership fee, and nothing to sign. The IETF's standards development work is organized into 8 Areas Each Area has 1 or more Area Directors (ADs), which together comprise the Internet Engineering Steering Group (IESG). The IESG is responsible for technical management of IETF activities, the Internet standards process, and for the actions associated with entry into and movement along the Internet ''standards track'', including final approval of specifications as Internet Standards and publication as an RFC. Within each Area there are multiple Working Groups (WG). Each WG has one or more chairs who manage the work, and a written charter defining what the work is and when it is due. There are more than 100 WGs. The WGs produce Internet Drafts (I-Ds) which often lead to the publication of an Internet standard as an RFC.
+
+See: http://www.ietf.org/newcomers.html """@en ;
+    cav:refersTo camssa:6f457c71-9937-40b8-92fd-b6328327b0dd .
+
+camssa:f6ec085a-a912-4530-aabf-a45ad03dd78e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-df3d12df0d66137fac78fd8e7edde75f94e132cb64f645594cd2a27d3c726bb1 ;
+    cav:value "1"^^xsd:int .
+
+camssa:f7767fb8-4b13-413e-a2f1-733bc81d90ee a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "There is no adoption of competing, new European Standards foreseen covering the same area as RPKI.   "@en ;
+    cav:refersTo camssa:ae7753f2-889d-4c2b-9a05-c51608f0d362 .
+
+camssa:fb1c21f6-2c29-4e8f-ab5c-cf7bc6ffeb94 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """All the IETF specifications are made available free of charge to the general public via the website. IETF drafts are published publicly discussions take place online in archived mailing lists. Moreover, the IETF Datatracker is the day-to-day front-end to the IETF database for people who work on IETF standards. It contains data about the documents, working groups, meetings, agendas, minutes, presentations, and more, of the IETF.
+
+During the development of a specification, draft versions of the document are made available for informal review and comment by placing them in the IETF's Internet-Drafts directory. This makes an evolving working document readily available to a wide audience, facilitating the process of review and revision.
+
+See:
+
+https://datatracker.ietf.org/
+
+http://www.ietf.org/id-info/"""@en ;
+    cav:refersTo camssa:bb39aa05-70da-4068-9ddd-fb927c25d200 .
+

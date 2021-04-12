@@ -1,0 +1,241 @@
+assessment_id,assessment_title,tool_version,tool_release_date,scenario,submitter_unit_id,L1,submitter_org_id,L2,L3,L4,L5,L6,L7,scenario_id,L8,spec_id,distribution_id,P1,P2,sdo_id,P3,P4,P5,P6,P7,P8,P9,P10,C1,C2,C3,C4,C5,assessment_date,io_spec_type,criterion_camss_id,criterion_sha_id,score_id,score,statement_id,statement
+5bf47462bd21f50184614b66ed6cd51ba140adf941b751450eab22eb8e2986e6,Joint Photographic Experts Group (JPEG),3.1.0,31/03/2020,EIF,5c0509f7568696d426de2893d44096f36d8ae2ba4a3fea25d0943a9fd276d640,CAMSS Team,ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164,everis,,,,CAMSS@everis.com,2020-08-31,fa3a7cf6ccb859ff672f6579e000e61d96f0756c83c13b96e3139ae97beb13bd,European Interoperability Framework (EIF),e59684167f5a88a93aac3e265e607508aac43ba87ce9bc8c0b18f052b46cd27a,07dae3fd-5bb1-4107-8bc4-d4e1835f3d87,Joint Photographic Experts Group (JPEG),https://www.iso.org/standard/18902.html,35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506,Other SDO/SSO,,,,,,,,,,,,,2020-08-31,International Standard,A1,8eb17470327d32b3bb523447fe72ee5c60ddb03e81dae318b485fbe05f48a844,40bdf919-1ca0-4953-988a-cc0dfd6d8e54,1,d4da254a-cdcb-442a-baff-5520d10358cb,"JPEG is included in 2 national catalogues of recommended specifications. They belong to Estonia and Spain. The National Interoperability Framework (NIF) of these Member States is fully aligned with at least 4 out of 5 sections of the European Interoperability Framework (EIF) according to the National Interoperability Framework Observatory (NIFO) factsheets. 
+
+National catalogue Estonia:
+https://www.mkm.ee/sites/default/files/interoperability-framework_2011.doc
+
+National catalogue Spain:
+https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/pae_Interoperabilidad_Inicio/pae_Normas_tecnicas_de_interoperabilidad.html#CATALOGOESTANDARES
+
+NIFO factsheets:
+https://joinup.ec.europa.eu/collection/national-interoperability-framework-observatory-nifo/nifo-factsheets"
+5bf47462bd21f50184614b66ed6cd51ba140adf941b751450eab22eb8e2986e6,Joint Photographic Experts Group (JPEG),3.1.0,31/03/2020,EIF,5c0509f7568696d426de2893d44096f36d8ae2ba4a3fea25d0943a9fd276d640,CAMSS Team,ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164,everis,,,,CAMSS@everis.com,2020-08-31,fa3a7cf6ccb859ff672f6579e000e61d96f0756c83c13b96e3139ae97beb13bd,European Interoperability Framework (EIF),e59684167f5a88a93aac3e265e607508aac43ba87ce9bc8c0b18f052b46cd27a,07dae3fd-5bb1-4107-8bc4-d4e1835f3d87,Joint Photographic Experts Group (JPEG),https://www.iso.org/standard/18902.html,35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506,Other SDO/SSO,,,,,,,,,,,,,2020-08-31,International Standard,A2,02333ef99fbcb4f101a106bcf97c9559888756b085b1729b7c2ac9626dc4bc63,61ece3e7-586d-4e57-b49f-e89a1e4ebe71,0,006df1ff-2e01-4d94-8001-b0993493c7d9,"Even though JPEG is supporting the first level of maturity from the Tim Berners-Lee 5-star schema for the Open data, which allows the availability of the information over the internet, the specification cannot be considered as an asset to foster data as open data. 
+
+JEPG ISO reference:
+https://www.iso.org/standard/18902.html
+
+JPEG public reference:
+https://jpeg.org/jpeg/
+
+Tim Berners-Lee 5-star schema for Open Data:
+https://5stardata.info/en/"
+5bf47462bd21f50184614b66ed6cd51ba140adf941b751450eab22eb8e2986e6,Joint Photographic Experts Group (JPEG),3.1.0,31/03/2020,EIF,5c0509f7568696d426de2893d44096f36d8ae2ba4a3fea25d0943a9fd276d640,CAMSS Team,ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164,everis,,,,CAMSS@everis.com,2020-08-31,fa3a7cf6ccb859ff672f6579e000e61d96f0756c83c13b96e3139ae97beb13bd,European Interoperability Framework (EIF),e59684167f5a88a93aac3e265e607508aac43ba87ce9bc8c0b18f052b46cd27a,07dae3fd-5bb1-4107-8bc4-d4e1835f3d87,Joint Photographic Experts Group (JPEG),https://www.iso.org/standard/18902.html,35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506,Other SDO/SSO,,,,,,,,,,,,,2020-08-31,International Standard,A3,f70d8bc1b4b6e186d69ea3f7f8cc7b2d75314b84e7f481ebe13b4e6ed8b36598,df1cf516-96b4-45c8-9a55-e849bb024b97,1,c03ee399-5333-40b4-b97d-cd7556c170cb,"ISO has defined a clear procedure to develop its standards. It consists in a 6-steps process where everyone who is interested can participate. However, if you want to participate, you have to contact your national standards body and you have to be approved for joining the Technical committee (TC) who will develop the standard. ISO has defined the roadmap of standards, it is composed of 6 steps as before said. For the approval of a standard the two-thirds majority of P-members of TC is needed. If the result is negative, the document is returned to TC/SC to be further studied.
+
+The ISO standardization process: 
+https://www.iso.org/stages-and-resources-for-standards-development.html"
+5bf47462bd21f50184614b66ed6cd51ba140adf941b751450eab22eb8e2986e6,Joint Photographic Experts Group (JPEG),3.1.0,31/03/2020,EIF,5c0509f7568696d426de2893d44096f36d8ae2ba4a3fea25d0943a9fd276d640,CAMSS Team,ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164,everis,,,,CAMSS@everis.com,2020-08-31,fa3a7cf6ccb859ff672f6579e000e61d96f0756c83c13b96e3139ae97beb13bd,European Interoperability Framework (EIF),e59684167f5a88a93aac3e265e607508aac43ba87ce9bc8c0b18f052b46cd27a,07dae3fd-5bb1-4107-8bc4-d4e1835f3d87,Joint Photographic Experts Group (JPEG),https://www.iso.org/standard/18902.html,35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506,Other SDO/SSO,,,,,,,,,,,,,2020-08-31,International Standard,A4,7aa038b5496afb8cb229c692be9a2adc175deb2d5d47e35ad67e027c9eac28ba,d76e6cac-0a69-4216-bf2b-8d550f9fef90,0,50c72bde-1442-42bb-8350-0cba20a59947,"As defined on the TC standardisation, only TC members are involved in the development of ISO standards. A review is carried out to arrange the consensus firstly within the TC members and subsequently is reviewed by the different ISO member bodies. However, it cannot be considered a public review, because only TC members can participate.
+
+The ISO standardization process: 
+https://www.iso.org/stages-and-resources-for-standards-development.html"
+5bf47462bd21f50184614b66ed6cd51ba140adf941b751450eab22eb8e2986e6,Joint Photographic Experts Group (JPEG),3.1.0,31/03/2020,EIF,5c0509f7568696d426de2893d44096f36d8ae2ba4a3fea25d0943a9fd276d640,CAMSS Team,ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164,everis,,,,CAMSS@everis.com,2020-08-31,fa3a7cf6ccb859ff672f6579e000e61d96f0756c83c13b96e3139ae97beb13bd,European Interoperability Framework (EIF),e59684167f5a88a93aac3e265e607508aac43ba87ce9bc8c0b18f052b46cd27a,07dae3fd-5bb1-4107-8bc4-d4e1835f3d87,Joint Photographic Experts Group (JPEG),https://www.iso.org/standard/18902.html,35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506,Other SDO/SSO,,,,,,,,,,,,,2020-08-31,International Standard,A5,31bf959b6c4a983ec70eb87e0177f2739575ebce42c7c3b95b9012ef3bfe673e,6b52c0b9-f75a-4385-b659-effa1d2d14d2,0,086dfdea-69ad-4a9e-bf35-f516721e8f4d,"The ISO 10918-1:1994 which refers to JPEG is not available for free for everyone to study. Payment is needed to reach access to the standard.
+
+JEPG ISO reference:
+https://www.iso.org/standard/18902.html"
+5bf47462bd21f50184614b66ed6cd51ba140adf941b751450eab22eb8e2986e6,Joint Photographic Experts Group (JPEG),3.1.0,31/03/2020,EIF,5c0509f7568696d426de2893d44096f36d8ae2ba4a3fea25d0943a9fd276d640,CAMSS Team,ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164,everis,,,,CAMSS@everis.com,2020-08-31,fa3a7cf6ccb859ff672f6579e000e61d96f0756c83c13b96e3139ae97beb13bd,European Interoperability Framework (EIF),e59684167f5a88a93aac3e265e607508aac43ba87ce9bc8c0b18f052b46cd27a,07dae3fd-5bb1-4107-8bc4-d4e1835f3d87,Joint Photographic Experts Group (JPEG),https://www.iso.org/standard/18902.html,35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506,Other SDO/SSO,,,,,,,,,,,,,2020-08-31,International Standard,A6,a81c4b8658f57e819297eb0b7977407f8d814c6fe749c74a8ac497277ca7d9d8,3c1ab524-9015-49a1-9307-f8f5b58444b0,0,5dba30b1-55da-428c-9cef-b2435d350c90,"There are no disclosures of ISO IPR Database to identify the licensing under the specification. ISO 10918-1:1994 (JPEG) is not listed in ISO/IEC/ITU Common Patent policy, so it cannot be confirmed that the specification is licensed on a (F)RAND basis.
+
+ISO patents:
+https://www.iso.org/iso-standards-and-patents.html 
+
+ISO standards and patents IPR database:
+http://isotc.iso.org/livelink/livelink/13622347/Patents_database.xls?func=doc.Fetch&nodeId=13622347 "
+5bf47462bd21f50184614b66ed6cd51ba140adf941b751450eab22eb8e2986e6,Joint Photographic Experts Group (JPEG),3.1.0,31/03/2020,EIF,5c0509f7568696d426de2893d44096f36d8ae2ba4a3fea25d0943a9fd276d640,CAMSS Team,ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164,everis,,,,CAMSS@everis.com,2020-08-31,fa3a7cf6ccb859ff672f6579e000e61d96f0756c83c13b96e3139ae97beb13bd,European Interoperability Framework (EIF),e59684167f5a88a93aac3e265e607508aac43ba87ce9bc8c0b18f052b46cd27a,07dae3fd-5bb1-4107-8bc4-d4e1835f3d87,Joint Photographic Experts Group (JPEG),https://www.iso.org/standard/18902.html,35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506,Other SDO/SSO,,,,,,,,,,,,,2020-08-31,International Standard,A7,1cd71a7b6d54631ba58cc8b0655a443d696f49ec74a0f4cccc871de7789d6a60,faecc502-1494-4604-95b7-8687e1a317e1,0,c4ac3bd0-caa1-4f3d-b8c5-f3f074ca7bbe,"There are no disclosures of ISO IPR Database to identify the licensing under the specification. ISO 10918-1:1994 (JPEG) is not listed in ISO/IEC/ITU Common Patent policy, so it cannot be confirmed that the specification is licensed on a (F)RAND basis.
+
+ISO patents:
+https://www.iso.org/iso-standards-and-patents.html 
+
+ISO standards and patents IPR database:
+http://isotc.iso.org/livelink/livelink/13622347/Patents_database.xls?func=doc.Fetch&nodeId=13622347 "
+5bf47462bd21f50184614b66ed6cd51ba140adf941b751450eab22eb8e2986e6,Joint Photographic Experts Group (JPEG),3.1.0,31/03/2020,EIF,5c0509f7568696d426de2893d44096f36d8ae2ba4a3fea25d0943a9fd276d640,CAMSS Team,ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164,everis,,,,CAMSS@everis.com,2020-08-31,fa3a7cf6ccb859ff672f6579e000e61d96f0756c83c13b96e3139ae97beb13bd,European Interoperability Framework (EIF),e59684167f5a88a93aac3e265e607508aac43ba87ce9bc8c0b18f052b46cd27a,07dae3fd-5bb1-4107-8bc4-d4e1835f3d87,Joint Photographic Experts Group (JPEG),https://www.iso.org/standard/18902.html,35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506,Other SDO/SSO,,,,,,,,,,,,,2020-08-31,International Standard,A8,6bedf555bffb837990b9eb353447fa116eb9d2384770b1dd3de46d3c5901d4f4,b8625124-94da-49f8-bfde-9b10657ff88e,1,4685ba28-cf9e-40a2-9cec-ec74b4c84862,"The specification was developed in 1992 and it has been broadly used. JPEG is supported as one of the main image file formats.
+
+Independent JPEG Group:
+https://www.ijg.org/
+
+JPEG.org:
+https://jpeg.org/jpeg/index.html "
+5bf47462bd21f50184614b66ed6cd51ba140adf941b751450eab22eb8e2986e6,Joint Photographic Experts Group (JPEG),3.1.0,31/03/2020,EIF,5c0509f7568696d426de2893d44096f36d8ae2ba4a3fea25d0943a9fd276d640,CAMSS Team,ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164,everis,,,,CAMSS@everis.com,2020-08-31,fa3a7cf6ccb859ff672f6579e000e61d96f0756c83c13b96e3139ae97beb13bd,European Interoperability Framework (EIF),e59684167f5a88a93aac3e265e607508aac43ba87ce9bc8c0b18f052b46cd27a,07dae3fd-5bb1-4107-8bc4-d4e1835f3d87,Joint Photographic Experts Group (JPEG),https://www.iso.org/standard/18902.html,35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506,Other SDO/SSO,,,,,,,,,,,,,2020-08-31,International Standard,A9,d129862d6c9639e131c7d5eef095af16ef94d57ec0d52f955bf909ba8ec688e8,eb93009c-21f1-4dcd-a9fe-d44d4ddb7ca4,1,116bd01f-b64f-431c-b4c6-453466140bdb,"JPEG is an international standard worldwide used as an image format. It is supported as a standard way for the treatment and exchange of image files.
+
+JEPG ISO reference:
+https://www.iso.org/standard/18902.html
+
+JPEG public reference:
+https://jpeg.org/jpeg/"
+5bf47462bd21f50184614b66ed6cd51ba140adf941b751450eab22eb8e2986e6,Joint Photographic Experts Group (JPEG),3.1.0,31/03/2020,EIF,5c0509f7568696d426de2893d44096f36d8ae2ba4a3fea25d0943a9fd276d640,CAMSS Team,ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164,everis,,,,CAMSS@everis.com,2020-08-31,fa3a7cf6ccb859ff672f6579e000e61d96f0756c83c13b96e3139ae97beb13bd,European Interoperability Framework (EIF),e59684167f5a88a93aac3e265e607508aac43ba87ce9bc8c0b18f052b46cd27a,07dae3fd-5bb1-4107-8bc4-d4e1835f3d87,Joint Photographic Experts Group (JPEG),https://www.iso.org/standard/18902.html,35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506,Other SDO/SSO,,,,,,,,,,,,,2020-08-31,International Standard,A10,21276471c1781fa2c7e78c8e03851e076b840beddbf5cf64f53b54b8855a01b8,c68a98fc-f325-4b50-89ff-e74cb0157ca5,0,77798909-4d48-41d3-9ea5-e6ae867adb7d,"Although at the moment of elaborating the assessment, the specification is widely used, the specification in itself does not foster the creation of innovative solutions. 
+
+JEPG ISO reference:
+https://www.iso.org/standard/18902.html
+
+JPEG public reference:
+https://jpeg.org/jpeg/"
+5bf47462bd21f50184614b66ed6cd51ba140adf941b751450eab22eb8e2986e6,Joint Photographic Experts Group (JPEG),3.1.0,31/03/2020,EIF,5c0509f7568696d426de2893d44096f36d8ae2ba4a3fea25d0943a9fd276d640,CAMSS Team,ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164,everis,,,,CAMSS@everis.com,2020-08-31,fa3a7cf6ccb859ff672f6579e000e61d96f0756c83c13b96e3139ae97beb13bd,European Interoperability Framework (EIF),e59684167f5a88a93aac3e265e607508aac43ba87ce9bc8c0b18f052b46cd27a,07dae3fd-5bb1-4107-8bc4-d4e1835f3d87,Joint Photographic Experts Group (JPEG),https://www.iso.org/standard/18902.html,35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506,Other SDO/SSO,,,,,,,,,,,,,2020-08-31,International Standard,A11,b21a3eb972a2119979bc57368474efa809e8dd16cede48bc492e8b64da1abee9,487fc0b6-6f8a-4cf1-a1ae-24210547b75d,1,dfc0820a-c9cd-40ae-9378-a34d27067896,"The Joint Photographic Experts Group (JPEG) committee has a long tradition in the creation of still image coding standards. JPEG is a joint working group of the International Standardization Organization (ISO) and the International Electrotechnical Commission (IEC). It can be found in the particular website created to communicate and gather information about the JPEG standard. This website is known as jpeg.org. 
+
+The specification in ISO: 
+https://www.iso.org/standard/18902.html
+
+JPEG.org:
+https://jpeg.org/jpeg/index.html"
+5bf47462bd21f50184614b66ed6cd51ba140adf941b751450eab22eb8e2986e6,Joint Photographic Experts Group (JPEG),3.1.0,31/03/2020,EIF,5c0509f7568696d426de2893d44096f36d8ae2ba4a3fea25d0943a9fd276d640,CAMSS Team,ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164,everis,,,,CAMSS@everis.com,2020-08-31,fa3a7cf6ccb859ff672f6579e000e61d96f0756c83c13b96e3139ae97beb13bd,European Interoperability Framework (EIF),e59684167f5a88a93aac3e265e607508aac43ba87ce9bc8c0b18f052b46cd27a,07dae3fd-5bb1-4107-8bc4-d4e1835f3d87,Joint Photographic Experts Group (JPEG),https://www.iso.org/standard/18902.html,35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506,Other SDO/SSO,,,,,,,,,,,,,2020-08-31,International Standard,A12,19598487b8ba278c3438dcfd74b74d9aad51beac08c53dbf40bf108ed09e72b2,91936c55-a066-4716-a86e-635446d4270a,1,def668a8-bc70-440f-877e-868a8583c99b,"JPEG is a valuable image format for sharing information through the internet between administrations and stakeholders in a graphical manner. Allowing sharing data and information the standard foster the visibility of administration data and services. Fostering the collaboration between public administrations, the specification eases the decision-making process of institutions.
+
+JEPG ISO reference:
+https://www.iso.org/standard/18902.html
+
+JPEG public reference:
+https://jpeg.org/jpeg/"
+5bf47462bd21f50184614b66ed6cd51ba140adf941b751450eab22eb8e2986e6,Joint Photographic Experts Group (JPEG),3.1.0,31/03/2020,EIF,5c0509f7568696d426de2893d44096f36d8ae2ba4a3fea25d0943a9fd276d640,CAMSS Team,ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164,everis,,,,CAMSS@everis.com,2020-08-31,fa3a7cf6ccb859ff672f6579e000e61d96f0756c83c13b96e3139ae97beb13bd,European Interoperability Framework (EIF),e59684167f5a88a93aac3e265e607508aac43ba87ce9bc8c0b18f052b46cd27a,07dae3fd-5bb1-4107-8bc4-d4e1835f3d87,Joint Photographic Experts Group (JPEG),https://www.iso.org/standard/18902.html,35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506,Other SDO/SSO,,,,,,,,,,,,,2020-08-31,International Standard,A13,7ab883158b51681c78f90d1a00bbb3840aa2c86e309a9abd1ad6e6eedb5e2735,587c9a13-121c-45c0-a3c6-c665ff81745c,1,a84c7de9-9200-46ca-94c5-a1db82b070e6,"As a way to compress images and easing the communication of graphic information, it can ease the comprehensibility of the administration's data, rules, and services. By allowing a more visual representation of the information, it contributes to the easy understanding of bucks of different data. 
+
+JEPG ISO reference:
+https://www.iso.org/standard/18902.html
+
+JPEG public reference:
+https://jpeg.org/jpeg/"
+5bf47462bd21f50184614b66ed6cd51ba140adf941b751450eab22eb8e2986e6,Joint Photographic Experts Group (JPEG),3.1.0,31/03/2020,EIF,5c0509f7568696d426de2893d44096f36d8ae2ba4a3fea25d0943a9fd276d640,CAMSS Team,ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164,everis,,,,CAMSS@everis.com,2020-08-31,fa3a7cf6ccb859ff672f6579e000e61d96f0756c83c13b96e3139ae97beb13bd,European Interoperability Framework (EIF),e59684167f5a88a93aac3e265e607508aac43ba87ce9bc8c0b18f052b46cd27a,07dae3fd-5bb1-4107-8bc4-d4e1835f3d87,Joint Photographic Experts Group (JPEG),https://www.iso.org/standard/18902.html,35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506,Other SDO/SSO,,,,,,,,,,,,,2020-08-31,International Standard,A14,33ea90f5c1bb01d4398c57d03a25934dc5722d5ddbc98a43911ea4fb302ec54c,de81614d-7db0-4442-b048-25c2f261b24f,2,6785db14-cee3-4d5d-a3ae-495983aa1400,"The purpose of JPEG is not related to the availability of interfaces with internal information systems. Therefore, this criterion is not applicable to this specification.
+
+JEPG ISO reference:
+https://www.iso.org/standard/18902.html
+
+JPEG public reference:
+https://jpeg.org/jpeg/"
+5bf47462bd21f50184614b66ed6cd51ba140adf941b751450eab22eb8e2986e6,Joint Photographic Experts Group (JPEG),3.1.0,31/03/2020,EIF,5c0509f7568696d426de2893d44096f36d8ae2ba4a3fea25d0943a9fd276d640,CAMSS Team,ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164,everis,,,,CAMSS@everis.com,2020-08-31,fa3a7cf6ccb859ff672f6579e000e61d96f0756c83c13b96e3139ae97beb13bd,European Interoperability Framework (EIF),e59684167f5a88a93aac3e265e607508aac43ba87ce9bc8c0b18f052b46cd27a,07dae3fd-5bb1-4107-8bc4-d4e1835f3d87,Joint Photographic Experts Group (JPEG),https://www.iso.org/standard/18902.html,35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506,Other SDO/SSO,,,,,,,,,,,,,2020-08-31,International Standard,A15,3aec34db3622bf18675b8216d0fc1d68fc7eeb501b4f3326402038a3ceb95c21,318d5d28-67dc-4513-8ff0-02875af8a982,1,f365981e-d7ac-407b-9b94-664b18447fab,"JPEG is a business domain agnostic specification that can be reused in a cross-domain way.
+
+JEPG ISO reference:
+https://www.iso.org/standard/18902.html
+
+JPEG public reference:
+https://jpeg.org/jpeg/"
+5bf47462bd21f50184614b66ed6cd51ba140adf941b751450eab22eb8e2986e6,Joint Photographic Experts Group (JPEG),3.1.0,31/03/2020,EIF,5c0509f7568696d426de2893d44096f36d8ae2ba4a3fea25d0943a9fd276d640,CAMSS Team,ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164,everis,,,,CAMSS@everis.com,2020-08-31,fa3a7cf6ccb859ff672f6579e000e61d96f0756c83c13b96e3139ae97beb13bd,European Interoperability Framework (EIF),e59684167f5a88a93aac3e265e607508aac43ba87ce9bc8c0b18f052b46cd27a,07dae3fd-5bb1-4107-8bc4-d4e1835f3d87,Joint Photographic Experts Group (JPEG),https://www.iso.org/standard/18902.html,35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506,Other SDO/SSO,,,,,,,,,,,,,2020-08-31,International Standard,A16,c2cedd44f05183dae5548108bdeace2c092b84c7c5d89c475b0741ddae7fc7b2,a535f17d-c5e3-418b-a5b9-362cd606477a,0,d7615457-8e8a-48e5-8e87-5c3292332456,"JPEG is not available for free. It needs to be paid to get access to the specification's text.
+
+JEPG ISO reference:
+https://www.iso.org/standard/18902.html"
+5bf47462bd21f50184614b66ed6cd51ba140adf941b751450eab22eb8e2986e6,Joint Photographic Experts Group (JPEG),3.1.0,31/03/2020,EIF,5c0509f7568696d426de2893d44096f36d8ae2ba4a3fea25d0943a9fd276d640,CAMSS Team,ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164,everis,,,,CAMSS@everis.com,2020-08-31,fa3a7cf6ccb859ff672f6579e000e61d96f0756c83c13b96e3139ae97beb13bd,European Interoperability Framework (EIF),e59684167f5a88a93aac3e265e607508aac43ba87ce9bc8c0b18f052b46cd27a,07dae3fd-5bb1-4107-8bc4-d4e1835f3d87,Joint Photographic Experts Group (JPEG),https://www.iso.org/standard/18902.html,35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506,Other SDO/SSO,,,,,,,,,,,,,2020-08-31,International Standard,A17,17bea234285e6e633e4e21105358610ad5f5f0eaaf82f4bd50cb64ec11538984,333ea8c9-b378-4197-8192-377c6216ce3f,0,6fc7d8e4-109e-49a7-8dd0-149747858bcc,"It requires pre-payment for getting access to the documentation. However, it is included in Joiunp, 
+
+JEPG ISO reference:
+https://www.iso.org/standard/18902.html
+
+JPEG in Joinup: 
+https://joinup.ec.europa.eu/solution/digital-compression-and-coding-continuous-tone-still-images-requirements-and-guidelines"
+5bf47462bd21f50184614b66ed6cd51ba140adf941b751450eab22eb8e2986e6,Joint Photographic Experts Group (JPEG),3.1.0,31/03/2020,EIF,5c0509f7568696d426de2893d44096f36d8ae2ba4a3fea25d0943a9fd276d640,CAMSS Team,ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164,everis,,,,CAMSS@everis.com,2020-08-31,fa3a7cf6ccb859ff672f6579e000e61d96f0756c83c13b96e3139ae97beb13bd,European Interoperability Framework (EIF),e59684167f5a88a93aac3e265e607508aac43ba87ce9bc8c0b18f052b46cd27a,07dae3fd-5bb1-4107-8bc4-d4e1835f3d87,Joint Photographic Experts Group (JPEG),https://www.iso.org/standard/18902.html,35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506,Other SDO/SSO,,,,,,,,,,,,,2020-08-31,International Standard,A18,5879b43fc249f0098f3ed687235f432f71bf0c11bd3aa95e063dfdacd64606c8,a5c84e3c-0cfa-4131-92c2-26a6ce3d0ca8,1,e0550dae-3217-4f3f-8406-efeb3ce0e5ac,"JPEG is independent of any software, hardware, or operating system. So it can be said that JPEG is independent of any specific technology or platform. 
+
+JEPG ISO reference:
+https://www.iso.org/standard/18902.html
+
+JPEG public reference:
+https://jpeg.org/jpeg/"
+5bf47462bd21f50184614b66ed6cd51ba140adf941b751450eab22eb8e2986e6,Joint Photographic Experts Group (JPEG),3.1.0,31/03/2020,EIF,5c0509f7568696d426de2893d44096f36d8ae2ba4a3fea25d0943a9fd276d640,CAMSS Team,ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164,everis,,,,CAMSS@everis.com,2020-08-31,fa3a7cf6ccb859ff672f6579e000e61d96f0756c83c13b96e3139ae97beb13bd,European Interoperability Framework (EIF),e59684167f5a88a93aac3e265e607508aac43ba87ce9bc8c0b18f052b46cd27a,07dae3fd-5bb1-4107-8bc4-d4e1835f3d87,Joint Photographic Experts Group (JPEG),https://www.iso.org/standard/18902.html,35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506,Other SDO/SSO,,,,,,,,,,,,,2020-08-31,International Standard,A19,ba46c76c10ad769a23ce4a9a34cb4d96a00407d5fc14ad1c791a870be7563c2b,df10e312-9195-49fe-97e2-de793d093486,1,c9d9aecf-9d8a-439b-8ab4-b073e4e8a57f,"The adoption of JPEG as an image format for exchanging photographs helps citizens, business and administrations to share information.
+
+JEPG ISO reference:
+https://www.iso.org/standard/18902.html
+
+JPEG public reference:
+https://jpeg.org/jpeg/"
+5bf47462bd21f50184614b66ed6cd51ba140adf941b751450eab22eb8e2986e6,Joint Photographic Experts Group (JPEG),3.1.0,31/03/2020,EIF,5c0509f7568696d426de2893d44096f36d8ae2ba4a3fea25d0943a9fd276d640,CAMSS Team,ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164,everis,,,,CAMSS@everis.com,2020-08-31,fa3a7cf6ccb859ff672f6579e000e61d96f0756c83c13b96e3139ae97beb13bd,European Interoperability Framework (EIF),e59684167f5a88a93aac3e265e607508aac43ba87ce9bc8c0b18f052b46cd27a,07dae3fd-5bb1-4107-8bc4-d4e1835f3d87,Joint Photographic Experts Group (JPEG),https://www.iso.org/standard/18902.html,35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506,Other SDO/SSO,,,,,,,,,,,,,2020-08-31,International Standard,A20,ab64f97c21ac8b84c75d6f52a89765b1c8fd1856d2d2060926d05e94f306a88d,584d0780-b611-42f0-8a6d-4560f0d6f0b7,1,57230f1b-e37e-4478-af59-14ac13e166a0,"JPEG is a specification that supports data portability, and therefore, supporting the development of European Public Services. 
+
+JEPG ISO reference:
+https://www.iso.org/standard/18902.html
+
+JPEG public reference:
+https://jpeg.org/jpeg/"
+5bf47462bd21f50184614b66ed6cd51ba140adf941b751450eab22eb8e2986e6,Joint Photographic Experts Group (JPEG),3.1.0,31/03/2020,EIF,5c0509f7568696d426de2893d44096f36d8ae2ba4a3fea25d0943a9fd276d640,CAMSS Team,ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164,everis,,,,CAMSS@everis.com,2020-08-31,fa3a7cf6ccb859ff672f6579e000e61d96f0756c83c13b96e3139ae97beb13bd,European Interoperability Framework (EIF),e59684167f5a88a93aac3e265e607508aac43ba87ce9bc8c0b18f052b46cd27a,07dae3fd-5bb1-4107-8bc4-d4e1835f3d87,Joint Photographic Experts Group (JPEG),https://www.iso.org/standard/18902.html,35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506,Other SDO/SSO,,,,,,,,,,,,,2020-08-31,International Standard,A21,624bc49501d58649e27cae4fb89fb5a56844685e54c5ce1625633894f8f752e1,8a6ccb43-6c7c-427e-95ab-e6a8d7875ca0,2,cf150f46-de51-4461-8f95-bca7910ad2c7,"The purpose of JPEG is not related to the implementation of the once-only principle. Therefore, this criterion does not apply to this specification. 
+
+JEPG ISO reference:
+https://www.iso.org/standard/18902.html
+
+JPEG public reference:
+https://jpeg.org/jpeg/"
+5bf47462bd21f50184614b66ed6cd51ba140adf941b751450eab22eb8e2986e6,Joint Photographic Experts Group (JPEG),3.1.0,31/03/2020,EIF,5c0509f7568696d426de2893d44096f36d8ae2ba4a3fea25d0943a9fd276d640,CAMSS Team,ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164,everis,,,,CAMSS@everis.com,2020-08-31,fa3a7cf6ccb859ff672f6579e000e61d96f0756c83c13b96e3139ae97beb13bd,European Interoperability Framework (EIF),e59684167f5a88a93aac3e265e607508aac43ba87ce9bc8c0b18f052b46cd27a,07dae3fd-5bb1-4107-8bc4-d4e1835f3d87,Joint Photographic Experts Group (JPEG),https://www.iso.org/standard/18902.html,35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506,Other SDO/SSO,,,,,,,,,,,,,2020-08-31,International Standard,A22,fef5941bab92019b7692f8544de94715a42ed9ff76d89cbec4fb6f9821611925,4cb58640-1bcd-4879-9fb3-7853f74edda9,2,019f7f40-7133-4a39-b897-8955b664ab84,"The purpose of JPEG is not related to e-accessibility. Therefore, this criterion is considered not applicable to this specification.
+
+JEPG ISO reference:
+https://www.iso.org/standard/18902.html
+
+JPEG public reference:
+https://jpeg.org/jpeg/"
+5bf47462bd21f50184614b66ed6cd51ba140adf941b751450eab22eb8e2986e6,Joint Photographic Experts Group (JPEG),3.1.0,31/03/2020,EIF,5c0509f7568696d426de2893d44096f36d8ae2ba4a3fea25d0943a9fd276d640,CAMSS Team,ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164,everis,,,,CAMSS@everis.com,2020-08-31,fa3a7cf6ccb859ff672f6579e000e61d96f0756c83c13b96e3139ae97beb13bd,European Interoperability Framework (EIF),e59684167f5a88a93aac3e265e607508aac43ba87ce9bc8c0b18f052b46cd27a,07dae3fd-5bb1-4107-8bc4-d4e1835f3d87,Joint Photographic Experts Group (JPEG),https://www.iso.org/standard/18902.html,35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506,Other SDO/SSO,,,,,,,,,,,,,2020-08-31,International Standard,A23,483e8900c47b40bc67a6bd1cbfce07884b9ac5f2c85e0214f334cc37e4e65c35,49711b74-49ba-4125-bf48-d915c036bf16,0,21b7bed5-cd6f-4544-90a6-f5dc738679c0,"JPEG is an image extension which allows visualizing and storing images. However, as they cannot be protected with a password or something, everyone who has access to a JPEG file can visualize it.
+
+JEPG ISO reference:
+https://www.iso.org/standard/18902.html
+
+JPEG public reference:
+https://jpeg.org/jpeg/"
+5bf47462bd21f50184614b66ed6cd51ba140adf941b751450eab22eb8e2986e6,Joint Photographic Experts Group (JPEG),3.1.0,31/03/2020,EIF,5c0509f7568696d426de2893d44096f36d8ae2ba4a3fea25d0943a9fd276d640,CAMSS Team,ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164,everis,,,,CAMSS@everis.com,2020-08-31,fa3a7cf6ccb859ff672f6579e000e61d96f0756c83c13b96e3139ae97beb13bd,European Interoperability Framework (EIF),e59684167f5a88a93aac3e265e607508aac43ba87ce9bc8c0b18f052b46cd27a,07dae3fd-5bb1-4107-8bc4-d4e1835f3d87,Joint Photographic Experts Group (JPEG),https://www.iso.org/standard/18902.html,35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506,Other SDO/SSO,,,,,,,,,,,,,2020-08-31,International Standard,A24,4ac14cafe608f1dbe7e48f96edd7574c55f0aac2c2e99ede0418dae7225977af,fef324a0-71b0-451f-b50f-77186425ca6f,2,27a22fa3-789a-45c1-bc9b-99975bec1c25,"The purpose of JPEG is not related to the delivery of multilingual public services. Therefore, this criterion is not applicable to this specification.
+
+JEPG ISO reference:
+https://www.iso.org/standard/18902.html
+
+JPEG public reference:
+https://jpeg.org/jpeg/"
+5bf47462bd21f50184614b66ed6cd51ba140adf941b751450eab22eb8e2986e6,Joint Photographic Experts Group (JPEG),3.1.0,31/03/2020,EIF,5c0509f7568696d426de2893d44096f36d8ae2ba4a3fea25d0943a9fd276d640,CAMSS Team,ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164,everis,,,,CAMSS@everis.com,2020-08-31,fa3a7cf6ccb859ff672f6579e000e61d96f0756c83c13b96e3139ae97beb13bd,European Interoperability Framework (EIF),e59684167f5a88a93aac3e265e607508aac43ba87ce9bc8c0b18f052b46cd27a,07dae3fd-5bb1-4107-8bc4-d4e1835f3d87,Joint Photographic Experts Group (JPEG),https://www.iso.org/standard/18902.html,35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506,Other SDO/SSO,,,,,,,,,,,,,2020-08-31,International Standard,A25,ffdbd22af1ff3c1ebb100043d062a3df160007af761caf0a8c9f50f02e609c9e,2a6bdde5-738e-4f3a-9db0-25726c346437,1,fb8971da-f3be-4600-a7d6-9c35a2d15700,"By allowing the exchange of digital images, which can provide sensitive information for administrations and stakeholders, the specification helps to avoid the administrative burden related to the non-digital communications.
+
+JEPG ISO reference:
+https://www.iso.org/standard/18902.html
+
+JPEG public reference:
+https://jpeg.org/jpeg/"
+5bf47462bd21f50184614b66ed6cd51ba140adf941b751450eab22eb8e2986e6,Joint Photographic Experts Group (JPEG),3.1.0,31/03/2020,EIF,5c0509f7568696d426de2893d44096f36d8ae2ba4a3fea25d0943a9fd276d640,CAMSS Team,ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164,everis,,,,CAMSS@everis.com,2020-08-31,fa3a7cf6ccb859ff672f6579e000e61d96f0756c83c13b96e3139ae97beb13bd,European Interoperability Framework (EIF),e59684167f5a88a93aac3e265e607508aac43ba87ce9bc8c0b18f052b46cd27a,07dae3fd-5bb1-4107-8bc4-d4e1835f3d87,Joint Photographic Experts Group (JPEG),https://www.iso.org/standard/18902.html,35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506,Other SDO/SSO,,,,,,,,,,,,,2020-08-31,International Standard,A26,8a34a40e5bc5436b3530d898d75a57cf0488591887b31a5169499fe78952d84c,666bfc13-0cc7-424f-89c5-d224b000b640,2,3dd377ca-a031-4497-8413-6f208094ced7,"The purpose of JPEG is not related to long term preservation of electronic records. Therefore, this criterion is considered not applicable to this specification. 
+
+JEPG ISO reference:
+https://www.iso.org/standard/18902.html
+
+JPEG public reference:
+https://jpeg.org/jpeg/"
+5bf47462bd21f50184614b66ed6cd51ba140adf941b751450eab22eb8e2986e6,Joint Photographic Experts Group (JPEG),3.1.0,31/03/2020,EIF,5c0509f7568696d426de2893d44096f36d8ae2ba4a3fea25d0943a9fd276d640,CAMSS Team,ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164,everis,,,,CAMSS@everis.com,2020-08-31,fa3a7cf6ccb859ff672f6579e000e61d96f0756c83c13b96e3139ae97beb13bd,European Interoperability Framework (EIF),e59684167f5a88a93aac3e265e607508aac43ba87ce9bc8c0b18f052b46cd27a,07dae3fd-5bb1-4107-8bc4-d4e1835f3d87,Joint Photographic Experts Group (JPEG),https://www.iso.org/standard/18902.html,35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506,Other SDO/SSO,,,,,,,,,,,,,2020-08-31,International Standard,A27,cc5bd9a7d0b2acc7f246522414fd5f5d579b977180bb04fa60a545cb35dae90f,46184680-587a-453e-8c2b-4808672c90d7,1,8b070dbf-d39b-414f-9fcd-710088ffc8fd,"There are many documents and studies around the JPEG, functionalities, and effectiveness, and efficiency. An example of this is an article in The International society for optics and photonics. It is published in the SPIE Library, and it is about the evolution of the standard and the different capabilities of the specification in terms of image representation.
+
+SPIE Library: 
+https://www.spiedigitallibrary.org/journals/journal-of-electronic-imaging/volume-27/issue-04/040901/JPEG-1-standard-25-years--past-present-and-future/10.1117/1.JEI.27.4.040901.full?SSO=1"
+5bf47462bd21f50184614b66ed6cd51ba140adf941b751450eab22eb8e2986e6,Joint Photographic Experts Group (JPEG),3.1.0,31/03/2020,EIF,5c0509f7568696d426de2893d44096f36d8ae2ba4a3fea25d0943a9fd276d640,CAMSS Team,ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164,everis,,,,CAMSS@everis.com,2020-08-31,fa3a7cf6ccb859ff672f6579e000e61d96f0756c83c13b96e3139ae97beb13bd,European Interoperability Framework (EIF),e59684167f5a88a93aac3e265e607508aac43ba87ce9bc8c0b18f052b46cd27a,07dae3fd-5bb1-4107-8bc4-d4e1835f3d87,Joint Photographic Experts Group (JPEG),https://www.iso.org/standard/18902.html,35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506,Other SDO/SSO,,,,,,,,,,,,,2020-08-31,International Standard,A28,7d28663fdb5deb361d5ad773d7b7ece3c6acf8d2eb7a1222a60cb08df4c93aac,2f6a0980-9acf-4391-9b89-2eaa86086779,1,2d436906-fd6a-473b-b637-ae4990346f32,"JPEG is already associated to an EIRA ABB in the European Library Of Specifications (ELIS). Specifically, JPEG can define the interoperability aspects of the ""Representation"" ABB from the EIRA Semantic view. 
+
+EIRA Library of Interoperability Specifications (ELIS):
+https://joinup.ec.europa.eu/solution/elis/release/v100"
+5bf47462bd21f50184614b66ed6cd51ba140adf941b751450eab22eb8e2986e6,Joint Photographic Experts Group (JPEG),3.1.0,31/03/2020,EIF,5c0509f7568696d426de2893d44096f36d8ae2ba4a3fea25d0943a9fd276d640,CAMSS Team,ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164,everis,,,,CAMSS@everis.com,2020-08-31,fa3a7cf6ccb859ff672f6579e000e61d96f0756c83c13b96e3139ae97beb13bd,European Interoperability Framework (EIF),e59684167f5a88a93aac3e265e607508aac43ba87ce9bc8c0b18f052b46cd27a,07dae3fd-5bb1-4107-8bc4-d4e1835f3d87,Joint Photographic Experts Group (JPEG),https://www.iso.org/standard/18902.html,35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506,Other SDO/SSO,,,,,,,,,,,,,2020-08-31,International Standard,A29,c967c90bfc7bc13426924eca012de349ae51d4e8f652fe64bfbec2cccc8c8146,d7e978df-65bf-4aad-91b5-d9cf5a927ad5,0,e2827ab9-6029-45dd-be4c-56c1a381ae06,"After searching for a conformity test to validate JPEG format, no tool has been found with this purpose. "
+5bf47462bd21f50184614b66ed6cd51ba140adf941b751450eab22eb8e2986e6,Joint Photographic Experts Group (JPEG),3.1.0,31/03/2020,EIF,5c0509f7568696d426de2893d44096f36d8ae2ba4a3fea25d0943a9fd276d640,CAMSS Team,ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164,everis,,,,CAMSS@everis.com,2020-08-31,fa3a7cf6ccb859ff672f6579e000e61d96f0756c83c13b96e3139ae97beb13bd,European Interoperability Framework (EIF),e59684167f5a88a93aac3e265e607508aac43ba87ce9bc8c0b18f052b46cd27a,07dae3fd-5bb1-4107-8bc4-d4e1835f3d87,Joint Photographic Experts Group (JPEG),https://www.iso.org/standard/18902.html,35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506,Other SDO/SSO,,,,,,,,,,,,,2020-08-31,International Standard,A30,8c09094de9d71f12686896827a205db683b6df58fa363bc5be2a7d99989e7dd0,f789c022-0609-46a8-a736-81eabfc4acb4,1,cc95d9bc-fce6-4c52-9c81-972d795888f2,"8 Member States are recommending JPEG in their ICT National Catalogues. These Member States are Estonia, France, Germany, Greece, Norway, Poland, Slovenia and Spain.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"
+5bf47462bd21f50184614b66ed6cd51ba140adf941b751450eab22eb8e2986e6,Joint Photographic Experts Group (JPEG),3.1.0,31/03/2020,EIF,5c0509f7568696d426de2893d44096f36d8ae2ba4a3fea25d0943a9fd276d640,CAMSS Team,ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164,everis,,,,CAMSS@everis.com,2020-08-31,fa3a7cf6ccb859ff672f6579e000e61d96f0756c83c13b96e3139ae97beb13bd,European Interoperability Framework (EIF),e59684167f5a88a93aac3e265e607508aac43ba87ce9bc8c0b18f052b46cd27a,07dae3fd-5bb1-4107-8bc4-d4e1835f3d87,Joint Photographic Experts Group (JPEG),https://www.iso.org/standard/18902.html,35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506,Other SDO/SSO,,,,,,,,,,,,,2020-08-31,International Standard,A31,39ffef052c31580b50b418f3991e9de7db4dc182fcf96f5a447d7f8e09560612,99a1797e-1bd6-481f-a5b1-691f54b0a546,0,fd11c0cc-5064-4a26-8d6d-b310c72e353c,"After searching in the different official European websites, there is no evidence of any cross-border project that use JPEG nor explicit agreements involving the usage of the specification."
+5bf47462bd21f50184614b66ed6cd51ba140adf941b751450eab22eb8e2986e6,Joint Photographic Experts Group (JPEG),3.1.0,31/03/2020,EIF,5c0509f7568696d426de2893d44096f36d8ae2ba4a3fea25d0943a9fd276d640,CAMSS Team,ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164,everis,,,,CAMSS@everis.com,2020-08-31,fa3a7cf6ccb859ff672f6579e000e61d96f0756c83c13b96e3139ae97beb13bd,European Interoperability Framework (EIF),e59684167f5a88a93aac3e265e607508aac43ba87ce9bc8c0b18f052b46cd27a,07dae3fd-5bb1-4107-8bc4-d4e1835f3d87,Joint Photographic Experts Group (JPEG),https://www.iso.org/standard/18902.html,35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506,Other SDO/SSO,,,,,,,,,,,,,2020-08-31,International Standard,A32,838030847fa0adf54939e3feaac0ac2510924c54035e1cb671b223b54b02fd70,e3b428ee-7016-4549-9956-32619db2bd89,1,057fead8-31ba-4f10-a6f0-6ed21b7c920b,"The specification is included in 8 Member States' catalogues of recommended specifications. These Member States are Estonia, France, Germany, Greece, Norway, Poland, Slovenia and Spain.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"
+5bf47462bd21f50184614b66ed6cd51ba140adf941b751450eab22eb8e2986e6,Joint Photographic Experts Group (JPEG),3.1.0,31/03/2020,EIF,5c0509f7568696d426de2893d44096f36d8ae2ba4a3fea25d0943a9fd276d640,CAMSS Team,ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164,everis,,,,CAMSS@everis.com,2020-08-31,fa3a7cf6ccb859ff672f6579e000e61d96f0756c83c13b96e3139ae97beb13bd,European Interoperability Framework (EIF),e59684167f5a88a93aac3e265e607508aac43ba87ce9bc8c0b18f052b46cd27a,07dae3fd-5bb1-4107-8bc4-d4e1835f3d87,Joint Photographic Experts Group (JPEG),https://www.iso.org/standard/18902.html,35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506,Other SDO/SSO,,,,,,,,,,,,,2020-08-31,International Standard,A33,7a18abe4842e04b608025fd70e54c3db5c2a10130c0dab0495479e7d5effb55d,e0f22900-0f1a-471f-8905-6affec8985bd,0,b2d5afa4-11e8-42a6-96b5-00067d06abcb,"After checking the different standard catalogues at supra-national level, there is no evidence of the inclusion of JPEG within any European catalogue of standards.
+
+ICT technical specifications:
+https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en 
+
+CEN search tool catalogue:
+https://standards.cen.eu/dyn/www/f?p=CENWEB:105::RESET::::
+
+CENELEC search tool catalogue:
+https://www.cenelec.eu/dyn/www/f?p=104:107:0::::FSP_LANG_ID:25"
+5bf47462bd21f50184614b66ed6cd51ba140adf941b751450eab22eb8e2986e6,Joint Photographic Experts Group (JPEG),3.1.0,31/03/2020,EIF,5c0509f7568696d426de2893d44096f36d8ae2ba4a3fea25d0943a9fd276d640,CAMSS Team,ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164,everis,,,,CAMSS@everis.com,2020-08-31,fa3a7cf6ccb859ff672f6579e000e61d96f0756c83c13b96e3139ae97beb13bd,European Interoperability Framework (EIF),e59684167f5a88a93aac3e265e607508aac43ba87ce9bc8c0b18f052b46cd27a,07dae3fd-5bb1-4107-8bc4-d4e1835f3d87,Joint Photographic Experts Group (JPEG),https://www.iso.org/standard/18902.html,35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506,Other SDO/SSO,,,,,,,,,,,,,2020-08-31,International Standard,A34,5df7a9f6081c945a22f500aa0ba2c452b8b9cd9497bd643ac76c39d34a18c319,36a7cb16-4a32-4560-9659-49a6b8f7cfd5,0,adbdfdd4-7a4e-4aae-a712-7bd132603fc9,No evidences have been found of the specification being included in a formal interoperability agreement between organisations involved in the European public services provision.
+5bf47462bd21f50184614b66ed6cd51ba140adf941b751450eab22eb8e2986e6,Joint Photographic Experts Group (JPEG),3.1.0,31/03/2020,EIF,5c0509f7568696d426de2893d44096f36d8ae2ba4a3fea25d0943a9fd276d640,CAMSS Team,ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164,everis,,,,CAMSS@everis.com,2020-08-31,fa3a7cf6ccb859ff672f6579e000e61d96f0756c83c13b96e3139ae97beb13bd,European Interoperability Framework (EIF),e59684167f5a88a93aac3e265e607508aac43ba87ce9bc8c0b18f052b46cd27a,07dae3fd-5bb1-4107-8bc4-d4e1835f3d87,Joint Photographic Experts Group (JPEG),https://www.iso.org/standard/18902.html,35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506,Other SDO/SSO,,,,,,,,,,,,,2020-08-31,International Standard,A35,53abe85b1365f86aa58a25566e54e082ea2d70ee8d9fbaf09ccab20af30f3332,c60e690e-bbb8-40ec-83a6-86f7023fad43,0,8ca8d3b0-8115-4224-8bb8-af0b459eb5a0,"After checking the assessments performed by CAMSS and the list of specifications identified by the MSP Multi-stakeholder-platform, no assessment verifying the compliance of the specification with the European standardisation regulation has been found.
+
+ICT technical specifications:
+https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en"
+5bf47462bd21f50184614b66ed6cd51ba140adf941b751450eab22eb8e2986e6,Joint Photographic Experts Group (JPEG),3.1.0,31/03/2020,EIF,5c0509f7568696d426de2893d44096f36d8ae2ba4a3fea25d0943a9fd276d640,CAMSS Team,ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164,everis,,,,CAMSS@everis.com,2020-08-31,fa3a7cf6ccb859ff672f6579e000e61d96f0756c83c13b96e3139ae97beb13bd,European Interoperability Framework (EIF),e59684167f5a88a93aac3e265e607508aac43ba87ce9bc8c0b18f052b46cd27a,07dae3fd-5bb1-4107-8bc4-d4e1835f3d87,Joint Photographic Experts Group (JPEG),https://www.iso.org/standard/18902.html,35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506,Other SDO/SSO,,,,,,,,,,,,,2020-08-31,International Standard,A36,c265ca0c56e0f29a34039d496ba707b5486ccf6d445f9f058c19b4ece977861f,abb755d7-96cd-4f1f-8ab9-90a74b723f5e,2,8416c223-73e8-40fa-b4e9-ef4af15bbb5f,"The purpose of JEPG is not related to the modelling of business processes. Therefore, this criterion is not applicable to the specification. 
+
+JEPG ISO reference:
+https://www.iso.org/standard/18902.html
+
+JPEG public reference:
+https://jpeg.org/jpeg/"
+5bf47462bd21f50184614b66ed6cd51ba140adf941b751450eab22eb8e2986e6,Joint Photographic Experts Group (JPEG),3.1.0,31/03/2020,EIF,5c0509f7568696d426de2893d44096f36d8ae2ba4a3fea25d0943a9fd276d640,CAMSS Team,ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164,everis,,,,CAMSS@everis.com,2020-08-31,fa3a7cf6ccb859ff672f6579e000e61d96f0756c83c13b96e3139ae97beb13bd,European Interoperability Framework (EIF),e59684167f5a88a93aac3e265e607508aac43ba87ce9bc8c0b18f052b46cd27a,07dae3fd-5bb1-4107-8bc4-d4e1835f3d87,Joint Photographic Experts Group (JPEG),https://www.iso.org/standard/18902.html,35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506,Other SDO/SSO,,,,,,,,,,,,,2020-08-31,International Standard,A37,6d48464387e608d3022bd07338cd3859acfb0f84139186a979ef3b96baa51086,5302f69d-f229-42f4-be06-a45527fdc7e5,2,e56b9eef-e91b-4fdb-94b1-334d3160130e,"The purpose of JEPG is not related to organisational interoperability. Therefore, this criterion is not applicable to the specification. 
+
+JEPG ISO reference:
+https://www.iso.org/standard/18902.html
+
+JPEG public reference:
+https://jpeg.org/jpeg/"
+5bf47462bd21f50184614b66ed6cd51ba140adf941b751450eab22eb8e2986e6,Joint Photographic Experts Group (JPEG),3.1.0,31/03/2020,EIF,5c0509f7568696d426de2893d44096f36d8ae2ba4a3fea25d0943a9fd276d640,CAMSS Team,ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164,everis,,,,CAMSS@everis.com,2020-08-31,fa3a7cf6ccb859ff672f6579e000e61d96f0756c83c13b96e3139ae97beb13bd,European Interoperability Framework (EIF),e59684167f5a88a93aac3e265e607508aac43ba87ce9bc8c0b18f052b46cd27a,07dae3fd-5bb1-4107-8bc4-d4e1835f3d87,Joint Photographic Experts Group (JPEG),https://www.iso.org/standard/18902.html,35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506,Other SDO/SSO,,,,,,,,,,,,,2020-08-31,International Standard,A38,8954ddabf37f4899562b9ea4c8f0bbf204f3e48c9203043bc231f368092396a2,9b24d0f9-b13c-476e-b00a-824e6aa71a90,0,36f891f8-11cf-418b-8207-a0ee5f1cd66c,"JPEG does not define a reusable cross-sector data model, but it defines a standardised manner to deal with images while sharing, creating, or editing.
+
+JEPG ISO reference:
+https://www.iso.org/standard/18902.html
+
+JPEG public reference:
+https://jpeg.org/jpeg/"
+5bf47462bd21f50184614b66ed6cd51ba140adf941b751450eab22eb8e2986e6,Joint Photographic Experts Group (JPEG),3.1.0,31/03/2020,EIF,5c0509f7568696d426de2893d44096f36d8ae2ba4a3fea25d0943a9fd276d640,CAMSS Team,ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164,everis,,,,CAMSS@everis.com,2020-08-31,fa3a7cf6ccb859ff672f6579e000e61d96f0756c83c13b96e3139ae97beb13bd,European Interoperability Framework (EIF),e59684167f5a88a93aac3e265e607508aac43ba87ce9bc8c0b18f052b46cd27a,07dae3fd-5bb1-4107-8bc4-d4e1835f3d87,Joint Photographic Experts Group (JPEG),https://www.iso.org/standard/18902.html,35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506,Other SDO/SSO,,,,,,,,,,,,,2020-08-31,International Standard,A39,138786a6e7517e10b94e83ec3b3e7ac79b4c49dcbeaef8d8e993c8df0d173529,34b25aba-9798-411a-ba99-f66e15323e0d,0,5364b6ec-df6c-4ccf-91a6-e55aeecf4c7f,"Although JPEG is supporting the first level of maturity from the Tim Berners-Lee 5-star schema for the Open data, it is not supporting the main principles for the publication of data as Linked Open Data.  
+
+JEPG ISO reference:
+https://www.iso.org/standard/18902.html
+
+JPEG public reference:
+https://jpeg.org/jpeg/
+
+5-star linked open data:
+https://www.w3.org/DesignIssues/LinkedData.html"

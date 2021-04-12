@@ -1,0 +1,521 @@
+@prefix camss: <http://data.europa.eu/2sa#> .
+@prefix camssa: <http://data.europa.eu/2sa/assessments/> .
+@prefix cav: <http://data.europa.eu/2sa/cav#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sc: <http://data.europa.eu/2sa/scenarios#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix status: <http://data.europa.eu/2sa/rsc/assessment-status#> .
+@prefix tool: <http://data.europa.eu/2sa/rsc/toolkit-version#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+camssa:a9351ce2884fa57fabbb95fea0a1df1002a7b0c68caa3cce3c9cf6e883db44e2 a cav:Assessment,
+        owl:NamedIndividual ;
+    camss:assesses cssvrsc:e1e184bf4ad4649a9581a3fcda65ce0134719adfa020f44cbd42aeb1b4cac359 ;
+    camss:assessmentDate "1101-01-01"^^xsd:date ;
+    camss:submissionDate "2019-11-30"^^xsd:date ;
+    camss:toolVersion tool:3.0.0 ;
+    cav:contextualisedBy sc:s-fa3a7cf6ccb859ff672f6579e000e61d96f0756c83c13b96e3139ae97beb13bd ;
+    cav:resultsIn camssa:00eb17a8-a53a-4021-8e40-439517a9be7d,
+        camssa:05608337-5496-4cba-ab3f-77006946d35d,
+        camssa:059c8373-3fe4-4cd7-aeda-e214aa0859d5,
+        camssa:0a618047-6c34-41c3-adff-67909e29b03a,
+        camssa:0df15f80-435d-40b2-9b56-23e558e3fd0f,
+        camssa:0f1a6f2d-3175-48c4-b311-89de71f386df,
+        camssa:0f2ffe32-6b7f-4a74-8517-41279be25475,
+        camssa:1708904a-072a-4f1c-927f-ba9f54be2078,
+        camssa:1cd57b83-088c-463b-9431-4785562f5755,
+        camssa:20d185eb-81fa-4484-8004-35843201e30a,
+        camssa:29e951c0-11e0-4f87-a68c-da8b11266a0b,
+        camssa:4327780d-8ad1-445d-a735-8763bc05de27,
+        camssa:46de316a-299c-4324-b1d9-874359060171,
+        camssa:4c22a302-6293-4cb1-9a55-47d19c169331,
+        camssa:579c16ba-7bd0-4f75-8223-785d04cd2d6d,
+        camssa:57c176e1-7972-4415-bc90-1bd915281026,
+        camssa:61edc588-0b29-4758-9739-f803267ee516,
+        camssa:74e8466b-d643-424e-96e6-ccff7a5d3833,
+        camssa:77eb3f41-4191-4792-8288-49764c8eee60,
+        camssa:7a65154c-8097-42fc-b5b4-9a3f14478fc2,
+        camssa:90514536-75cf-486d-be5a-0b21be28f07c,
+        camssa:91cd6fca-756f-47ec-a183-4149de97a71d,
+        camssa:94609f1b-7a15-4ea7-be2b-3cfedfb38f32,
+        camssa:a10cde1e-0793-44fc-a394-2b8244591e7a,
+        camssa:b0d9663a-2606-4c7c-8163-a24e168c1b93,
+        camssa:b1b16635-d6cf-411f-b79f-f09526278d2d,
+        camssa:b5651212-c407-4abb-a0de-a37d612855c4,
+        camssa:b824cdc3-4569-406a-a065-a3d902d0a3fe,
+        camssa:bd94f5d9-7a3b-4114-a8bb-de34d7b7d3a1,
+        camssa:bda447c6-45a6-4385-8a64-c1637f6c5e3d,
+        camssa:c5e321ab-2b1f-4f61-aa89-92b2f28b7703,
+        camssa:cac96f00-345c-4647-a5ad-6c1d92f39bf9,
+        camssa:d0ccf240-23ac-4ff2-ac7b-96caaa7c4334,
+        camssa:e3be62cb-c0a6-42a1-ad76-66a54e66e9bd,
+        camssa:e8594f36-eed2-46eb-adc4-2704cd8aee70,
+        camssa:fbf1aa2a-13d9-45fd-ad81-b26acb187624,
+        camssa:ff539def-9c32-45c4-9dea-96edde31254b ;
+    cav:status status:Complete ;
+    dct:title "Internet Protocol version 4 (IPv4)"@en .
+
+camssa:ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164 a owl:NamedIndividual,
+        org:Organization ;
+    camss:contactPoint camssa:4d18c052-9f14-40cb-bd03-eb17a6f1f3e6 ;
+    skos:prefLabel "CAMSS Team"@en .
+
+camssa:00eb17a8-a53a-4021-8e40-439517a9be7d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The specification is not related to the publication of public data as open data. Therefore this criterion is not applicable to this specification."@en ;
+    cav:refersTo camssa:388f8131-072a-4b6c-9435-500a5cd4b49e .
+
+camssa:05608337-5496-4cba-ab3f-77006946d35d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of the IPv4 is to enable communications over the internet, so much so it does not hamper the scalability of systems. By using IPv4, administrations, citizens or businesses can provide or consume data over the Internet without hampering the interoperability between systems.  
+Despite the progressive adoption of the new version, IPv4 and IPv6 are meant to coexist for years. The mechanisms to enable the compatibility avoid interoperability hampering. """@en ;
+    cav:refersTo camssa:f443d42e-94ec-42ca-90eb-6a6052bc5709 .
+
+camssa:059c8373-3fe4-4cd7-aeda-e214aa0859d5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """As the internet protocol stack, it allows connections and data exchange all over the internet. The internet protocol is the main enabler element to perform communications over networks. This fact together with its long haul demonstrates the market acceptance and the maturity for its use development of services and products. Moreover, the European Regional Internet Registry has a high number of IPs available in order to provide them when necessary.
+
+Even though, it is worth mentioning that IPv6 it is being gradually adopted by suppliers, vendors and public services. However, there are existing translation and transition methods between both versions that allow the normal connection between nodes using different Internet Protocol versions
+
+See: 
+https://www.ripe.net/publications/news/about-ripe-ncc-and-ripe/getting-ready-for-ipv4-run-out"""@en ;
+    cav:refersTo camssa:71cc7f2d-4d12-469b-81cb-29fdfaa54a76 .
+
+camssa:08f40b89-03e3-40ce-8962-0df232b6c2d4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a0101cb11c30c1bbf94adb74479472f2a40c53ccc4b442180fece91506c20a9d ;
+    cav:value "1"^^xsd:int .
+
+camssa:0a618047-6c34-41c3-adff-67909e29b03a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """As a protocol which allows the data exchange over the internet, IPv4 contributes to the information and data exchange between administrations. Therefore, avoids the non-digital exchange of data reducing the administrative burden.
+Additionally, as it is available for free contributes to the reduction of administrative burden."""@en ;
+    cav:refersTo camssa:2dcc28f1-8267-4d22-a6b5-152a0b3953b3 .
+
+camssa:0df15f80-435d-40b2-9b56-23e558e3fd0f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The Internet Protocol is a key point in the data exchange through the internet. In its aim to ensure communication over computer networks eases the availability of interfaces with internal information. This fact allows the administrations to exchange and reuse data with each other. "@en ;
+    cav:refersTo camssa:8033ebd1-606b-48e9-824c-4d161dbe4036 .
+
+camssa:0f1a6f2d-3175-48c4-b311-89de71f386df a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "After checking the assessments performed by CAMSS and the list of specifications identified by the MSP Multi-stakeholder-platform, no assessment verifying the compliance of the specification with the European standardisation regulation has been found."@en ;
+    cav:refersTo camssa:579d1eeb-919f-494d-9ffd-59178c80263c .
+
+camssa:0f2ffe32-6b7f-4a74-8517-41279be25475 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of IPv4 is not related to long term preservation of electronic records. Therefore this criterion is considered not applicable to this specification."@en ;
+    cav:refersTo camssa:381a7d67-0294-45ea-bc56-252f444603ce .
+
+camssa:1368d88a-eed2-431f-9018-e85bd4ed2721 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-41c6fd2dadb03cc64aad82cfa14f545c084f1a955a3ab7a61aab416a138c5dce ;
+    cav:value "1"^^xsd:int .
+
+camssa:1708904a-072a-4f1c-927f-ba9f54be2078 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of IPv4 is not related to e-accessibility. Therefore this criterion is considered not applicable specification."@en ;
+    cav:refersTo camssa:d22a530b-e5fc-47e0-97d4-2325eb7b227d .
+
+camssa:1857d463-65b1-49ca-b5ba-2fa202b5eeea a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-483e8900c47b40bc67a6bd1cbfce07884b9ac5f2c85e0214f334cc37e4e65c35 ;
+    cav:value "1"^^xsd:int .
+
+camssa:18caaa11-dd87-43a7-97e9-78c7a7ce3be8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ef096f898c938883daab1b22e784cfaf985b5e5c855e170ecf6eab6f37b01b50 ;
+    cav:value "1"^^xsd:int .
+
+camssa:1cd57b83-088c-463b-9431-4785562f5755 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """IPv4 is included in 2 national catalogues, which belong to Member States which comply with at least 4 out of 5 sections of the EIF according to the NIFO factsheets. These two Member States are the Netherlands and Sweden. 
+
+See:                                                                                                                                               
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards
+https://joinup.ec.europa.eu/collection/national-interoperability-framework-observatory-nifo/nifo-factsheets      """@en ;
+    cav:refersTo camssa:734e4c72-af5d-4170-ba5a-5e32cbc093e8 .
+
+camssa:20d185eb-81fa-4484-8004-35843201e30a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """One of the RFCs defining the IPv4 is available at the European collaborative platform Joinup. However, the other documents defining the specifications are not available at any European platform. 
+See: 
+https://joinup.ec.europa.eu/solution/ietf-rfc-791-1980-internet-protocol/distribution/ietf-rfc-791-1980-internet-protocol"""@en ;
+    cav:refersTo camssa:90baea30-13f4-4abb-ba8c-2ebb91de752a .
+
+camssa:29c4386a-b4ce-45f5-b73d-0ec3ae9bf022 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7aa038b5496afb8cb229c692be9a2adc175deb2d5d47e35ad67e027c9eac28ba ;
+    cav:value "1"^^xsd:int .
+
+camssa:29e951c0-11e0-4f87-a68c-da8b11266a0b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of IPv4 is not related to the delivery of multilingual services. Therefore this criterion is not applicable to this specification."@en ;
+    cav:refersTo camssa:96ed747b-4a6f-4c51-b209-132f5d5f7f2b .
+
+camssa:2aef3b0f-cbf5-4a79-8156-c9c158ed4e65 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-73a8058bec757a2fdb0f8513c2f11841e982cbef76c3be82af67707c294da8b8 ;
+    cav:value "2"^^xsd:int .
+
+camssa:2b48e209-3c6f-4e93-9e08-7de34689a8c1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0229101dfe08cbe58da1e454363d30a8178a2e120466c8db23965488cae5c8b1 ;
+    cav:value "1"^^xsd:int .
+
+camssa:2dcc28f1-8267-4d22-a6b5-152a0b3953b3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-39e7870e79b2999a8b61c97f0c356312b88174320d6464fce5639e57ec0de011 ;
+    cav:value "1"^^xsd:int .
+
+camssa:30e7d5d6-54c9-41bf-b264-d55e2dc227f1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e8c3529a6146f0b0d269112be717ba4e9c5979ea4f43f57d217c0f998d26ce17 ;
+    cav:value "1"^^xsd:int .
+
+camssa:381a7d67-0294-45ea-bc56-252f444603ce a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-83d21357ecad07668ab7f2010aefed3cebb92dab384eeae6eb7aa77def06cfc3 ;
+    cav:value "2"^^xsd:int .
+
+camssa:388f8131-072a-4b6c-9435-500a5cd4b49e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b6ba3f2f556446c68c55833e72b217be87ad5f0dd07744e2c39c6070aff6c10f ;
+    cav:value "2"^^xsd:int .
+
+camssa:395505b4-e2f4-4ea1-b92b-a033011461ca a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1d35b341bcafc21377ae6ac358b9dc087e8ad32870012c2743e49e4566440f41 ;
+    cav:value "2"^^xsd:int .
+
+camssa:40533d85-9743-4d4e-94fd-45419934dd7f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-6ec33e201b803a1cc0150c0da8dc42b2a0f1029cf31e7a2c0fc81d1d8336ef36 ;
+    cav:value "1"^^xsd:int .
+
+camssa:4327780d-8ad1-445d-a735-8763bc05de27 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The Internet Protocol is a necessary specification for the implementation of the once-only-principle as it allows cross-border communications over the internet."@en ;
+    cav:refersTo camssa:91448b42-9a0b-4cf6-bf18-972fb8db9c49 .
+
+camssa:46de316a-299c-4324-b1d9-874359060171 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "After checking the different standard catalogues at supra-national level, there is no evidence of the inclusion of IPv4 within any European catalogue of standards."@en ;
+    cav:refersTo camssa:64449258-d8ee-4cad-98de-5b1e3db30f49 .
+
+camssa:4c22a302-6293-4cb1-9a55-47d19c169331 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Internet Protocol Security (IPsec), a protocol providing a network layer security (authentication and encryption), is an optional feature that allows the Internet Protocol to secure the data exchange. However, in the latest version of the protocol (IPv6), the feature has been included as mandatory enhancing security settings. 
+
+See: 
+https://tools.ietf.org/html/rfc791
+https://tools.ietf.org/html/rfc1349
+https://tools.ietf.org/html/rfc2474
+https://tools.ietf.org/html/rfc6864
+https://tools.ietf.org/html/rfc2460"""@en ;
+    cav:refersTo camssa:1857d463-65b1-49ca-b5ba-2fa202b5eeea .
+
+camssa:4d18c052-9f14-40cb-bd03-eb17a6f1f3e6 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "CAMSS@everis.com" .
+
+camssa:55a5564e-ff5c-4d88-8cf4-7543f1acc655 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-093c1e09f5a65e4cba0247dcab5a8f4854f3e512db336b1855b9a4c48d3659e0 ;
+    cav:value "1"^^xsd:int .
+
+camssa:56614287-64f7-4db5-93b4-86cbcb95817c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b45c8f7e446b1343c6b6961290d2106768aa43c1f123f5e436d0255c003abb50 ;
+    cav:value "1"^^xsd:int .
+
+camssa:579c16ba-7bd0-4f75-8223-785d04cd2d6d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """6 Member States are recommending IPv6 in their ICT National Catalogues. 
+
+See: 
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards """@en ;
+    cav:refersTo camssa:d426df0d-1798-4a9b-9cd8-037984f3b98c .
+
+camssa:579d1eeb-919f-494d-9ffd-59178c80263c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e9e0cf4a339c837607828404dd0e9b360d643528fcc1df488a95ca67166acea3 ;
+    cav:value "0"^^xsd:int .
+
+camssa:57c176e1-7972-4415-bc90-1bd915281026 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "IPv4 is the previous version of the Internet Protocol, but it is widely adopted and still prevailing. The newest has specific features and improves security aspects. Even the IPv6 it is being gradually implemented and included in new initiatives, the existing translation and transition mechanisms between versions avoid the interoperability hampering. "@en ;
+    cav:refersTo camssa:30e7d5d6-54c9-41bf-b264-d55e2dc227f1 .
+
+camssa:5c0a72bd-6553-4889-9bba-0b97bcebc290 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-396b6535162f7bba7733ebcc30d2e467321ce07cd8e48b86ab8201acf27031f9 ;
+    cav:value "0"^^xsd:int .
+
+camssa:61e036dc-2372-4e86-b6dd-5ceb4a9b2417 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-450e8a1f4cffbbf3de202e37bd642f098174559028df90ccc657473a6086bc0b ;
+    cav:value "2"^^xsd:int .
+
+camssa:61edc588-0b29-4758-9739-f803267ee516 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """IPv4 is a protocol that allows the exchange of data through the internet, therefore, the specifications fosters the data portability. Moreover, the European Commission launched in 2012 a programme to ensure the coexistence and the proper transition to the new version of internet protocol.
+See:
+https://ec.europa.eu/commission/presscorner/detail/en/MEMO_12_414"""@en ;
+    cav:refersTo camssa:40533d85-9743-4d4e-94fd-45419934dd7f .
+
+camssa:64449258-d8ee-4cad-98de-5b1e3db30f49 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0c9dd43038136296b52f50e05f9d6eef39f7b8018517224007990b15be2eb19e ;
+    cav:value "0"^^xsd:int .
+
+camssa:71cc7f2d-4d12-469b-81cb-29fdfaa54a76 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a67ecbc29e70e62b18dba3ae4f8d1f91d5b3196777dbf8b58c6713cd517eb768 ;
+    cav:value "1"^^xsd:int .
+
+camssa:734e4c72-af5d-4170-ba5a-5e32cbc093e8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d7be9f0dd52944e6c25f5469c86355a42ae446838bd9759b4986d21f7db4814b ;
+    cav:value "1"^^xsd:int .
+
+camssa:74e8466b-d643-424e-96e6-ccff7a5d3833 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "As Internet Protocol Stack, IPv4 has been selected by a wide range of European public administrations in order to ensure the data exchange between its different stakeholders. Therefore, the adoption of IPv4 fosters the administration's data visibility and eases the decision-making process. "@en ;
+    cav:refersTo camssa:d4dd8c78-13b6-4996-9999-fa073e96f933 .
+
+camssa:77eb3f41-4191-4792-8288-49764c8eee60 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is included in 6 Member States' catalogues of recommended specifications. Some examples of Member States including IPv4 on their catalogues are the Netherlands or Sweden.   
+
+See: 
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:9adc2bb5-e23e-49bc-a9f9-9014bf11faad .
+
+camssa:7a65154c-8097-42fc-b5b4-9a3f14478fc2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is available for its use and implementation at the EITF's webpage defined in several RFCs. 
+See:
+https://tools.ietf.org/html/rfc791 
+https://tools.ietf.org/html/rfc1349
+https://tools.ietf.org/html/rfc2474
+https://tools.ietf.org/html/rfc6864"""@en ;
+    cav:refersTo camssa:56614287-64f7-4db5-93b4-86cbcb95817c .
+
+camssa:7ec84d40-bf75-4e1d-9472-d556e9ec7533 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-4a006ad6785e066d16c13daf48a60ee43ec33d1de1b06613c8e656ccf330a6d5 ;
+    cav:value "1"^^xsd:int .
+
+camssa:8033ebd1-606b-48e9-824c-4d161dbe4036 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f41cca0d171e6f64dbc2bdeae9fbc87f2ea51ac00185b22114d59ab8a06e78d0 ;
+    cav:value "1"^^xsd:int .
+
+camssa:83598aab-e916-46cb-9e98-50e92125f5d3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e370a4af17e89cbb70bb5079082a1e21cdee85435c8fc30b12a8987f18db367f ;
+    cav:value "1"^^xsd:int .
+
+camssa:90514536-75cf-486d-be5a-0b21be28f07c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are existing documentation and studies assessing the effectiveness and efficiency of IPv4. It is a constant in studies the comparison between both versions, IPv4 and IPv6. As well, the studies show the relevance of coexisting before finding the most efficient method to move on from one protocol to another. 
+See:
+https://www.researchgate.net/publication/317135434_A_STUDY_ON_IPv4_and_IPv6_THE_IMPORTANCE_OF_THEIR_CO-EXISTENCE
+https://pdfs.semanticscholar.org/3455/fdc0741edc3263295ae8d0c226119613db81.pdf
+https://www.researchgate.net/publication/224593091_A_comparative_review_of_IPv4_and_IPv6_for_research_test_bed"""@en ;
+    cav:refersTo camssa:fff66cd2-0a58-41a1-8725-f941107ed462 .
+
+camssa:90baea30-13f4-4abb-ba8c-2ebb91de752a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-4017a1ae4d077fbb3847280a1c20b41bf00c32d65fc9beaa2bea8cce550ac463 ;
+    cav:value "1"^^xsd:int .
+
+camssa:91448b42-9a0b-4cf6-bf18-972fb8db9c49 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-01e6c1ce016de128117697d51a8fdaebb57c1f50343c081dfd72e2fbc56733a8 ;
+    cav:value "1"^^xsd:int .
+
+camssa:91cd6fca-756f-47ec-a183-4149de97a71d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """IPv4 is maintained and developed by IETF which is an international community developing open standards. 
+Additionally, it has support from the different Regional Internet Registries (RIRs) in order to ensure the proper development beyond borders. 
+See: 
+https://www.arin.net/
+https://www.ripe.net/
+https://afrinic.net/
+https://www.apnic.net/
+https://www.lacnic.net/"""@en ;
+    cav:refersTo camssa:2b48e209-3c6f-4e93-9e08-7de34689a8c1 .
+
+camssa:94609f1b-7a15-4ea7-be2b-3cfedfb38f32 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There is no conformity test coming from the IETF, but there are existing IPv4 test suits for free and underpayment. 
+See:
+http://www.qkdnetsim.info/doc/html/ipv4-test_8cc.html"""@en ;
+    cav:refersTo camssa:55a5564e-ff5c-4d88-8cf4-7543f1acc655 .
+
+camssa:96ed747b-4a6f-4c51-b209-132f5d5f7f2b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-19c639047dab46befb5839503733c8f1e7ed8278f788a089d11d2caee84a8f7c ;
+    cav:value "2"^^xsd:int .
+
+camssa:9adc2bb5-e23e-49bc-a9f9-9014bf11faad a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3671439b412291ce208a0ade6313c64aeb2942059c7543ca39322c56458bcf96 ;
+    cav:value "1"^^xsd:int .
+
+camssa:a10cde1e-0793-44fc-a394-2b8244591e7a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The specification is not related to the publication of public data as open data. Therefore this criterion is not applicable to this specification."@en ;
+    cav:refersTo camssa:61e036dc-2372-4e86-b6dd-5ceb4a9b2417 .
+
+camssa:aacffc17-004b-4ba4-8e0f-c727ae0ab8d0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f70d8bc1b4b6e186d69ea3f7f8cc7b2d75314b84e7f481ebe13b4e6ed8b36598 ;
+    cav:value "1"^^xsd:int .
+
+camssa:b0d9663a-2606-4c7c-8163-a24e168c1b93 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "No evidence has been found of the specification being included in a formal interoperability agreement between organisations involved in the European public services provision. "@en ;
+    cav:refersTo camssa:5c0a72bd-6553-4889-9bba-0b97bcebc290 .
+
+camssa:b1b16635-d6cf-411f-b79f-f09526278d2d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """IPv4 is publicly available for implementation and use, and therefore for everyone to study, for free on IETF webpage. 
+See:
+https://tools.ietf.org/html/rfc791
+https://tools.ietf.org/html/rfc1349
+https://tools.ietf.org/html/rfc2474
+https://tools.ietf.org/html/rfc6864"""@en ;
+    cav:refersTo camssa:7ec84d40-bf75-4e1d-9472-d556e9ec7533 .
+
+camssa:b5651212-c407-4abb-a0de-a37d612855c4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Like all the IETF standards, IPv4 is a free and open technical specification, built on IETF standards and licenses from the Open Web Foundation. IPv4 is therefore licensed on a royalty-free basis.
+See:
+https://tools.ietf.org/html/rfc3668"""@en ;
+    cav:refersTo camssa:83598aab-e916-46cb-9e98-50e92125f5d3 .
+
+camssa:b824cdc3-4569-406a-a065-a3d902d0a3fe a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "IPv4 is a sector agnostic specification that allows its implementation independently form the business domain. "@en ;
+    cav:refersTo camssa:1368d88a-eed2-431f-9018-e85bd4ed2721 .
+
+camssa:bd94f5d9-7a3b-4114-a8bb-de34d7b7d3a1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The IETF is a consensus-based group, and authority to act on behalf of the community requires a high degree of consensus and the continued consent of the community. The process of creating and Internet Standard is straightforward: a specification undergoes a period of development and several iterations of review by the Internet community and revision based upon experience, is adopted as a Standard by the appropriate body... and is published. In practice, the process is more complicated, due to (1) the difficulty of creating specifications of high technical quality; (2) the need to consider the interests of all of the affected parties; (3) the importance of establishing widespread community consensus; and (4) the difficulty of evaluating the utility of a particular specification for the Internet community. The goals of the Internet Standards Process are:
+- Technical excellence;
+- prior implementation and testing;
+- clear, concise, and easily understood documentation;
+- openness and fairness; and 
+- timeliness.
+The goal of technical competence, the requirement for prior implementation and testing, and the need to allow all interested parties to comment all require significant time and effort. The Internet Standards Process is intended to balance these conflicting goals. The process is believed to be as short and simple as possible without sacrificing technical excellence, thorough testing before adoption of a standard, or openness and fairness.
+See:
+https://www.ietf.org/standards/process/"""@en ;
+    cav:refersTo camssa:29c4386a-b4ce-45f5-b73d-0ec3ae9bf022 .
+
+camssa:bda447c6-45a6-4385-8a64-c1637f6c5e3d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """IPv4 has been selected within the cross-border project of The Compendium from the National Research and Education Networks in Europe (NREN). The Compendium structures its services in an IP-based network using mainly IPv4. The protocol acts as the backbone of the Pan-European network provided by GEANT.
+
+See: 
+https://www.geant.org/Resources/Documents/Compendium2016.pdf
+https://www.geant.org/Networks/Pan-European_network/Pages/Home.aspx"""@en ;
+    cav:refersTo camssa:d46e5fd1-2916-4d16-8763-d5174e5b376e .
+
+camssa:c5e321ab-2b1f-4f61-aa89-92b2f28b7703 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Like all the IETF standards, IPv4 is a free and open technical specification, built on IETF standards and licenses from the Open Web Foundation. IPv4 is therefore licensed on a royalty-free basis.
+See:
+https://tools.ietf.org/html/rfc3668"""@en ;
+    cav:refersTo camssa:18caaa11-dd87-43a7-97e9-78c7a7ce3be8 .
+
+camssa:c7eca255-c4c3-4246-a92d-76b4a282d94c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cf1de0bf03a8ee372af0deddf9ef5c4609f5a7bb9c7e001c89d887c6789eaf56 ;
+    cav:value "0"^^xsd:int .
+
+camssa:c92d4725-70dc-4fe5-b298-35323fde3e14 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5839144ecfb6c41a2c3cf5c1e86a6b3ad7a9e3ec9c4efa5650a6e7b9e3586335 ;
+    cav:value "1"^^xsd:int .
+
+camssa:cac96f00-345c-4647-a5ad-6c1d92f39bf9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "Information shared by an IPv4 packet, which is the smallest message entity exchanged via the Internet Protocol, contains structured information which can be considered a cross-border reusable data model. That structure is relevant for proper consumption and data exchange. "@en ;
+    cav:refersTo camssa:08f40b89-03e3-40ce-8962-0df232b6c2d4 .
+
+camssa:d0ccf240-23ac-4ff2-ac7b-96caaa7c4334 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of IPv4 is not related to the modelling of business processes. Therefore, this criterion is not applicable to the specification."@en ;
+    cav:refersTo camssa:395505b4-e2f4-4ea1-b92b-a033011461ca .
+
+camssa:d22a530b-e5fc-47e0-97d4-2325eb7b227d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7a64b01ca9e737c550b205ba3a8a46b3fcfc9447b648ba8ef15d62d3ada26141 ;
+    cav:value "2"^^xsd:int .
+
+camssa:d426df0d-1798-4a9b-9cd8-037984f3b98c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b4f0d1b7f1d41c70797fa200c6fc73ac01f2f1659319e5cb1cebe8f5e79c1fcb ;
+    cav:value "1"^^xsd:int .
+
+camssa:d46e5fd1-2916-4d16-8763-d5174e5b376e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a1eafd9c95081eeabe19f0511239b88139f02f95e2349049eeea058a89c80f49 ;
+    cav:value "1"^^xsd:int .
+
+camssa:d4dd8c78-13b6-4996-9999-fa073e96f933 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-105c699a138c27ab9a1af9174253cd7488b278f700acdbb1bdbcc3e0b9c5ec3d ;
+    cav:value "1"^^xsd:int .
+
+camssa:e3be62cb-c0a6-42a1-ad76-66a54e66e9bd a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """IETF has a formal review and approval so that all the relevant stakeholders can formally appeal or raise objections to the development and approval of specifications.
+
+Each distinct version of an Internet standards-related specification is published as part of the "Request for Comments" (RFC) document series. This archival series is the official publication channel for Internet standards documents and other publications.
+
+During the development of a specification, draft versions of the document are made available for informal review and comment by placing them in the IETF's "Internet-Drafts" directory, which is replicated on a number of Internet hosts. This makes an evolving working document readily available to a wide audience, facilitating the process of review and revision.
+
+See:
+https://www.ietf.org/standards/process/ 
+https://tools.ietf.org/html/rfc2026"""@en ;
+    cav:refersTo camssa:aacffc17-004b-4ba4-8e0f-c727ae0ab8d0 .
+
+camssa:e8594f36-eed2-46eb-adc4-2704cd8aee70 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of IPv4 is not related to the modelling of business processes. Therefore, this criterion is not applicable to the specification."@en ;
+    cav:refersTo camssa:2aef3b0f-cbf5-4a79-8156-c9c158ed4e65 .
+
+camssa:f443d42e-94ec-42ca-90eb-6a6052bc5709 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1435ad894742693c2b99e329ef12399cd411ed6900f49b9658fd2231de3f201a ;
+    cav:value "1"^^xsd:int .
+
+camssa:fbf1aa2a-13d9-45fd-ad81-b26acb187624 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """At the moment of performing the assessment, the IPv4 is widely adopted as a key point on making data, information, and resources available on the internet.  However, it is worth to point out that the new version recently is being gradually adopted including several innovative solutions. Furthermore, there are already transition mechanisms to connect nodes using different versions of the Internet protocol. 
+Nevertheless, the European Commission has endorsed the adoption of IPv6 in new initiatives in order to ease the transition to the new version of the protocol. 
+See: 
+https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:52002DC0096:EN:HTML"""@en ;
+    cav:refersTo camssa:c7eca255-c4c3-4246-a92d-76b4a282d94c .
+
+camssa:ff539def-9c32-45c4-9dea-96edde31254b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """IPv4 is already associated with EIRA ABBs in the European Library Of Specifications (ELIS). More specifically, IPv4 can define the interoperability aspects of the "Network", "Networking Service", "Private Network" and "Public Network" ABBs of the EIRA Technical Application View.
+
+See: 
+https://joinup.ec.europa.eu/solution/elis/distribution/eliscataloguev100betaxlsx"""@en ;
+    cav:refersTo camssa:c92d4725-70dc-4fe5-b298-35323fde3e14 .
+
+camssa:fff66cd2-0a58-41a1-8725-f941107ed462 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-58010a47630ff9ea23336bf3fc558deff59905e0292551fcabc95740082cb378 ;
+    cav:value "1"^^xsd:int .
+

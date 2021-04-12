@@ -15,23 +15,23 @@ class AssessmentTest(unittest.TestCase):
         return
 
     def test_get_ass_id(self):
-        self.ass = Assessment(self.cfg, '../corpus/misc/CAMSS Assessment of HTML5_v1.0.ods')
+        self.ass = Assessment(self.cfg, '../in/test/misc/CAMSS Assessment of HTML5_v1.0.ods')
         print(f'scenario: {self.ass.get_scenario()}, '
               f'toolkit version: {str(self.ass.get_toolkit_version().value)}, '
               f'title: {self.ass.get_title()}, '
               f'id: {self.ass.get_id()}')
         self.ass = Assessment(self.cfg,
-                              '../corpus/misc/CAMSS Assessment_ASiC Baseline Profile_EIF Scenario_v.1.0.0.xlsm')
+                              '../in/test/misc/CAMSS Assessment_ASiC Baseline Profile_EIF Scenario_v.1.0.0.xlsm')
         print(f'scenario: {self.ass.get_scenario()}, '
               f'toolkit version: {str(self.ass.get_toolkit_version().value)}, '
               f'title: {self.ass.get_title()}, '
               f'id: {self.ass.get_id()}')
-        self.ass = Assessment(self.cfg, '../corpus/misc/CAMSS_Assessment_ scenario 2 _Digikopeling_v1.0.0.xlsm')
+        self.ass = Assessment(self.cfg, '../in/test/misc/CAMSS_Assessment_ scenario 2 _Digikopeling_v1.0.0.xlsm')
         print(f'scenario: {self.ass.get_scenario()}, '
               f'toolkit version: {str(self.ass.get_toolkit_version().value)}, '
               f'title: {self.ass.get_title()}, '
               f'id: {self.ass.get_id()}')
-        self.ass = Assessment(self.cfg, '../corpus/misc/CAMSS_Assessment_ADMS_EIF Scenario_v1.0.0.xlsm')
+        self.ass = Assessment(self.cfg, '../in/test/misc/CAMSS_Assessment_ADMS_EIF Scenario_v1.0.0.xlsm')
         print(f'scenario: {self.ass.get_scenario()}, '
               f'toolkit version: {str(self.ass.get_toolkit_version().value)}, '
               f'title: {self.ass.get_title()}, '

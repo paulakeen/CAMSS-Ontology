@@ -1,0 +1,625 @@
+@prefix camss: <http://data.europa.eu/2sa#> .
+@prefix camssa: <http://data.europa.eu/2sa/assessments/> .
+@prefix cav: <http://data.europa.eu/2sa/cav#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sc: <http://data.europa.eu/2sa/scenarios#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix status: <http://data.europa.eu/2sa/rsc/assessment-status#> .
+@prefix tool: <http://data.europa.eu/2sa/rsc/toolkit-version#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+camssa:716830625beb117f00276aaf8ee096d4af6c1dcf3c202617395b32c2a910e854 a cav:Assessment,
+        owl:NamedIndividual ;
+    camss:assesses cssvrsc:994f4d6dcdb52b7920dcd9cb7783edda9bc52f3e470389cabf6f28ebd41dc9b0 ;
+    camss:assessmentDate "2020-07-31"^^xsd:date ;
+    camss:submissionDate "2020-07-31"^^xsd:date ;
+    camss:toolVersion tool:3.1.0 ;
+    cav:contextualisedBy sc:s-fa3a7cf6ccb859ff672f6579e000e61d96f0756c83c13b96e3139ae97beb13bd ;
+    cav:resultsIn camssa:087235ba-9740-470c-9c18-09f121339926,
+        camssa:088cb3b3-dccf-4851-82b4-8a0c6be82722,
+        camssa:0a6e0e07-bacc-4fbc-bce4-a8aae3f54b27,
+        camssa:0fd56a99-da5e-4dd2-a64b-d861cef097f4,
+        camssa:11d4d091-64e9-4354-b4a2-5a3279d82e04,
+        camssa:17064057-86e7-4fc0-b44f-2140bc3748dc,
+        camssa:25369f77-5d41-4a06-bcc9-d2866ad9a6ba,
+        camssa:26a36cd3-c112-4ca9-bc98-584b9c5cf3b8,
+        camssa:28a69b79-6b13-48ee-86a7-2d5bb167bf37,
+        camssa:2ba1ddd9-feec-4052-b29e-2a15fc80b3df,
+        camssa:322abcba-1538-4702-afb7-4684870b0769,
+        camssa:3376c73b-e49b-44f3-bf8f-97b741e814fe,
+        camssa:3896af05-1918-4a42-a734-bab9892cd8c0,
+        camssa:3d46a410-5993-44ec-a1bc-dd4a96336591,
+        camssa:551bda43-8953-4c14-8a0e-2ce07b6e32c6,
+        camssa:695b95e2-cf57-4ac4-a485-44e254fb56f8,
+        camssa:6aa69f04-8cb1-435f-b9e1-78246c76a27f,
+        camssa:6f47bbb1-e032-4d33-a8b3-31f554782d07,
+        camssa:72cbd862-b000-496e-b1b1-965c59a5dc72,
+        camssa:80e8704a-15dd-4f28-970d-9b2a5af46e89,
+        camssa:80fc32af-e07c-4aa8-8405-7ccc7adadb1a,
+        camssa:9245f25c-807a-41dd-8728-a93412e46e9a,
+        camssa:97cb7b4c-232b-4b32-a32d-fe1159ab6598,
+        camssa:996e7a91-dc3c-431f-8ebf-28418d5e1f7f,
+        camssa:9dd34011-f90e-4318-988d-5b529c463399,
+        camssa:aac26252-4cfa-4a39-9a78-0ecff4f97802,
+        camssa:abd205be-9856-4d69-b9f6-df31a0d7a7ec,
+        camssa:b10a979a-9424-471b-a165-ca7e4a05c5a9,
+        camssa:b3089870-acd4-4b64-955e-2ddd9cfb102c,
+        camssa:c1ee43ee-d1db-46d4-b6f0-784fbbe3ff06,
+        camssa:c39467d5-aa27-4a5b-b164-e06a66181839,
+        camssa:c9b7353d-48c4-4e1f-acbe-e296252d54b5,
+        camssa:d4c59e89-3180-4632-8ed0-35897a04ffd5,
+        camssa:d6c9508a-18a8-45cb-b344-335999534557,
+        camssa:da125910-1ea5-42ba-9017-f94da0f665cd,
+        camssa:f24401e3-ce68-4bfe-95e8-3329c9b9953c,
+        camssa:f33b7f82-44d9-40b6-b5c2-aa2298d3823d,
+        camssa:faadf6f3-211c-4a58-943f-312baf7df906,
+        camssa:fcd7f0af-d2c1-4c69-b4d0-571ce10147eb ;
+    cav:status status:Complete ;
+    dct:title "Tag image file format for image technology (TIFF/IT)"@en .
+
+camssa:ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164 a owl:NamedIndividual,
+        org:Organization ;
+    camss:contactPoint camssa:6034e744-07c9-46bc-b4f3-1b207b57c627 ;
+    skos:prefLabel "CAMSS Team"@en .
+
+camssa:017ccad4-a57c-4065-96af-e026dc8f5b4a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7aa038b5496afb8cb229c692be9a2adc175deb2d5d47e35ad67e027c9eac28ba ;
+    cav:value "0"^^xsd:int .
+
+camssa:0798457f-7b3d-45f1-b0e2-5354f1203621 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7a18abe4842e04b608025fd70e54c3db5c2a10130c0dab0495479e7d5effb55d ;
+    cav:value "0"^^xsd:int .
+
+camssa:087235ba-9740-470c-9c18-09f121339926 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "After carrying out information retrieval, no document or study has been found assessing the TIFF/IT in terms of efficiency or effectiveness."@en ;
+    cav:refersTo camssa:53bf9c0b-1f90-4943-802d-41e569afa7db .
+
+camssa:088cb3b3-dccf-4851-82b4-8a0c6be82722 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of TIFF/IT is not related to e-accessibility. Therefore, this criterion is considered not applicable to this specification.
+
+TIFF/IT ISO reference:
+https://www.iso.org/standard/34342.html"""@en ;
+    cav:refersTo camssa:4c1a43b1-53f0-4bac-979b-fbd819b39e03 .
+
+camssa:0a6e0e07-bacc-4fbc-bce4-a8aae3f54b27 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "At the moment of performing the assessment, TIFF/IT format is used in some cases because it is great for printing images. However, no evidences have been found to consider TIFF/IT as an asset to build innovative solutions."@en ;
+    cav:refersTo camssa:723d068c-a1e2-4281-a199-fa9ef67e09bf .
+
+camssa:0ad61480-f872-4799-a090-68857fc22d31 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-4ac14cafe608f1dbe7e48f96edd7574c55f0aac2c2e99ede0418dae7225977af ;
+    cav:value "2"^^xsd:int .
+
+camssa:0fd56a99-da5e-4dd2-a64b-d861cef097f4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are no disclosures of ISO IPR Database to identify the licensing under the specification. ISO 12639:2004 (TIFF/IT) is not listed in ISO/IEC/ITU Common Patent policy, so it cannot be confirmed that the specification is licensed on a royalty-free basis.
+
+ISO patents:
+https://www.iso.org/iso-standards-and-patents.html 
+
+ISO standards and patents IPR database:
+http://isotc.iso.org/livelink/livelink/13622347/Patents_database.xls?func=doc.Fetch&nodeId=13622347"""@en ;
+    cav:refersTo camssa:2f78cbc2-f5c0-438a-9f70-b5b71d8f0784 .
+
+camssa:11d4d091-64e9-4354-b4a2-5a3279d82e04 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """TIFF/IT was released in 1996 as a standard for the exchange of digital adverts. It became an ISO standard in 1998 as ISO 12639:1998, the specification had some modifications and the current version was published in 2004. The last review of TIFF/IT was in 2017 and it was confirmed to be the latest version. So it is clear that the specification is mature enough for develop of products and services.
+
+TIFF/IT ISO reference:
+https://www.iso.org/standard/34342.html"""@en ;
+    cav:refersTo camssa:ef8b353e-00b7-4022-867e-7357f9a0813f .
+
+camssa:1598cd36-c1d3-4a3d-abd8-4e552eb43817 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-02333ef99fbcb4f101a106bcf97c9559888756b085b1729b7c2ac9626dc4bc63 ;
+    cav:value "0"^^xsd:int .
+
+camssa:17064057-86e7-4fc0-b44f-2140bc3748dc a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of TIFF/IT is not related to the implementation of the once-only principle. Therefore, this criterion does not apply to this specification. 
+
+TIFF/IT ISO reference:
+https://www.iso.org/standard/34342.html"""@en ;
+    cav:refersTo camssa:88f1a3c3-4489-4a67-8c24-6008e8eb303c .
+
+camssa:233b378f-7bd4-4e4c-8303-598843e55b53 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3aec34db3622bf18675b8216d0fc1d68fc7eeb501b4f3326402038a3ceb95c21 ;
+    cav:value "1"^^xsd:int .
+
+camssa:25369f77-5d41-4a06-bcc9-d2866ad9a6ba a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are many free online tools that validate the conformity of TIFF/IT files. They show possible errors and warnings regarding ISO compliance, some example:
+
+DPF Manager:
+http://dpfmanager.org/
+
+IBM TIFF Validation:
+https://www.ibm.com/support/knowledgecenter/SSRH46_3.0.0/chqizvctifval.html"""@en ;
+    cav:refersTo camssa:49836106-b52c-4b99-a370-4fe34dc48870 .
+
+camssa:25a47e3a-82e4-4f60-8c2c-66f8399effec a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c2cedd44f05183dae5548108bdeace2c092b84c7c5d89c475b0741ddae7fc7b2 ;
+    cav:value "0"^^xsd:int .
+
+camssa:26a36cd3-c112-4ca9-bc98-584b9c5cf3b8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is included in 8 Member States' catalogues of recommended specifications. This Member States are Estonia, France, Germany, Greece, Norway, Poland, Slovenia and Spain.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:776e278f-07e7-491b-9d34-76605bcbbbe8 .
+
+camssa:28a69b79-6b13-48ee-86a7-2d5bb167bf37 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """TIFF fosters the interoperability between systems by having a TIFF Tag Interoperability IFD (Image File Directory) which has multiple tags that store the information to ensure the Interoperability.
+
+TIFF Tag Interoperability IFD reference:
+https://www.awaresystems.be/imaging/tiff/tifftags/interoperabilityifd.html"""@en ;
+    cav:refersTo camssa:eaa38f2a-8ce3-441b-a043-6e0620c07610 .
+
+camssa:2aa11b58-fb82-496d-87eb-8733753dd0a4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-483e8900c47b40bc67a6bd1cbfce07884b9ac5f2c85e0214f334cc37e4e65c35 ;
+    cav:value "1"^^xsd:int .
+
+camssa:2ba1ddd9-feec-4052-b29e-2a15fc80b3df a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of TIFF/IT is not related to the modelling of business processes. Therefore, this criterion is not applicable to the specification.
+
+TIFF/IT ISO reference:
+https://www.iso.org/standard/34342.html"""@en ;
+    cav:refersTo camssa:8f9a1760-baa0-47bf-90cf-e703f19578b9 .
+
+camssa:2ef7b908-ae75-48fd-b195-f622be38d036 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8954ddabf37f4899562b9ea4c8f0bbf204f3e48c9203043bc231f368092396a2 ;
+    cav:value "0"^^xsd:int .
+
+camssa:2f78cbc2-f5c0-438a-9f70-b5b71d8f0784 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1cd71a7b6d54631ba58cc8b0655a443d696f49ec74a0f4cccc871de7789d6a60 ;
+    cav:value "0"^^xsd:int .
+
+camssa:322abcba-1538-4702-afb7-4684870b0769 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """TIFF/IT is a business domain agnostic specification that can be reused in a cross-domain way.
+
+TIFF/IT ISO reference:
+https://www.iso.org/standard/34342.html"""@en ;
+    cav:refersTo camssa:233b378f-7bd4-4e4c-8303-598843e55b53 .
+
+camssa:3376c73b-e49b-44f3-bf8f-97b741e814fe a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """8 Member States are recommending TIFF in their ICT National Catalogues. This Member States are Estonia, France, Germany, Greece, Norway, Poland, Slovenia and Spain.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:e1a82636-6373-4012-a252-7c6daa593582 .
+
+camssa:3896af05-1918-4a42-a734-bab9892cd8c0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Although TIFF/IT’s purpose is not the long-term preservation of data, it can be used to store data as print-ready pages. Moreover, TIFF is one of the safest image file types available with exclusive standout safety features. Moreover, OpenAire which is an European initiative founded by the European Commission, is recommending TIFF as one of the formats for the preservation of images.
+
+OpenAire Initiative:
+https://www.openaire.eu/about
+
+OpenAire Preservation guide:
+https://www.openaire.eu/data-formats-preservation-guide
+
+TIFF/IT ISO reference:
+https://www.iso.org/standard/34342.html"""@en ;
+    cav:refersTo camssa:53dfd070-1cc8-44a4-897c-769baf05a185 .
+
+camssa:3a779454-e2d3-4d15-90fe-35e7e7128a8c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d28663fdb5deb361d5ad773d7b7ece3c6acf8d2eb7a1222a60cb08df4c93aac ;
+    cav:value "1"^^xsd:int .
+
+camssa:3d46a410-5993-44ec-a1bc-dd4a96336591 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Although no formal agreements have been found on the usage of TIFF, there are different projects and initiatives at European level, that use TIFF files for the data exchange. Some examples of Agencies and projects involving the specification are the European Environment Agency and its Evaluation map of Europe, which is available on TIFF format. Also, the initiative founded by the European Commission, OpenAire, which is aimed to foster cooperation among researchers over Europe and the discoverability of their data. This initiative defines guidelines for data management in the context of H2020 Programme: Guidelines on FAIR Data Management in Horizon 2020.
+
+OpenAire Preservation Guidelines:
+https://www.openaire.eu/data-formats-preservation-guide
+
+Elevation Map of Europe:
+https://www.eea.europa.eu/data-and-maps/data/digital-elevation-model-of-europe
+
+Digital Elevation Model over Europe:
+https://www.eea.europa.eu/data-and-maps/data/eu-dem"""@en ;
+    cav:refersTo camssa:e4ba256f-4480-4b32-9398-aba4535bd994 .
+
+camssa:49836106-b52c-4b99-a370-4fe34dc48870 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c967c90bfc7bc13426924eca012de349ae51d4e8f652fe64bfbec2cccc8c8146 ;
+    cav:value "1"^^xsd:int .
+
+camssa:4c1a43b1-53f0-4bac-979b-fbd819b39e03 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fef5941bab92019b7692f8544de94715a42ed9ff76d89cbec4fb6f9821611925 ;
+    cav:value "2"^^xsd:int .
+
+camssa:538e89bb-411f-4ecc-836c-914951fbbeb7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a81c4b8658f57e819297eb0b7977407f8d814c6fe749c74a8ac497277ca7d9d8 ;
+    cav:value "0"^^xsd:int .
+
+camssa:53bf9c0b-1f90-4943-802d-41e569afa7db a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cc5bd9a7d0b2acc7f246522414fd5f5d579b977180bb04fa60a545cb35dae90f ;
+    cav:value "0"^^xsd:int .
+
+camssa:53dfd070-1cc8-44a4-897c-769baf05a185 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8a34a40e5bc5436b3530d898d75a57cf0488591887b31a5169499fe78952d84c ;
+    cav:value "1"^^xsd:int .
+
+camssa:551bda43-8953-4c14-8a0e-2ce07b6e32c6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are no disclosures of ISO IPR Database to identify the licensing under the specification. ISO 12639:2004 (TIFF/IT) is not listed in ISO/IEC/ITU Common Patent policy, so it cannot be confirmed that the specification is licensed on a (F)RAND basis.
+
+ISO patents:
+https://www.iso.org/iso-standards-and-patents.html 
+
+ISO standards and patents IPR database:
+http://isotc.iso.org/livelink/livelink/13622347/Patents_database.xls?func=doc.Fetch&nodeId=13622347 """@en ;
+    cav:refersTo camssa:538e89bb-411f-4ecc-836c-914951fbbeb7 .
+
+camssa:5acebf20-d99a-40b2-8a7a-575707e199c3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8eb17470327d32b3bb523447fe72ee5c60ddb03e81dae318b485fbe05f48a844 ;
+    cav:value "1"^^xsd:int .
+
+camssa:6034e744-07c9-46bc-b4f3-1b207b57c627 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "CAMSS@everis.com" .
+
+camssa:68aa976f-0c38-428b-b0d7-3f940fcee30e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-53abe85b1365f86aa58a25566e54e082ea2d70ee8d9fbaf09ccab20af30f3332 ;
+    cav:value "0"^^xsd:int .
+
+camssa:695b95e2-cf57-4ac4-a485-44e254fb56f8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of TIFF/IT is not related to organisational interoperability. Therefore, this criterion is not applicable to the specification. 
+
+TIFF/IT ISO reference:
+https://www.iso.org/standard/34342.html"""@en ;
+    cav:refersTo camssa:6f217607-e878-4958-8a74-800d1eec2be7 .
+
+camssa:6aa69f04-8cb1-435f-b9e1-78246c76a27f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The ISO 12639:2004 which refers to TIFF/IT is not available for free for everyone to study. Payment is needed to reach access to the standard.
+
+TIFF/IT ISO reference:
+https://www.iso.org/standard/34342.html"""@en ;
+    cav:refersTo camssa:e2a5b8ad-aec4-4617-a06d-b54053af6a2b .
+
+camssa:6d3bf784-61d6-4bbb-afe0-da0b0266357e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-19598487b8ba278c3438dcfd74b74d9aad51beac08c53dbf40bf108ed09e72b2 ;
+    cav:value "1"^^xsd:int .
+
+camssa:6f217607-e878-4958-8a74-800d1eec2be7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-6d48464387e608d3022bd07338cd3859acfb0f84139186a979ef3b96baa51086 ;
+    cav:value "2"^^xsd:int .
+
+camssa:6f47bbb1-e032-4d33-a8b3-31f554782d07 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """After checking the assessments performed by CAMSS and the list of specifications identified by the MSP Multi-stakeholder-platform, no assessment verifying the compliance of the specification with the European standardisation regulation has been found.
+
+ICT technical specifications:
+https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en
+
+CAMSS Assessments Library: 
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-assessments-library"""@en ;
+    cav:refersTo camssa:68aa976f-0c38-428b-b0d7-3f940fcee30e .
+
+camssa:723d068c-a1e2-4281-a199-fa9ef67e09bf a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-21276471c1781fa2c7e78c8e03851e076b840beddbf5cf64f53b54b8855a01b8 ;
+    cav:value "0"^^xsd:int .
+
+camssa:72cbd862-b000-496e-b1b1-965c59a5dc72 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """TIFF/IT is already associated with EIRA ABBs in the European Library Of Specifications (ELIS). More specifically, TIFF/IT can define the interoperability aspects of the "Representation" ABB of the EIRA Semantic View.
+
+EIRA Library of Interoperability Specifications (ELIS):
+https://joinup.ec.europa.eu/solution/elis/release/v100"""@en ;
+    cav:refersTo camssa:3a779454-e2d3-4d15-90fe-35e7e7128a8c .
+
+camssa:76131cc3-7f4b-40ad-ac38-a9196ff615aa a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17bea234285e6e633e4e21105358610ad5f5f0eaaf82f4bd50cb64ec11538984 ;
+    cav:value "0"^^xsd:int .
+
+camssa:776e278f-07e7-491b-9d34-76605bcbbbe8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-838030847fa0adf54939e3feaac0ac2510924c54035e1cb671b223b54b02fd70 ;
+    cav:value "1"^^xsd:int .
+
+camssa:80e8704a-15dd-4f28-970d-9b2a5af46e89 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Although TIFF/IT supports the first level of maturity from the Tim Berners-Lee 5-star schema for the Open data, it does not support the main principles for the publication of data as Linked Open Data.
+
+5-star linked open data:
+https://www.w3.org/DesignIssues/LinkedData.html
+https://www.w3.org/wiki/LinkedData
+
+TIFF/IT ISO reference:
+https://www.iso.org/standard/34342.html"""@en ;
+    cav:refersTo camssa:9085a110-a1fa-403a-9e8b-a0cd87fc6809 .
+
+camssa:80fc32af-e07c-4aa8-8405-7ccc7adadb1a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """After checking the different standard catalogues at supra-national level, there is no evidence of the inclusion of TIFF/IT within any European catalogue of standards.
+
+ICT technical specifications:
+https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en 
+
+CEN search tool catalogue:
+https://standards.cen.eu/dyn/www/f?p=CENWEB:105::RESET::::
+
+CENELEC search tool catalogue:
+https://www.cenelec.eu/dyn/www/f?p=104:107:0::::FSP_LANG_ID:25"""@en ;
+    cav:refersTo camssa:0798457f-7b3d-45f1-b0e2-5354f1203621 .
+
+camssa:88f1a3c3-4489-4a67-8c24-6008e8eb303c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-624bc49501d58649e27cae4fb89fb5a56844685e54c5ce1625633894f8f752e1 ;
+    cav:value "2"^^xsd:int .
+
+camssa:8d3f10fb-b8bf-4607-99d2-8db9043e6ab0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ba46c76c10ad769a23ce4a9a34cb4d96a00407d5fc14ad1c791a870be7563c2b ;
+    cav:value "1"^^xsd:int .
+
+camssa:8f9204b7-ddb8-4b21-9f6b-b2c7ee2dfdb3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5879b43fc249f0098f3ed687235f432f71bf0c11bd3aa95e063dfdacd64606c8 ;
+    cav:value "1"^^xsd:int .
+
+camssa:8f9a1760-baa0-47bf-90cf-e703f19578b9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c265ca0c56e0f29a34039d496ba707b5486ccf6d445f9f058c19b4ece977861f ;
+    cav:value "2"^^xsd:int .
+
+camssa:9085a110-a1fa-403a-9e8b-a0cd87fc6809 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-138786a6e7517e10b94e83ec3b3e7ac79b4c49dcbeaef8d8e993c8df0d173529 ;
+    cav:value "0"^^xsd:int .
+
+camssa:9245f25c-807a-41dd-8728-a93412e46e9a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """TIFF/IT is one of the safest image file types available. The most important security benefit is the transparent data of every TIFF image file. This fact makes possible to evaluate the information about the photo before opening and it prevents the chance of a virus hiding in the file. So the specification makes data exchange between citizens and public administrations secure and trustworthy.
+
+TIFF/IT ISO reference:
+https://www.iso.org/standard/34342.html
+
+TIFF Image file explanation:
+https://www.canto.com/blog/tiff-image-file/"""@en ;
+    cav:refersTo camssa:2aa11b58-fb82-496d-87eb-8733753dd0a4 .
+
+camssa:97618f43-b269-43c0-be90-454812e5f0e1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7ab883158b51681c78f90d1a00bbb3840aa2c86e309a9abd1ad6e6eedb5e2735 ;
+    cav:value "1"^^xsd:int .
+
+camssa:97cb7b4c-232b-4b32-a32d-fe1159ab6598 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """TIFF/IT is used to send data for print-ready pages. This fact allows administrations to share digital content among others and with the stakeholders. 
+Although it is an image format excellent for printing, it is also used to store images and to avoid paper images, which reduces the administrative burden.
+
+TIFF/IT ISO reference:
+https://www.iso.org/standard/34342.html"""@en ;
+    cav:refersTo camssa:f5bfff08-90f6-4c53-a956-f7e8b13e4862 .
+
+camssa:996e7a91-dc3c-431f-8ebf-28418d5e1f7f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification can help understand the data of public administration by adding high quality print-ready pages. In this case, the specification can play an active role on the representation of the information in the visual way. This fact can consider TIFF/IT to foster the comprehensibility of administrative rules and data.
+
+TIFF/IT ISO reference:
+https://www.iso.org/standard/34342.html
+
+TIFF/IT explanation:
+https://www.prepressure.com/library/file-formats/tiffit"""@en ;
+    cav:refersTo camssa:97618f43-b269-43c0-be90-454812e5f0e1 .
+
+camssa:9dd34011-f90e-4318-988d-5b529c463399 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "There is no national or European platform with the specification TIFF/IT available for free."@en ;
+    cav:refersTo camssa:76131cc3-7f4b-40ad-ac38-a9196ff615aa .
+
+camssa:aac26252-4cfa-4a39-9a78-0ecff4f97802 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is independent of any technology or software. Although most image software can open TIFF/IT images, there are some that may not.
+
+TIFF/IT ISO reference:
+https://www.iso.org/standard/34342.html"""@en ;
+    cav:refersTo camssa:8f9204b7-ddb8-4b21-9f6b-b2c7ee2dfdb3 .
+
+camssa:abd205be-9856-4d69-b9f6-df31a0d7a7ec a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """ISO has defined a clear procedure to develop its standards. It consists in a 6-steps process where everyone who is interested can participate. However, if you want to participate, you have to contact your national standards body and you have to be approved for joining the Technical committee (TC) who will develop the standard. ISO has defined the roadmap of standards, it is composed of 6 steps as before said. For the approval of a standard the two-thirds majority of P-members of TC is needed. If the result is negative, the document is returned to TC/SC to be further studied.
+
+The ISO standardization process: 
+https://www.iso.org/stages-and-resources-for-standards-development.html"""@en ;
+    cav:refersTo camssa:fab6f271-cf0b-49dd-84b2-97cf51c37e0b .
+
+camssa:b10a979a-9424-471b-a165-ca7e4a05c5a9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The adoption of TIFF/IT as high quality image format for exchanging data does not hamper the scalability of systems. It is widely adopted for this purpose because it is independent of any platform or software. 
+
+TIFF/IT ISO reference:
+https://www.iso.org/standard/34342.html"""@en ;
+    cav:refersTo camssa:8d3f10fb-b8bf-4607-99d2-8db9043e6ab0 .
+
+camssa:b3089870-acd4-4b64-955e-2ddd9cfb102c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """TIFF/IT is high quality image format, it is used to send data for print-ready pages that have been designed on high-end prepress systems. Also, it uses lossless compression.
+Although the specification complies with the first level of maturity of Tom Berners-Lee's 5-star schema for Open data, it is not enough to consider TIFF/IT as an asset to facilitate the publication of open data.
+
+Tim Berners-Lee 5-star schema for Open Data:
+https://5stardata.info/es/ 
+
+TIFF/IT ISO reference:
+https://www.iso.org/standard/34342.html"""@en ;
+    cav:refersTo camssa:1598cd36-c1d3-4a3d-abd8-4e552eb43817 .
+
+camssa:bb210290-93d8-48ad-bcde-d539015372d2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d129862d6c9639e131c7d5eef095af16ef94d57ec0d52f955bf909ba8ec688e8 ;
+    cav:value "1"^^xsd:int .
+
+camssa:c1ee43ee-d1db-46d4-b6f0-784fbbe3ff06 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Although TIFF/IT’s purpose is not to foster the visibility of administrative data or services, it can help with the visualization and visibility of public administrations by providing high quality images and print-ready pages that can be easily edited later. 
+
+TIFF/IT ISO reference:
+https://www.iso.org/standard/34342.html
+
+TIFF/IT explanation:
+https://www.prepressure.com/library/file-formats/tiffit"""@en ;
+    cav:refersTo camssa:6d3bf784-61d6-4bbb-afe0-da0b0266357e .
+
+camssa:c39467d5-aa27-4a5b-b164-e06a66181839 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """TIFF/IT has the ISO community that supports the development of: International standards, Technical Specifications, Technical Report and Publicly Available Specification.
+
+The ISO standardization process:
+http://www.isotc292online.org/projects/iso-process/"""@en ;
+    cav:refersTo camssa:e86e3335-dd23-4790-9a5c-f7d05dceb16e .
+
+camssa:c9b7353d-48c4-4e1f-acbe-e296252d54b5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """TIFF/IT is an ISO standard and as all ISO standards, they have to be paid to access its content. However, it can be partially checked out in SIS (Swedish institute for standards) website where the content is aligned with the ISO standard.  
+
+TIFF/IT SIS reference:
+https://www.sis.se/api/document/preview/904751/
+
+TIFF/IT ISO reference:
+https://www.iso.org/standard/34342.html"""@en ;
+    cav:refersTo camssa:25a47e3a-82e4-4f60-8c2c-66f8399effec .
+
+camssa:d215ca21-74a9-43da-bf20-94281bc5619d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-33ea90f5c1bb01d4398c57d03a25934dc5722d5ddbc98a43911ea4fb302ec54c ;
+    cav:value "2"^^xsd:int .
+
+camssa:d4c59e89-3180-4632-8ed0-35897a04ffd5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of TIFF/IT is not related to the delivery of multilingual public services. Therefore, this criterion is not applicable to this specification. 
+
+TIFF/IT ISO reference:
+https://www.iso.org/standard/34342.html"""@en ;
+    cav:refersTo camssa:0ad61480-f872-4799-a090-68857fc22d31 .
+
+camssa:d6c9508a-18a8-45cb-b344-335999534557 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of TIFF/IT is not related to the availability of interfaces with internal information systems. Therefore, this criterion is not applicable to this specification. 
+
+TIFF/IT ISO reference:
+https://www.iso.org/standard/34342.html"""@en ;
+    cav:refersTo camssa:d215ca21-74a9-43da-bf20-94281bc5619d .
+
+camssa:da125910-1ea5-42ba-9017-f94da0f665cd a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """TIFF/IT does not define a cross-sector reusable data model, but defines a computer file format for storing raster graphics images. 
+
+TIFF/IT ISO reference:
+https://www.iso.org/standard/34342.html"""@en ;
+    cav:refersTo camssa:2ef7b908-ae75-48fd-b195-f622be38d036 .
+
+camssa:dda301fa-2f1e-43a6-b0a9-ce084b7d243e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5df7a9f6081c945a22f500aa0ba2c452b8b9cd9497bd643ac76c39d34a18c319 ;
+    cav:value "0"^^xsd:int .
+
+camssa:e1a82636-6373-4012-a252-7c6daa593582 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8c09094de9d71f12686896827a205db683b6df58fa363bc5be2a7d99989e7dd0 ;
+    cav:value "1"^^xsd:int .
+
+camssa:e2a5b8ad-aec4-4617-a06d-b54053af6a2b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-31bf959b6c4a983ec70eb87e0177f2739575ebce42c7c3b95b9012ef3bfe673e ;
+    cav:value "0"^^xsd:int .
+
+camssa:e4ba256f-4480-4b32-9398-aba4535bd994 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-39ffef052c31580b50b418f3991e9de7db4dc182fcf96f5a447d7f8e09560612 ;
+    cav:value "1"^^xsd:int .
+
+camssa:e86e3335-dd23-4790-9a5c-f7d05dceb16e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b21a3eb972a2119979bc57368474efa809e8dd16cede48bc492e8b64da1abee9 ;
+    cav:value "1"^^xsd:int .
+
+camssa:eaa38f2a-8ce3-441b-a043-6e0620c07610 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ab64f97c21ac8b84c75d6f52a89765b1c8fd1856d2d2060926d05e94f306a88d ;
+    cav:value "1"^^xsd:int .
+
+camssa:ef8b353e-00b7-4022-867e-7357f9a0813f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-6bedf555bffb837990b9eb353447fa116eb9d2384770b1dd3de46d3c5901d4f4 ;
+    cav:value "1"^^xsd:int .
+
+camssa:f24401e3-ce68-4bfe-95e8-3329c9b9953c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """TIFF/IT is included in 2 national catalogues of recommended specifications. They belong to Estonia and Spain.
+The National Interoperability Framework (NIF) of these Member States is fully aligned with at least 4 out of 5 sections of the European Interoperability Framework (EIF) according to the National Interoperability Framework Observatory (NIFO) factsheets. 
+
+National catalogue Estonia: 
+https://www.mkm.ee/sites/default/files/interoperability-framework_2011.doc
+
+National catalogue Spain:
+https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/pae_Interoperabilidad_Inicio/pae_Normas_tecnicas_de_interoperabilidad.html#CATALOGOESTANDARES
+
+NIFO factsheets:
+https://joinup.ec.europa.eu/collection/national-interoperability-framework-observatory-nifo/nifo-factsheets"""@en ;
+    cav:refersTo camssa:5acebf20-d99a-40b2-8a7a-575707e199c3 .
+
+camssa:f33b7f82-44d9-40b6-b5c2-aa2298d3823d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """As defined on the TC standardisation, only TC members are involved in the development of ISO standards. A review is carried out to arrange the consensus firstly within the TC members and subsequently is reviewed by the different ISO member bodies. However, it cannot be considered a public review, because only TC members can participate.
+
+The ISO standardization process: 
+https://www.iso.org/stages-and-resources-for-standards-development.html"""@en ;
+    cav:refersTo camssa:017ccad4-a57c-4065-96af-e026dc8f5b4a .
+
+camssa:f5bfff08-90f6-4c53-a956-f7e8b13e4862 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ffdbd22af1ff3c1ebb100043d062a3df160007af761caf0a8c9f50f02e609c9e ;
+    cav:value "1"^^xsd:int .
+
+camssa:faadf6f3-211c-4a58-943f-312baf7df906 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """TIFF/IT is mainly used to store bitmap images that they will be intended to edit. TIFF/IT uses lossless compression, maintaining original quality while reducing in size. However, PSD extension is getting popular to store high quality images for later editing. It uses lossless compression as TIFF/IT and it is supported by any application.
+
+TIFF Image file explanation:
+https://www.canto.com/blog/tiff-image-file/"""@en ;
+    cav:refersTo camssa:bb210290-93d8-48ad-bcde-d539015372d2 .
+
+camssa:fab6f271-cf0b-49dd-84b2-97cf51c37e0b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f70d8bc1b4b6e186d69ea3f7f8cc7b2d75314b84e7f481ebe13b4e6ed8b36598 ;
+    cav:value "1"^^xsd:int .
+
+camssa:fcd7f0af-d2c1-4c69-b4d0-571ce10147eb a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "No evidence has been found of the specification being included in a formal interoperability agreement between organisations involved in the European public services provision."@en ;
+    cav:refersTo camssa:dda301fa-2f1e-43a6-b0a9-ce084b7d243e .
+

@@ -60,7 +60,7 @@ class Transformer:
         self.g.bind('sc', SC)
         return self.g
 
-    def _add_assessment(self, row: p.Series) -> Graph:
+    def _add_scenario(self, row: p.Series) -> Graph:
         ass_uri = URIRef(CAMSSA + row['assessment_id'], CAMSSA)
         self.g.add((ass_uri, RDF.type, CAV.Assessment))
         self.g.add((ass_uri, RDF.type, OWL.NamedIndividual))
@@ -73,7 +73,7 @@ class Transformer:
         self.g.add((ass_uri, CAMSS.assessmentDate, Literal(row['assessment_date'], datatype=XSD.date)))
         return self.g
 
-    def _add_assessor(self, row: p.Series) -> Graph:
+    def _add_criteria(self, row: p.Series) -> Graph:
         uri_assessor = URIRef(CAMSSA + row['submitter_org_id'], CAMSSA)
         self.g.add((uri_assessor, RDF.type, ORG.Organization))
         self.g.add((uri_assessor, RDF.type, OWL.NamedIndividual))
@@ -86,34 +86,11 @@ class Transformer:
         self.g.add((cp_uri, SCHEMA.email, Literal(row['L6'])))
         return self.g
 
-    def _add_answer(self, row: p.Series) -> Graph:
-        """
-        Adds the statements and scores provided by the assessor
-        :returns: the Graph
-        """
-        # Score
-        score_uri = URIRef(CAMSSA + row['score_id'], CAMSSA)
-        self.g.add((score_uri, RDF.type, CAV.Score))
-        self.g.add((score_uri, RDF.type, OWL.NamedIndividual))
-        self.g.add((score_uri, CAV.value, Literal(row['score'], datatype=XSD.int)))
-        self.g.add((score_uri, CAV.assignedTo, URIRef(SC + 'c-' + row['criterion_sha_id'], SC)))
-        # Statement
-        statement_uri = URIRef(CAMSSA + row['statement_id'], CAMSSA)
-        self.g.add((statement_uri, RDF.type, CAV.Statement))
-        self.g.add((statement_uri, RDF.type, OWL.NamedIndividual))
-        self.g.add((statement_uri, CAV.refersTo, score_uri))
-        self.g.add((statement_uri, CAV.judgement, Literal(row['statement'], lang='en')))
-        # Assessment
-        ass_uri = URIRef(CAMSSA + row['assessment_id'], CAMSSA)
-        self.g.add((ass_uri, CAV.resultsIn, statement_uri))
-        return self.g
-
     def transform(self) -> Graph:
         row = self.df.iloc[0]
-        self._add_assessment(row)
-        self._add_assessor(row)
+        self._add_scenario(row)
         for index, row in self.df.iterrows():
-            self._add_answer(row)
+            self._add_criteria(row)
         return self.g
 
     def serialize(self) -> str:

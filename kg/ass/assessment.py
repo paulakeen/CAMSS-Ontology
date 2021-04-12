@@ -11,6 +11,7 @@ class Assessment:
     tv: str
     scenario: str
     title: str  # The title of the specification identifies the Assessment
+    ass_filename: str
     ass_file_path: str
     ass_df: p.DataFrame
     id: str
@@ -19,9 +20,10 @@ class Assessment:
     MSP_300_TOOLKIT_VERSION_LINE_NUMBER = 13
     MSP_300_COL_DATA_ID = 'Unnamed: 4'
 
-    def __init__(self, cfg: Cfg = None, file_path: str = None):
+    def __init__(self, cfg: Cfg = None, file_path: str = None, filename: str = None):
         self.cfg = cfg
         self.ass_file_path = file_path
+        self.ass_filename = filename
         self.tool_version = None
         self.scenario = None
         self.title = None
