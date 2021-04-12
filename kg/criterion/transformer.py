@@ -10,14 +10,8 @@ from util.io import slash
 # Namespaces
 CAMSS = Namespace("http://data.europa.eu/2sa#")
 CAV = Namespace("http://data.europa.eu/2sa/cav#")
-CSSV = Namespace("http://data.europa.eu/2sa/cssv#")
-CAMSSA = Namespace("http://data.europa.eu/2sa/assessments/")
-CSSV_RSC = Namespace("http://data.europa.eu/2sa/cssv/rsc/")
-STATUS = Namespace("http://data.europa.eu/2sa/rsc/assessment-status#")
-TOOL = Namespace("http://data.europa.eu/2sa/rsc/toolkit-version#")
+CCCEV = Namespace("http://data.europa.eu/m8g/cccev#")
 SC = Namespace("http://data.europa.eu/2sa/scenarios#")
-ORG = Namespace("http://www.w3.org/ns/org#")
-SCHEMA = Namespace("http://schema.org/")
 
 
 class Transformer:
@@ -48,49 +42,28 @@ class Transformer:
         self.g.bind('skos', SKOS)
         self.g.bind('dct', DCTERMS)
         self.g.bind('owl', OWL)
-        self.g.bind('org', ORG)
-        self.g.bind('schema', SCHEMA)
         self.g.bind('camss', CAMSS)
         self.g.bind('cav', CAV)
-        self.g.bind('cssv', CSSV)
-        self.g.bind('camssa', CAMSSA)
-        self.g.bind('cssvrsc', CSSV_RSC)
-        self.g.bind('status', STATUS)
-        self.g.bind('tool', TOOL)
         self.g.bind('sc', SC)
         return self.g
 
     def _add_scenario(self, row: p.Series) -> Graph:
-        ass_uri = URIRef(CAMSSA + row['assessment_id'], CAMSSA)
-        self.g.add((ass_uri, RDF.type, CAV.Assessment))
+        ass_uri = URIRef(SC + row['scenario_id'], SC)
+        self.g.add((ass_uri, RDF.type, CAV.Scenario))
         self.g.add((ass_uri, RDF.type, OWL.NamedIndividual))
-        self.g.add((ass_uri, DCTERMS.title, Literal(row['assessment_title'], lang='en')))
-        self.g.add((ass_uri, CAMSS.toolVersion, URIRef(TOOL + row['tool_version'], TOOL)))
-        self.g.add((ass_uri, CAV.contextualisedBy, URIRef(SC + 's-' + row['scenario_id'], SC)))
-        self.g.add((ass_uri, CAMSS.assesses, URIRef(CSSV_RSC + row['spec_id'], CSSV_RSC)))
-        self.g.add((ass_uri, CAV.status, STATUS.Complete))
-        self.g.add((ass_uri, CAMSS.submissionDate, Literal(row['L7'], datatype=XSD.date)))
-        self.g.add((ass_uri, CAMSS.assessmentDate, Literal(row['assessment_date'], datatype=XSD.date)))
+
         return self.g
 
-    def _add_criteria(self, row: p.Series) -> Graph:
-        uri_assessor = URIRef(CAMSSA + row['submitter_org_id'], CAMSSA)
-        self.g.add((uri_assessor, RDF.type, ORG.Organization))
-        self.g.add((uri_assessor, RDF.type, OWL.NamedIndividual))
-        self.g.add((uri_assessor, SKOS.prefLabel, Literal(row['L1'], lang='en')))
-        # Contact Point
-        cp_uri = URIRef(CAMSSA + str(uuid.uuid4()), CAMSSA)
-        self.g.add((uri_assessor, CAMSS.contactPoint, cp_uri))
-        self.g.add((cp_uri, RDF.type, SCHEMA.ContactPoint))
-        self.g.add((cp_uri, RDF.type, OWL.NamedIndividual))
-        self.g.add((cp_uri, SCHEMA.email, Literal(row['L6'])))
+    def _add_criterion(self, row: p.Series) -> Graph:
+        uri_criterion = URIRef(SC + row['criterion_id'], SC)
+
         return self.g
 
     def transform(self) -> Graph:
         row = self.df.iloc[0]
         self._add_scenario(row)
         for index, row in self.df.iterrows():
-            self._add_criteria(row)
+            self._add_criterion(row)
         return self.g
 
     def serialize(self) -> str:
