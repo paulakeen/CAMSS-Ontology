@@ -100,6 +100,14 @@ class Assessment:
         self.scenario = self._scenario() if not self.scenario else self.scenario
         return self.scenario
 
+    def get_date(self) -> str:
+        if self.scenario.upper() == 'MSP' and self.tool_version == ToolVersion.v3_0_0:
+            self.sheet('Assessment_MSP')
+            return self.ass_df.loc[0, 'Unnamed: 6']  # date of the assessment
+        elif self.scenario.upper() == 'EIF' and (self.tool_version == ToolVersion.v3_0_0 or self.tool_version == ToolVersion.v3_1_0):
+            self.sheet('Assessment_EIF')
+            return self.ass_df.loc[0, 'Unnamed: 4']  # date of the assessment
+
     def get_title(self) -> str:
         if self.tool_version == ToolVersion.v1_0:
             self.sheet('CAMSS Proposal')

@@ -19,83 +19,264 @@ camssa:db95f3e0a5f606af0a0318849d8f1dc1c2f7747757068f9513305595d706fcaf a cav:As
     camss:submissionDate "2020-09-30"^^xsd:date ;
     camss:toolVersion tool:3.1.0 ;
     cav:contextualisedBy sc:s-fa3a7cf6ccb859ff672f6579e000e61d96f0756c83c13b96e3139ae97beb13bd ;
-    cav:resultsIn camssa:0208d11e-454b-4d3a-867b-c6fbd0403cdd,
-        camssa:08fd78d6-9946-4a76-8eac-375cd03d5dc1,
-        camssa:131cdcab-c733-4ff4-a5bb-7cd534d2abff,
-        camssa:14297597-165b-43b3-9af5-a70dd28d2783,
-        camssa:1bdf9ffb-da95-4ece-984e-57a294b429d6,
-        camssa:2590e817-f292-4722-975a-a2257ef80cd9,
-        camssa:2623ca84-31a3-4c73-bee1-71394d0a1e9b,
-        camssa:338fa546-9364-4344-b2f7-9124d79792f0,
-        camssa:4131a1bf-d7a3-4626-a423-1c9a619f692b,
-        camssa:460af3ee-5e13-4802-9bdc-7400d3f2fb8b,
-        camssa:4d0cc06e-bb46-4da7-a1ed-9acb23c1f020,
-        camssa:5b851cbe-c7a4-4157-bedf-e4f56614236c,
-        camssa:5e44647c-350d-48b4-8b14-028e867224eb,
-        camssa:67d5f9e1-49af-40cc-ba23-9cc33372bc8c,
-        camssa:6d7b9fc0-d1ad-48f9-bbc7-001d7a4dee88,
-        camssa:729f307c-c538-4f92-aee3-ca0682d2ad68,
-        camssa:7490ec22-2a59-4dae-9ca0-cee008bd4058,
-        camssa:7b71d913-016b-455b-be34-11af729788cf,
-        camssa:88ac7a2c-98f7-42c3-90c4-103b7d23ad9d,
-        camssa:af3e91c2-a031-4240-bb3f-b8bad12b16ad,
-        camssa:b660e712-6585-4379-8099-c08fe26045ea,
-        camssa:b95a0fb7-9914-446c-9ee3-1de30374318b,
-        camssa:bb37bf1a-d761-491f-aba2-64319dbd0c51,
-        camssa:bf83b4be-8f2e-49c8-a49c-aa2d47cee36a,
-        camssa:bfb9676b-0e2e-4976-9078-1aa4bf11af63,
-        camssa:c4bbc97f-5f3c-40bb-b332-d72f1dd01125,
-        camssa:cb2528b1-b861-4b1c-9c95-0ecbf78b827c,
-        camssa:cfd8c802-9dc6-433b-8cb7-1169f09f9cad,
-        camssa:d48ffdb3-ee58-4ea2-9783-7fe153b828e9,
-        camssa:e079da4f-2f1e-4a6a-94bb-de460d137b0b,
-        camssa:e2622e25-955b-43ca-84d3-de7daba7daf2,
-        camssa:e3e80f14-41bb-48b6-9666-d4f934a7d457,
-        camssa:e480ee20-54ef-43df-a6a2-dec1b4dc8697,
-        camssa:e792a487-8c31-4b63-b6cf-383d7b80e124,
-        camssa:ecd18c62-afde-4637-917d-fc24cd350142,
-        camssa:edfe82af-ad90-4173-89f1-04baa6dd508a,
-        camssa:f49534fa-57c1-4ffa-bd4d-1aa0c31f9a2a,
-        camssa:f6dd6fd0-ecd3-4ad7-a93b-03f40b7c8347,
-        camssa:fea50e17-3df5-4182-b1e8-ba5f2d2ecbf2 ;
+    cav:resultsIn camssa:0324c763-edcc-40f0-ac7d-8b483f7ce8b0,
+        camssa:14661070-8c53-4239-bec3-561e24005c9a,
+        camssa:1761a4d9-522f-4fe8-9357-ea70e4ba04f9,
+        camssa:1d70a321-be27-47e9-91f8-454f7aab556d,
+        camssa:21ae839a-147d-4045-92a9-5bf78be2fc76,
+        camssa:257ae361-948a-4bab-b774-8d8d0e53376b,
+        camssa:35f35381-03dc-46d1-90d6-6bfff9108ef5,
+        camssa:383ddef1-80c2-446a-a86e-44ea75e7a71c,
+        camssa:39c9186c-26ce-4b41-9179-29a317fe57ee,
+        camssa:3bd4fc4f-857c-473d-8b75-279f2c18e865,
+        camssa:3c46ed2a-b977-48e7-9854-7516ec37fb04,
+        camssa:48de855b-3d7f-482a-8be6-3f3778e90094,
+        camssa:4c0c53d4-c6d4-484a-832e-ecfbe1c39bbc,
+        camssa:52b51d8f-97f7-4f66-b9c3-1913ff1ef6d5,
+        camssa:53fddc80-e590-4943-8988-36024392e605,
+        camssa:55d136b6-7f13-4724-83e5-3eceec554df9,
+        camssa:6c95fc3d-7a6e-42fa-bdf7-aa1e5afcd7a9,
+        camssa:6dad5e26-ea70-4425-8dc5-cfe392d4ff6f,
+        camssa:87a8170a-edd6-4aec-a219-a46e6c7697fe,
+        camssa:8a47622c-087a-4df2-af3b-913e3292be57,
+        camssa:8f61bcd1-cec3-4a85-89ba-a41346f98a9b,
+        camssa:91a430d5-cac9-4707-bae2-e05ecf84539b,
+        camssa:9cb3c24b-b7e7-4da5-9948-b074c5769afe,
+        camssa:a3171576-e902-4f7e-b748-39d7a8a1d624,
+        camssa:a5351ca1-27c0-4056-aa5f-32438957ced3,
+        camssa:aedf2c8d-0aa5-4c03-be4c-9c4c10522423,
+        camssa:b0ac36a3-4459-4454-ab50-9a1d6529b956,
+        camssa:b7d201fb-5a0e-487a-b058-bbd82efcc36d,
+        camssa:ba170e8d-3863-4f23-abce-ff9bad4eb615,
+        camssa:c4fa5bde-1e41-442c-8eba-13a3663a4e01,
+        camssa:c75c1525-bd49-4475-a60d-38bc2c718536,
+        camssa:cf4f0d9d-6b6d-48fc-af6a-eb3e46030c6e,
+        camssa:d17ac958-4d2b-4cee-95c4-fba9abec8a57,
+        camssa:d3902d1c-1338-4571-95dd-b1d9315842b4,
+        camssa:eb2f1a76-9e63-4559-9ada-412a6255c8b8,
+        camssa:ec077a39-7fd8-4ca3-8cb9-55dbd05abb2d,
+        camssa:ee70e16a-c672-4f35-ab79-a586b9bc0d7b,
+        camssa:f45dd48f-1da0-47bc-8e0b-ebd1d516c69b,
+        camssa:f7badbaf-cf22-4434-ac14-96d1f654c6ef ;
     cav:status status:Complete ;
     dct:title "eXtensible Access Control Markup Language (XACML) v3.0"@en .
 
 camssa:ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164 a owl:NamedIndividual,
         org:Organization ;
-    camss:contactPoint camssa:6af4e627-5c11-46b4-8c65-2e9611927196 ;
+    camss:contactPoint camssa:35718c98-697f-4ebd-a148-62dea3a43b26 ;
     skos:prefLabel "CAMSS Team"@en .
 
-camssa:0208d11e-454b-4d3a-867b-c6fbd0403cdd a cav:Statement,
+camssa:018429ef-ff0f-4a16-9227-7dbbd89979e2 a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement """The purpose of XACML is not related to the  delivery of multilingual public services. Therefore, this criterion is not applicable to the specification.
-
-XACML OASIS reference:
-http://docs.oasis-open.org/xacml/3.0/errata01/xacml-3.0-core-spec-errata01.html"""@en ;
-    cav:refersTo camssa:d2eab9bd-20a7-4b6e-9011-c4afafe679fa .
-
-camssa:08fd78d6-9946-4a76-8eac-375cd03d5dc1 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """After checking the assessments performed by CAMSS and the list of specifications identified by the MSP Multi-stakeholder-platform, no assessment verifying the compliance of the specification with the European standardisation regulation has been found.
-
-ICT technical specifications:
-https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en"""@en ;
-    cav:refersTo camssa:c8a8168b-4dca-4cd4-8e53-bcbe3bad436e .
-
-camssa:131cdcab-c733-4ff4-a5bb-7cd534d2abff a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The purpose of the specification is not related with the publication of data. Therefore, this criterion is not applicable to this specification.
-
-XACML OASIS reference:
-http://docs.oasis-open.org/xacml/3.0/errata01/xacml-3.0-core-spec-errata01.html"""@en ;
-    cav:refersTo camssa:426928f2-2900-4d02-9726-7a17f7281846 .
-
-camssa:13373723-8478-40f4-b846-8219b85ea731 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-17bea234285e6e633e4e21105358610ad5f5f0eaaf82f4bd50cb64ec11538984 ;
+    cav:assignedTo sc:c-53abe85b1365f86aa58a25566e54e082ea2d70ee8d9fbaf09ccab20af30f3332 ;
     cav:value "0"^^xsd:int .
 
-camssa:14297597-165b-43b3-9af5-a70dd28d2783 a cav:Statement,
+camssa:0324c763-edcc-40f0-ac7d-8b483f7ce8b0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are already existing tools for testing the implementation of XACML polocies. The Security Pool Policy allow to check for enhancements in a XACML implementation. Also, a tool known as WS2 Identity Server is available under its own licence to allow the testing of XACML implementations. 
+
+WS2 Identity Server
+https://docs.wso2.com/display/IS541/Using+the+XACML+TryIt+Tool"""@en ;
+    cav:refersTo camssa:d81491ff-9e96-465f-a46b-68d583bddb17 .
+
+camssa:0f2ce170-a98a-4563-a133-7af44e7533c2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-838030847fa0adf54939e3feaac0ac2510924c54035e1cb671b223b54b02fd70 ;
+    cav:value "1"^^xsd:int .
+
+camssa:14661070-8c53-4239-bec3-561e24005c9a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of XACML is not related to e-accessibility. Therefore, this criterion is not applicable to the specification.
+
+XACML OASIS reference:
+http://docs.oasis-open.org/xacml/3.0/errata01/xacml-3.0-core-spec-errata01.html"""@en ;
+    cav:refersTo camssa:33d59c63-bd52-423b-89c4-ab2da775f0bb .
+
+camssa:1761a4d9-522f-4fe8-9357-ea70e4ba04f9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of the specification is not related with the publication of data. Therefore, this criterion is not applicable to this specification. 
+
+XACML OASIS reference:
+http://docs.oasis-open.org/xacml/3.0/errata01/xacml-3.0-core-spec-errata01.html"""@en ;
+    cav:refersTo camssa:bfe86bf0-32e5-4ffe-be3b-8f0794e9c674 .
+
+camssa:1d70a321-be27-47e9-91f8-454f7aab556d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """After checking the different standard catalogues at supra-national level, there is no evidence of the inclusion of XACML within any European catalogue of standards.
+
+ICT technical specifications:
+https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en 
+
+CEN search tool catalogue:
+https://standards.cen.eu/dyn/www/f?p=CENWEB:105::RESET::::
+
+CENELEC search tool catalogue:
+https://www.cenelec.eu/dyn/www/f?p=104:107:0::::FSP_LANG_ID:25"""@en ;
+    cav:refersTo camssa:84d895a8-8e60-4bc8-8485-1b8a961c70ee .
+
+camssa:21ae839a-147d-4045-92a9-5bf78be2fc76 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "XACML is a de-fact standard markup language that is used in a wide variety of solutions, although it does not foster any innovative solutions."@en ;
+    cav:refersTo camssa:776258ae-725c-4580-abe5-7ed476a6b749 .
+
+camssa:23f52970-56d2-4bf7-bcbe-239575d61004 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8954ddabf37f4899562b9ea4c8f0bbf204f3e48c9203043bc231f368092396a2 ;
+    cav:value "1"^^xsd:int .
+
+camssa:257ae361-948a-4bab-b774-8d8d0e53376b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "No evidences have been found of the specification being included in a formal interoperability agreement between organisations involved in the European public services provision."@en ;
+    cav:refersTo camssa:27304f54-c897-4990-af19-14cb0efc7913 .
+
+camssa:27304f54-c897-4990-af19-14cb0efc7913 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5df7a9f6081c945a22f500aa0ba2c452b8b9cd9497bd643ac76c39d34a18c319 ;
+    cav:value "0"^^xsd:int .
+
+camssa:2f6b0561-c032-4667-afa4-53b58d153447 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c265ca0c56e0f29a34039d496ba707b5486ccf6d445f9f058c19b4ece977861f ;
+    cav:value "2"^^xsd:int .
+
+camssa:33d59c63-bd52-423b-89c4-ab2da775f0bb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fef5941bab92019b7692f8544de94715a42ed9ff76d89cbec4fb6f9821611925 ;
+    cav:value "2"^^xsd:int .
+
+camssa:35718c98-697f-4ebd-a148-62dea3a43b26 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "NaN"^^xsd:double .
+
+camssa:35f35381-03dc-46d1-90d6-6bfff9108ef5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of XACML is not related  to the modelling of business processes. Therefore, this criterion is not applicable to the specification.
+
+XACML OASIS reference:
+http://docs.oasis-open.org/xacml/3.0/errata01/xacml-3.0-core-spec-errata01.html"""@en ;
+    cav:refersTo camssa:2f6b0561-c032-4667-afa4-53b58d153447 .
+
+camssa:383ddef1-80c2-446a-a86e-44ea75e7a71c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """XACML is a markup language that is used to declare access conditions stated on Security Policies. It can be adapted to ensure that web services are compliant with security policies, and therefore, ensure the data trustworthy exchange. 
+
+XACML OASIS reference:
+http://docs.oasis-open.org/xacml/3.0/errata01/xacml-3.0-core-spec-errata01.html"""@en ;
+    cav:refersTo camssa:72d164b3-d6d0-458c-8277-eefc0fb65e3f .
+
+camssa:39c9186c-26ce-4b41-9179-29a317fe57ee a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The application of the once-only principle in all EU Member States public administrations aims at reducing the administrative burden. 
+
+XACML addresses and facilitates interoperability between public administrations, cross-border services, and impacts positively the development of eGovernment. This is because it has been designed to evaluate and control access by ensuring the compliance of security policies. 
+
+Also, the project SEMIRAMIS, uses this specification to ensure secure channels for the exchange and reuse of information.
+
+XACML OASIS reference:
+http://docs.oasis-open.org/xacml/3.0/errata01/xacml-3.0-core-spec-errata01.html
+
+SEMIRAMIS project: 
+https://joinup.ec.europa.eu/solution/semiramis/about"""@en ;
+    cav:refersTo camssa:e696002c-0d5b-454d-b5eb-f18147a87053 .
+
+camssa:3bd4fc4f-857c-473d-8b75-279f2c18e865 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of the specification is not related to the availability of interfaces with internal information systems. Therefore, this criterion does not apply to this specification.
+
+XACML OASIS reference:
+http://docs.oasis-open.org/xacml/3.0/errata01/xacml-3.0-core-spec-errata01.html"""@en ;
+    cav:refersTo camssa:966aa093-841a-42c3-b01f-90b1a56c9e35 .
+
+camssa:3c46ed2a-b977-48e7-9854-7516ec37fb04 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """XACML is publicly available for free on OASIS Webpage.
+
+XACML OASIS reference:
+http://docs.oasis-open.org/xacml/3.0/errata01/xacml-3.0-core-spec-errata01.html"""@en ;
+    cav:refersTo camssa:c9c9dbb6-a6e4-4e53-b23a-5c8188e76a61 .
+
+camssa:3e96b1d8-131b-4778-8ab5-64ec957bd8c6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-6bedf555bffb837990b9eb353447fa116eb9d2384770b1dd3de46d3c5901d4f4 ;
+    cav:value "1"^^xsd:int .
+
+camssa:424be7e9-b961-4bc9-ab89-b9d1ff7e8777 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d129862d6c9639e131c7d5eef095af16ef94d57ec0d52f955bf909ba8ec688e8 ;
+    cav:value "1"^^xsd:int .
+
+camssa:48de855b-3d7f-482a-8be6-3f3778e90094 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """XACML is available for its study and use at OASIS’s webpage. Therefore it can be reused by the organisations, administrations, open communities, etc. that developed it.
+
+XACML OASIS reference:
+http://docs.oasis-open.org/xacml/3.0/errata01/xacml-3.0-core-spec-errata01.html"""@en ;
+    cav:refersTo camssa:65fd55b2-cfd4-4560-87da-a12310400fc1 .
+
+camssa:4c0c53d4-c6d4-484a-832e-ecfbe1c39bbc a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The XACML specification includes data structures and models that can be considered as reusable models for establishing data policies, the data involved and the processes involved.
+
+XACML OASIS reference:
+http://docs.oasis-open.org/xacml/3.0/errata01/xacml-3.0-core-spec-errata01.html"""@en ;
+    cav:refersTo camssa:23f52970-56d2-4bf7-bcbe-239575d61004 .
+
+camssa:50e05b56-ae4c-437e-8dde-ad5043a5aaa8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7aa038b5496afb8cb229c692be9a2adc175deb2d5d47e35ad67e027c9eac28ba ;
+    cav:value "1"^^xsd:int .
+
+camssa:519d2633-d26e-4ca8-b8d8-2fc06a25e0b3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-483e8900c47b40bc67a6bd1cbfce07884b9ac5f2c85e0214f334cc37e4e65c35 ;
+    cav:value "1"^^xsd:int .
+
+camssa:52b51d8f-97f7-4f66-b9c3-1913ff1ef6d5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of XACML is not related to data portability. Therefore, this criterion is not applicable to this specification. 
+
+XACML OASIS reference:
+http://docs.oasis-open.org/xacml/3.0/errata01/xacml-3.0-core-spec-errata01.html"""@en ;
+    cav:refersTo camssa:dc71a58b-797a-4949-8e09-0baf800b2698 .
+
+camssa:53fddc80-e590-4943-8988-36024392e605 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Germany is recommending XACML in their ICT National Catalogues.
+
+Germany catalogue of standards:
+https://www.din.de/en/about-standards/din-standards
+
+CAMSS List of Standards:   
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards """@en ;
+    cav:refersTo camssa:b7fac6d9-6a43-4b7a-a71f-85e234ca962c .
+
+camssa:55d136b6-7f13-4724-83e5-3eceec554df9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """XACML is included in the German catalogue of recommended specifications. 
+
+Germany catalogue of standards:
+https://www.din.de/en/about-standards/din-standards
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:0f2ce170-a98a-4563-a133-7af44e7533c2 .
+
+camssa:58f1cda7-3b70-4e7d-9041-495b1a297e27 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5879b43fc249f0098f3ed687235f432f71bf0c11bd3aa95e063dfdacd64606c8 ;
+    cav:value "1"^^xsd:int .
+
+camssa:5a1d0531-3c45-44df-abff-bc14a0dfef1a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b21a3eb972a2119979bc57368474efa809e8dd16cede48bc492e8b64da1abee9 ;
+    cav:value "1"^^xsd:int .
+
+camssa:65fd55b2-cfd4-4560-87da-a12310400fc1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c2cedd44f05183dae5548108bdeace2c092b84c7c5d89c475b0741ddae7fc7b2 ;
+    cav:value "1"^^xsd:int .
+
+camssa:6c95fc3d-7a6e-42fa-bdf7-aa1e5afcd7a9 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """The specification has been implemented several times and in different environments, open source and commercial. Some examples of XACML implementations are Balana, AuthForce, or Security Policy Pool.
 
@@ -110,82 +291,202 @@ https://securitypolicytool.com/
 
 XACML OASIS reference:
 http://docs.oasis-open.org/xacml/3.0/errata01/xacml-3.0-core-spec-errata01.html"""@en ;
-    cav:refersTo camssa:589966df-69d5-47d7-bd5a-e26d3080f685 .
+    cav:refersTo camssa:424be7e9-b961-4bc9-ab89-b9d1ff7e8777 .
 
-camssa:19111cfa-5caf-4d1c-9860-18a8311e50d1 a cav:Score,
+camssa:6dad5e26-ea70-4425-8dc5-cfe392d4ff6f a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-a81c4b8658f57e819297eb0b7977407f8d814c6fe749c74a8ac497277ca7d9d8 ;
+    cav:judgement """The specification is aimed to participate in the evaluation of access policies, participating in authentication processes that can ease the secure and trustworthy exchange of data. An example of this fact is the European project SEMIRAMIS, a pilot infrastructure to provide e-services with the required underlying secure authentication
+
+SEMIRAMIS project: 
+https://joinup.ec.europa.eu/solution/semiramis/about"""@en ;
+    cav:refersTo camssa:519d2633-d26e-4ca8-b8d8-2fc06a25e0b3 .
+
+camssa:6e390eb9-8947-437a-b245-a1396f3b8cae a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17bea234285e6e633e4e21105358610ad5f5f0eaaf82f4bd50cb64ec11538984 ;
+    cav:value "0"^^xsd:int .
+
+camssa:6ed9e3e4-bdf2-4f8e-8640-8a7ab27e6cd8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8eb17470327d32b3bb523447fe72ee5c60ddb03e81dae318b485fbe05f48a844 ;
+    cav:value "0"^^xsd:int .
+
+camssa:72d164b3-d6d0-458c-8277-eefc0fb65e3f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ba46c76c10ad769a23ce4a9a34cb4d96a00407d5fc14ad1c791a870be7563c2b ;
     cav:value "1"^^xsd:int .
 
-camssa:1acaf0d1-56ac-4aa1-bdba-c9108405169c a cav:Score,
+camssa:776258ae-725c-4580-abe5-7ed476a6b749 a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-1cd71a7b6d54631ba58cc8b0655a443d696f49ec74a0f4cccc871de7789d6a60 ;
+    cav:assignedTo sc:c-21276471c1781fa2c7e78c8e03851e076b840beddbf5cf64f53b54b8855a01b8 ;
+    cav:value "0"^^xsd:int .
+
+camssa:7b9058db-9906-492f-bf4c-f13926b4c154 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-39ffef052c31580b50b418f3991e9de7db4dc182fcf96f5a447d7f8e09560612 ;
     cav:value "1"^^xsd:int .
 
-camssa:1bdf9ffb-da95-4ece-984e-57a294b429d6 a cav:Statement,
+camssa:84d895a8-8e60-4bc8-8485-1b8a961c70ee a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7a18abe4842e04b608025fd70e54c3db5c2a10130c0dab0495479e7d5effb55d ;
+    cav:value "0"^^xsd:int .
+
+camssa:851c3770-d6a6-41a6-b8a2-0306eec2dc45 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-19598487b8ba278c3438dcfd74b74d9aad51beac08c53dbf40bf108ed09e72b2 ;
+    cav:value "2"^^xsd:int .
+
+camssa:87a8170a-edd6-4aec-a219-a46e6c7697fe a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """OASIS has defined a clear process where all the stakeholders involved have the opportunity to participate in the development of the specification development process. Moreover, there is a public review in the TC process.
+ 
+OASIS guideline:
+https://www.oasis-open.org/policies-guidelines/tc-process-2017-05-26"""@en ;
+    cav:refersTo camssa:50e05b56-ae4c-437e-8dde-ad5043a5aaa8 .
+
+camssa:8a47622c-087a-4df2-af3b-913e3292be57 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """XACML is a business domain agnostic specification.
 
 XACML OASIS reference:
 http://docs.oasis-open.org/xacml/3.0/errata01/xacml-3.0-core-spec-errata01.html"""@en ;
-    cav:refersTo camssa:c9bec9b0-a02d-4c0d-a50a-65f51166e1db .
+    cav:refersTo camssa:90004f57-be5b-4eb3-a716-321b8e7e0dda .
 
-camssa:2590e817-f292-4722-975a-a2257ef80cd9 a cav:Statement,
+camssa:8f61bcd1-cec3-4a85-89ba-a41346f98a9b a cav:Statement,
         owl:NamedIndividual ;
-    cav:judgement """The OASIS Technical Committee, in charge of the development of XACML, operates under RF on RAND Mode of the OASIS IPR Policy. The specification is licensed on a Royalty-free and (F)RAND basis.
+    cav:judgement """XACML is already associated with EIRA ABBs in the European Library Of Specifications (ELIS). More specifically, XACML can define the interoperability aspects of the "Access Management Component", and  "Access Management Service" ABBs of the EIRA Technical View.
 
-OASIS IPR:
-https://www.oasis-open.org/committees/security/ipr.php
-https://www.oasis-open.org/policies-guidelines/ipr"""@en ;
-    cav:refersTo camssa:1acaf0d1-56ac-4aa1-bdba-c9108405169c .
+EIRA Library of Interoperability Specifications (ELIS):
+https://joinup.ec.europa.eu/solution/elis/release/v100"""@en ;
+    cav:refersTo camssa:a319bcbd-aa1c-43f3-9645-eaf92396084f .
 
-camssa:2623ca84-31a3-4c73-bee1-71394d0a1e9b a cav:Statement,
+camssa:8ff0f07c-5f78-4ef2-bd61-0b62f3a87a20 a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement "XACML is a de-fact standard markup language that is used in a wide variety of solutions, although it does not foster any innovative solutions."@en ;
-    cav:refersTo camssa:6e499387-541d-40fb-b4c6-05e0f6e3500b .
-
-camssa:2b1a97ed-9bfd-4d6e-af65-a45f1e11e234 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-c967c90bfc7bc13426924eca012de349ae51d4e8f652fe64bfbec2cccc8c8146 ;
+    cav:assignedTo sc:c-a81c4b8658f57e819297eb0b7977407f8d814c6fe749c74a8ac497277ca7d9d8 ;
     cav:value "1"^^xsd:int .
 
-camssa:31b55750-3c9e-4cf6-8765-51b7f8edba0f a cav:Score,
+camssa:90004f57-be5b-4eb3-a716-321b8e7e0dda a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-19598487b8ba278c3438dcfd74b74d9aad51beac08c53dbf40bf108ed09e72b2 ;
-    cav:value "2"^^xsd:int .
+    cav:assignedTo sc:c-3aec34db3622bf18675b8216d0fc1d68fc7eeb501b4f3326402038a3ceb95c21 ;
+    cav:value "1"^^xsd:int .
 
-camssa:338fa546-9364-4344-b2f7-9124d79792f0 a cav:Statement,
+camssa:91a430d5-cac9-4707-bae2-e05ecf84539b a cav:Statement,
         owl:NamedIndividual ;
-    cav:judgement """By easing the creation of secured web services, XACML contributes to the increment of digital public services between administrations and stakeholders and among administrations. This public services can include Secure Data Transfer amongst other services. 
+    cav:judgement """The purpose of XACML is not related to the  delivery of multilingual public services. Therefore, this criterion is not applicable to the specification.
 
 XACML OASIS reference:
-http://docs.oasis-open.org/xacml/3.0/errata01/xacml-3.0-core-spec-errata01.html
+http://docs.oasis-open.org/xacml/3.0/errata01/xacml-3.0-core-spec-errata01.html"""@en ;
+    cav:refersTo camssa:9c81ef92-eb9b-414c-938c-89e10e777752 .
 
-SEMIRAMIS project: 
-https://joinup.ec.europa.eu/solution/semiramis/about"""@en ;
-    cav:refersTo camssa:3ce128e8-4c6b-4863-af1f-1f7d21e68e72 .
+camssa:966aa093-841a-42c3-b01f-90b1a56c9e35 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-33ea90f5c1bb01d4398c57d03a25934dc5722d5ddbc98a43911ea4fb302ec54c ;
+    cav:value "2"^^xsd:int .
 
-camssa:3b7c35f0-c570-4947-805e-457a36af3130 a cav:Score,
+camssa:9967d2fd-370f-49c9-a59d-298d40d1fb7b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8a34a40e5bc5436b3530d898d75a57cf0488591887b31a5169499fe78952d84c ;
+    cav:value "2"^^xsd:int .
+
+camssa:9c81ef92-eb9b-414c-938c-89e10e777752 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-4ac14cafe608f1dbe7e48f96edd7574c55f0aac2c2e99ede0418dae7225977af ;
+    cav:value "2"^^xsd:int .
+
+camssa:9cb3c24b-b7e7-4da5-9948-b074c5769afe a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "There is no national or European platform with the specification XACML available for free."@en ;
+    cav:refersTo camssa:6e390eb9-8947-437a-b245-a1396f3b8cae .
+
+camssa:a0927500-0215-4103-8abd-248e76bbc836 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1cd71a7b6d54631ba58cc8b0655a443d696f49ec74a0f4cccc871de7789d6a60 ;
+    cav:value "1"^^xsd:int .
+
+camssa:a3171576-e902-4f7e-b748-39d7a8a1d624 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """XACML is maintained and developed by OASIS which is an international community developing open standards. 
+
+Developer community OASIS: 
+https://www.oasis-open.org/org/"""@en ;
+    cav:refersTo camssa:5a1d0531-3c45-44df-abff-bc14a0dfef1a .
+
+camssa:a319bcbd-aa1c-43f3-9645-eaf92396084f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d28663fdb5deb361d5ad773d7b7ece3c6acf8d2eb7a1222a60cb08df4c93aac ;
+    cav:value "1"^^xsd:int .
+
+camssa:a42057bd-c0a3-41a2-9a9b-c9dafadcbaad a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7ab883158b51681c78f90d1a00bbb3840aa2c86e309a9abd1ad6e6eedb5e2735 ;
+    cav:value "2"^^xsd:int .
+
+camssa:a5351ca1-27c0-4056-aa5f-32438957ced3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification was developed in 2001, by OASIS. It has been evolved over the years demonstrating that it overcame the possible issues raised on the developement and implementation. Moreover, the version of the issue being assessed is the 3.0, which enforces the maturity of the spec for its use in the developement of products and services. 
+
+XACML OASIS reference:
+http://docs.oasis-open.org/xacml/3.0/errata01/xacml-3.0-core-spec-errata01.html"""@en ;
+    cav:refersTo camssa:3e96b1d8-131b-4778-8ab5-64ec957bd8c6 .
+
+camssa:a85bab7a-653e-411e-a35b-c34dec2ac0c6 a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-6d48464387e608d3022bd07338cd3859acfb0f84139186a979ef3b96baa51086 ;
     cav:value "2"^^xsd:int .
 
-camssa:3c4e8199-3bb0-4055-a17a-b1cc504f2496 a cav:Score,
+camssa:acdbf313-eff9-4e37-a34c-2fb843f99c52 a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-624bc49501d58649e27cae4fb89fb5a56844685e54c5ce1625633894f8f752e1 ;
+    cav:assignedTo sc:c-cc5bd9a7d0b2acc7f246522414fd5f5d579b977180bb04fa60a545cb35dae90f ;
     cav:value "1"^^xsd:int .
 
-camssa:3ce128e8-4c6b-4863-af1f-1f7d21e68e72 a cav:Score,
+camssa:aedf2c8d-0aa5-4c03-be4c-9c4c10522423 a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-ffdbd22af1ff3c1ebb100043d062a3df160007af761caf0a8c9f50f02e609c9e ;
+    cav:judgement """After checking the assessments performed by CAMSS and the list of specifications identified by the MSP Multi-stakeholder-platform, no assessment verifying the compliance of the specification with the European standardisation regulation has been found.
+
+ICT technical specifications:
+https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en"""@en ;
+    cav:refersTo camssa:018429ef-ff0f-4a16-9227-7dbbd89979e2 .
+
+camssa:b0ac36a3-4459-4454-ab50-9a1d6529b956 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of the specification is not related to the comprehensibility of administrative rules, data, services, and the decision-making process. Therefore, this criterion does not apply to this specification.
+
+XACML OASIS reference:
+http://docs.oasis-open.org/xacml/3.0/errata01/xacml-3.0-core-spec-errata01.html"""@en ;
+    cav:refersTo camssa:a42057bd-c0a3-41a2-9a9b-c9dafadcbaad .
+
+camssa:b4622c07-0e35-454b-b606-4a11e6c7475a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-138786a6e7517e10b94e83ec3b3e7ac79b4c49dcbeaef8d8e993c8df0d173529 ;
+    cav:value "2"^^xsd:int .
+
+camssa:b7d201fb-5a0e-487a-b058-bbd82efcc36d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """OASIS has defined a clear Technical Committee (hereby TC) process where all the stakeholders involved have the opportunity to participate in the development of the specification development process.
+
+OASIS guideline:
+https://www.oasis-open.org/policies-guidelines/tc-process-2017-05-26"""@en ;
+    cav:refersTo camssa:d33a7b80-bf84-4018-a07b-c857fcaf1860 .
+
+camssa:b7fac6d9-6a43-4b7a-a71f-85e234ca962c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8c09094de9d71f12686896827a205db683b6df58fa363bc5be2a7d99989e7dd0 ;
     cav:value "1"^^xsd:int .
 
-camssa:3d732a50-bdcc-4173-b68d-8818bdde2dab a cav:Score,
+camssa:ba170e8d-3863-4f23-abce-ff9bad4eb615 a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-5df7a9f6081c945a22f500aa0ba2c452b8b9cd9497bd643ac76c39d34a18c319 ;
-    cav:value "0"^^xsd:int .
+    cav:judgement """The purpose of XACML is not related to organisational interoperability. Therefore, this criterion is not applicable to the specification.
 
-camssa:4131a1bf-d7a3-4626-a423-1c9a619f692b a cav:Statement,
+XACML OASIS reference:
+http://docs.oasis-open.org/xacml/3.0/errata01/xacml-3.0-core-spec-errata01.html"""@en ;
+    cav:refersTo camssa:a85bab7a-653e-411e-a35b-c34dec2ac0c6 .
+
+camssa:bfe86bf0-32e5-4ffe-be3b-8f0794e9c674 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-02333ef99fbcb4f101a106bcf97c9559888756b085b1729b7c2ac9626dc4bc63 ;
+    cav:value "2"^^xsd:int .
+
+camssa:c4fa5bde-1e41-442c-8eba-13a3663a4e01 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """There are already existing documents and studies about the XACML performance in different environments. An example of this is the research article "A Performance Analysis of the XACML DecisionProcess and the Impact of Caching", which analyses the performance of XACML involved in the decision process of web services developed in the cloud and the impact of caching. Also, there is an article focused on the testing of XACML policies, which provides different approaches to improve effectiveness and effectivity.
 
@@ -194,386 +495,78 @@ https://www.researchgate.net/publication/283307011_A_Performance_Analysis_of_the
 
 Approaches for Testing and Evaluation of XACML Policies:
 https://www.researchgate.net/publication/279192661_Approaches_for_Testing_and_Evaluation_of_XACML_Policies"""@en ;
-    cav:refersTo camssa:fb83edb7-8dad-4432-bc9c-b9f00d44738f .
+    cav:refersTo camssa:acdbf313-eff9-4e37-a34c-2fb843f99c52 .
 
-camssa:426928f2-2900-4d02-9726-7a17f7281846 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-138786a6e7517e10b94e83ec3b3e7ac79b4c49dcbeaef8d8e993c8df0d173529 ;
-    cav:value "2"^^xsd:int .
-
-camssa:460af3ee-5e13-4802-9bdc-7400d3f2fb8b a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The purpose of the specification is not related with the publication of data. Therefore, this criterion is not applicable to this specification. 
-
-XACML OASIS reference:
-http://docs.oasis-open.org/xacml/3.0/errata01/xacml-3.0-core-spec-errata01.html"""@en ;
-    cav:refersTo camssa:66b8a54e-d24e-45df-899c-cba807065ee3 .
-
-camssa:4d0cc06e-bb46-4da7-a1ed-9acb23c1f020 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The specification is aimed to participate in the evaluation of access policies, participating in authentication processes that can ease the secure and trustworthy exchange of data. An example of this fact is the European project SEMIRAMIS, a pilot infrastructure to provide e-services with the required underlying secure authentication
-
-SEMIRAMIS project: 
-https://joinup.ec.europa.eu/solution/semiramis/about"""@en ;
-    cav:refersTo camssa:e08f3d98-a25e-4819-b9fa-39c7359496ba .
-
-camssa:4e9e78aa-f0ab-4071-a845-8d9fcd6f79de a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-c2cedd44f05183dae5548108bdeace2c092b84c7c5d89c475b0741ddae7fc7b2 ;
-    cav:value "1"^^xsd:int .
-
-camssa:50571cd0-3a01-4573-87a1-f9dfd3493854 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-6bedf555bffb837990b9eb353447fa116eb9d2384770b1dd3de46d3c5901d4f4 ;
-    cav:value "1"^^xsd:int .
-
-camssa:589966df-69d5-47d7-bd5a-e26d3080f685 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-d129862d6c9639e131c7d5eef095af16ef94d57ec0d52f955bf909ba8ec688e8 ;
-    cav:value "1"^^xsd:int .
-
-camssa:5b851cbe-c7a4-4157-bedf-e4f56614236c a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """XACML is the basis of the Polocy Management impelemented by the cross-border project SEMINARIS. This projects aims to provide e-services with the required underlying secure authentication and management approach
-
-Semiramis home page: 
-https://joinup.ec.europa.eu/solution/semiramis/about"""@en ;
-    cav:refersTo camssa:8426f6d1-323b-4a2c-89e2-918e36c26325 .
-
-camssa:5d1cd5c6-e47c-4e99-887d-04a042916415 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-ab64f97c21ac8b84c75d6f52a89765b1c8fd1856d2d2060926d05e94f306a88d ;
-    cav:value "2"^^xsd:int .
-
-camssa:5e44647c-350d-48b4-8b14-028e867224eb a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The purpose of XACML is not related to organisational interoperability. Therefore, this criterion is not applicable to the specification.
-
-XACML OASIS reference:
-http://docs.oasis-open.org/xacml/3.0/errata01/xacml-3.0-core-spec-errata01.html"""@en ;
-    cav:refersTo camssa:3b7c35f0-c570-4947-805e-457a36af3130 .
-
-camssa:66b8a54e-d24e-45df-899c-cba807065ee3 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-02333ef99fbcb4f101a106bcf97c9559888756b085b1729b7c2ac9626dc4bc63 ;
-    cav:value "2"^^xsd:int .
-
-camssa:67d5f9e1-49af-40cc-ba23-9cc33372bc8c a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """XACML is available for its study and use at OASIS’s webpage. Therefore it can be reused by the organisations, administrations, open communities, etc. that developed it.
-
-XACML OASIS reference:
-http://docs.oasis-open.org/xacml/3.0/errata01/xacml-3.0-core-spec-errata01.html"""@en ;
-    cav:refersTo camssa:4e9e78aa-f0ab-4071-a845-8d9fcd6f79de .
-
-camssa:6af4e627-5c11-46b4-8c65-2e9611927196 a schema:ContactPoint,
-        owl:NamedIndividual ;
-    schema:email "NaN"^^xsd:double .
-
-camssa:6d7b9fc0-d1ad-48f9-bbc7-001d7a4dee88 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The purpose of XACML is not related to data portability. Therefore, this criterion is not applicable to this specification. 
-
-XACML OASIS reference:
-http://docs.oasis-open.org/xacml/3.0/errata01/xacml-3.0-core-spec-errata01.html"""@en ;
-    cav:refersTo camssa:5d1cd5c6-e47c-4e99-887d-04a042916415 .
-
-camssa:6e499387-541d-40fb-b4c6-05e0f6e3500b a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-21276471c1781fa2c7e78c8e03851e076b840beddbf5cf64f53b54b8855a01b8 ;
-    cav:value "0"^^xsd:int .
-
-camssa:729f307c-c538-4f92-aee3-ca0682d2ad68 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "There is no national or European platform with the specification XACML available for free."@en ;
-    cav:refersTo camssa:13373723-8478-40f4-b846-8219b85ea731 .
-
-camssa:7490ec22-2a59-4dae-9ca0-cee008bd4058 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The purpose of the specification is not related to the availability of interfaces with internal information systems. Therefore, this criterion does not apply to this specification.
-
-XACML OASIS reference:
-http://docs.oasis-open.org/xacml/3.0/errata01/xacml-3.0-core-spec-errata01.html"""@en ;
-    cav:refersTo camssa:c05b3453-ea61-46c3-adaf-9eea858ecfca .
-
-camssa:7546d09e-6221-460e-87a3-5a5d0fd06ce0 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-7a18abe4842e04b608025fd70e54c3db5c2a10130c0dab0495479e7d5effb55d ;
-    cav:value "0"^^xsd:int .
-
-camssa:788b6350-5750-4d6d-94c4-a7da030d91a7 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-7aa038b5496afb8cb229c692be9a2adc175deb2d5d47e35ad67e027c9eac28ba ;
-    cav:value "1"^^xsd:int .
-
-camssa:7b71d913-016b-455b-be34-11af729788cf a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """OASIS has defined a clear Technical Committee (hereby TC) process where all the stakeholders involved have the opportunity to participate in the development of the specification development process.
-
-OASIS guideline:
-https://www.oasis-open.org/policies-guidelines/tc-process-2017-05-26"""@en ;
-    cav:refersTo camssa:8fc50711-5ab9-451c-8c69-1557dcec6b68 .
-
-camssa:80ea4199-6aeb-4cd3-b044-ecb14033d4ab a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-5879b43fc249f0098f3ed687235f432f71bf0c11bd3aa95e063dfdacd64606c8 ;
-    cav:value "1"^^xsd:int .
-
-camssa:8426f6d1-323b-4a2c-89e2-918e36c26325 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-39ffef052c31580b50b418f3991e9de7db4dc182fcf96f5a447d7f8e09560612 ;
-    cav:value "1"^^xsd:int .
-
-camssa:88ac7a2c-98f7-42c3-90c4-103b7d23ad9d a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The purpose of XACML is not related to e-accessibility. Therefore, this criterion is not applicable to the specification.
-
-XACML OASIS reference:
-http://docs.oasis-open.org/xacml/3.0/errata01/xacml-3.0-core-spec-errata01.html"""@en ;
-    cav:refersTo camssa:ffe54ba5-0451-4eb4-a4a6-1b105c03dbb6 .
-
-camssa:8fc50711-5ab9-451c-8c69-1557dcec6b68 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-f70d8bc1b4b6e186d69ea3f7f8cc7b2d75314b84e7f481ebe13b4e6ed8b36598 ;
-    cav:value "1"^^xsd:int .
-
-camssa:96de93b8-9d42-4336-9931-20571c835a7f a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-838030847fa0adf54939e3feaac0ac2510924c54035e1cb671b223b54b02fd70 ;
-    cav:value "1"^^xsd:int .
-
-camssa:9dbf1820-e5cc-4ac3-a277-f67b6b7d2ac1 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-7ab883158b51681c78f90d1a00bbb3840aa2c86e309a9abd1ad6e6eedb5e2735 ;
-    cav:value "2"^^xsd:int .
-
-camssa:a6be9df1-82e8-4f65-93aa-608968bd02ac a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-31bf959b6c4a983ec70eb87e0177f2739575ebce42c7c3b95b9012ef3bfe673e ;
-    cav:value "1"^^xsd:int .
-
-camssa:a7dd9ba5-7631-4dab-8506-9747be6a0c94 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-8c09094de9d71f12686896827a205db683b6df58fa363bc5be2a7d99989e7dd0 ;
-    cav:value "1"^^xsd:int .
-
-camssa:ae04b628-12f2-4a33-8715-90698cdc971d a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-b21a3eb972a2119979bc57368474efa809e8dd16cede48bc492e8b64da1abee9 ;
-    cav:value "1"^^xsd:int .
-
-camssa:af3e91c2-a031-4240-bb3f-b8bad12b16ad a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The purpose of XACML is not related  to the modelling of business processes. Therefore, this criterion is not applicable to the specification.
-
-XACML OASIS reference:
-http://docs.oasis-open.org/xacml/3.0/errata01/xacml-3.0-core-spec-errata01.html"""@en ;
-    cav:refersTo camssa:bb3a1aa6-92f9-468d-8cae-1372dc8ca41b .
-
-camssa:af3eaebb-1810-4544-8a0d-ad2e0647fc2f a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-8954ddabf37f4899562b9ea4c8f0bbf204f3e48c9203043bc231f368092396a2 ;
-    cav:value "1"^^xsd:int .
-
-camssa:b660e712-6585-4379-8099-c08fe26045ea a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """Germany is recommending XACML in their ICT National Catalogues.
-
-Germany catalogue of standards:
-https://www.din.de/en/about-standards/din-standards
-
-CAMSS List of Standards:   
-https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards """@en ;
-    cav:refersTo camssa:a7dd9ba5-7631-4dab-8506-9747be6a0c94 .
-
-camssa:b95a0fb7-9914-446c-9ee3-1de30374318b a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "No evidences have been found of the specification being included in a formal interoperability agreement between organisations involved in the European public services provision."@en ;
-    cav:refersTo camssa:3d732a50-bdcc-4173-b68d-8818bdde2dab .
-
-camssa:bb37bf1a-d761-491f-aba2-64319dbd0c51 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """After checking the different standard catalogues at supra-national level, there is no evidence of the inclusion of XACML within any European catalogue of standards.
-
-ICT technical specifications:
-https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en 
-
-CEN search tool catalogue:
-https://standards.cen.eu/dyn/www/f?p=CENWEB:105::RESET::::
-
-CENELEC search tool catalogue:
-https://www.cenelec.eu/dyn/www/f?p=104:107:0::::FSP_LANG_ID:25"""@en ;
-    cav:refersTo camssa:7546d09e-6221-460e-87a3-5a5d0fd06ce0 .
-
-camssa:bb3a1aa6-92f9-468d-8cae-1372dc8ca41b a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-c265ca0c56e0f29a34039d496ba707b5486ccf6d445f9f058c19b4ece977861f ;
-    cav:value "2"^^xsd:int .
-
-camssa:bf83b4be-8f2e-49c8-a49c-aa2d47cee36a a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The purpose of the specification is not related to the comprehensibility of administrative rules, data, services, and the decision-making process. Therefore, this criterion does not apply to this specification.
-
-XACML OASIS reference:
-http://docs.oasis-open.org/xacml/3.0/errata01/xacml-3.0-core-spec-errata01.html"""@en ;
-    cav:refersTo camssa:9dbf1820-e5cc-4ac3-a277-f67b6b7d2ac1 .
-
-camssa:bfb9676b-0e2e-4976-9078-1aa4bf11af63 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The application of the once-only principle in all EU Member States public administrations aims at reducing the administrative burden. 
-
-XACML addresses and facilitates interoperability between public administrations, cross-border services, and impacts positively the development of eGovernment. This is because it has been designed to evaluate and control access by ensuring the compliance of security policies. 
-
-Also, the project SEMIRAMIS, uses this specification to ensure secure channels for the exchange and reuse of information.
-
-XACML OASIS reference:
-http://docs.oasis-open.org/xacml/3.0/errata01/xacml-3.0-core-spec-errata01.html
-
-SEMIRAMIS project: 
-https://joinup.ec.europa.eu/solution/semiramis/about"""@en ;
-    cav:refersTo camssa:3c4e8199-3bb0-4055-a17a-b1cc504f2496 .
-
-camssa:c05b3453-ea61-46c3-adaf-9eea858ecfca a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-33ea90f5c1bb01d4398c57d03a25934dc5722d5ddbc98a43911ea4fb302ec54c ;
-    cav:value "2"^^xsd:int .
-
-camssa:c4bbc97f-5f3c-40bb-b332-d72f1dd01125 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The specification was developed in 2001, by OASIS. It has been evolved over the years demonstrating that it overcame the possible issues raised on the developement and implementation. Moreover, the version of the issue being assessed is the 3.0, which enforces the maturity of the spec for its use in the developement of products and services. 
-
-XACML OASIS reference:
-http://docs.oasis-open.org/xacml/3.0/errata01/xacml-3.0-core-spec-errata01.html"""@en ;
-    cav:refersTo camssa:50571cd0-3a01-4573-87a1-f9dfd3493854 .
-
-camssa:c8a8168b-4dca-4cd4-8e53-bcbe3bad436e a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-53abe85b1365f86aa58a25566e54e082ea2d70ee8d9fbaf09ccab20af30f3332 ;
-    cav:value "0"^^xsd:int .
-
-camssa:c9bec9b0-a02d-4c0d-a50a-65f51166e1db a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-3aec34db3622bf18675b8216d0fc1d68fc7eeb501b4f3326402038a3ceb95c21 ;
-    cav:value "1"^^xsd:int .
-
-camssa:cb2528b1-b861-4b1c-9c95-0ecbf78b827c a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """XACML is a markup language that is used to declare access conditions stated on Security Policies. It can be adapted to ensure that web services are compliant with security policies, and therefore, ensure the data trustworthy exchange. 
-
-XACML OASIS reference:
-http://docs.oasis-open.org/xacml/3.0/errata01/xacml-3.0-core-spec-errata01.html"""@en ;
-    cav:refersTo camssa:d11ea153-6e1a-4ea5-beed-1ac0a8a59e07 .
-
-camssa:cb6149cf-46ea-4e20-9803-a5450374e9a8 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-7d28663fdb5deb361d5ad773d7b7ece3c6acf8d2eb7a1222a60cb08df4c93aac ;
-    cav:value "1"^^xsd:int .
-
-camssa:cfd8c802-9dc6-433b-8cb7-1169f09f9cad a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """XACML is included in the German catalogue of recommended specifications. 
-
-Germany catalogue of standards:
-https://www.din.de/en/about-standards/din-standards
-
-CAMSS List of Standards:
-https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
-    cav:refersTo camssa:96de93b8-9d42-4336-9931-20571c835a7f .
-
-camssa:d11ea153-6e1a-4ea5-beed-1ac0a8a59e07 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-ba46c76c10ad769a23ce4a9a34cb4d96a00407d5fc14ad1c791a870be7563c2b ;
-    cav:value "1"^^xsd:int .
-
-camssa:d2eab9bd-20a7-4b6e-9011-c4afafe679fa a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-4ac14cafe608f1dbe7e48f96edd7574c55f0aac2c2e99ede0418dae7225977af ;
-    cav:value "2"^^xsd:int .
-
-camssa:d48ffdb3-ee58-4ea2-9783-7fe153b828e9 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The XACML specification includes data structures and models that can be considered as reusable models for establishing data policies, the data involved and the processes involved.
-
-XACML OASIS reference:
-http://docs.oasis-open.org/xacml/3.0/errata01/xacml-3.0-core-spec-errata01.html"""@en ;
-    cav:refersTo camssa:af3eaebb-1810-4544-8a0d-ad2e0647fc2f .
-
-camssa:e079da4f-2f1e-4a6a-94bb-de460d137b0b a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """There are already existing tools for testing the implementation of XACML polocies. The Security Pool Policy allow to check for enhancements in a XACML implementation. Also, a tool known as WS2 Identity Server is available under its own licence to allow the testing of XACML implementations. 
-
-WS2 Identity Server
-https://docs.wso2.com/display/IS541/Using+the+XACML+TryIt+Tool"""@en ;
-    cav:refersTo camssa:2b1a97ed-9bfd-4d6e-af65-a45f1e11e234 .
-
-camssa:e08f3d98-a25e-4819-b9fa-39c7359496ba a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-483e8900c47b40bc67a6bd1cbfce07884b9ac5f2c85e0214f334cc37e4e65c35 ;
-    cav:value "1"^^xsd:int .
-
-camssa:e2622e25-955b-43ca-84d3-de7daba7daf2 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """XACML is publicly available for free on OASIS Webpage.
-
-XACML OASIS reference:
-http://docs.oasis-open.org/xacml/3.0/errata01/xacml-3.0-core-spec-errata01.html"""@en ;
-    cav:refersTo camssa:a6be9df1-82e8-4f65-93aa-608968bd02ac .
-
-camssa:e3e80f14-41bb-48b6-9666-d4f934a7d457 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """XACML is maintained and developed by OASIS which is an international community developing open standards. 
-
-Developer community OASIS: 
-https://www.oasis-open.org/org/"""@en ;
-    cav:refersTo camssa:ae04b628-12f2-4a33-8715-90698cdc971d .
-
-camssa:e480ee20-54ef-43df-a6a2-dec1b4dc8697 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The purpose of XACML is not related  to the long-term preservation of electronic records and other kinds of information. Therefore, this criterion is not applicable to the specification.
-
-XACML OASIS reference:
-http://docs.oasis-open.org/xacml/3.0/errata01/xacml-3.0-core-spec-errata01.html"""@en ;
-    cav:refersTo camssa:fc5cec21-dfc2-41b3-9b75-5260eeae5d70 .
-
-camssa:e792a487-8c31-4b63-b6cf-383d7b80e124 a cav:Statement,
+camssa:c75c1525-bd49-4475-a60d-38bc2c718536 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """The OASIS Technical Committee, in charge of the development of XACML, operates under RF on RAND Mode of the OASIS IPR Policy. The specification is licensed on a Royalty-free and (F)RAND basis.
 
 OASIS IPR:
 https://www.oasis-open.org/committees/security/ipr.php
 https://www.oasis-open.org/policies-guidelines/ipr"""@en ;
-    cav:refersTo camssa:19111cfa-5caf-4d1c-9860-18a8311e50d1 .
+    cav:refersTo camssa:a0927500-0215-4103-8abd-248e76bbc836 .
 
-camssa:ecd18c62-afde-4637-917d-fc24cd350142 a cav:Statement,
+camssa:c9c9dbb6-a6e4-4e53-b23a-5c8188e76a61 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-31bf959b6c4a983ec70eb87e0177f2739575ebce42c7c3b95b9012ef3bfe673e ;
+    cav:value "1"^^xsd:int .
+
+camssa:cf4f0d9d-6b6d-48fc-af6a-eb3e46030c6e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """By easing the creation of secured web services, XACML contributes to the increment of digital public services between administrations and stakeholders and among administrations. This public services can include Secure Data Transfer amongst other services. 
+
+XACML OASIS reference:
+http://docs.oasis-open.org/xacml/3.0/errata01/xacml-3.0-core-spec-errata01.html
+
+SEMIRAMIS project: 
+https://joinup.ec.europa.eu/solution/semiramis/about"""@en ;
+    cav:refersTo camssa:ecb466d5-db1e-45ae-bc01-63fca3c68371 .
+
+camssa:d17ac958-4d2b-4cee-95c4-fba9abec8a57 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of XACML is not related  to the long-term preservation of electronic records and other kinds of information. Therefore, this criterion is not applicable to the specification.
+
+XACML OASIS reference:
+http://docs.oasis-open.org/xacml/3.0/errata01/xacml-3.0-core-spec-errata01.html"""@en ;
+    cav:refersTo camssa:9967d2fd-370f-49c9-a59d-298d40d1fb7b .
+
+camssa:d33a7b80-bf84-4018-a07b-c857fcaf1860 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f70d8bc1b4b6e186d69ea3f7f8cc7b2d75314b84e7f481ebe13b4e6ed8b36598 ;
+    cav:value "1"^^xsd:int .
+
+camssa:d3902d1c-1338-4571-95dd-b1d9315842b4 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """XACML can be used independently from any other technical specifications or operating system. However, it is worth noting that since it is based on XML, it can be dependent on conventions and rules for the correct XML usage. 
 
 XACML OASIS reference:
 http://docs.oasis-open.org/xacml/3.0/errata01/xacml-3.0-core-spec-errata01.html"""@en ;
-    cav:refersTo camssa:80ea4199-6aeb-4cd3-b044-ecb14033d4ab .
+    cav:refersTo camssa:58f1cda7-3b70-4e7d-9041-495b1a297e27 .
 
-camssa:edfe82af-ad90-4173-89f1-04baa6dd508a a cav:Statement,
+camssa:d81491ff-9e96-465f-a46b-68d583bddb17 a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement """XACML is already associated with EIRA ABBs in the European Library Of Specifications (ELIS). More specifically, XACML can define the interoperability aspects of the "Access Management Component", and  "Access Management Service" ABBs of the EIRA Technical View.
+    cav:assignedTo sc:c-c967c90bfc7bc13426924eca012de349ae51d4e8f652fe64bfbec2cccc8c8146 ;
+    cav:value "1"^^xsd:int .
 
-EIRA Library of Interoperability Specifications (ELIS):
-https://joinup.ec.europa.eu/solution/elis/release/v100"""@en ;
-    cav:refersTo camssa:cb6149cf-46ea-4e20-9803-a5450374e9a8 .
+camssa:dc71a58b-797a-4949-8e09-0baf800b2698 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ab64f97c21ac8b84c75d6f52a89765b1c8fd1856d2d2060926d05e94f306a88d ;
+    cav:value "2"^^xsd:int .
 
-camssa:f49534fa-57c1-4ffa-bd4d-1aa0c31f9a2a a cav:Statement,
+camssa:e696002c-0d5b-454d-b5eb-f18147a87053 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-624bc49501d58649e27cae4fb89fb5a56844685e54c5ce1625633894f8f752e1 ;
+    cav:value "1"^^xsd:int .
+
+camssa:eb2f1a76-9e63-4559-9ada-412a6255c8b8 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """The purpose of the specification is not related to the visibility of administrative rules, data, services, and the decision-making process. Therefore, this criterion does not apply to this specification.
 
 XACML OASIS reference:
 http://docs.oasis-open.org/xacml/3.0/errata01/xacml-3.0-core-spec-errata01.html"""@en ;
-    cav:refersTo camssa:31b55750-3c9e-4cf6-8765-51b7f8edba0f .
+    cav:refersTo camssa:851c3770-d6a6-41a6-b8a2-0306eec2dc45 .
 
-camssa:f6c0b1d3-7336-479e-8de3-ebae02d8937b a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-8eb17470327d32b3bb523447fe72ee5c60ddb03e81dae318b485fbe05f48a844 ;
-    cav:value "0"^^xsd:int .
-
-camssa:f6dd6fd0-ecd3-4ad7-a93b-03f40b7c8347 a cav:Statement,
+camssa:ec077a39-7fd8-4ca3-8cb9-55dbd05abb2d a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """At the moment of performing the assessment, there is no Member State that includes XACML in their national catalogue with The National Interoperability Framework (NIF) aligned with at least 4 out of 5 sections of the European Interoperability Framework (EIF) according to the National Interoperability Framework Observatory (NIFO) factsheets.
 
@@ -582,28 +575,35 @@ https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-sp
 
 National Interoperability Framework Observatory:  
 https://joinup.ec.europa.eu/collection/national-interoperability-framework-observatory-nifo/nifo-factsheets"""@en ;
-    cav:refersTo camssa:f6c0b1d3-7336-479e-8de3-ebae02d8937b .
+    cav:refersTo camssa:6ed9e3e4-bdf2-4f8e-8640-8a7ab27e6cd8 .
 
-camssa:fb83edb7-8dad-4432-bc9c-b9f00d44738f a cav:Score,
+camssa:ecb466d5-db1e-45ae-bc01-63fca3c68371 a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-cc5bd9a7d0b2acc7f246522414fd5f5d579b977180bb04fa60a545cb35dae90f ;
+    cav:assignedTo sc:c-ffdbd22af1ff3c1ebb100043d062a3df160007af761caf0a8c9f50f02e609c9e ;
     cav:value "1"^^xsd:int .
 
-camssa:fc5cec21-dfc2-41b3-9b75-5260eeae5d70 a cav:Score,
+camssa:ee70e16a-c672-4f35-ab79-a586b9bc0d7b a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-8a34a40e5bc5436b3530d898d75a57cf0488591887b31a5169499fe78952d84c ;
-    cav:value "2"^^xsd:int .
+    cav:judgement """The OASIS Technical Committee, in charge of the development of XACML, operates under RF on RAND Mode of the OASIS IPR Policy. The specification is licensed on a Royalty-free and (F)RAND basis.
 
-camssa:fea50e17-3df5-4182-b1e8-ba5f2d2ecbf2 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """OASIS has defined a clear process where all the stakeholders involved have the opportunity to participate in the development of the specification development process. Moreover, there is a public review in the TC process.
- 
-OASIS guideline:
-https://www.oasis-open.org/policies-guidelines/tc-process-2017-05-26"""@en ;
-    cav:refersTo camssa:788b6350-5750-4d6d-94c4-a7da030d91a7 .
+OASIS IPR:
+https://www.oasis-open.org/committees/security/ipr.php
+https://www.oasis-open.org/policies-guidelines/ipr"""@en ;
+    cav:refersTo camssa:8ff0f07c-5f78-4ef2-bd61-0b62f3a87a20 .
 
-camssa:ffe54ba5-0451-4eb4-a4a6-1b105c03dbb6 a cav:Score,
+camssa:f45dd48f-1da0-47bc-8e0b-ebd1d516c69b a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-fef5941bab92019b7692f8544de94715a42ed9ff76d89cbec4fb6f9821611925 ;
-    cav:value "2"^^xsd:int .
+    cav:judgement """XACML is the basis of the Polocy Management impelemented by the cross-border project SEMINARIS. This projects aims to provide e-services with the required underlying secure authentication and management approach
+
+Semiramis home page: 
+https://joinup.ec.europa.eu/solution/semiramis/about"""@en ;
+    cav:refersTo camssa:7b9058db-9906-492f-bf4c-f13926b4c154 .
+
+camssa:f7badbaf-cf22-4434-ac14-96d1f654c6ef a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of the specification is not related with the publication of data. Therefore, this criterion is not applicable to this specification.
+
+XACML OASIS reference:
+http://docs.oasis-open.org/xacml/3.0/errata01/xacml-3.0-core-spec-errata01.html"""@en ;
+    cav:refersTo camssa:b4622c07-0e35-454b-b606-4a11e6c7475a .
 

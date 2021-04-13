@@ -1,11 +1,11 @@
 import os
-import uuid
 import pandas as p
-from ass.csv import CSV
+from util.io import slash
+from ass._csv import _CSV
 from cfg.conf import Cfg
 from rdflib import URIRef, Literal, Namespace, Graph
-from rdflib.namespace import RDF, SKOS, OWL, DCTERMS, XSD
-from util.io import slash
+from rdflib.namespace import RDF, SKOS, OWL, DCTERMS
+
 
 # Namespaces
 CAMSS = Namespace("http://data.europa.eu/2sa#")
@@ -21,21 +21,16 @@ class Transformer:
 
     g: Graph
     df: p.DataFrame
-    csv: CSV
+    csv: _CSV
     cfg: Cfg
     ttl: str
 
-    def __init__(self, csv: CSV):
+    def __init__(self, csv: _CSV):
         self.cfg = csv.cfg
         self.g = None
         self.csv = csv
         self.df = self.csv.df
         self.ttl = self._get_ttl_file_pathname()
-
-    def _get_ttl_file_pathname(self) -> str:
-        scenario = self.df.loc[0, 'scenario']
-        version = self.df.loc[0, 'tool_version']
-        return slash(self.cfg.get[7]['out.ttl']) + scenario + '-' + version + '-' + self.csv.filename + '.ttl'
 
     def _create_graph(self, name: str = None, base: str = None) -> Graph:
         self.g = Graph(identifier=name, base=base)
@@ -45,18 +40,28 @@ class Transformer:
         self.g.bind('camss', CAMSS)
         self.g.bind('cav', CAV)
         self.g.bind('sc', SC)
+        self.g.bind('cccev', CCCEV)
         return self.g
 
     def _add_scenario(self, row: p.Series) -> Graph:
-        ass_uri = URIRef(SC + row['scenario_id'], SC)
-        self.g.add((ass_uri, RDF.type, CAV.Scenario))
-        self.g.add((ass_uri, RDF.type, OWL.NamedIndividual))
-
+        sc_uri = URIRef(SC + 's-' + row['scenario_id'], SC)
+        self.g.add((sc_uri, SKOS.prefLabel, Literal(str(row['scenario'] + '-' + row['tool_version']), lang='en')))
+        self.g.add((sc_uri, RDF.type, CAV.Scenario))
+        self.g.add((sc_uri, RDF.type, OWL.NamedIndividual))
+        self.g.add((sc_uri, CAV.purpose, Literal(row['scenario_purpose'], lang='en')))
         return self.g
 
     def _add_criterion(self, row: p.Series) -> Graph:
-        uri_criterion = URIRef(SC + row['criterion_id'], SC)
+        uri_criterion = URIRef(SC + 'c-' + row['criterion_sha_id'], SC)
+        self.g.add((uri_criterion, RDF.type, CCCEV.Criterion))
+        self.g.add((uri_criterion, RDF.type, OWL.NamedIndividual))
+        self.g.add((uri_criterion, CCCEV.hasDescription, Literal(row['criterion_description'], lang='en')))
+        return self.g
 
+    def _link_criterion_to_scenario(self, row: p.Series) -> Graph:
+        sc_uri = URIRef(SC + 's-' + row['scenario_id'], SC)
+        crit_uri = URIRef(SC + 'c-' + row['criterion_sha_id'], SC)
+        self.g.add((sc_uri, CAV.includes, crit_uri))
         return self.g
 
     def transform(self) -> Graph:
@@ -64,6 +69,7 @@ class Transformer:
         self._add_scenario(row)
         for index, row in self.df.iterrows():
             self._add_criterion(row)
+            self._link_criterion_to_scenario(row)
         return self.g
 
     def serialize(self) -> str:
@@ -76,7 +82,12 @@ class Transformer:
         self.g.serialize(format="turtle", destination=self.ttl)
         return self.ttl
 
+    def _get_ttl_file_pathname(self) -> str:
+        scenario = self.df.loc[0, 'scenario']
+        version = self.df.loc[0, 'tool_version']
+        return slash(self.cfg.get[2]['out']) + scenario + '-' + version + '-' + 'criteria.ttl'
+
     def to_ttl(self) -> str:
-        self._create_graph(CAMSSA)
+        self._create_graph(CAMSS)
         self.transform()
         return self.serialize()

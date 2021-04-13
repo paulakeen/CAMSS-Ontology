@@ -19,202 +19,90 @@ camssa:4d275ba63d9fc120129b7025cd8826c702866a10b710bb8c8f46d5d43bcf0c1b a cav:As
     camss:submissionDate "2020-09-30"^^xsd:date ;
     camss:toolVersion tool:3.1.0 ;
     cav:contextualisedBy sc:s-fa3a7cf6ccb859ff672f6579e000e61d96f0756c83c13b96e3139ae97beb13bd ;
-    cav:resultsIn camssa:024e45ec-66e4-4754-816c-89400ca96fc1,
-        camssa:03224511-ebdb-4457-908f-583bac778fa0,
-        camssa:0c702373-eea4-4c16-856d-369c91e07116,
-        camssa:14b52497-66a2-45d8-913f-9b425514dba6,
-        camssa:23598dd2-b37f-4cd2-bbce-631bbaa48431,
-        camssa:2a1d3cfd-2f79-469e-805c-7b05480159aa,
-        camssa:2ebb521b-c8c0-4565-81a5-00d27b64bf7b,
-        camssa:3857d34a-cb6c-4cf2-bafe-efca40122c44,
-        camssa:3ce536bd-c471-4145-abbd-687f30a4b31c,
-        camssa:43a1488f-0deb-41eb-9962-5492406d1865,
-        camssa:4668a3cb-81a3-4d57-8f8b-26966354f3ed,
-        camssa:49cacb04-9d3f-416b-883a-27aaf098e4b5,
-        camssa:4ac4e2cc-028d-4646-bcf9-bece36a39eeb,
-        camssa:4ba9d4c6-909e-4ae9-8a14-e3e2b77761db,
-        camssa:6b507b14-6321-40b1-b542-f93ab6938f0f,
-        camssa:6d5d8918-947e-4b30-ab77-f1ceffe451a2,
-        camssa:6e0c3c57-d3cf-49da-9d3d-8a26c61999bb,
-        camssa:6e174d32-3aa1-449d-a259-930e22a02b6f,
-        camssa:75b5d13a-f1a5-47a1-a9cb-1dfbe91c6f0b,
-        camssa:7b83784d-d311-4eb8-a7cd-e4bac15ba0ff,
-        camssa:7e99d764-982a-4459-b788-2d1c3b5d7fd3,
-        camssa:80ff336b-6877-4763-b464-39c607226b20,
-        camssa:9f8c3e4f-3f55-496c-913a-ba620f640eca,
-        camssa:ac23e989-bd80-4fa7-9d37-7ff02a7ce0fe,
-        camssa:ae040d55-f534-4484-b6c6-0aadd02b1e05,
-        camssa:b18bb57d-6780-45d1-b9de-80b6a859bc02,
-        camssa:b84399f5-1985-4888-b6c2-ed7f0efcce36,
-        camssa:bd7f0cae-f92c-4df0-b035-d1c7de2e0cb4,
-        camssa:be3d8278-9a29-4e43-914f-ee1eaf3f04d8,
-        camssa:c3216ffc-8648-4c96-8ac5-f3a0418208e0,
-        camssa:c7afd910-baae-4dde-bbee-25f82725f55e,
-        camssa:cdb99191-688b-479a-9d17-3ae62d4783d6,
-        camssa:d0719e4a-201d-4fa1-9122-e62d56750417,
-        camssa:dc36d653-80b2-402a-b1e9-81e5b26cb761,
-        camssa:e84fcd69-3377-4592-82cc-4ce29e4e00d5,
-        camssa:ed81d66f-e65d-48f0-b441-d752c7e933e3,
-        camssa:f8a2aff3-40a5-4b73-82b4-ac309717bb52,
-        camssa:f8ef46c9-7ed9-4676-8cd0-b780753a5551,
-        camssa:fb70e69a-ed4b-4dfe-abbd-9cc29ae90c35 ;
+    cav:resultsIn camssa:0821fbb9-83be-45cc-bb08-ee5e78a28a65,
+        camssa:0d5c0dbe-32d5-43ba-8b0f-ab1dc5b3d655,
+        camssa:129ba14e-1af1-4088-853f-29ef84ba1c81,
+        camssa:12bd38c4-0722-4089-aef1-7ddd436d744a,
+        camssa:15e6646f-2c6a-4250-b71c-a6e749cdd71e,
+        camssa:1c0b0543-181e-458a-994b-03023db3ce18,
+        camssa:1ecfad86-e834-4062-b8c3-be903cfecfcb,
+        camssa:1ee6d0f9-37b6-4996-9d95-5828260966d6,
+        camssa:2354f5ae-6789-4c1d-97d0-09262f1ef3e9,
+        camssa:335f09c4-19b1-4152-b81e-49dda374ae93,
+        camssa:3a167921-a6c9-4750-a656-ae61ef5fafde,
+        camssa:3d82eeea-d1c9-4105-a000-614459b3659b,
+        camssa:4294dd86-94ca-4243-8c2b-370ecdf88577,
+        camssa:509c5a8d-c88b-463b-92e1-b2f0440bee94,
+        camssa:51d1c14b-980e-4f9c-a62a-5cbde9dbff93,
+        camssa:579ebe10-e8b1-46c1-be98-0ada825026f3,
+        camssa:5cdf94ab-638b-41a1-973e-752bc2cf09f1,
+        camssa:681cce3f-438b-448d-b856-c4764264f92c,
+        camssa:6ae744a3-bb8e-45eb-9c07-758dbe20b233,
+        camssa:6c96321b-2950-4912-86d3-4703f9730fa5,
+        camssa:7a351de6-5efa-4c17-a4b0-71a5841e09bc,
+        camssa:9156f6bf-1a98-4e8c-b367-8eb5e4de328d,
+        camssa:92a9e324-1c6d-4e5f-8e9e-54c80e4709b2,
+        camssa:98692283-702a-4a9f-9ea0-b0325db4b62e,
+        camssa:987fb301-5c2b-4c4a-9014-c01dbcfc51fd,
+        camssa:9be1a034-1e36-42ac-b880-039e31c1e526,
+        camssa:a0b3478c-9e27-41bd-a907-b09f07b376c6,
+        camssa:a6f57815-d58c-4946-a8a3-54f91ed260ac,
+        camssa:aa2d34fb-5a1b-40c5-a057-b73ff1e782c0,
+        camssa:b0cece50-e2dd-4317-8378-f1a5f4dd5dd7,
+        camssa:b1215e72-b634-474a-9cd9-e078093fdee1,
+        camssa:b1cc9f6d-d8a7-490c-a43e-fa57a9978a69,
+        camssa:b81564ff-3194-474f-9f28-96b91f598bbe,
+        camssa:bcf440b6-220f-41a2-8475-39b051ea29e2,
+        camssa:ca0931d2-f578-4c7f-8bc0-90f488301245,
+        camssa:cc2c5686-c026-4707-9343-71b611eb4006,
+        camssa:d55d273a-0eaa-4fd9-802f-8dc76fd629b6,
+        camssa:dbda4f61-f057-4ffa-b0c4-aeb6afb0cbc1,
+        camssa:deab098d-56de-4793-a828-a6538576360e ;
     cav:status status:Complete ;
     dct:title "Core Public Organisation Vocabulary (CPOV)"@en .
 
 camssa:ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164 a owl:NamedIndividual,
         org:Organization ;
-    camss:contactPoint camssa:932a05e0-994b-400a-be36-74a17dcce081 ;
+    camss:contactPoint camssa:da330ea8-97d4-4f05-83aa-db7154843ed9 ;
     skos:prefLabel "CAMSS Team"@en .
 
-camssa:024e45ec-66e4-4754-816c-89400ca96fc1 a cav:Statement,
+camssa:01820092-1ea5-4004-8180-68b6e95cc3cf a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement """The Core Public Organisation Vocabulary facilitates information sharing between governments, businesses, and citizens. The CPOV allows managing a cross-border repository of public services and organisations. So, it fosters data portability between systems and applications supporting the implementation and evolution of European public services.
+    cav:assignedTo sc:c-ffdbd22af1ff3c1ebb100043d062a3df160007af761caf0a8c9f50f02e609c9e ;
+    cav:value "1"^^xsd:int .
+
+camssa:02d7bec7-adea-41b6-b943-5c4e5ad46d44 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f70d8bc1b4b6e186d69ea3f7f8cc7b2d75314b84e7f481ebe13b4e6ed8b36598 ;
+    cav:value "1"^^xsd:int .
+
+camssa:0637c638-7dfd-43b8-b476-8e41e2f578a9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-19598487b8ba278c3438dcfd74b74d9aad51beac08c53dbf40bf108ed09e72b2 ;
+    cav:value "1"^^xsd:int .
+
+camssa:0821fbb9-83be-45cc-bb08-ee5e78a28a65 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of CPOV is not related to the modelling of business processes. Therefore, this criterion is not applicable to the specification. 
 
 CPOV Joinup reference:
 https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-organisation-vocabulary"""@en ;
-    cav:refersTo camssa:54dba454-676e-433d-95d6-510b6ef24312 .
+    cav:refersTo camssa:d2a07dd1-f099-4d5f-a6e0-11cdc9ed4f06 .
 
-camssa:03224511-ebdb-4457-908f-583bac778fa0 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """CPOV is a business domain agnostic data model that can be reused in a cross-domain way.
-
-CPOV Joinup reference:
-https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-organisation-vocabulary"""@en ;
-    cav:refersTo camssa:c7b4bd53-56fb-42a1-ad3d-b24aa5741fa6 .
-
-camssa:05fb1621-35c9-4628-b55f-70d723994a19 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-1cd71a7b6d54631ba58cc8b0655a443d696f49ec74a0f4cccc871de7789d6a60 ;
-    cav:value "1"^^xsd:int .
-
-camssa:0c702373-eea4-4c16-856d-369c91e07116 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """After checking the different standard catalogues at supra-national level, there is no evidence of the inclusion of CPOV within any European catalogue of standards.
-
-ICT technical specifications:
-https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en """@en ;
-    cav:refersTo camssa:ebccf018-8ee3-424a-8135-00ec093c17d9 .
-
-camssa:0ecf832d-586e-4532-80e9-f1e6ae0c2aa1 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-ba46c76c10ad769a23ce4a9a34cb4d96a00407d5fc14ad1c791a870be7563c2b ;
-    cav:value "1"^^xsd:int .
-
-camssa:14b52497-66a2-45d8-913f-9b425514dba6 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """CPOV is not included in any Member States' catalogues of recommended specifications.
-
-CAMSS List of Standards:
-https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
-    cav:refersTo camssa:cce1d975-8cde-4c34-8516-0e0a77f7de3d .
-
-camssa:1c41f31e-7768-4b96-a782-99f9d1811b2e a cav:Score,
+camssa:08953e42-63af-431f-9a2b-c1b44dcba62c a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-483e8900c47b40bc67a6bd1cbfce07884b9ac5f2c85e0214f334cc37e4e65c35 ;
     cav:value "1"^^xsd:int .
 
-camssa:23598dd2-b37f-4cd2-bbce-631bbaa48431 a cav:Statement,
+camssa:0d5c0dbe-32d5-43ba-8b0f-ab1dc5b3d655 a cav:Statement,
         owl:NamedIndividual ;
-    cav:judgement """The specification is available for its use and implementation at the Joinup platform with all its documentation. 
+    cav:judgement """The purpose of CPOV is not related to e-accessibility. Therefore, this criterion is considered not applicable to this specification.
 
 CPOV Joinup reference:
 https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-organisation-vocabulary"""@en ;
-    cav:refersTo camssa:5399dde9-0a9d-4d20-bd31-77103f2de215 .
+    cav:refersTo camssa:f8cc28c1-56e7-4fe9-913c-9f601515c08e .
 
-camssa:2578c41a-4eda-480c-81b0-0f92cbb438e6 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-c967c90bfc7bc13426924eca012de349ae51d4e8f652fe64bfbec2cccc8c8146 ;
-    cav:value "1"^^xsd:int .
-
-camssa:2614c3da-8ae8-471e-a8b2-a6a4c7bf2f0b a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-c265ca0c56e0f29a34039d496ba707b5486ccf6d445f9f058c19b4ece977861f ;
-    cav:value "2"^^xsd:int .
-
-camssa:27109249-1c86-4b11-9890-4afcc7736d0e a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-624bc49501d58649e27cae4fb89fb5a56844685e54c5ce1625633894f8f752e1 ;
-    cav:value "1"^^xsd:int .
-
-camssa:28e39426-a919-4676-a863-99e7d15bd73d a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-8eb17470327d32b3bb523447fe72ee5c60ddb03e81dae318b485fbe05f48a844 ;
-    cav:value "0"^^xsd:int .
-
-camssa:2a1d3cfd-2f79-469e-805c-7b05480159aa a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """CPOV is already associated with EIRA ABBs in the European Library Of Specifications (ELIS). More specifically, CPOV can define the interoperability aspects of the "Core Data Model" and "Data" ABBs of the EIRA Semantic View.
-
-EIRA Library of Interoperability Specifications (ELIS):
-https://joinup.ec.europa.eu/solution/elis/release/v100"""@en ;
-    cav:refersTo camssa:aae51524-c349-46f0-8d24-f176076854a5 .
-
-camssa:2db8f15b-b508-4fbe-80b8-026dce697eb0 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-6d48464387e608d3022bd07338cd3859acfb0f84139186a979ef3b96baa51086 ;
-    cav:value "1"^^xsd:int .
-
-camssa:2e2914f1-357d-4931-b6a0-c4dc8f400fc5 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-4ac14cafe608f1dbe7e48f96edd7574c55f0aac2c2e99ede0418dae7225977af ;
-    cav:value "1"^^xsd:int .
-
-camssa:2ebb521b-c8c0-4565-81a5-00d27b64bf7b a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The Semantic Interoperability Community (SEMIC) has established Working Groups. These Working Groups are open to the participation of everyone interested in semantic solutions working for public administrations in the Member States or in EU institutions.
-
-SEMIC working groups:
-https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/about"""@en ;
-    cav:refersTo camssa:86206912-d019-4ed6-88b0-d98f351e49fc .
-
-camssa:30b2b3aa-c151-4df8-8817-faf55cca07d6 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-02333ef99fbcb4f101a106bcf97c9559888756b085b1729b7c2ac9626dc4bc63 ;
-    cav:value "1"^^xsd:int .
-
-camssa:3857d34a-cb6c-4cf2-bafe-efca40122c44 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The Core Public Organisation Vocabulary facilitates the information sharing between governments, business and citizens. So, it reduces the administrative burden by facilitating the use of digital data.
-
-CPOV Joinup reference:
-https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-organisation-vocabulary"""@en ;
-    cav:refersTo camssa:ff3c23f3-e2e4-4cad-bd65-37b9cd72de95 .
-
-camssa:3ce536bd-c471-4145-abbd-687f30a4b31c a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """All solutions developed in ISA² Programme are under ISA Open Metadata Licence which is perpetual, royalty-free and non-exclusive license to Use and re-Use the Works.
-
-ISA open metadata license:
-https://joinup.ec.europa.eu/licence/isa-open-metadata-licence-v11"""@en ;
-    cav:refersTo camssa:05fb1621-35c9-4628-b55f-70d723994a19 .
-
-camssa:43a1488f-0deb-41eb-9962-5492406d1865 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The purpose of CPOV is not related to long term preservation of electronic records. Therefore, this criterion is considered not applicable to this specification. 
-
-CPOV Joinup reference:
-https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-organisation-vocabulary"""@en ;
-    cav:refersTo camssa:7ccc47ee-40c8-48b9-a494-ed6c8e14fd5d .
-
-camssa:44038451-54c0-4aa6-8ccd-d2f8fd05a941 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-fef5941bab92019b7692f8544de94715a42ed9ff76d89cbec4fb6f9821611925 ;
-    cav:value "2"^^xsd:int .
-
-camssa:4668a3cb-81a3-4d57-8f8b-26966354f3ed a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "No evidences have been found of the specification being included in a formal interoperability agreement between organisations involved in the European public services provision."@en ;
-    cav:refersTo camssa:a9c0a36c-bf5f-4a1b-97bb-4874272b4853 .
-
-camssa:49cacb04-9d3f-416b-883a-27aaf098e4b5 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The main purpose of CPOV is to provide a reusable data model for describing public organisations in the European Union. The CPOV helps to identify where responsibilities and functions are duplicated or overlapped. So, it helps to comprehend the administrative rules and data of public administration.
-
-CPOV Joinup reference:
-https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-organisation-vocabulary"""@en ;
-    cav:refersTo camssa:eed0a4cb-5541-4eea-8d51-fe09f8a7a920 .
-
-camssa:4ac4e2cc-028d-4646-bcf9-bece36a39eeb a cav:Statement,
+camssa:129ba14e-1af1-4088-853f-29ef84ba1c81 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """​The Semantic Interoperability Community (SEMIC) develops solutions to help European public administrations perform seamless and meaningful cross-border and cross-domain data exchanges. They develop semantic specifications and interoperability solutions under the ISA² Programme. When a new solution release is finished, it is submitted for a public review with a minimum period of four weeks.
 
@@ -223,249 +111,35 @@ https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic
 
 Detailed document ISA Programme:
 https://joinup.ec.europa.eu/sites/default/files/document/2016-10/description_of_a_change_management_release_and_publication_process_for_structural_metadata_specifications_developed_by_the_isa_progr.pdf"""@en ;
-    cav:refersTo camssa:57ee82ae-1fa5-48a0-91b3-a7520a5c46fd .
+    cav:refersTo camssa:1d547f4d-36ab-47c6-b75f-d3a07f8eb407 .
 
-camssa:4ba9d4c6-909e-4ae9-8a14-e3e2b77761db a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The adoption of CPOV as a data model does not hamper the scalability of systems. The use of existing data models for the development of common information systems facilitates the development of those systems and improves their interoperability.
- 
-CPOV Joinup reference:
-https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-organisation-vocabulary"""@en ;
-    cav:refersTo camssa:0ecf832d-586e-4532-80e9-f1e6ae0c2aa1 .
-
-camssa:4f0f2496-fb4d-401c-a972-51f2caf18301 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-31bf959b6c4a983ec70eb87e0177f2739575ebce42c7c3b95b9012ef3bfe673e ;
-    cav:value "1"^^xsd:int .
-
-camssa:5399dde9-0a9d-4d20-bd31-77103f2de215 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-c2cedd44f05183dae5548108bdeace2c092b84c7c5d89c475b0741ddae7fc7b2 ;
-    cav:value "1"^^xsd:int .
-
-camssa:54dba454-676e-433d-95d6-510b6ef24312 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-ab64f97c21ac8b84c75d6f52a89765b1c8fd1856d2d2060926d05e94f306a88d ;
-    cav:value "1"^^xsd:int .
-
-camssa:57ee82ae-1fa5-48a0-91b3-a7520a5c46fd a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-7aa038b5496afb8cb229c692be9a2adc175deb2d5d47e35ad67e027c9eac28ba ;
-    cav:value "1"^^xsd:int .
-
-camssa:5e4eb336-9e6f-4fae-8d77-21846bd7def1 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-33ea90f5c1bb01d4398c57d03a25934dc5722d5ddbc98a43911ea4fb302ec54c ;
-    cav:value "2"^^xsd:int .
-
-camssa:61af8299-f14c-437d-9a19-ba1938200afa a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-5879b43fc249f0098f3ed687235f432f71bf0c11bd3aa95e063dfdacd64606c8 ;
-    cav:value "1"^^xsd:int .
-
-camssa:6b507b14-6321-40b1-b542-f93ab6938f0f a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "After carrying out information retrieval, no document or study has been found assessing the CPOV in terms of efficiency or effectiveness."@en ;
-    cav:refersTo camssa:e589905f-7510-490c-b69d-351d880cbd50 .
-
-camssa:6d5d8918-947e-4b30-ab77-f1ceffe451a2 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """All solutions developed in ISA² Programme are under ISA Open Metadata Licence which is perpetual, royalty-free and non-exclusive license to Use and re-Use the Works.
-
-ISA open metadata license:
-https://joinup.ec.europa.eu/licence/isa-open-metadata-licence-v11"""@en ;
-    cav:refersTo camssa:d5d6d04f-28e1-4ec3-8c74-535d387f9dfa .
-
-camssa:6e0c3c57-d3cf-49da-9d3d-8a26c61999bb a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """As a vocabulary, the implementation of CPOV can be tested using methods like SHACL shapes and using semantic reasoners to ensure that the implementation is well-formed. These validation mechanisms can be used with open source tools or lite versions of tools like GrapghDB or Protégé.
-
-SHACL validation: 
-https://graphdb.ontotext.com/documentation/free/shacl-validation.html#what-is-shacl-validation
-
-Semantic Reasoners List: 
-http://owl.cs.manchester.ac.uk/tools/list-of-reasoners/ """@en ;
-    cav:refersTo camssa:2578c41a-4eda-480c-81b0-0f92cbb438e6 .
-
-camssa:6e174d32-3aa1-449d-a259-930e22a02b6f a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """CPOV is publicly available for its use and implementation. Moreover, it is available for everyone to study with no cost on Joinup webpage.
-
-CPOV Joinup reference:
-https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-organisation-vocabulary"""@en ;
-    cav:refersTo camssa:4f0f2496-fb4d-401c-a972-51f2caf18301 .
-
-camssa:6ee42b26-37c6-4169-9938-bf74cacc7f9e a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-8c09094de9d71f12686896827a205db683b6df58fa363bc5be2a7d99989e7dd0 ;
-    cav:value "0"^^xsd:int .
-
-camssa:6f8d6ed9-bf10-4d8b-a405-4fed91ef5bd8 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-19598487b8ba278c3438dcfd74b74d9aad51beac08c53dbf40bf108ed09e72b2 ;
-    cav:value "1"^^xsd:int .
-
-camssa:75b5d13a-f1a5-47a1-a9cb-1dfbe91c6f0b a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The purpose of CPOV is not related to the modelling of business processes. Therefore, this criterion is not applicable to the specification. 
-
-CPOV Joinup reference:
-https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-organisation-vocabulary"""@en ;
-    cav:refersTo camssa:2614c3da-8ae8-471e-a8b2-a6a4c7bf2f0b .
-
-camssa:769e84d8-9b37-4d94-963c-b4da27c366bc a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-d129862d6c9639e131c7d5eef095af16ef94d57ec0d52f955bf909ba8ec688e8 ;
-    cav:value "0"^^xsd:int .
-
-camssa:7b83784d-d311-4eb8-a7cd-e4bac15ba0ff a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The CPOV eases the description and publication of datasets including information of different public organisations, their services and responsibilities. These descriptions are done using human and redeable formats which ease the reusability and the information exchange across-borders. 
-
-CPOV Joinup reference:
-https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-organisation-vocabulary"""@en ;
-    cav:refersTo camssa:8297dbcb-c59b-4792-a4c3-0c84f0c08748 .
-
-camssa:7ccc47ee-40c8-48b9-a494-ed6c8e14fd5d a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-8a34a40e5bc5436b3530d898d75a57cf0488591887b31a5169499fe78952d84c ;
-    cav:value "2"^^xsd:int .
-
-camssa:7e99d764-982a-4459-b788-2d1c3b5d7fd3 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The main purpose of CPOV is to provide a reusable data model for describing public organisations in the European Union. It manages a public portfolio that facilitates the discovery of which public authorities and departments are responsible for given areas of the public task. So, it facilitates the visibility of administrative rules.
-
-CPOV Joinup reference:
-https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-organisation-vocabulary"""@en ;
-    cav:refersTo camssa:6f8d6ed9-bf10-4d8b-a405-4fed91ef5bd8 .
-
-camssa:7f5f223f-0877-4185-8015-888a7851c0e1 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-8954ddabf37f4899562b9ea4c8f0bbf204f3e48c9203043bc231f368092396a2 ;
-    cav:value "1"^^xsd:int .
-
-camssa:80ff336b-6877-4763-b464-39c607226b20 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """There is no Member State that includes CPOV in their national catalogue with the National Interoperability Framework (NIF) aligned with at least 4 out of 5 sections of the European Interoperability Framework (EIF) according to the National Interoperability Framework Observatory (NIFO) factsheets.
-
-CAMSS List of Standards:
-https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
-    cav:refersTo camssa:28e39426-a919-4676-a863-99e7d15bd73d .
-
-camssa:8213b1c6-23bf-44b8-976f-819bc8f01be9 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-21276471c1781fa2c7e78c8e03851e076b840beddbf5cf64f53b54b8855a01b8 ;
-    cav:value "1"^^xsd:int .
-
-camssa:8297dbcb-c59b-4792-a4c3-0c84f0c08748 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-138786a6e7517e10b94e83ec3b3e7ac79b4c49dcbeaef8d8e993c8df0d173529 ;
-    cav:value "1"^^xsd:int .
-
-camssa:86206912-d019-4ed6-88b0-d98f351e49fc a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-f70d8bc1b4b6e186d69ea3f7f8cc7b2d75314b84e7f481ebe13b4e6ed8b36598 ;
-    cav:value "1"^^xsd:int .
-
-camssa:874cc1ed-4078-4df4-9db8-0cc75f6ce219 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-6bedf555bffb837990b9eb353447fa116eb9d2384770b1dd3de46d3c5901d4f4 ;
-    cav:value "1"^^xsd:int .
-
-camssa:8d3cc603-92dc-471a-9c1a-7e032eb78caf a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-39ffef052c31580b50b418f3991e9de7db4dc182fcf96f5a447d7f8e09560612 ;
-    cav:value "0"^^xsd:int .
-
-camssa:932a05e0-994b-400a-be36-74a17dcce081 a schema:ContactPoint,
-        owl:NamedIndividual ;
-    schema:email "CAMSS@everis.com" .
-
-camssa:9de1fd7a-2b70-44ae-9f04-d41938d9c2a4 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-17bea234285e6e633e4e21105358610ad5f5f0eaaf82f4bd50cb64ec11538984 ;
-    cav:value "1"^^xsd:int .
-
-camssa:9f8c3e4f-3f55-496c-913a-ba620f640eca a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The definition of the specification justifies this criterion. The Core Public Organisation Vocabulary (CPOV) provides a common data model for describing public organisations in the European Union.
-
-CPOV Joinup reference:
-https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-organisation-vocabulary"""@en ;
-    cav:refersTo camssa:7f5f223f-0877-4185-8015-888a7851c0e1 .
-
-camssa:a9c0a36c-bf5f-4a1b-97bb-4874272b4853 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-5df7a9f6081c945a22f500aa0ba2c452b8b9cd9497bd643ac76c39d34a18c319 ;
-    cav:value "0"^^xsd:int .
-
-camssa:aab834f0-a546-4a23-9544-f1bde8884682 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-b21a3eb972a2119979bc57368474efa809e8dd16cede48bc492e8b64da1abee9 ;
-    cav:value "1"^^xsd:int .
-
-camssa:aae51524-c349-46f0-8d24-f176076854a5 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-7d28663fdb5deb361d5ad773d7b7ece3c6acf8d2eb7a1222a60cb08df4c93aac ;
-    cav:value "1"^^xsd:int .
-
-camssa:ac23e989-bd80-4fa7-9d37-7ff02a7ce0fe a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """CPOV can be found for free along within the European Collaborative Platform, Joinup.
-
-CPOV in Joinup platform:
-https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-organisation-vocabulary"""@en ;
-    cav:refersTo camssa:9de1fd7a-2b70-44ae-9f04-d41938d9c2a4 .
-
-camssa:ae040d55-f534-4484-b6c6-0aadd02b1e05 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """As it happens with all the e-Government Vocabularies, it has the SEMIC action from the ISA2 as responsible for the maintenance of the development. Additionally, there's a post on W3C in open government community group that talks about the specification.
-
-CPOV page on Joinup: 
-https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-organisation-vocabulary
-
-CPOV post in W3C:
-https://www.w3.org/community/opengov/2016/02/21/core-public-organisation-vocabulary/"""@en ;
-    cav:refersTo camssa:aab834f0-a546-4a23-9544-f1bde8884682 .
-
-camssa:b18bb57d-6780-45d1-b9de-80b6a859bc02 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The specification is independent of any software or platform. The Core Public Organisation Vocabulary can be used by any organisation.
-
-CPOV Joinup reference:
-https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-organisation-vocabulary"""@en ;
-    cav:refersTo camssa:61af8299-f14c-437d-9a19-ba1938200afa .
-
-camssa:b84399f5-1985-4888-b6c2-ed7f0efcce36 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The Core Public Organisation Vocabulary was released in December 2016. Its first aspiration was to become a common data model for describing public organisations in the European Union. So, CPOV is mature enough for its use in the development of products and services.
-
-CPOV Joinup reference:
-https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-organisation-vocabulary"""@en ;
-    cav:refersTo camssa:874cc1ed-4078-4df4-9db8-0cc75f6ce219 .
-
-camssa:bd7f0cae-f92c-4df0-b035-d1c7de2e0cb4 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "After searching in the different official European websites, there is no evidence of any cross-border project that use CPOV nor explicit agreements involving the usage of the specification."@en ;
-    cav:refersTo camssa:8d3cc603-92dc-471a-9c1a-7e032eb78caf .
-
-camssa:be3d8278-9a29-4e43-914f-ee1eaf3f04d8 a cav:Statement,
+camssa:12bd38c4-0722-4089-aef1-7ddd436d744a a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """The purpose of CPOV is not related to the availability of interfaces with internal information systems. Therefore, this criterion is not applicable to this specification. 
 
 CPOV Joinup reference:
 https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-organisation-vocabulary"""@en ;
-    cav:refersTo camssa:5e4eb336-9e6f-4fae-8d77-21846bd7def1 .
+    cav:refersTo camssa:16d49784-484e-448b-b88e-68c9c0462ecb .
 
-camssa:c3216ffc-8648-4c96-8ac5-f3a0418208e0 a cav:Statement,
+camssa:15e6646f-2c6a-4250-b71c-a6e749cdd71e a cav:Statement,
         owl:NamedIndividual ;
-    cav:judgement """CPOV defines a data model for describing public organisations in the European Union. The Core Public Organisation Vocabulary addresses specific needs of businesses, public administrations and citizens across the European Union.
+    cav:judgement """The specification is independent of any software or platform. The Core Public Organisation Vocabulary can be used by any organisation.
 
 CPOV Joinup reference:
 https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-organisation-vocabulary"""@en ;
-    cav:refersTo camssa:2db8f15b-b508-4fbe-80b8-026dce697eb0 .
+    cav:refersTo camssa:ff0da6a6-57b9-4907-b2d2-ad12bdfef341 .
 
-camssa:c7afd910-baae-4dde-bbee-25f82725f55e a cav:Statement,
+camssa:16d49784-484e-448b-b88e-68c9c0462ecb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-33ea90f5c1bb01d4398c57d03a25934dc5722d5ddbc98a43911ea4fb302ec54c ;
+    cav:value "2"^^xsd:int .
+
+camssa:17fee7aa-4a74-43c9-a4d3-eac7fa29ce33 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-838030847fa0adf54939e3feaac0ac2510924c54035e1cb671b223b54b02fd70 ;
+    cav:value "0"^^xsd:int .
+
+camssa:1c0b0543-181e-458a-994b-03023db3ce18 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """The CPOV eases the description and publication of datasets including information of different public organisations, their services and responsibilities. These descriptions are done using human and redeable formats which ease the reusability and the information exchange across-borders. 
 
@@ -474,109 +148,435 @@ https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-
 
 5-star linked open data:
 https://www.w3.org/DesignIssues/LinkedData.html"""@en ;
-    cav:refersTo camssa:30b2b3aa-c151-4df8-8817-faf55cca07d6 .
+    cav:refersTo camssa:c808343d-704d-4c63-a633-fc0ec9051f04 .
 
-camssa:c7b4bd53-56fb-42a1-ad3d-b24aa5741fa6 a cav:Score,
+camssa:1d547f4d-36ab-47c6-b75f-d3a07f8eb407 a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-3aec34db3622bf18675b8216d0fc1d68fc7eeb501b4f3326402038a3ceb95c21 ;
+    cav:assignedTo sc:c-7aa038b5496afb8cb229c692be9a2adc175deb2d5d47e35ad67e027c9eac28ba ;
     cav:value "1"^^xsd:int .
 
-camssa:cce1d975-8cde-4c34-8516-0e0a77f7de3d a cav:Score,
+camssa:1e7b1bfe-63da-4ea7-9b5b-cf48af7fe696 a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-838030847fa0adf54939e3feaac0ac2510924c54035e1cb671b223b54b02fd70 ;
-    cav:value "0"^^xsd:int .
+    cav:assignedTo sc:c-ab64f97c21ac8b84c75d6f52a89765b1c8fd1856d2d2060926d05e94f306a88d ;
+    cav:value "1"^^xsd:int .
 
-camssa:cdb99191-688b-479a-9d17-3ae62d4783d6 a cav:Statement,
+camssa:1ecfad86-e834-4062-b8c3-be903cfecfcb a cav:Statement,
         owl:NamedIndividual ;
-    cav:judgement """Although the Core Public Organisation Vocabulary does not have a good market acceptance, it proportionates innovative benefits such as facilitate information sharing, facilitate the development of common information systems, and cross-border information exchange.
+    cav:judgement """CPOV is publicly available for its use and implementation. Moreover, it is available for everyone to study with no cost on Joinup webpage.
 
 CPOV Joinup reference:
 https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-organisation-vocabulary"""@en ;
-    cav:refersTo camssa:8213b1c6-23bf-44b8-976f-819bc8f01be9 .
+    cav:refersTo camssa:59a44186-3c48-4649-b9fb-aa1f1ef50007 .
 
-camssa:d0719e4a-201d-4fa1-9122-e62d56750417 a cav:Statement,
+camssa:1ee6d0f9-37b6-4996-9d95-5828260966d6 a cav:Statement,
         owl:NamedIndividual ;
-    cav:judgement """Core Public Organisation Vocabulary facilitates the information sharing. It enables G2G (Government-to-Government), G2B (Government-to-Business) and G2C (Government-to-Citizen) information sharing.
+    cav:judgement """The CPOV eases the description and publication of datasets including information of different public organisations, their services and responsibilities. These descriptions are done using human and redeable formats which ease the reusability and the information exchange across-borders. 
 
 CPOV Joinup reference:
 https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-organisation-vocabulary"""@en ;
-    cav:refersTo camssa:1c41f31e-7768-4b96-a782-99f9d1811b2e .
+    cav:refersTo camssa:35d38872-4e56-4979-aa64-166d206a5ddf .
 
-camssa:d1412a07-2e37-4a5a-8a23-09892f0ae4db a cav:Score,
+camssa:2354f5ae-6789-4c1d-97d0-09262f1ef3e9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The main purpose of CPOV is to provide a reusable data model for describing public organisations in the European Union. It manages a public portfolio that facilitates the discovery of which public authorities and departments are responsible for given areas of the public task. So, it facilitates the visibility of administrative rules.
+
+CPOV Joinup reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-organisation-vocabulary"""@en ;
+    cav:refersTo camssa:0637c638-7dfd-43b8-b476-8e41e2f578a9 .
+
+camssa:2450f17b-e10d-4827-9a97-2d3255ae2a53 a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-53abe85b1365f86aa58a25566e54e082ea2d70ee8d9fbaf09ccab20af30f3332 ;
     cav:value "0"^^xsd:int .
 
-camssa:d5d6d04f-28e1-4ec3-8c74-535d387f9dfa a cav:Score,
+camssa:335f09c4-19b1-4152-b81e-49dda374ae93 a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-a81c4b8658f57e819297eb0b7977407f8d814c6fe749c74a8ac497277ca7d9d8 ;
-    cav:value "1"^^xsd:int .
-
-camssa:dc36d653-80b2-402a-b1e9-81e5b26cb761 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The purpose of CPOV is not related to e-accessibility. Therefore, this criterion is considered not applicable to this specification.
+    cav:judgement """CPOV is a business domain agnostic data model that can be reused in a cross-domain way.
 
 CPOV Joinup reference:
 https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-organisation-vocabulary"""@en ;
-    cav:refersTo camssa:44038451-54c0-4aa6-8ccd-d2f8fd05a941 .
+    cav:refersTo camssa:6020cd69-86b7-4025-8ec0-4cadacfb5349 .
 
-camssa:e589905f-7510-490c-b69d-351d880cbd50 a cav:Score,
+camssa:35d38872-4e56-4979-aa64-166d206a5ddf a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-cc5bd9a7d0b2acc7f246522414fd5f5d579b977180bb04fa60a545cb35dae90f ;
+    cav:assignedTo sc:c-138786a6e7517e10b94e83ec3b3e7ac79b4c49dcbeaef8d8e993c8df0d173529 ;
+    cav:value "1"^^xsd:int .
+
+camssa:3a167921-a6c9-4750-a656-ae61ef5fafde a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The Core Public Organisation Vocabulary facilitates information sharing between governments, businesses, and citizens. The CPOV allows managing a cross-border repository of public services and organisations. So, it fosters data portability between systems and applications supporting the implementation and evolution of European public services.
+
+CPOV Joinup reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-organisation-vocabulary"""@en ;
+    cav:refersTo camssa:1e7b1bfe-63da-4ea7-9b5b-cf48af7fe696 .
+
+camssa:3d82eeea-d1c9-4105-a000-614459b3659b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The main purpose of CPOV is to provide a reusable data model for describing public organisations in the European Union. The CPOV helps to identify where responsibilities and functions are duplicated or overlapped. So, it helps to comprehend the administrative rules and data of public administration.
+
+CPOV Joinup reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-organisation-vocabulary"""@en ;
+    cav:refersTo camssa:db2cab62-3fe1-4211-bb3c-8df5138e04fa .
+
+camssa:41218439-3a8c-437f-93d8-fb95de828366 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8c09094de9d71f12686896827a205db683b6df58fa363bc5be2a7d99989e7dd0 ;
     cav:value "0"^^xsd:int .
 
-camssa:e84fcd69-3377-4592-82cc-4ce29e4e00d5 a cav:Statement,
+camssa:4294dd86-94ca-4243-8c2b-370ecdf88577 a cav:Statement,
         owl:NamedIndividual ;
-    cav:judgement """There are no Member States recommending CPOV in their ICT National Catalogues.
+    cav:judgement """After checking the different standard catalogues at supra-national level, there is no evidence of the inclusion of CPOV within any European catalogue of standards.
+
+ICT technical specifications:
+https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en """@en ;
+    cav:refersTo camssa:74248cc1-9677-4310-8bc4-55c129f87e50 .
+
+camssa:509c5a8d-c88b-463b-92e1-b2f0440bee94 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of CPOV is not related to long term preservation of electronic records. Therefore, this criterion is considered not applicable to this specification. 
+
+CPOV Joinup reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-organisation-vocabulary"""@en ;
+    cav:refersTo camssa:c1e3f56d-bbd8-48c0-bc0f-a4b075c336f0 .
+
+camssa:50b8429d-d13a-4b19-8e2b-8475e3016cb2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-6d48464387e608d3022bd07338cd3859acfb0f84139186a979ef3b96baa51086 ;
+    cav:value "1"^^xsd:int .
+
+camssa:51d1c14b-980e-4f9c-a62a-5cbde9dbff93 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The Core Public Organisation Vocabulary facilitates the information sharing between governments, business and citizens. So, it reduces the administrative burden by facilitating the use of digital data.
+
+CPOV Joinup reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-organisation-vocabulary"""@en ;
+    cav:refersTo camssa:01820092-1ea5-4004-8180-68b6e95cc3cf .
+
+camssa:542d618c-ac89-4df8-a0a6-ab57eaa0a74c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-21276471c1781fa2c7e78c8e03851e076b840beddbf5cf64f53b54b8855a01b8 ;
+    cav:value "1"^^xsd:int .
+
+camssa:57919ef4-817c-4db3-a151-4a65c4e44d8f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-624bc49501d58649e27cae4fb89fb5a56844685e54c5ce1625633894f8f752e1 ;
+    cav:value "1"^^xsd:int .
+
+camssa:579ebe10-e8b1-46c1-be98-0ada825026f3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The adoption of CPOV as a data model does not hamper the scalability of systems. The use of existing data models for the development of common information systems facilitates the development of those systems and improves their interoperability.
  
-CAMSS List of Standards:
-https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards """@en ;
-    cav:refersTo camssa:6ee42b26-37c6-4169-9938-bf74cacc7f9e .
+CPOV Joinup reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-organisation-vocabulary"""@en ;
+    cav:refersTo camssa:d12a138f-6042-42dc-a2d2-7ff2bab8484a .
 
-camssa:ebccf018-8ee3-424a-8135-00ec093c17d9 a cav:Score,
+camssa:59a44186-3c48-4649-b9fb-aa1f1ef50007 a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-7a18abe4842e04b608025fd70e54c3db5c2a10130c0dab0495479e7d5effb55d ;
+    cav:assignedTo sc:c-31bf959b6c4a983ec70eb87e0177f2739575ebce42c7c3b95b9012ef3bfe673e ;
+    cav:value "1"^^xsd:int .
+
+camssa:59eb7142-0a7a-49e0-9358-2061621a6a9f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-39ffef052c31580b50b418f3991e9de7db4dc182fcf96f5a447d7f8e09560612 ;
     cav:value "0"^^xsd:int .
 
-camssa:ed81d66f-e65d-48f0-b441-d752c7e933e3 a cav:Statement,
+camssa:5bead3f7-2ef3-4a70-94b3-760302ea0bc5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d28663fdb5deb361d5ad773d7b7ece3c6acf8d2eb7a1222a60cb08df4c93aac ;
+    cav:value "1"^^xsd:int .
+
+camssa:5cdf94ab-638b-41a1-973e-752bc2cf09f1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is available for its use and implementation at the Joinup platform with all its documentation. 
+
+CPOV Joinup reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-organisation-vocabulary"""@en ;
+    cav:refersTo camssa:eef8978d-30c5-4f09-b946-e1cbfb308536 .
+
+camssa:6020cd69-86b7-4025-8ec0-4cadacfb5349 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3aec34db3622bf18675b8216d0fc1d68fc7eeb501b4f3326402038a3ceb95c21 ;
+    cav:value "1"^^xsd:int .
+
+camssa:6294ec6d-6d59-45e6-8351-53fccaca5e2b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8954ddabf37f4899562b9ea4c8f0bbf204f3e48c9203043bc231f368092396a2 ;
+    cav:value "1"^^xsd:int .
+
+camssa:681cce3f-438b-448d-b856-c4764264f92c a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """After checking the assessments performed by CAMSS and the list of specifications identified by the MSP Multi-stakeholder-platform, no assessment verifying the compliance of the specification with the European standardisation regulation has been found.
 
 ICT technical specifications:
 https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en"""@en ;
-    cav:refersTo camssa:d1412a07-2e37-4a5a-8a23-09892f0ae4db .
+    cav:refersTo camssa:2450f17b-e10d-4827-9a97-2d3255ae2a53 .
 
-camssa:eed0a4cb-5541-4eea-8d51-fe09f8a7a920 a cav:Score,
+camssa:6ae744a3-bb8e-45eb-9c07-758dbe20b233 a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-7ab883158b51681c78f90d1a00bbb3840aa2c86e309a9abd1ad6e6eedb5e2735 ;
+    cav:judgement """The Semantic Interoperability Community (SEMIC) has established Working Groups. These Working Groups are open to the participation of everyone interested in semantic solutions working for public administrations in the Member States or in EU institutions.
+
+SEMIC working groups:
+https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/about"""@en ;
+    cav:refersTo camssa:02d7bec7-adea-41b6-b943-5c4e5ad46d44 .
+
+camssa:6c96321b-2950-4912-86d3-4703f9730fa5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are no Member States recommending CPOV in their ICT National Catalogues.
+ 
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards """@en ;
+    cav:refersTo camssa:41218439-3a8c-437f-93d8-fb95de828366 .
+
+camssa:714a76e5-ba3a-4a72-a3ce-3ace4a5e3451 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cc5bd9a7d0b2acc7f246522414fd5f5d579b977180bb04fa60a545cb35dae90f ;
+    cav:value "0"^^xsd:int .
+
+camssa:74248cc1-9677-4310-8bc4-55c129f87e50 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7a18abe4842e04b608025fd70e54c3db5c2a10130c0dab0495479e7d5effb55d ;
+    cav:value "0"^^xsd:int .
+
+camssa:7670b7d6-624b-4fd3-a06f-98b9db6f7e0c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c967c90bfc7bc13426924eca012de349ae51d4e8f652fe64bfbec2cccc8c8146 ;
     cav:value "1"^^xsd:int .
 
-camssa:f8a2aff3-40a5-4b73-82b4-ac309717bb52 a cav:Statement,
+camssa:7a351de6-5efa-4c17-a4b0-71a5841e09bc a cav:Statement,
         owl:NamedIndividual ;
-    cav:judgement """The Core Public Organisation Vocabulary facilitates the process for institutions publishing data about public organisations. This Core Vocabulary fosters interoperability and impacts positively on the development of eGovernment.
+    cav:judgement """As a vocabulary, the implementation of CPOV can be tested using methods like SHACL shapes and using semantic reasoners to ensure that the implementation is well-formed. These validation mechanisms can be used with open source tools or lite versions of tools like GrapghDB or Protégé.
+
+SHACL validation: 
+https://graphdb.ontotext.com/documentation/free/shacl-validation.html#what-is-shacl-validation
+
+Semantic Reasoners List: 
+http://owl.cs.manchester.ac.uk/tools/list-of-reasoners/ """@en ;
+    cav:refersTo camssa:7670b7d6-624b-4fd3-a06f-98b9db6f7e0c .
+
+camssa:89d4959b-5d4d-4028-bb8b-023a3f2bc464 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5df7a9f6081c945a22f500aa0ba2c452b8b9cd9497bd643ac76c39d34a18c319 ;
+    cav:value "0"^^xsd:int .
+
+camssa:8e6e6e6f-2887-4a0c-9f1c-357f3364672a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d129862d6c9639e131c7d5eef095af16ef94d57ec0d52f955bf909ba8ec688e8 ;
+    cav:value "0"^^xsd:int .
+
+camssa:9156f6bf-1a98-4e8c-b367-8eb5e4de328d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Core Public Organisation Vocabulary facilitates the information sharing. It enables G2G (Government-to-Government), G2B (Government-to-Business) and G2C (Government-to-Citizen) information sharing.
 
 CPOV Joinup reference:
 https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-organisation-vocabulary"""@en ;
-    cav:refersTo camssa:27109249-1c86-4b11-9890-4afcc7736d0e .
+    cav:refersTo camssa:08953e42-63af-431f-9a2b-c1b44dcba62c .
 
-camssa:f8ef46c9-7ed9-4676-8cd0-b780753a5551 a cav:Statement,
+camssa:92a9e324-1c6d-4e5f-8e9e-54c80e4709b2 a cav:Statement,
         owl:NamedIndividual ;
-    cav:judgement """The Core Public Organisation Vocabulary fosters the delivery of multilingual services in European public institutions. In CPOV, the values of all properties with a data type “Literal” may exist in multiple languages. 
+    cav:judgement """CPOV is already associated with EIRA ABBs in the European Library Of Specifications (ELIS). More specifically, CPOV can define the interoperability aspects of the "Core Data Model" and "Data" ABBs of the EIRA Semantic View.
+
+EIRA Library of Interoperability Specifications (ELIS):
+https://joinup.ec.europa.eu/solution/elis/release/v100"""@en ;
+    cav:refersTo camssa:5bead3f7-2ef3-4a70-94b3-760302ea0bc5 .
+
+camssa:98692283-702a-4a9f-9ea0-b0325db4b62e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """All solutions developed in ISA² Programme are under ISA Open Metadata Licence which is perpetual, royalty-free and non-exclusive license to Use and re-Use the Works.
+
+ISA open metadata license:
+https://joinup.ec.europa.eu/licence/isa-open-metadata-licence-v11"""@en ;
+    cav:refersTo camssa:9c239a54-6d27-4c12-9230-d2673c1ae284 .
+
+camssa:987fb301-5c2b-4c4a-9014-c01dbcfc51fd a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The Core Public Organisation Vocabulary was released in December 2016. Its first aspiration was to become a common data model for describing public organisations in the European Union. So, CPOV is mature enough for its use in the development of products and services.
 
 CPOV Joinup reference:
 https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-organisation-vocabulary"""@en ;
-    cav:refersTo camssa:2e2914f1-357d-4931-b6a0-c4dc8f400fc5 .
+    cav:refersTo camssa:cd2dacec-00a9-4194-9316-6199573bab4f .
 
-camssa:fb70e69a-ed4b-4dfe-abbd-9cc29ae90c35 a cav:Statement,
+camssa:99be4753-a842-432e-aac5-4ae81d87548e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8eb17470327d32b3bb523447fe72ee5c60ddb03e81dae318b485fbe05f48a844 ;
+    cav:value "0"^^xsd:int .
+
+camssa:9be1a034-1e36-42ac-b880-039e31c1e526 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """CPOV defines a data model for describing public organisations in the European Union. The Core Public Organisation Vocabulary addresses specific needs of businesses, public administrations and citizens across the European Union.
+
+CPOV Joinup reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-organisation-vocabulary"""@en ;
+    cav:refersTo camssa:50b8429d-d13a-4b19-8e2b-8475e3016cb2 .
+
+camssa:9c239a54-6d27-4c12-9230-d2673c1ae284 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a81c4b8658f57e819297eb0b7977407f8d814c6fe749c74a8ac497277ca7d9d8 ;
+    cav:value "1"^^xsd:int .
+
+camssa:9c6c656c-063c-414c-9262-b9f216fe5009 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17bea234285e6e633e4e21105358610ad5f5f0eaaf82f4bd50cb64ec11538984 ;
+    cav:value "1"^^xsd:int .
+
+camssa:a0b3478c-9e27-41bd-a907-b09f07b376c6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Although the Core Public Organisation Vocabulary does not have a good market acceptance, it proportionates innovative benefits such as facilitate information sharing, facilitate the development of common information systems, and cross-border information exchange.
+
+CPOV Joinup reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-organisation-vocabulary"""@en ;
+    cav:refersTo camssa:542d618c-ac89-4df8-a0a6-ab57eaa0a74c .
+
+camssa:a6f57815-d58c-4946-a8a3-54f91ed260ac a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There is no Member State that includes CPOV in their national catalogue with the National Interoperability Framework (NIF) aligned with at least 4 out of 5 sections of the European Interoperability Framework (EIF) according to the National Interoperability Framework Observatory (NIFO) factsheets.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:99be4753-a842-432e-aac5-4ae81d87548e .
+
+camssa:aa2d34fb-5a1b-40c5-a057-b73ff1e782c0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """CPOV can be found for free along within the European Collaborative Platform, Joinup.
+
+CPOV in Joinup platform:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-organisation-vocabulary"""@en ;
+    cav:refersTo camssa:9c6c656c-063c-414c-9262-b9f216fe5009 .
+
+camssa:acc6a9c2-55d7-42ab-a199-c6b3647d2c64 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1cd71a7b6d54631ba58cc8b0655a443d696f49ec74a0f4cccc871de7789d6a60 ;
+    cav:value "1"^^xsd:int .
+
+camssa:b0cece50-e2dd-4317-8378-f1a5f4dd5dd7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The definition of the specification justifies this criterion. The Core Public Organisation Vocabulary (CPOV) provides a common data model for describing public organisations in the European Union.
+
+CPOV Joinup reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-organisation-vocabulary"""@en ;
+    cav:refersTo camssa:6294ec6d-6d59-45e6-8351-53fccaca5e2b .
+
+camssa:b1215e72-b634-474a-9cd9-e078093fdee1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """CPOV is not included in any Member States' catalogues of recommended specifications.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:17fee7aa-4a74-43c9-a4d3-eac7fa29ce33 .
+
+camssa:b1cc9f6d-d8a7-490c-a43e-fa57a9978a69 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "After carrying out information retrieval, no document or study has been found assessing the CPOV in terms of efficiency or effectiveness."@en ;
+    cav:refersTo camssa:714a76e5-ba3a-4a72-a3ce-3ace4a5e3451 .
+
+camssa:b81564ff-3194-474f-9f28-96b91f598bbe a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """Although the Core Public Organisation Vocabulary is sufficiently mature for its use in the development of products and services, it does not have a good market acceptance because it has not been integrated with any official solution, it has only been tested on pilots.
 
 CPOV Joinup reference:
 https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-organisation-vocabulary"""@en ;
-    cav:refersTo camssa:769e84d8-9b37-4d94-963c-b4da27c366bc .
+    cav:refersTo camssa:8e6e6e6f-2887-4a0c-9f1c-357f3364672a .
 
-camssa:ff3c23f3-e2e4-4cad-bd65-37b9cd72de95 a cav:Score,
+camssa:bcf440b6-220f-41a2-8475-39b051ea29e2 a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-ffdbd22af1ff3c1ebb100043d062a3df160007af761caf0a8c9f50f02e609c9e ;
+    cav:judgement """The Core Public Organisation Vocabulary fosters the delivery of multilingual services in European public institutions. In CPOV, the values of all properties with a data type “Literal” may exist in multiple languages. 
+
+CPOV Joinup reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-organisation-vocabulary"""@en ;
+    cav:refersTo camssa:bedea7d9-28ba-4ce4-b156-ac053d6645e2 .
+
+camssa:bedea7d9-28ba-4ce4-b156-ac053d6645e2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-4ac14cafe608f1dbe7e48f96edd7574c55f0aac2c2e99ede0418dae7225977af ;
+    cav:value "1"^^xsd:int .
+
+camssa:c1e3f56d-bbd8-48c0-bc0f-a4b075c336f0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8a34a40e5bc5436b3530d898d75a57cf0488591887b31a5169499fe78952d84c ;
+    cav:value "2"^^xsd:int .
+
+camssa:c808343d-704d-4c63-a633-fc0ec9051f04 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-02333ef99fbcb4f101a106bcf97c9559888756b085b1729b7c2ac9626dc4bc63 ;
+    cav:value "1"^^xsd:int .
+
+camssa:ca0931d2-f578-4c7f-8bc0-90f488301245 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "No evidences have been found of the specification being included in a formal interoperability agreement between organisations involved in the European public services provision."@en ;
+    cav:refersTo camssa:89d4959b-5d4d-4028-bb8b-023a3f2bc464 .
+
+camssa:cc2c5686-c026-4707-9343-71b611eb4006 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "After searching in the different official European websites, there is no evidence of any cross-border project that use CPOV nor explicit agreements involving the usage of the specification."@en ;
+    cav:refersTo camssa:59eb7142-0a7a-49e0-9358-2061621a6a9f .
+
+camssa:cd2dacec-00a9-4194-9316-6199573bab4f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-6bedf555bffb837990b9eb353447fa116eb9d2384770b1dd3de46d3c5901d4f4 ;
+    cav:value "1"^^xsd:int .
+
+camssa:d12a138f-6042-42dc-a2d2-7ff2bab8484a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ba46c76c10ad769a23ce4a9a34cb4d96a00407d5fc14ad1c791a870be7563c2b ;
+    cav:value "1"^^xsd:int .
+
+camssa:d2a07dd1-f099-4d5f-a6e0-11cdc9ed4f06 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c265ca0c56e0f29a34039d496ba707b5486ccf6d445f9f058c19b4ece977861f ;
+    cav:value "2"^^xsd:int .
+
+camssa:d55d273a-0eaa-4fd9-802f-8dc76fd629b6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """As it happens with all the e-Government Vocabularies, it has the SEMIC action from the ISA2 as responsible for the maintenance of the development. Additionally, there's a post on W3C in open government community group that talks about the specification.
+
+CPOV page on Joinup: 
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-organisation-vocabulary
+
+CPOV post in W3C:
+https://www.w3.org/community/opengov/2016/02/21/core-public-organisation-vocabulary/"""@en ;
+    cav:refersTo camssa:dd1c70bd-cab4-45c5-9f23-b1866411e89d .
+
+camssa:da330ea8-97d4-4f05-83aa-db7154843ed9 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "CAMSS@everis.com" .
+
+camssa:db2cab62-3fe1-4211-bb3c-8df5138e04fa a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7ab883158b51681c78f90d1a00bbb3840aa2c86e309a9abd1ad6e6eedb5e2735 ;
+    cav:value "1"^^xsd:int .
+
+camssa:dbda4f61-f057-4ffa-b0c4-aeb6afb0cbc1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The Core Public Organisation Vocabulary facilitates the process for institutions publishing data about public organisations. This Core Vocabulary fosters interoperability and impacts positively on the development of eGovernment.
+
+CPOV Joinup reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-organisation-vocabulary"""@en ;
+    cav:refersTo camssa:57919ef4-817c-4db3-a151-4a65c4e44d8f .
+
+camssa:dd1c70bd-cab4-45c5-9f23-b1866411e89d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b21a3eb972a2119979bc57368474efa809e8dd16cede48bc492e8b64da1abee9 ;
+    cav:value "1"^^xsd:int .
+
+camssa:deab098d-56de-4793-a828-a6538576360e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """All solutions developed in ISA² Programme are under ISA Open Metadata Licence which is perpetual, royalty-free and non-exclusive license to Use and re-Use the Works.
+
+ISA open metadata license:
+https://joinup.ec.europa.eu/licence/isa-open-metadata-licence-v11"""@en ;
+    cav:refersTo camssa:acc6a9c2-55d7-42ab-a199-c6b3647d2c64 .
+
+camssa:eef8978d-30c5-4f09-b946-e1cbfb308536 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c2cedd44f05183dae5548108bdeace2c092b84c7c5d89c475b0741ddae7fc7b2 ;
+    cav:value "1"^^xsd:int .
+
+camssa:f8cc28c1-56e7-4fe9-913c-9f601515c08e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fef5941bab92019b7692f8544de94715a42ed9ff76d89cbec4fb6f9821611925 ;
+    cav:value "2"^^xsd:int .
+
+camssa:ff0da6a6-57b9-4907-b2d2-ad12bdfef341 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5879b43fc249f0098f3ed687235f432f71bf0c11bd3aa95e063dfdacd64606c8 ;
     cav:value "1"^^xsd:int .
 

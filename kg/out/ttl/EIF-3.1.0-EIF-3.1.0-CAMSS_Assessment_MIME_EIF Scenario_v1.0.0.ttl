@@ -19,187 +19,544 @@ camssa:72c899d90182948bda44c000e3f74cdc46233325511ab6c2a6212e861520c64a a cav:As
     camss:submissionDate "2020-08-31"^^xsd:date ;
     camss:toolVersion tool:3.1.0 ;
     cav:contextualisedBy sc:s-fa3a7cf6ccb859ff672f6579e000e61d96f0756c83c13b96e3139ae97beb13bd ;
-    cav:resultsIn camssa:02ef6179-e02c-4832-84ce-08d598014f9d,
-        camssa:0fa99d68-316f-4f7c-b1b5-7aaf4edc486a,
-        camssa:14dcf8c9-54af-4a96-90f5-d2b28781d18c,
-        camssa:31ab4531-95e4-410a-a099-f4d5cbdb8d73,
-        camssa:366b3dfa-549b-4251-b0c3-fac4f6594cda,
-        camssa:36be2f3e-f74e-4125-b2b6-6d58789e7926,
-        camssa:37143449-573f-4307-9ffb-387831e66b23,
-        camssa:383f2266-31b1-44e7-aabc-cd36e30cfe2d,
-        camssa:3da7e49e-e9dc-4f15-8c1a-8529d81cb591,
-        camssa:3f69b5ec-4076-40f2-8e64-0f1a180be241,
-        camssa:4730d2d2-769d-4919-8100-4beafbf643ca,
-        camssa:47777c1e-8f2c-4aa9-8349-2d82ba401243,
-        camssa:52720510-7721-401b-8a73-18a13956de48,
-        camssa:5f691edf-04fb-4bfc-a4b3-e6c0ca78da19,
-        camssa:60c94738-0bbc-4cbc-a5d8-305cad4ed8d2,
-        camssa:6aae1de9-bea2-4d58-aa06-50a5afeca6f3,
-        camssa:6d90c15a-cde3-48bc-b58e-801e8c106053,
-        camssa:6e1550ba-3e17-4683-a8e4-a77c760b32eb,
-        camssa:70a8893c-bb7f-40e3-b1f4-edd5c6818381,
-        camssa:8131b167-c3a5-4eb7-a035-defbfa7ca7b1,
-        camssa:86ccbb2a-5fe0-4371-82e6-93100896e1db,
-        camssa:8d97e6ec-c7ed-42e8-867e-cd9e924cecae,
-        camssa:9514c6a9-d837-437e-8df4-3967c469a107,
-        camssa:9a9dcac0-5bc2-4045-a07a-434f9c654564,
-        camssa:9bca07f8-61eb-404a-ade4-b34e031c1bf1,
-        camssa:9fd9a949-460c-4265-b2bd-afeaeb92e111,
-        camssa:a1c25eed-15c9-4ca1-8771-3ebe7dc82317,
-        camssa:a4d57de5-92f3-4329-9ddc-22b84dfb393a,
-        camssa:a829cb76-65c2-46de-822d-51edc241ebe5,
-        camssa:ae0e6450-d240-4892-801f-a927733f3ab3,
-        camssa:ba416d6b-a85d-4707-bedd-45c6dc8112f2,
-        camssa:d2c697df-1b9c-4650-b0d4-da6dd28b7ece,
-        camssa:d4d642ca-e642-48e6-917a-2993bf559a74,
-        camssa:d7b7cb3d-0dd3-4841-b6c9-618055b81baf,
-        camssa:e1ecf1c3-0940-4029-a902-2b18771ce892,
-        camssa:e41959cb-35be-4f30-977e-e455ce9d5bbb,
-        camssa:ee96681d-0052-4096-8212-a44ab4df9983,
-        camssa:facac667-4c9a-475b-8a95-cc1d9b19ec95,
-        camssa:fe143233-e928-4694-b775-5d621db97a98 ;
+    cav:resultsIn camssa:029a7f9a-1f58-4158-8358-90509a5d7216,
+        camssa:030c1b74-99b5-4a30-8b6e-3549028f3d0d,
+        camssa:0628181a-2c8a-4754-bb99-4c783ea8ae0d,
+        camssa:12919638-7991-4c34-b8d5-a528e32c95c3,
+        camssa:28d92bd7-c87b-410b-ba76-6f402de5f3f4,
+        camssa:34f7a88d-a131-478c-9988-35e303c1851e,
+        camssa:368562c1-305f-4897-80f6-e8acd5bfa6fb,
+        camssa:42cd9226-46e1-40e0-8f78-08bab039dfa7,
+        camssa:4c15c748-6ecf-4964-b918-ff78f1118c21,
+        camssa:4cce9009-ace2-4b45-864a-859db814a64b,
+        camssa:4e8045b7-4730-41b6-8d46-02baf07f658d,
+        camssa:57556012-5ebf-4968-bb91-cd13047c263c,
+        camssa:5ca01ce1-e60b-4574-9034-99da0a81f9a6,
+        camssa:65089f62-9fb4-4788-8666-2ea3a7a5583a,
+        camssa:6ac80bec-3f16-4bc5-873c-c5fd808bf6b2,
+        camssa:6aebe252-d3d1-419a-af02-08841635303a,
+        camssa:6bcf0358-4689-40b6-a461-c741ac8b5b06,
+        camssa:75fa559c-b5af-489c-9e5a-64dee57a0de9,
+        camssa:78f1a6d1-94ee-4e50-b15d-496adc222b80,
+        camssa:80f1adb2-d693-4df5-a68d-4e90f5b406e9,
+        camssa:82dd9943-0b01-458c-8aae-bd2b77ff5d8e,
+        camssa:87440749-3509-4664-b896-98280eab6ffb,
+        camssa:8d43e865-23ab-4158-8759-9f3409e6d83e,
+        camssa:a4154a95-90b8-4df0-9252-7c32d0db0383,
+        camssa:a8461929-192b-42cb-b083-dd1c2b93a09c,
+        camssa:ab988eff-df9f-4f5d-902c-5c09fce19caf,
+        camssa:b1e5ef09-10a0-4062-a32c-31f1d0988f0c,
+        camssa:b24e38b1-433e-4648-9713-87bb389984c5,
+        camssa:b6443f9f-9bc3-4a2a-97c4-89170bb97016,
+        camssa:c07c058e-46af-47e6-8f53-c1275d265c32,
+        camssa:c60d4ddb-eb68-4ad3-b9f2-3839f1b31e7b,
+        camssa:cfcee097-6a2b-432f-ae4f-621529f8f0ca,
+        camssa:d26855cd-7c2d-454c-b2bf-51da72e14c53,
+        camssa:d3ca76f7-183c-4918-8c6d-5e47e7ff1acb,
+        camssa:d6129bcb-ee0b-41a6-a910-5c155e7d87ae,
+        camssa:da85f84b-0f86-407a-8e33-e135d6211f1b,
+        camssa:e283b8bf-8974-4314-85b7-10798f4ea93a,
+        camssa:eda0d9e0-eb2d-4e0f-bc85-ff67c69476bf,
+        camssa:ff192bf9-07b6-4239-8548-cb434083df11 ;
     cav:status status:Complete ;
     dct:title "Multipurpose Internet Mail Extensions (MIME)"@en .
 
 camssa:ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164 a owl:NamedIndividual,
         org:Organization ;
-    camss:contactPoint camssa:93d1247b-bc31-4e41-9a4a-20a7fb1cedac ;
+    camss:contactPoint camssa:daba351c-8cf5-41e6-80be-b2c3ade6dbe8 ;
     skos:prefLabel "CAMSS Team"@en .
 
-camssa:012fb879-9329-4893-885b-6398d7a738db a cav:Score,
+camssa:029a7f9a-1f58-4158-8358-90509a5d7216 a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-39ffef052c31580b50b418f3991e9de7db4dc182fcf96f5a447d7f8e09560612 ;
-    cav:value "1"^^xsd:int .
+    cav:judgement """The IETF is a consensus-based group, and authority to act on behalf of the community requires a high degree of consensus and the continued consent of the community. The process of creating and Internet Standard is straightforward: a specification undergoes a period of development and several iterations of review by the Internet community and revision based upon experience, is adopted as a Standard by the appropriate body... and is published. In practice, the process is more complicated, due to (1) the difficulty of creating specifications of high technical quality; (2) the need to consider the interests of all the affected parties; (3) the importance of establishing widespread community consensus; and (4) the difficulty of evaluating the utility of a particular specification for the Internet community. The goals of the Internet Standards Process are:
+- Technical excellence;
+- prior implementation and testing;
+- clear, concise, and easily understood documentation;
+- openness and fairness; and 
+- timeliness.
+The goal of technical competence, the requirement for prior implementation and testing, and the need to allow all interested parties to comment all require significant time and effort. The Internet Standards Process is intended to balance these conflicting goals. The process is believed to be as short and simple as possible without sacrificing technical excellence, thorough testing before adoption of a standard, or openness and fairness.
 
-camssa:02ef6179-e02c-4832-84ce-08d598014f9d a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """As a mail format specification, MIME is a valuable tool for sharing information through the internet between administrations and stakeholders. It allows sharing data and information in a specific format, it fosters the visibility of administration data and services. MIME fosters the collaboration between public administrations and it eases the decision-making process of institutions.
+Standard process IETF:
+https://www.ietf.org/standards/process/"""@en ;
+    cav:refersTo camssa:bc025ffa-77dc-48d2-84ba-69be5875ff1f .
 
-MIME reference:
-https://tools.ietf.org/html/rfc2045"""@en ;
-    cav:refersTo camssa:63c8c01b-9f00-4f91-beaa-b320c24428ea .
-
-camssa:03e542d8-cec5-4a94-88a8-2e0fdafcfeae a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-624bc49501d58649e27cae4fb89fb5a56844685e54c5ce1625633894f8f752e1 ;
-    cav:value "2"^^xsd:int .
-
-camssa:0fa99d68-316f-4f7c-b1b5-7aaf4edc486a a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """Like all the IETF standards, MIME is a free and open technical specification, built on IETF standards and licenses from the Open Web Foundation. Therefore, MIME is licensed on a royalty-free basis.
-
-Intellectual Property Rights in IETF:
-https://tools.ietf.org/html/rfc3668"""@en ;
-    cav:refersTo camssa:5661e04d-545c-4cc4-9d31-3af04c50bbdd .
-
-camssa:11b49810-8e8e-4295-8199-4eb3beffec84 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-483e8900c47b40bc67a6bd1cbfce07884b9ac5f2c85e0214f334cc37e4e65c35 ;
-    cav:value "0"^^xsd:int .
-
-camssa:14dcf8c9-54af-4a96-90f5-d2b28781d18c a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The purpose of MIME is not related to the modelling of business processes. Therefore, this criterion is not applicable to the specification. 
-
-MIME reference:
-https://tools.ietf.org/html/rfc2045"""@en ;
-    cav:refersTo camssa:8d6793f1-e59d-4c72-8621-ed196affe461 .
-
-camssa:1988f1d5-659e-449f-b6fe-27505e5fd96f a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-33ea90f5c1bb01d4398c57d03a25934dc5722d5ddbc98a43911ea4fb302ec54c ;
-    cav:value "2"^^xsd:int .
-
-camssa:20838a60-fc7c-4598-9bdf-def5d18bb632 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-6bedf555bffb837990b9eb353447fa116eb9d2384770b1dd3de46d3c5901d4f4 ;
-    cav:value "1"^^xsd:int .
-
-camssa:23f74d46-0c22-4cc2-982b-c6b594c7e682 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-c2cedd44f05183dae5548108bdeace2c092b84c7c5d89c475b0741ddae7fc7b2 ;
-    cav:value "1"^^xsd:int .
-
-camssa:2f2666de-09f5-4fa5-8005-c640e6411236 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-6d48464387e608d3022bd07338cd3859acfb0f84139186a979ef3b96baa51086 ;
-    cav:value "2"^^xsd:int .
-
-camssa:31ab4531-95e4-410a-a099-f4d5cbdb8d73 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """MIME does not define a common reusable data model, it is a standard mail format for the exchange of data.
-
-MIME reference:
-https://tools.ietf.org/html/rfc2045"""@en ;
-    cav:refersTo camssa:888fb6d2-3865-4fea-9c64-f8022d1b3b0b .
-
-camssa:35e15659-a5b7-44cb-80fd-6e7585a79ec3 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-138786a6e7517e10b94e83ec3b3e7ac79b4c49dcbeaef8d8e993c8df0d173529 ;
-    cav:value "2"^^xsd:int .
-
-camssa:366b3dfa-549b-4251-b0c3-fac4f6594cda a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """8 Member States are recommending MIME in their ICT National Catalogues. The Member states are Croatia, France, Germany, Greece, Malta, the Netherlands, Spain and Sweden. 
-  
-CAMSS List of Standards:   
-https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards """@en ;
-    cav:refersTo camssa:e8352825-6abb-4578-bb4a-985fd6c68011 .
-
-camssa:36be2f3e-f74e-4125-b2b6-6d58789e7926 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """There are some free online validators for MIME to check the compliance of MIME messages with the IETF standards.
-
-MIME online validator:
-https://www.mimevalidator.net/"""@en ;
-    cav:refersTo camssa:9b0ad2f8-cfb5-40c7-8b4e-c2bc0eed014a .
-
-camssa:36cd4a5e-a2cc-4aff-8f7c-8e1803321cc1 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-ba46c76c10ad769a23ce4a9a34cb4d96a00407d5fc14ad1c791a870be7563c2b ;
-    cav:value "1"^^xsd:int .
-
-camssa:37143449-573f-4307-9ffb-387831e66b23 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """After being evaluated compliant with the regulation on standardisation 1025/2012, MIME has been identified by Commission Implementing Decision and included in the European list of ICT Standards for e-procurement.
-
-ICT technical specifications:
-https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en"""@en ;
-    cav:refersTo camssa:59552859-1c60-43f8-91c6-dc00037fec9a .
-
-camssa:383f2266-31b1-44e7-aabc-cd36e30cfe2d a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """As a specification that aim to allow and stablish exchange of documents, MIME can be used for the exchange of documents solving administrative burden. Additionally, it can avoid the exchange of non-digital documents that are generally a source of administrative burden.
-
-MIME reference:
-https://tools.ietf.org/html/rfc2045"""@en ;
-    cav:refersTo camssa:53ab823b-29e2-4223-911e-9cfcb817b0ff .
-
-camssa:3da7e49e-e9dc-4f15-8c1a-8529d81cb591 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The purpose of MIME is not related to the delivery of multilingual public services. Therefore, this criterion is not applicable to this specification. 
-
-MIME reference:
-https://tools.ietf.org/html/rfc2045"""@en ;
-    cav:refersTo camssa:6e66a248-a689-4118-8c6d-37044192dc5e .
-
-camssa:3f69b5ec-4076-40f2-8e64-0f1a180be241 a cav:Statement,
+camssa:030c1b74-99b5-4a30-8b6e-3549028f3d0d a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """The purpose of MIME is not related to the publication of public data as linked open data. Therefore, this criterion is not applicable to this specification.
 
 MIME reference:
 https://tools.ietf.org/html/rfc2045"""@en ;
-    cav:refersTo camssa:35e15659-a5b7-44cb-80fd-6e7585a79ec3 .
+    cav:refersTo camssa:4074c553-6712-4d33-9342-f2de8f697e60 .
 
-camssa:4730d2d2-769d-4919-8100-4beafbf643ca a cav:Statement,
+camssa:0628181a-2c8a-4754-bb99-4c783ea8ae0d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """As a mail format specification, MIME is a valuable tool for sharing information through the internet between administrations and stakeholders. It allows sharing data and information in a specific format, it fosters the visibility of administration data and services. MIME fosters the collaboration between public administrations and it eases the decision-making process of institutions.
+
+MIME reference:
+https://tools.ietf.org/html/rfc2045"""@en ;
+    cav:refersTo camssa:3d9dedf5-7b90-44ce-af01-8b22274f92df .
+
+camssa:0d0479e1-4465-4602-8b08-b34bb6e54d17 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5df7a9f6081c945a22f500aa0ba2c452b8b9cd9497bd643ac76c39d34a18c319 ;
+    cav:value "1"^^xsd:int .
+
+camssa:0e35c7f1-9614-49d6-a85c-06679bb3a491 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cc5bd9a7d0b2acc7f246522414fd5f5d579b977180bb04fa60a545cb35dae90f ;
+    cav:value "1"^^xsd:int .
+
+camssa:12919638-7991-4c34-b8d5-a528e32c95c3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of MIME is not related to the publication of public data as open data. Therefore, this criterion is not applicable to this specification. 
+
+MIME reference:
+https://tools.ietf.org/html/rfc2045
+
+Tim Berners-Lee 5-star schema for Open Data:   
+https://5stardata.info/en/"""@en ;
+    cav:refersTo camssa:6f22b1c2-87e5-40a8-bd38-0cf8a515a5b3 .
+
+camssa:1cbc2fe9-6da4-4633-abd0-4af693683b3c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b21a3eb972a2119979bc57368474efa809e8dd16cede48bc492e8b64da1abee9 ;
+    cav:value "1"^^xsd:int .
+
+camssa:1d7ff459-2203-4d11-aaf3-8cf0a7765bec a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-6d48464387e608d3022bd07338cd3859acfb0f84139186a979ef3b96baa51086 ;
+    cav:value "2"^^xsd:int .
+
+camssa:28d92bd7-c87b-410b-ba76-6f402de5f3f4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """MIME is being used to specify the media types supported by the Europeana collections. Europeana is a cultural initiative that works towards the preservation of the patrimonial heritage. 
+
+Europeana Media Types: 
+https://pro.europeana.eu/about-us/mission"""@en ;
+    cav:refersTo camssa:a579f3ee-d4c3-494b-8fe7-021530302328 .
+
+camssa:2a32e88b-b117-4d1c-81e5-1c657d41bc41 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d129862d6c9639e131c7d5eef095af16ef94d57ec0d52f955bf909ba8ec688e8 ;
+    cav:value "1"^^xsd:int .
+
+camssa:34f7a88d-a131-478c-9988-35e303c1851e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """After being evaluated compliant with the regulation on standardisation 1025/2012, MIME has been identified by Commission Implementing Decision and included in the European list of ICT Standards for e-procurement.
+
+ICT technical specifications:
+https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en"""@en ;
+    cav:refersTo camssa:f99aeab0-bada-4b22-b891-de2b63a237d3 .
+
+camssa:35eb3f33-790b-4108-bc81-20f5047dfb6e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c265ca0c56e0f29a34039d496ba707b5486ccf6d445f9f058c19b4ece977861f ;
+    cav:value "2"^^xsd:int .
+
+camssa:368562c1-305f-4897-80f6-e8acd5bfa6fb a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Like all the IETF standards, MIME is a free and open technical specification, built on IETF standards and licenses from the Open Web Foundation. Therefore, MIME is licensed on a royalty-free basis.
+
+Intellectual Property Rights in IETF:
+https://tools.ietf.org/html/rfc3668"""@en ;
+    cav:refersTo camssa:e5a03161-fe43-4131-9c34-516cf85d90e1 .
+
+camssa:3779be98-76e4-4c6f-81d5-1aa79bfa254d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-6bedf555bffb837990b9eb353447fa116eb9d2384770b1dd3de46d3c5901d4f4 ;
+    cav:value "1"^^xsd:int .
+
+camssa:3c0d441e-c0b6-4b79-9410-84f0b243b183 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ab64f97c21ac8b84c75d6f52a89765b1c8fd1856d2d2060926d05e94f306a88d ;
+    cav:value "1"^^xsd:int .
+
+camssa:3d9dedf5-7b90-44ce-af01-8b22274f92df a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-19598487b8ba278c3438dcfd74b74d9aad51beac08c53dbf40bf108ed09e72b2 ;
+    cav:value "1"^^xsd:int .
+
+camssa:3da8ecdc-4abc-4517-8733-a10035c6e7d3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-4ac14cafe608f1dbe7e48f96edd7574c55f0aac2c2e99ede0418dae7225977af ;
+    cav:value "2"^^xsd:int .
+
+camssa:3ec4c821-eeed-4ad8-8161-51dc95937469 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-21276471c1781fa2c7e78c8e03851e076b840beddbf5cf64f53b54b8855a01b8 ;
+    cav:value "0"^^xsd:int .
+
+camssa:4074c553-6712-4d33-9342-f2de8f697e60 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-138786a6e7517e10b94e83ec3b3e7ac79b4c49dcbeaef8d8e993c8df0d173529 ;
+    cav:value "2"^^xsd:int .
+
+camssa:42cd9226-46e1-40e0-8f78-08bab039dfa7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """MIME can be found for free along within the European Collaborative Platform, Joinup.
+
+MIME in Joinup platform:
+https://joinup.ec.europa.eu/solution/multipurpose-internet-mail-extensions-mime-rfc-2048-multipurpose-internet-mail-extensions-mime"""@en ;
+    cav:refersTo camssa:cf57bbce-c29d-4a89-ba90-bff0b0dfbe8d .
+
+camssa:4ad80319-1bf9-4ff7-b9f1-da4f713547a4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f70d8bc1b4b6e186d69ea3f7f8cc7b2d75314b84e7f481ebe13b4e6ed8b36598 ;
+    cav:value "1"^^xsd:int .
+
+camssa:4c15c748-6ecf-4964-b918-ff78f1118c21 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """MIME does not define a common reusable data model, it is a standard mail format for the exchange of data.
+
+MIME reference:
+https://tools.ietf.org/html/rfc2045"""@en ;
+    cav:refersTo camssa:62c2fb39-7529-4062-811c-56ca7098e47f .
+
+camssa:4cce9009-ace2-4b45-864a-859db814a64b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """MIME is available for its use and implementation on IETF's webpage defined in several RFCs. 
+
+MIME reference 1:
+https://tools.ietf.org/html/rfc2045
+
+MIME reference 2:
+https://tools.ietf.org/html/rfc2046
+
+MIME reference 3:
+https://tools.ietf.org/html/rfc2047"""@en ;
+    cav:refersTo camssa:efaa2a08-c146-45e5-b0b0-52077ea73805 .
+
+camssa:4e8045b7-4730-41b6-8d46-02baf07f658d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """MIME is a business domain agnostic specification that can be reused in a cross-domain way. It can be used for the exchange of files addressing any domain.
+
+MIME reference:
+https://tools.ietf.org/html/rfc2045"""@en ;
+    cav:refersTo camssa:beca69c8-f7ab-4694-ae5c-5dda0644b9b5 .
+
+camssa:52c09959-10b3-4d07-9cff-83088fcac7fc a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a81c4b8658f57e819297eb0b7977407f8d814c6fe749c74a8ac497277ca7d9d8 ;
+    cav:value "1"^^xsd:int .
+
+camssa:5741d806-455d-4dd7-9f37-3059fe3a33a9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d28663fdb5deb361d5ad773d7b7ece3c6acf8d2eb7a1222a60cb08df4c93aac ;
+    cav:value "0"^^xsd:int .
+
+camssa:57556012-5ebf-4968-bb91-cd13047c263c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """MIME is included in 8 national catalogues of recommended specifications. They belong to Croatia, France, Germany, Greece, Malta, the Netherlands, Spain and Sweden. 
+
+CAMSS List of standards: 
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:aac681a6-8c81-4e87-a236-5a9a8fa6e02d .
+
+camssa:5ca01ce1-e60b-4574-9034-99da0a81f9a6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """IETF has a formal review and approval so that all the relevant stakeholders can formally appeal or raise objections to the development and approval of specifications.
+Each distinct version of an Internet standards-related specification is published as part of the "Request for Comments" (RFC) document series. This archival series is the official publication channel for Internet standards documents and other publications.
+During the development of a specification, draft versions of the document are made available for informal review and comment by placing them in the IETF's "Internet-Drafts" directory, which is replicated on a number of Internet hosts. This makes an evolving working document readily available to a wide audience, facilitating the process of review and revision.
+
+Standard process IETF:
+https://www.ietf.org/standards/process/ 
+
+Internet Best Current Practices IETF:
+https://tools.ietf.org/html/rfc2026"""@en ;
+    cav:refersTo camssa:4ad80319-1bf9-4ff7-b9f1-da4f713547a4 .
+
+camssa:5eebe17f-0f01-40a3-9982-ba7622c64b37 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-31bf959b6c4a983ec70eb87e0177f2739575ebce42c7c3b95b9012ef3bfe673e ;
+    cav:value "1"^^xsd:int .
+
+camssa:62c2fb39-7529-4062-811c-56ca7098e47f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8954ddabf37f4899562b9ea4c8f0bbf204f3e48c9203043bc231f368092396a2 ;
+    cav:value "0"^^xsd:int .
+
+camssa:65089f62-9fb4-4788-8666-2ea3a7a5583a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Although at the moment of elaborating the assessment the specification is widely used, the specification in itself does not give any innovative solution that can be part of an innovative cutting edge solution.
+
+MIME reference:
+https://tools.ietf.org/html/rfc2045"""@en ;
+    cav:refersTo camssa:3ec4c821-eeed-4ad8-8161-51dc95937469 .
+
+camssa:6725d8e9-673d-4610-b2b4-16b9dc05f086 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ba46c76c10ad769a23ce4a9a34cb4d96a00407d5fc14ad1c791a870be7563c2b ;
+    cav:value "1"^^xsd:int .
+
+camssa:6ac80bec-3f16-4bc5-873c-c5fd808bf6b2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The rules on European standardisation allow the European Commission to identify information and communication technology (ICT) technical specifications - that are not national, European or international standards - to be eligible for referencing in public procurement. This allows public authorities to make use of the full range of specifications when buying IT hardware, software and services, allowing for more competition in the field and reducing the risk of lock-in to proprietary systems. After being evaluated compliant with the regulation on standardisation 1025/2012, MIME has been identified by Commission Implementing Decision.
+
+ICT Standards for Procurement: 
+https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en"""@en ;
+    cav:refersTo camssa:864970e8-ba62-493e-9658-4ea8adac58e9 .
+
+camssa:6aebe252-d3d1-419a-af02-08841635303a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is widely adopted amongst others like SMTP for the exchange of data over the internet. It allows sharing several file formats, which makes the specification highly reusable. The specification has been implemented and it is supported by numerous mail software as Mailchimp amongst others, demonstrating the market acceptance of MIME.
+
+MIME reference:
+https://tools.ietf.org/html/rfc2045"""@en ;
+    cav:refersTo camssa:2a32e88b-b117-4d1c-81e5-1c657d41bc41 .
+
+camssa:6af42487-898c-4e59-a662-87212341d1a2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fef5941bab92019b7692f8544de94715a42ed9ff76d89cbec4fb6f9821611925 ;
+    cav:value "2"^^xsd:int .
+
+camssa:6bcf0358-4689-40b6-a461-c741ac8b5b06 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are some free online validators for MIME to check the compliance of MIME messages with the IETF standards.
+
+MIME online validator:
+https://www.mimevalidator.net/"""@en ;
+    cav:refersTo camssa:bbebbf73-3777-4085-8da2-9343e29c0d2f .
+
+camssa:6f22b1c2-87e5-40a8-bd38-0cf8a515a5b3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-02333ef99fbcb4f101a106bcf97c9559888756b085b1729b7c2ac9626dc4bc63 ;
+    cav:value "2"^^xsd:int .
+
+camssa:75fa559c-b5af-489c-9e5a-64dee57a0de9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of MIME is not related to the implementation of the once-only principle. Therefore, this criterion does not apply to this specification. 
+
+MIME reference:
+https://tools.ietf.org/html/rfc2045"""@en ;
+    cav:refersTo camssa:7c15f06a-5b55-4cbf-9fa2-16c658b22b60 .
+
+camssa:78f1a6d1-94ee-4e50-b15d-496adc222b80 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of MIME is not related to the modelling of business processes. Therefore, this criterion is not applicable to the specification. 
+
+MIME reference:
+https://tools.ietf.org/html/rfc2045"""@en ;
+    cav:refersTo camssa:35eb3f33-790b-4108-bc81-20f5047dfb6e .
+
+camssa:7c15f06a-5b55-4cbf-9fa2-16c658b22b60 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-624bc49501d58649e27cae4fb89fb5a56844685e54c5ce1625633894f8f752e1 ;
+    cav:value "2"^^xsd:int .
+
+camssa:80d42fc0-d40f-4249-bdaf-675bb0cee684 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5879b43fc249f0098f3ed687235f432f71bf0c11bd3aa95e063dfdacd64606c8 ;
+    cav:value "0"^^xsd:int .
+
+camssa:80f1adb2-d693-4df5-a68d-4e90f5b406e9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """As a format for the exchange of documents and files over the internet, it allows its implementation without hampering the scalability and the interoperability between systems. Also, it is a manner or means to allow the communication between administrations, business, and citizens. 
+
+MIME reference:
+https://tools.ietf.org/html/rfc2045"""@en ;
+    cav:refersTo camssa:6725d8e9-673d-4610-b2b4-16b9dc05f086 .
+
+camssa:82140296-2b86-4a3f-a4fe-fc655dd66061 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8c09094de9d71f12686896827a205db683b6df58fa363bc5be2a7d99989e7dd0 ;
+    cav:value "1"^^xsd:int .
+
+camssa:82dd9943-0b01-458c-8aae-bd2b77ff5d8e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of MIME is not related to the delivery of multilingual public services. Therefore, this criterion is not applicable to this specification. 
+
+MIME reference:
+https://tools.ietf.org/html/rfc2045"""@en ;
+    cav:refersTo camssa:3da8ecdc-4abc-4517-8733-a10035c6e7d3 .
+
+camssa:864970e8-ba62-493e-9658-4ea8adac58e9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-53abe85b1365f86aa58a25566e54e082ea2d70ee8d9fbaf09ccab20af30f3332 ;
+    cav:value "1"^^xsd:int .
+
+camssa:87440749-3509-4664-b896-98280eab6ffb a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of MIME is not related to the availability of interfaces with internal information systems. Therefore, this criterion is not applicable to this specification. 
+
+MIME reference:
+https://tools.ietf.org/html/rfc2045"""@en ;
+    cav:refersTo camssa:ddbad160-a02c-4dd9-be43-bd7c68edcc84 .
+
+camssa:8d43e865-23ab-4158-8759-9f3409e6d83e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of MIME is to allow the exchange of documents between systems and applications. 
+
+MIME reference:
+https://tools.ietf.org/html/rfc2045"""@en ;
+    cav:refersTo camssa:3c0d441e-c0b6-4b79-9410-84f0b243b183 .
+
+camssa:90d5af6b-b122-41a6-b8ae-f4db3c6d0bc4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8eb17470327d32b3bb523447fe72ee5c60ddb03e81dae318b485fbe05f48a844 ;
+    cav:value "1"^^xsd:int .
+
+camssa:a4154a95-90b8-4df0-9252-7c32d0db0383 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """At the time of elaborating this assessment, MIME is not included in any EIRA ABB in the current European Library Of Specifications (ELIS).
+
+EIRA Library of Interoperability Specifications (ELIS):
+https://joinup.ec.europa.eu/solution/elis/release/v100"""@en ;
+    cav:refersTo camssa:5741d806-455d-4dd7-9f37-3059fe3a33a9 .
+
+camssa:a579f3ee-d4c3-494b-8fe7-021530302328 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-39ffef052c31580b50b418f3991e9de7db4dc182fcf96f5a447d7f8e09560612 ;
+    cav:value "1"^^xsd:int .
+
+camssa:a8461929-192b-42cb-b083-dd1c2b93a09c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are many documents that provide an overview of the usage and functionalities of MIME. In some cases it is compared with the STMP, showing the strengths and weaknesses. 
+
+Documentation about MIME:
+https://www.geeksforgeeks.org/multipurpose-internet-mail-extension-mime-protocol/"""@en ;
+    cav:refersTo camssa:0e35c7f1-9614-49d6-a85c-06679bb3a491 .
+
+camssa:aac681a6-8c81-4e87-a236-5a9a8fa6e02d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-838030847fa0adf54939e3feaac0ac2510924c54035e1cb671b223b54b02fd70 ;
+    cav:value "1"^^xsd:int .
+
+camssa:ab988eff-df9f-4f5d-902c-5c09fce19caf a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of MIME is not related to long term preservation of electronic records. Therefore, this criterion is considered not applicable to this specification. 
+
+MIME reference:
+https://tools.ietf.org/html/rfc2045"""@en ;
+    cav:refersTo camssa:be3f457b-cefe-4467-902f-125aaa044a8b .
+
+camssa:af6ee4a1-ffbc-4a75-9e0f-21cdcfdc0958 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-483e8900c47b40bc67a6bd1cbfce07884b9ac5f2c85e0214f334cc37e4e65c35 ;
+    cav:value "0"^^xsd:int .
+
+camssa:b1e5ef09-10a0-4062-a32c-31f1d0988f0c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of MIME is not related to e-accessibility. Therefore, this criterion is considered not applicable to this specification.
+
+MIME reference:
+https://tools.ietf.org/html/rfc2045"""@en ;
+    cav:refersTo camssa:6af42487-898c-4e59-a662-87212341d1a2 .
+
+camssa:b24e38b1-433e-4648-9713-87bb389984c5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """8 Member States are recommending MIME in their ICT National Catalogues. The Member states are Croatia, France, Germany, Greece, Malta, the Netherlands, Spain and Sweden. 
+  
+CAMSS List of Standards:   
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards """@en ;
+    cav:refersTo camssa:82140296-2b86-4a3f-a4fe-fc655dd66061 .
+
+camssa:b6443f9f-9bc3-4a2a-97c4-89170bb97016 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """MIME extends the format of email messages to support text in ASCII and non-ASCII characters, as well as attachments of audio, video, images, and application programs.
+
+MIME reference:
+https://tools.ietf.org/html/rfc2045"""@en ;
+    cav:refersTo camssa:80d42fc0-d40f-4249-bdaf-675bb0cee684 .
+
+camssa:bbebbf73-3777-4085-8da2-9343e29c0d2f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c967c90bfc7bc13426924eca012de349ae51d4e8f652fe64bfbec2cccc8c8146 ;
+    cav:value "1"^^xsd:int .
+
+camssa:bc025ffa-77dc-48d2-84ba-69be5875ff1f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7aa038b5496afb8cb229c692be9a2adc175deb2d5d47e35ad67e027c9eac28ba ;
+    cav:value "1"^^xsd:int .
+
+camssa:be3f457b-cefe-4467-902f-125aaa044a8b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8a34a40e5bc5436b3530d898d75a57cf0488591887b31a5169499fe78952d84c ;
+    cav:value "2"^^xsd:int .
+
+camssa:beca69c8-f7ab-4694-ae5c-5dda0644b9b5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3aec34db3622bf18675b8216d0fc1d68fc7eeb501b4f3326402038a3ceb95c21 ;
+    cav:value "1"^^xsd:int .
+
+camssa:c07c058e-46af-47e6-8f53-c1275d265c32 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Like all the IETF standards, MIME is a free and open technical specification, built on IETF standards and licenses from the Open Web Foundation. Therefore, MIME is licensed on a royalty-free basis.
+No IPR disclosures have been submitted directly on the MIME specification (RFC 2045).
+
+Intellectual Property Rights in IETF:
+https://tools.ietf.org/html/rfc3668"""@en ;
+    cav:refersTo camssa:52c09959-10b3-4d07-9cff-83088fcac7fc .
+
+camssa:c60d4ddb-eb68-4ad3-b9f2-3839f1b31e7b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The rules on European standardisation allow the European Commission to identify information and communication technology (ICT) technical specifications - that are not national, European or international standards - to be eligible for referencing in public procurement. This allows public authorities to make use of the full range of specifications when buying IT hardware, software and services, allowing for more competition in the field and reducing the risk of lock-in to proprietary systems.
+
+After being evaluated compliant with the regulation on standardisation 1025/2012, MIME has been identified by Commission Implementing Decision. During the evaluation process, all the Member States are invited to share their doubts. The positive evaluation of MIME and its identification is considered an interoperability agreement.
+
+ICT Standards for Procurement:
+https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en"""@en ;
+    cav:refersTo camssa:0d0479e1-4465-4602-8b08-b34bb6e54d17 .
+
+camssa:cd9fee1b-4542-4633-8846-305ef999373c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7ab883158b51681c78f90d1a00bbb3840aa2c86e309a9abd1ad6e6eedb5e2735 ;
+    cav:value "1"^^xsd:int .
+
+camssa:cf57bbce-c29d-4a89-ba90-bff0b0dfbe8d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17bea234285e6e633e4e21105358610ad5f5f0eaaf82f4bd50cb64ec11538984 ;
+    cav:value "1"^^xsd:int .
+
+camssa:cfcee097-6a2b-432f-ae4f-621529f8f0ca a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """By allowing public administration to share information with others in a specific format, it fosters the comprehensibility of data (e.g. Administrative rules, processes etc.) and facilitates public administrations decision-making. 
+
+MIME reference:
+https://tools.ietf.org/html/rfc2045"""@en ;
+    cav:refersTo camssa:cd9fee1b-4542-4633-8846-305ef999373c .
+
+camssa:d26855cd-7c2d-454c-b2bf-51da72e14c53 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """MIME is maintained and developed by IETF which is an international community developing open standards. 
+
+Developer community IETF: 
+https://www.ietf.org/about/"""@en ;
+    cav:refersTo camssa:1cbc2fe9-6da4-4633-abd0-4af693683b3c .
+
+camssa:d3ca76f7-183c-4918-8c6d-5e47e7ff1acb a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """MIME is a specification exclusively designed for giving format of files which does not secure the traffic. However, there is an extension of MIME which is called S/MIME that secures the files.
+
+MIME reference:
+https://tools.ietf.org/html/rfc2045"""@en ;
+    cav:refersTo camssa:af6ee4a1-ffbc-4a75-9e0f-21cdcfdc0958 .
+
+camssa:d6129bcb-ee0b-41a6-a910-5c155e7d87ae a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification was developed in 1991 by the IETF group, and it has become a widely used format for the transaction of different types of files over the internet. It is focused on the transfer via email, and it is supported by numerous mail software. This fact demonstrates the maturity of MIME for its use for the development of services and products.
+
+MIME reference:
+https://tools.ietf.org/html/rfc2045"""@en ;
+    cav:refersTo camssa:3779be98-76e4-4c6f-81d5-1aa79bfa254d .
+
+camssa:da85f84b-0f86-407a-8e33-e135d6211f1b a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """The purpose of MIME is not related to organisational interoperability. Therefore, this criterion is not applicable to the specification.
 
 MIME reference:
 https://tools.ietf.org/html/rfc2045"""@en ;
-    cav:refersTo camssa:2f2666de-09f5-4fa5-8005-c640e6411236 .
+    cav:refersTo camssa:1d7ff459-2203-4d11-aaf3-8cf0a7765bec .
 
-camssa:47777c1e-8f2c-4aa9-8349-2d82ba401243 a cav:Statement,
+camssa:daba351c-8cf5-41e6-80be-b2c3ade6dbe8 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "CAMSS@everis.com" .
+
+camssa:ddbad160-a02c-4dd9-be43-bd7c68edcc84 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-33ea90f5c1bb01d4398c57d03a25934dc5722d5ddbc98a43911ea4fb302ec54c ;
+    cav:value "2"^^xsd:int .
+
+camssa:e283b8bf-8974-4314-85b7-10798f4ea93a a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """MIME is included in 3 national catalogues of recommended specifications. They belong to the Netherlands, Spain and Sweden. The National Interoperability Framework (NIF) of these Member States is fully aligned with at least 4 out of 5 sections of the European Interoperability Framework (EIF) according to the National Interoperability Framework Observatory (NIFO) factsheets. 
  
@@ -217,398 +574,41 @@ https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/pae_Interopera
 
 Sweden Catalogue:
 http://www.avropa.se/dynamiska-sidor/sok/?query=standards&searchtype=web"""@en ;
-    cav:refersTo camssa:a572e03c-f05b-4e6e-877f-8d17334cdcb0 .
+    cav:refersTo camssa:90d5af6b-b122-41a6-b8ae-f4db3c6d0bc4 .
 
-camssa:478dc32c-2013-4420-a1db-2ec73627e04b a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-7aa038b5496afb8cb229c692be9a2adc175deb2d5d47e35ad67e027c9eac28ba ;
-    cav:value "1"^^xsd:int .
-
-camssa:50a24726-def3-4fdd-8f09-3f22b3c7fe06 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-53abe85b1365f86aa58a25566e54e082ea2d70ee8d9fbaf09ccab20af30f3332 ;
-    cav:value "1"^^xsd:int .
-
-camssa:51a58764-775a-4eab-a20c-5abc7c62aa18 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-8a34a40e5bc5436b3530d898d75a57cf0488591887b31a5169499fe78952d84c ;
-    cav:value "2"^^xsd:int .
-
-camssa:52720510-7721-401b-8a73-18a13956de48 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """MIME is a business domain agnostic specification that can be reused in a cross-domain way. It can be used for the exchange of files addressing any domain.
-
-MIME reference:
-https://tools.ietf.org/html/rfc2045"""@en ;
-    cav:refersTo camssa:eb7accf3-8d86-4320-bc7e-af6971c59151 .
-
-camssa:53ab823b-29e2-4223-911e-9cfcb817b0ff a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-ffdbd22af1ff3c1ebb100043d062a3df160007af761caf0a8c9f50f02e609c9e ;
-    cav:value "1"^^xsd:int .
-
-camssa:5661e04d-545c-4cc4-9d31-3af04c50bbdd a cav:Score,
+camssa:e5a03161-fe43-4131-9c34-516cf85d90e1 a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-1cd71a7b6d54631ba58cc8b0655a443d696f49ec74a0f4cccc871de7789d6a60 ;
     cav:value "1"^^xsd:int .
 
-camssa:579d8336-ce35-4ced-993c-e1262596fb2f a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-5df7a9f6081c945a22f500aa0ba2c452b8b9cd9497bd643ac76c39d34a18c319 ;
-    cav:value "1"^^xsd:int .
-
-camssa:585fcbe5-9a20-44a5-abff-303c22333b8f a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-17bea234285e6e633e4e21105358610ad5f5f0eaaf82f4bd50cb64ec11538984 ;
-    cav:value "1"^^xsd:int .
-
-camssa:59552859-1c60-43f8-91c6-dc00037fec9a a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-7a18abe4842e04b608025fd70e54c3db5c2a10130c0dab0495479e7d5effb55d ;
-    cav:value "1"^^xsd:int .
-
-camssa:5b447595-1963-4264-b456-6dc19f49f116 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-cc5bd9a7d0b2acc7f246522414fd5f5d579b977180bb04fa60a545cb35dae90f ;
-    cav:value "1"^^xsd:int .
-
-camssa:5f691edf-04fb-4bfc-a4b3-e6c0ca78da19 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The purpose of MIME is not related to the publication of public data as open data. Therefore, this criterion is not applicable to this specification. 
-
-MIME reference:
-https://tools.ietf.org/html/rfc2045
-
-Tim Berners-Lee 5-star schema for Open Data:   
-https://5stardata.info/en/"""@en ;
-    cav:refersTo camssa:b8d1a22b-4b02-4fef-a59f-0ef783e0788c .
-
-camssa:60c94738-0bbc-4cbc-a5d8-305cad4ed8d2 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """Although at the moment of elaborating the assessment the specification is widely used, the specification in itself does not give any innovative solution that can be part of an innovative cutting edge solution.
-
-MIME reference:
-https://tools.ietf.org/html/rfc2045"""@en ;
-    cav:refersTo camssa:8baff00a-3129-4ec9-943e-076d1c5fd31f .
-
-camssa:63c8c01b-9f00-4f91-beaa-b320c24428ea a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-19598487b8ba278c3438dcfd74b74d9aad51beac08c53dbf40bf108ed09e72b2 ;
-    cav:value "1"^^xsd:int .
-
-camssa:6aae1de9-bea2-4d58-aa06-50a5afeca6f3 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """As a format for the exchange of documents and files over the internet, it allows its implementation without hampering the scalability and the interoperability between systems. Also, it is a manner or means to allow the communication between administrations, business, and citizens. 
-
-MIME reference:
-https://tools.ietf.org/html/rfc2045"""@en ;
-    cav:refersTo camssa:36cd4a5e-a2cc-4aff-8f7c-8e1803321cc1 .
-
-camssa:6d90c15a-cde3-48bc-b58e-801e8c106053 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The purpose of MIME is not related to the implementation of the once-only principle. Therefore, this criterion does not apply to this specification. 
-
-MIME reference:
-https://tools.ietf.org/html/rfc2045"""@en ;
-    cav:refersTo camssa:03e542d8-cec5-4a94-88a8-2e0fdafcfeae .
-
-camssa:6e1550ba-3e17-4683-a8e4-a77c760b32eb a cav:Statement,
+camssa:eda0d9e0-eb2d-4e0f-bc85-ff67c69476bf a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """MIME is publicly available for implementation and use, and therefore for everyone to study, for free on IETF webpage.
 
 MIME reference:
 https://tools.ietf.org/html/rfc2045"""@en ;
-    cav:refersTo camssa:bf5488d8-8431-4bbb-ae90-880105ff76b3 .
+    cav:refersTo camssa:5eebe17f-0f01-40a3-9982-ba7622c64b37 .
 
-camssa:6e66a248-a689-4118-8c6d-37044192dc5e a cav:Score,
+camssa:efaa2a08-c146-45e5-b0b0-52077ea73805 a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-4ac14cafe608f1dbe7e48f96edd7574c55f0aac2c2e99ede0418dae7225977af ;
-    cav:value "2"^^xsd:int .
+    cav:assignedTo sc:c-c2cedd44f05183dae5548108bdeace2c092b84c7c5d89c475b0741ddae7fc7b2 ;
+    cav:value "1"^^xsd:int .
 
-camssa:70a8893c-bb7f-40e3-b1f4-edd5c6818381 a cav:Statement,
+camssa:f7c275e4-1b69-4e14-bdf2-01132793d85c a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement """The purpose of MIME is not related to e-accessibility. Therefore, this criterion is considered not applicable to this specification.
+    cav:assignedTo sc:c-ffdbd22af1ff3c1ebb100043d062a3df160007af761caf0a8c9f50f02e609c9e ;
+    cav:value "1"^^xsd:int .
+
+camssa:f99aeab0-bada-4b22-b891-de2b63a237d3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7a18abe4842e04b608025fd70e54c3db5c2a10130c0dab0495479e7d5effb55d ;
+    cav:value "1"^^xsd:int .
+
+camssa:ff192bf9-07b6-4239-8548-cb434083df11 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """As a specification that aim to allow and stablish exchange of documents, MIME can be used for the exchange of documents solving administrative burden. Additionally, it can avoid the exchange of non-digital documents that are generally a source of administrative burden.
 
 MIME reference:
 https://tools.ietf.org/html/rfc2045"""@en ;
-    cav:refersTo camssa:89ed2778-d2d0-4348-8fdc-636e3c7c8951 .
-
-camssa:8131b167-c3a5-4eb7-a035-defbfa7ca7b1 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The rules on European standardisation allow the European Commission to identify information and communication technology (ICT) technical specifications - that are not national, European or international standards - to be eligible for referencing in public procurement. This allows public authorities to make use of the full range of specifications when buying IT hardware, software and services, allowing for more competition in the field and reducing the risk of lock-in to proprietary systems. After being evaluated compliant with the regulation on standardisation 1025/2012, MIME has been identified by Commission Implementing Decision.
-
-ICT Standards for Procurement: 
-https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en"""@en ;
-    cav:refersTo camssa:50a24726-def3-4fdd-8f09-3f22b3c7fe06 .
-
-camssa:86ccbb2a-5fe0-4371-82e6-93100896e1db a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """MIME is available for its use and implementation on IETF's webpage defined in several RFCs. 
-
-MIME reference 1:
-https://tools.ietf.org/html/rfc2045
-
-MIME reference 2:
-https://tools.ietf.org/html/rfc2046
-
-MIME reference 3:
-https://tools.ietf.org/html/rfc2047"""@en ;
-    cav:refersTo camssa:23f74d46-0c22-4cc2-982b-c6b594c7e682 .
-
-camssa:888fb6d2-3865-4fea-9c64-f8022d1b3b0b a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-8954ddabf37f4899562b9ea4c8f0bbf204f3e48c9203043bc231f368092396a2 ;
-    cav:value "0"^^xsd:int .
-
-camssa:89ed2778-d2d0-4348-8fdc-636e3c7c8951 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-fef5941bab92019b7692f8544de94715a42ed9ff76d89cbec4fb6f9821611925 ;
-    cav:value "2"^^xsd:int .
-
-camssa:8baff00a-3129-4ec9-943e-076d1c5fd31f a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-21276471c1781fa2c7e78c8e03851e076b840beddbf5cf64f53b54b8855a01b8 ;
-    cav:value "0"^^xsd:int .
-
-camssa:8d6793f1-e59d-4c72-8621-ed196affe461 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-c265ca0c56e0f29a34039d496ba707b5486ccf6d445f9f058c19b4ece977861f ;
-    cav:value "2"^^xsd:int .
-
-camssa:8d97e6ec-c7ed-42e8-867e-cd9e924cecae a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """At the time of elaborating this assessment, MIME is not included in any EIRA ABB in the current European Library Of Specifications (ELIS).
-
-EIRA Library of Interoperability Specifications (ELIS):
-https://joinup.ec.europa.eu/solution/elis/release/v100"""@en ;
-    cav:refersTo camssa:d2ecf725-3d4c-4435-85ed-e43c6bec9241 .
-
-camssa:919058b0-74cc-4552-b157-b2ab2dedf33a a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-5879b43fc249f0098f3ed687235f432f71bf0c11bd3aa95e063dfdacd64606c8 ;
-    cav:value "0"^^xsd:int .
-
-camssa:93d1247b-bc31-4e41-9a4a-20a7fb1cedac a schema:ContactPoint,
-        owl:NamedIndividual ;
-    schema:email "CAMSS@everis.com" .
-
-camssa:9514c6a9-d837-437e-8df4-3967c469a107 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The specification is widely adopted amongst others like SMTP for the exchange of data over the internet. It allows sharing several file formats, which makes the specification highly reusable. The specification has been implemented and it is supported by numerous mail software as Mailchimp amongst others, demonstrating the market acceptance of MIME.
-
-MIME reference:
-https://tools.ietf.org/html/rfc2045"""@en ;
-    cav:refersTo camssa:e93cf0fd-8a92-48d9-b02c-6813febca1bb .
-
-camssa:996ab62a-73b1-470a-8c0e-cc9cdad69542 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-a81c4b8658f57e819297eb0b7977407f8d814c6fe749c74a8ac497277ca7d9d8 ;
-    cav:value "1"^^xsd:int .
-
-camssa:9a7ae0af-5500-491f-b19b-d22cc10de12b a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-ab64f97c21ac8b84c75d6f52a89765b1c8fd1856d2d2060926d05e94f306a88d ;
-    cav:value "1"^^xsd:int .
-
-camssa:9a9dcac0-5bc2-4045-a07a-434f9c654564 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The IETF is a consensus-based group, and authority to act on behalf of the community requires a high degree of consensus and the continued consent of the community. The process of creating and Internet Standard is straightforward: a specification undergoes a period of development and several iterations of review by the Internet community and revision based upon experience, is adopted as a Standard by the appropriate body... and is published. In practice, the process is more complicated, due to (1) the difficulty of creating specifications of high technical quality; (2) the need to consider the interests of all the affected parties; (3) the importance of establishing widespread community consensus; and (4) the difficulty of evaluating the utility of a particular specification for the Internet community. The goals of the Internet Standards Process are:
-- Technical excellence;
-- prior implementation and testing;
-- clear, concise, and easily understood documentation;
-- openness and fairness; and 
-- timeliness.
-The goal of technical competence, the requirement for prior implementation and testing, and the need to allow all interested parties to comment all require significant time and effort. The Internet Standards Process is intended to balance these conflicting goals. The process is believed to be as short and simple as possible without sacrificing technical excellence, thorough testing before adoption of a standard, or openness and fairness.
-
-Standard process IETF:
-https://www.ietf.org/standards/process/"""@en ;
-    cav:refersTo camssa:478dc32c-2013-4420-a1db-2ec73627e04b .
-
-camssa:9b0ad2f8-cfb5-40c7-8b4e-c2bc0eed014a a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-c967c90bfc7bc13426924eca012de349ae51d4e8f652fe64bfbec2cccc8c8146 ;
-    cav:value "1"^^xsd:int .
-
-camssa:9bca07f8-61eb-404a-ade4-b34e031c1bf1 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """Like all the IETF standards, MIME is a free and open technical specification, built on IETF standards and licenses from the Open Web Foundation. Therefore, MIME is licensed on a royalty-free basis.
-No IPR disclosures have been submitted directly on the MIME specification (RFC 2045).
-
-Intellectual Property Rights in IETF:
-https://tools.ietf.org/html/rfc3668"""@en ;
-    cav:refersTo camssa:996ab62a-73b1-470a-8c0e-cc9cdad69542 .
-
-camssa:9fd9a949-460c-4265-b2bd-afeaeb92e111 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """MIME extends the format of email messages to support text in ASCII and non-ASCII characters, as well as attachments of audio, video, images, and application programs.
-
-MIME reference:
-https://tools.ietf.org/html/rfc2045"""@en ;
-    cav:refersTo camssa:919058b0-74cc-4552-b157-b2ab2dedf33a .
-
-camssa:a1c25eed-15c9-4ca1-8771-3ebe7dc82317 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The specification was developed in 1991 by the IETF group, and it has become a widely used format for the transaction of different types of files over the internet. It is focused on the transfer via email, and it is supported by numerous mail software. This fact demonstrates the maturity of MIME for its use for the development of services and products.
-
-MIME reference:
-https://tools.ietf.org/html/rfc2045"""@en ;
-    cav:refersTo camssa:20838a60-fc7c-4598-9bdf-def5d18bb632 .
-
-camssa:a4207865-470b-471a-9c1c-c0b8c422c40f a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-838030847fa0adf54939e3feaac0ac2510924c54035e1cb671b223b54b02fd70 ;
-    cav:value "1"^^xsd:int .
-
-camssa:a4d57de5-92f3-4329-9ddc-22b84dfb393a a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The rules on European standardisation allow the European Commission to identify information and communication technology (ICT) technical specifications - that are not national, European or international standards - to be eligible for referencing in public procurement. This allows public authorities to make use of the full range of specifications when buying IT hardware, software and services, allowing for more competition in the field and reducing the risk of lock-in to proprietary systems.
-
-After being evaluated compliant with the regulation on standardisation 1025/2012, MIME has been identified by Commission Implementing Decision. During the evaluation process, all the Member States are invited to share their doubts. The positive evaluation of MIME and its identification is considered an interoperability agreement.
-
-ICT Standards for Procurement:
-https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en"""@en ;
-    cav:refersTo camssa:579d8336-ce35-4ced-993c-e1262596fb2f .
-
-camssa:a572e03c-f05b-4e6e-877f-8d17334cdcb0 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-8eb17470327d32b3bb523447fe72ee5c60ddb03e81dae318b485fbe05f48a844 ;
-    cav:value "1"^^xsd:int .
-
-camssa:a829cb76-65c2-46de-822d-51edc241ebe5 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """There are many documents that provide an overview of the usage and functionalities of MIME. In some cases it is compared with the STMP, showing the strengths and weaknesses. 
-
-Documentation about MIME:
-https://www.geeksforgeeks.org/multipurpose-internet-mail-extension-mime-protocol/"""@en ;
-    cav:refersTo camssa:5b447595-1963-4264-b456-6dc19f49f116 .
-
-camssa:ae0e6450-d240-4892-801f-a927733f3ab3 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """MIME is included in 8 national catalogues of recommended specifications. They belong to Croatia, France, Germany, Greece, Malta, the Netherlands, Spain and Sweden. 
-
-CAMSS List of standards: 
-https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
-    cav:refersTo camssa:a4207865-470b-471a-9c1c-c0b8c422c40f .
-
-camssa:b8d1a22b-4b02-4fef-a59f-0ef783e0788c a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-02333ef99fbcb4f101a106bcf97c9559888756b085b1729b7c2ac9626dc4bc63 ;
-    cav:value "2"^^xsd:int .
-
-camssa:ba416d6b-a85d-4707-bedd-45c6dc8112f2 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The purpose of MIME is to allow the exchange of documents between systems and applications. 
-
-MIME reference:
-https://tools.ietf.org/html/rfc2045"""@en ;
-    cav:refersTo camssa:9a7ae0af-5500-491f-b19b-d22cc10de12b .
-
-camssa:bf5488d8-8431-4bbb-ae90-880105ff76b3 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-31bf959b6c4a983ec70eb87e0177f2739575ebce42c7c3b95b9012ef3bfe673e ;
-    cav:value "1"^^xsd:int .
-
-camssa:d2c697df-1b9c-4650-b0d4-da6dd28b7ece a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """MIME is being used to specify the media types supported by the Europeana collections. Europeana is a cultural initiative that works towards the preservation of the patrimonial heritage. 
-
-Europeana Media Types: 
-https://pro.europeana.eu/about-us/mission"""@en ;
-    cav:refersTo camssa:012fb879-9329-4893-885b-6398d7a738db .
-
-camssa:d2ecf725-3d4c-4435-85ed-e43c6bec9241 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-7d28663fdb5deb361d5ad773d7b7ece3c6acf8d2eb7a1222a60cb08df4c93aac ;
-    cav:value "0"^^xsd:int .
-
-camssa:d4d642ca-e642-48e6-917a-2993bf559a74 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """By allowing public administration to share information with others in a specific format, it fosters the comprehensibility of data (e.g. Administrative rules, processes etc.) and facilitates public administrations decision-making. 
-
-MIME reference:
-https://tools.ietf.org/html/rfc2045"""@en ;
-    cav:refersTo camssa:f23e0308-4fc4-4246-9130-2c57786844f2 .
-
-camssa:d555b033-d207-4e08-b19c-a8b38f0c9587 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-b21a3eb972a2119979bc57368474efa809e8dd16cede48bc492e8b64da1abee9 ;
-    cav:value "1"^^xsd:int .
-
-camssa:d7b7cb3d-0dd3-4841-b6c9-618055b81baf a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """MIME is maintained and developed by IETF which is an international community developing open standards. 
-
-Developer community IETF: 
-https://www.ietf.org/about/"""@en ;
-    cav:refersTo camssa:d555b033-d207-4e08-b19c-a8b38f0c9587 .
-
-camssa:e1ecf1c3-0940-4029-a902-2b18771ce892 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """MIME is a specification exclusively designed for giving format of files which does not secure the traffic. However, there is an extension of MIME which is called S/MIME that secures the files.
-
-MIME reference:
-https://tools.ietf.org/html/rfc2045"""@en ;
-    cav:refersTo camssa:11b49810-8e8e-4295-8199-4eb3beffec84 .
-
-camssa:e41959cb-35be-4f30-977e-e455ce9d5bbb a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The purpose of MIME is not related to the availability of interfaces with internal information systems. Therefore, this criterion is not applicable to this specification. 
-
-MIME reference:
-https://tools.ietf.org/html/rfc2045"""@en ;
-    cav:refersTo camssa:1988f1d5-659e-449f-b6fe-27505e5fd96f .
-
-camssa:e6a08b2a-0342-4108-a3d6-ba031298d54f a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-f70d8bc1b4b6e186d69ea3f7f8cc7b2d75314b84e7f481ebe13b4e6ed8b36598 ;
-    cav:value "1"^^xsd:int .
-
-camssa:e8352825-6abb-4578-bb4a-985fd6c68011 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-8c09094de9d71f12686896827a205db683b6df58fa363bc5be2a7d99989e7dd0 ;
-    cav:value "1"^^xsd:int .
-
-camssa:e93cf0fd-8a92-48d9-b02c-6813febca1bb a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-d129862d6c9639e131c7d5eef095af16ef94d57ec0d52f955bf909ba8ec688e8 ;
-    cav:value "1"^^xsd:int .
-
-camssa:eb7accf3-8d86-4320-bc7e-af6971c59151 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-3aec34db3622bf18675b8216d0fc1d68fc7eeb501b4f3326402038a3ceb95c21 ;
-    cav:value "1"^^xsd:int .
-
-camssa:ee96681d-0052-4096-8212-a44ab4df9983 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The purpose of MIME is not related to long term preservation of electronic records. Therefore, this criterion is considered not applicable to this specification. 
-
-MIME reference:
-https://tools.ietf.org/html/rfc2045"""@en ;
-    cav:refersTo camssa:51a58764-775a-4eab-a20c-5abc7c62aa18 .
-
-camssa:f23e0308-4fc4-4246-9130-2c57786844f2 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-7ab883158b51681c78f90d1a00bbb3840aa2c86e309a9abd1ad6e6eedb5e2735 ;
-    cav:value "1"^^xsd:int .
-
-camssa:facac667-4c9a-475b-8a95-cc1d9b19ec95 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """IETF has a formal review and approval so that all the relevant stakeholders can formally appeal or raise objections to the development and approval of specifications.
-Each distinct version of an Internet standards-related specification is published as part of the "Request for Comments" (RFC) document series. This archival series is the official publication channel for Internet standards documents and other publications.
-During the development of a specification, draft versions of the document are made available for informal review and comment by placing them in the IETF's "Internet-Drafts" directory, which is replicated on a number of Internet hosts. This makes an evolving working document readily available to a wide audience, facilitating the process of review and revision.
-
-Standard process IETF:
-https://www.ietf.org/standards/process/ 
-
-Internet Best Current Practices IETF:
-https://tools.ietf.org/html/rfc2026"""@en ;
-    cav:refersTo camssa:e6a08b2a-0342-4108-a3d6-ba031298d54f .
-
-camssa:fe143233-e928-4694-b775-5d621db97a98 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """MIME can be found for free along within the European Collaborative Platform, Joinup.
-
-MIME in Joinup platform:
-https://joinup.ec.europa.eu/solution/multipurpose-internet-mail-extensions-mime-rfc-2048-multipurpose-internet-mail-extensions-mime"""@en ;
-    cav:refersTo camssa:585fcbe5-9a20-44a5-abff-303c22333b8f .
+    cav:refersTo camssa:f7c275e4-1b69-4e14-bdf2-01132793d85c .
 

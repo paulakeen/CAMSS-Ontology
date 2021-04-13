@@ -19,263 +19,101 @@ camssa:4853380a8abd17b4c87dd9dead6f7b5fdac2fd00ace3f68018c143834fbbe378 a cav:As
     camss:submissionDate "2020-03-31"^^xsd:date ;
     camss:toolVersion tool:3.0.0 ;
     cav:contextualisedBy sc:s-9b2d5b4678781e53038e91ea5324530a03f27dc1d0e5f6c9bc9d493a23be9de0 ;
-    cav:resultsIn camssa:0d4e8574-ea2b-4067-bbca-df1b4f040773,
-        camssa:2261c82e-868e-435c-8a85-eec527625b14,
-        camssa:2aaf5f13-ec44-4f0a-938a-86af682df86b,
-        camssa:3014cb43-f682-4725-ba95-9f3a2797eb84,
-        camssa:3643c30b-cf7c-487b-990e-c3dbca633700,
-        camssa:383537cf-2940-41f1-94e7-7de355b162cb,
-        camssa:3b4b7445-1f56-47a7-a1af-4462824a4cc9,
-        camssa:5cccab7d-b553-4d31-99cd-9b9bd9b4ec96,
-        camssa:62fafcb7-558a-4897-9415-4750f0b0f68b,
-        camssa:6ef69c44-6b3f-4620-8ac5-83fd1a3f7b76,
-        camssa:7a0e65d1-347d-45b7-9c0b-498308c5884d,
-        camssa:89fe12b3-e168-4003-bedd-5702adbf16a0,
-        camssa:9d543516-78ea-4e19-a381-9a73cdfb8efd,
-        camssa:9dbb9f3a-a67f-4d99-a01c-02b84544c193,
-        camssa:a2608349-4325-48be-a489-13c5e3bcfb05,
-        camssa:a34f0b92-6b75-4c5f-98f8-b5140b9876de,
-        camssa:a7af1682-4616-4887-b5fe-b84efd4646d6,
-        camssa:a9faf800-52bd-43c8-8744-8014d5c543c9,
-        camssa:abe17708-b1de-4c37-bc16-76316a89ae4d,
-        camssa:c68a44d6-9bdf-44cb-9b95-1e8ba9072873,
-        camssa:d4e85ff4-c5f3-40a2-b409-078de0501cfc,
-        camssa:f78a0cbe-5311-4317-b42b-045c2e5348be,
-        camssa:fc5fb52c-f40f-4141-a723-6cd0c1ff6088,
-        camssa:ffcdb52f-1aa3-46c3-bbb3-c8514bb46d19 ;
+    cav:resultsIn camssa:00095073-64d3-4a20-aeda-f1e8cd85a1e4,
+        camssa:0343bd44-30c9-456d-b31b-ff09a6384636,
+        camssa:0aa13098-246e-4a45-8c97-ce519c133621,
+        camssa:107eed48-c5ec-4dee-9349-b2d6dcbcceb6,
+        camssa:1829068a-9275-4845-89f0-6a5a984386ca,
+        camssa:1fff1654-6398-4983-a227-d0d982067f98,
+        camssa:2318e048-5af2-4a79-bb1a-924e8e5d9f14,
+        camssa:25c26b72-7461-4153-b6e4-4d569fd2c32f,
+        camssa:494d8af9-2fca-4b7b-a89b-997dbc7f9216,
+        camssa:4a13d050-4a5f-42f7-ab19-b55867797802,
+        camssa:553e84b7-a9e3-4973-b4c0-d001308d858f,
+        camssa:70471fde-2a19-45c8-b066-c5950ca5413c,
+        camssa:75ebda60-aabd-4d1c-85a6-df55b1c66536,
+        camssa:8bd50455-307d-4665-a62c-6e7f90c35477,
+        camssa:9a4ce816-1ff2-4405-bcfc-dd3bb9449c56,
+        camssa:a044753e-06e0-4c57-a040-812fdad25c36,
+        camssa:a9491f7e-c931-4d5b-943c-79229e71a57d,
+        camssa:bdc03b03-f455-48cc-8aa1-290c41249bb3,
+        camssa:bebb799e-a37f-4e4e-9732-b1d8d34acf90,
+        camssa:c7830007-8e6d-45bb-9e2d-9d33ef948123,
+        camssa:cd24eb1a-4d00-431d-b140-209bcf502740,
+        camssa:d47a3685-6208-4686-9173-bf01ea39face,
+        camssa:d7d0b13d-df6a-47ac-88e0-bc6a0d9fef6a,
+        camssa:dc877c24-2423-4999-a5d6-4fdb39420b20 ;
     cav:status status:Complete ;
     dct:title "Transport Layer Security 1.3 (TLS 1.3)"@en .
 
 camssa:ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164 a owl:NamedIndividual,
         org:Organization ;
-    camss:contactPoint camssa:f66e6731-67ee-472c-adb2-7268c3d45fae ;
+    camss:contactPoint camssa:0a3e7aeb-7779-48b9-a376-10b8d2c9b183 ;
     skos:prefLabel "CAMSS Team"@en .
 
-camssa:05aac399-e388-4443-b66d-be019c9ca763 a cav:Score,
+camssa:00095073-64d3-4a20-aeda-f1e8cd85a1e4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "IETF defined the first version of TLS in 1999 and the current version is TLS 1.3 defined in August 2018. This evidences that the specification is mature, in the sense that it has been developed for a sufficient period of time to overcome most of its initial problems. "@en ;
+    cav:refersTo camssa:3790bc7a-2a4f-4172-8991-cb862984fcfd .
+
+camssa:0343bd44-30c9-456d-b31b-ff09a6384636 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "There are no existing European standards with market uptake covering the same area with the same level of security as TLS 1.3."@en ;
+    cav:refersTo camssa:ceb1d6d7-080c-4255-8625-92cde49a7465 .
+
+camssa:0a3e7aeb-7779-48b9-a376-10b8d2c9b183 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "CAMSS@everis.com" .
+
+camssa:0aa13098-246e-4a45-8c97-ce519c133621 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """IETF has a formal review and approval process so that all the relevant stakeholders can formally appeal or raise objections to the development and approval of specifications._x000D_
+_x000D_
+Each distinct version of an Internet standards-related specification is published as part of the Request for Comments (RFC) document series. This archival series is the official publication channel for Internet standards documents and other publications. _x000D_
+_x000D_
+During the development of a specification, draft versions of the document are made available for informal review and comment by placing them in the IETF's Internet-Drafts directory, which is replicated on a number of Internet hosts. This makes an evolving working document readily available to a wide audience, facilitating the process of review and revision.  _x000D_
+_x000D_
+See:_x000D_
+https://www.ietf.org/standards/process/  _x000D_
+https://tools.ietf.org/html/rfc2026 """@en ;
+    cav:refersTo camssa:b5ef5880-2a89-4e94-a67e-df578e5a64b3 .
+
+camssa:107eed48-c5ec-4dee-9349-b2d6dcbcceb6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """All the IETF specifications are made available free of charge to the general public via the website. IETF drafts are published publicly discussions take place online in archived mailing lists. Moreover, the IETF Datatracker is the day-to-day front-end to the IETF database for people who work on IETF standards. It contains data about the documents, working groups, meetings, agendas, minutes, presentations, and more, of the IETF._x000D_
+During the development of a specification, draft versions of the document are made available for informal review and comment by placing them in the IETF's Internet-Drafts directory. This makes an evolving working document readily available to a wide audience, facilitating the process of review and revision._x000D_
+See:_x000D_
+https://datatracker.ietf.org/_x000D_
+http://www.ietf.org/id-info/"""@en ;
+    cav:refersTo camssa:11c4ba1e-34dd-49ac-ac1e-76c584da634c .
+
+camssa:11c4ba1e-34dd-49ac-ac1e-76c584da634c a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-d310596912dbc916997008f4aed16a81cf5e708cd907e3c53a2e4207468b468b ;
     cav:value "1"^^xsd:int .
 
-camssa:0b5f321f-38f8-4286-9ca6-67000cf713d8 a cav:Score,
+camssa:1829068a-9275-4845-89f0-6a5a984386ca a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-2d94fbefdcc4c566f135fc475a1c159d175029719782a303705dfb2e4cada6a6 ;
-    cav:value "1"^^xsd:int .
+    cav:judgement "On the client-side, TLS 1.3 is supported by the Chrome® and Firefox® browsers. Microsoft®  announced implementation of version 1.3 in Q1 of 2019 for their office products. In addition, the three largest crypto libraries have indicated that they will support version 1.3, which also guarantees support at server level in the future. "@en ;
+    cav:refersTo camssa:2b9718fc-f256-47f1-aa2b-7bd33f8cf23d .
 
-camssa:0d4e8574-ea2b-4067-bbca-df1b4f040773 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "IETF defined the first version of TLS in 1999 and the current version is TLS 1.3 defined in August 2018. This evidences that the specification is mature, in the sense that it has been developed for a sufficient period of time to overcome most of its initial problems. "@en ;
-    cav:refersTo camssa:62979b6f-38c1-455d-b7c9-672c8e7ea8b9 .
-
-camssa:11f21f52-8e5e-4f12-8447-d05251c16b70 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-f6669d041c301e6aadc132bb9de2d1d2f620f9fcb8b5d147c7b08c0393b53d0c ;
-    cav:value "0"^^xsd:int .
-
-camssa:16b4e2c1-5089-4b86-af41-8dbc2e9be231 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-4386f49ebcfb474f011867d54ec0e7a7c561f91c288f5809299a05d781432bf0 ;
-    cav:value "1"^^xsd:int .
-
-camssa:182747e8-4ef8-4982-ad18-bb87b21080aa a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-ab118934e7af3d561b9036668a1de9f17c020207e8ebb0ed33d9405e12eeef4c ;
-    cav:value "1"^^xsd:int .
-
-camssa:1dfd5a85-4f94-4c27-a0eb-db6f72d9a73e a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-5b29a4581c52656a3bcf08224b259c29610cb540c56af4512ebe0ded3adeeac1 ;
-    cav:value "1"^^xsd:int .
-
-camssa:2261c82e-868e-435c-8a85-eec527625b14 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "There are no competitors for TLS 1.3 since no standards with overlapping functional scope have been found. No interoperability issues with the implementation of existing European or international standards exist."@en ;
-    cav:refersTo camssa:59faa50f-c862-4664-9e0e-44eb3a47bcd8 .
-
-camssa:2aaf5f13-ec44-4f0a-938a-86af682df86b a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The information on (new) standardisation activities is widely announced via the IETF websites and working group activities. There also is a mailing list one can subscribe to for announcements. This so-called IETF Announce list receives announcements about IETF meetings, the activities and actions of the IESG, the RFC Editor, the NomCom, and other announcements of interest to the IETF community._x000D_
-See:_x000D_
-https://www.ietf.org/how/lists/announcement/"""@en ;
-    cav:refersTo camssa:7b607031-5d1f-4814-844c-c43ab20fbb8f .
-
-camssa:3014cb43-f682-4725-ba95-9f3a2797eb84 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The information on (new) standardisation activities is widely announced via the IETF websites and working group activities. There also is a mailing list one can subscribe to for announcements. This so-called IETF Announce list receives announcements about IETF meetings, the activities and actions of the IESG, the RFC Editor, the NomCom, and other announcements of interest to the IETF community._x000D_
-See:_x000D_
-https://www.ietf.org/how/lists/announcement/"""@en ;
-    cav:refersTo camssa:1dfd5a85-4f94-4c27-a0eb-db6f72d9a73e .
-
-camssa:34d65ff9-2b3e-4206-9634-ee6eba5dbd03 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-ab118934e7af3d561b9036668a1de9f17c020207e8ebb0ed33d9405e12eeef4c ;
-    cav:value "1"^^xsd:int .
-
-camssa:3508e6a7-b29a-4f4c-a961-159a92893fbd a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-164f43cef11b50b88c51c7115a7b37e506af696852ddaf46dfc1cb1c1521ec6d ;
-    cav:value "1"^^xsd:int .
-
-camssa:3643c30b-cf7c-487b-990e-c3dbca633700 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """TLS 1.3 offers better performance compared to earlier versions due to TLS false start and Zero Round Trip Time (0-RTT). These performance improvements are especially evident in browser traffic and less with server-server connection (ebMS).
-
-The biggest improvements are in the area of security, because a number of security risks are limited. This is because unsafe options from TLS 1.2 are excluded, SHA-1, RC4, DES, 3DES, AES-CBC and MD5, which reduces the chance of the protocol being configured in an unsafe manner. Configuration is also simpler, which means there is less chance of incorrect configuration
-"""@en ;
-    cav:refersTo camssa:d8c3e3d8-42da-42fa-913e-6d04cceb469a .
-
-camssa:383537cf-2940-41f1-94e7-7de355b162cb a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "TLS is the de-facto open standard for securing internet traffic. It is therefore very important that it is used safely. TLS is used for client-server links and server-server links. Large-scale personal information is exchanged by government parties through these last links. When parties work on (too) old versions of TLS, vulnerable situations arise for the secure exchange of data.  "@en ;
-    cav:refersTo camssa:55b57ba8-828d-44e4-90a7-60823a5ee5f9 .
-
-camssa:3b4b7445-1f56-47a7-a1af-4462824a4cc9 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """All the IETF specifications are made available free of charge to the general public via the website. IETF drafts are published publicly discussions take place online in archived mailing lists. Moreover, the IETF Datatracker is the day-to-day front-end to the IETF database for people who work on IETF standards. It contains data about the documents, working groups, meetings, agendas, minutes, presentations, and more, of the IETF._x000D_
-During the development of a specification, draft versions of the document are made available for informal review and comment by placing them in the IETF's Internet-Drafts directory. This makes an evolving working document readily available to a wide audience, facilitating the process of review and revision._x000D_
-See:_x000D_
-https://datatracker.ietf.org/_x000D_
-http://www.ietf.org/id-info/"""@en ;
-    cav:refersTo camssa:05aac399-e388-4443-b66d-be019c9ca763 .
-
-camssa:3eced676-598f-4eb4-8e04-05c492bccc42 a cav:Score,
+camssa:1e63923d-2014-4774-9ef2-b8be80b88ec5 a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-cd828c0ec9887027bdb6b981560bde593cda27c080298ab36323ba5441ba4c31 ;
     cav:value "1"^^xsd:int .
 
-camssa:510cc872-af5d-4176-8cec-731ac683e940 a cav:Score,
+camssa:1fff1654-6398-4983-a227-d0d982067f98 a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-c3d200f09880d91d08826557de1524471d65e2807cbd8bc6c5c2bbed77fe47ea ;
-    cav:value "0"^^xsd:int .
+    cav:judgement """The IETF is completely open to newcomers. There is no formal membership, no membership fee, and nothing to sign. The IETF's standards development work is organized into 8 Areas Each Area has 1 or more Area Directors (ADs), which together comprise the Internet Engineering Steering Group (IESG). The IESG is responsible for technical management of IETF activities, the Internet standards process, and for the actions associated with entry into and movement along the Internet ''standards track'', including final approval of specifications as Internet Standards and publication as an RFC. Within each Area there are multiple Working Groups (WG). Each WG has one or more chairs who manage the work, and a written charter defining what the work is and when it is due. There are more than 100 WGs. The WGs produce Internet Drafts (I-Ds) which often lead to the publication of an Internet standard as an RFC._x000D_
+See: http://www.ietf.org/newcomers.html """@en ;
+    cav:refersTo camssa:63d2bd8e-198b-471d-9456-d9201f1f76f2 .
 
-camssa:55b57ba8-828d-44e4-90a7-60823a5ee5f9 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-54c6979e14b0fde712302882b436570c15837c2941dd6060e9b8615052bca4e1 ;
-    cav:value "1"^^xsd:int .
-
-camssa:59faa50f-c862-4664-9e0e-44eb3a47bcd8 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-17edaee27de1ada5f8ee772a0aff160ecdce7a05ce9db18b9a2025f463d0e3a7 ;
-    cav:value "0"^^xsd:int .
-
-camssa:5cccab7d-b553-4d31-99cd-9b9bd9b4ec96 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "There are no existing European standards with market uptake covering the same area with the same level of security as TLS 1.3."@en ;
-    cav:refersTo camssa:ff66844b-7a95-4224-aeb2-84b56bff02fa .
-
-camssa:62979b6f-38c1-455d-b7c9-672c8e7ea8b9 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-6f7b3377cc1836eb056d44786260085e36fc1d6856a3aa3d37fe017e16cfc319 ;
-    cav:value "1"^^xsd:int .
-
-camssa:62fafcb7-558a-4897-9415-4750f0b0f68b a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """All the IETF standards are free and open technical specification, built on IETF standards and licenses from the Open Web Foundation._x000D_
-_x000D_
-See:_x000D_
-https://www.ietf.org/rfc/rfc6749.txt  """@en ;
-    cav:refersTo camssa:7f66625e-1b8d-457f-9b07-bdf3e1ed998e .
-
-camssa:6a356492-dc97-4bdf-89cd-860485ded355 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-cac1c963ee5c3624035d7a98a8577db18d04ad6528afc51785f1230f23566ff1 ;
-    cav:value "1"^^xsd:int .
-
-camssa:6dc72de5-e555-447d-9e9e-72cf513c0551 a cav:Score,
+camssa:20772a67-1e6b-4fd6-9451-b59f6132ba93 a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-2614723a75c6a002b733f97562482608046dd2e6da97e3073312dbbdaf482279 ;
     cav:value "1"^^xsd:int .
 
-camssa:6ef69c44-6b3f-4620-8ac5-83fd1a3f7b76 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "On the client-side, TLS 1.3 is supported by the Chrome® and Firefox® browsers. Microsoft®  announced implementation of version 1.3 in Q1 of 2019 for their office products. In addition, the three largest crypto libraries have indicated that they will support version 1.3, which also guarantees support at server level in the future. "@en ;
-    cav:refersTo camssa:0b5f321f-38f8-4286-9ca6-67000cf713d8 .
-
-camssa:6f05da16-10ef-4366-b4ce-d2f2ce36f196 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-aa6ea51e02f049efbd153499fb071e07c5f49ba6a0343203440380497057d70e ;
-    cav:value "1"^^xsd:int .
-
-camssa:7a0e65d1-347d-45b7-9c0b-498308c5884d a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """All the IETF standards are free and open technical specification, built on IETF standards and licenses from the Open Web Foundation. The specification is therefore licensed on a royalty-free basis._x000D_
-_x000D_
-See:_x000D_
-https://tools.ietf.org/html/rfc3668  """@en ;
-    cav:refersTo camssa:3eced676-598f-4eb4-8e04-05c492bccc42 .
-
-camssa:7b607031-5d1f-4814-844c-c43ab20fbb8f a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-5b29a4581c52656a3bcf08224b259c29610cb540c56af4512ebe0ded3adeeac1 ;
-    cav:value "1"^^xsd:int .
-
-camssa:7f66625e-1b8d-457f-9b07-bdf3e1ed998e a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-7ede9122e530b12ca81694e3ce1f21fa7cf4d6d071d0edb0a2082a0e0d2ad8e4 ;
-    cav:value "1"^^xsd:int .
-
-camssa:89fe12b3-e168-4003-bedd-5702adbf16a0 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "TLS 1.3 provides secure internet connections, with the aim of secure data exchange between internet systems (such as websites or mail servers). The Enterprise Transport Security (ETS) technical specification from ETSI also works in that area, but does not cover the same level of security, it does not have the exact same application area."@en ;
-    cav:refersTo camssa:11f21f52-8e5e-4f12-8447-d05251c16b70 .
-
-camssa:8f3ec70b-e3fc-4fed-8e0b-aef3264584e5 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-a085272697eadd8638ed45af45c77ae88aed7cadb14f84d957c5c3b2248bd986 ;
-    cav:value "1"^^xsd:int .
-
-camssa:9d543516-78ea-4e19-a381-9a73cdfb8efd a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """All the IETF specifications are made available free of charge to the general public via the website. IETF drafts are published publicly discussions take place online in archived mailing lists. Moreover, the IETF Datatracker is the day-to-day front-end to the IETF database for people who work on IETF standards. It contains data about the documents, working groups, meetings, agendas, minutes, presentations, and more, of the IETF._x000D_
-During the development of a specification, draft versions of the document are made available for informal review and comment by placing them in the IETF's Internet-Drafts directory. This makes an evolving working document readily available to a wide audience, facilitating the process of review and revision._x000D_
-See:_x000D_
-https://datatracker.ietf.org/_x000D_
-http://www.ietf.org/id-info/"""@en ;
-    cav:refersTo camssa:f7df5486-f9a3-4411-875b-61a8ac5dd230 .
-
-camssa:9dbb9f3a-a67f-4d99-a01c-02b84544c193 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The Dutch National Cyber Security Centre prescribes the use of TLS 1.3 in the latest version of their Security Guidelines (advice on purchasing, drafting and reviewing configurations): 
-https://www.ncsc.nl/documenten/publicaties/2019/mei/01/ict-beveiligingsrichtlijnen-voor-transport-layer-security-tls
-"""@en ;
-    cav:refersTo camssa:dc1a9e04-c188-4d0b-a31b-3042e63a3a96 .
-
-camssa:a2608349-4325-48be-a489-13c5e3bcfb05 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """IETF has a formal review and approval process so that all the relevant stakeholders can formally appeal or raise objections to the development and approval of specifications._x000D_
-_x000D_
-Each distinct version of an Internet standards-related specification is published as part of the Request for Comments (RFC) document series. This archival series is the official publication channel for Internet standards documents and other publications. _x000D_
-_x000D_
-During the development of a specification, draft versions of the document are made available for informal review and comment by placing them in the IETF's Internet-Drafts directory, which is replicated on a number of Internet hosts. This makes an evolving working document readily available to a wide audience, facilitating the process of review and revision.  _x000D_
-_x000D_
-See:_x000D_
-https://www.ietf.org/standards/process/  _x000D_
-https://tools.ietf.org/html/rfc2026 """@en ;
-    cav:refersTo camssa:182747e8-4ef8-4982-ad18-bb87b21080aa .
-
-camssa:a34f0b92-6b75-4c5f-98f8-b5140b9876de a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """IETF has a formal review and approval process so that all the relevant stakeholders can formally appeal or raise objections to the development and approval of specifications._x000D_
-_x000D_
-Each distinct version of an Internet standards-related specification is published as part of the Request for Comments (RFC) document series. This archival series is the official publication channel for Internet standards documents and other publications. _x000D_
-_x000D_
-During the development of a specification, draft versions of the document are made available for informal review and comment by placing them in the IETF's Internet-Drafts directory, which is replicated on a number of Internet hosts. This makes an evolving working document readily available to a wide audience, facilitating the process of review and revision.  _x000D_
-_x000D_
-See:_x000D_
-https://www.ietf.org/standards/process/  _x000D_
-https://tools.ietf.org/html/rfc2026 """@en ;
-    cav:refersTo camssa:34d65ff9-2b3e-4206-9634-ee6eba5dbd03 .
-
-camssa:a7af1682-4616-4887-b5fe-b84efd4646d6 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "The specification can be used on any operating system and hardware platform."@en ;
-    cav:refersTo camssa:6f05da16-10ef-4366-b4ce-d2f2ce36f196 .
-
-camssa:a9faf800-52bd-43c8-8744-8014d5c543c9 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "There is no adoption of competing, new European Standards foreseen covering the same area with the same level of security as TLS 1.3.   "@en ;
-    cav:refersTo camssa:510cc872-af5d-4176-8cec-731ac683e940 .
-
-camssa:abe17708-b1de-4c37-bc16-76316a89ae4d a cav:Statement,
+camssa:2318e048-5af2-4a79-bb1a-924e8e5d9f14 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """The IETF is a consensus-based group, and authority to act on behalf of the community requires a high degree of consensus and the continued consent of the community. The process of creating an Internet Standard is straightforward: a specification undergoes a period of development and several iterations of review by the Internet community and revision based upon experience, is adopted as a Standard by the appropriate body... and is published. In practice, the process is more complicated, due to (1) the difficulty of creating specifications of high technical quality; (2) the need to consider the interests of all of the affected parties; (3) the importance of establishing widespread community consensus; and (4) the difficulty of evaluating the utility of a particular specification for the Internet community. The goals of the Internet Standards Process are:_x000D_
 - technical excellence_x000D_
@@ -285,68 +123,230 @@ camssa:abe17708-b1de-4c37-bc16-76316a89ae4d a cav:Statement,
 - timeliness_x000D_
 The goal of technical competence, the requirement for prior implementation and testing, and the need to allow all interested parties to comment all require significant time and effort. The Internet Standards Process is intended to balance these conflicting goals. The process is believed to be as short and simple as possible without sacrificing technical excellence, thorough testing before adoption of a standard, or openness and fairness._x000D_
 See:https://www.ietf.org/standards/process/"""@en ;
-    cav:refersTo camssa:6dc72de5-e555-447d-9e9e-72cf513c0551 .
+    cav:refersTo camssa:20772a67-1e6b-4fd6-9451-b59f6132ba93 .
 
-camssa:c68a44d6-9bdf-44cb-9b95-1e8ba9072873 a cav:Statement,
+camssa:25c26b72-7461-4153-b6e4-4d569fd2c32f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """All the IETF standards are free and open technical specification, built on IETF standards and licenses from the Open Web Foundation. The specification is therefore licensed on a royalty-free basis._x000D_
+_x000D_
+See:_x000D_
+https://tools.ietf.org/html/rfc3668  """@en ;
+    cav:refersTo camssa:91476e75-0233-48eb-b289-d712b8362372 .
+
+camssa:2b9718fc-f256-47f1-aa2b-7bd33f8cf23d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-2d94fbefdcc4c566f135fc475a1c159d175029719782a303705dfb2e4cada6a6 ;
+    cav:value "1"^^xsd:int .
+
+camssa:33fe22bb-d5b5-4d0d-86a3-6ca2747e4efa a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7ede9122e530b12ca81694e3ce1f21fa7cf4d6d071d0edb0a2082a0e0d2ad8e4 ;
+    cav:value "1"^^xsd:int .
+
+camssa:3790bc7a-2a4f-4172-8991-cb862984fcfd a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-6f7b3377cc1836eb056d44786260085e36fc1d6856a3aa3d37fe017e16cfc319 ;
+    cav:value "1"^^xsd:int .
+
+camssa:494d8af9-2fca-4b7b-a89b-997dbc7f9216 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """IETF has a formal review and approval process so that all the relevant stakeholders can formally appeal or raise objections to the development and approval of specifications._x000D_
+_x000D_
+Each distinct version of an Internet standards-related specification is published as part of the Request for Comments (RFC) document series. This archival series is the official publication channel for Internet standards documents and other publications. _x000D_
+_x000D_
+During the development of a specification, draft versions of the document are made available for informal review and comment by placing them in the IETF's Internet-Drafts directory, which is replicated on a number of Internet hosts. This makes an evolving working document readily available to a wide audience, facilitating the process of review and revision.  _x000D_
+_x000D_
+See:_x000D_
+https://www.ietf.org/standards/process/  _x000D_
+https://tools.ietf.org/html/rfc2026 """@en ;
+    cav:refersTo camssa:6d1d03aa-4453-4ff9-a510-7604b2ac250a .
+
+camssa:4a13d050-4a5f-42f7-ab19-b55867797802 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The specification can be used on any operating system and hardware platform."@en ;
+    cav:refersTo camssa:9bb446b2-725d-402a-a688-20485ac97bef .
+
+camssa:4a8cd351-fab2-43d9-b4f0-e7397b4b626a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8aee43521f6b3ab69785784831b651574a5496fd5996bb8c61a80e479f633fa0 ;
+    cav:value "1"^^xsd:int .
+
+camssa:553e84b7-a9e3-4973-b4c0-d001308d858f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The Dutch National Cyber Security Centre prescribes the use of TLS 1.3 in the latest version of their Security Guidelines (advice on purchasing, drafting and reviewing configurations): 
+https://www.ncsc.nl/documenten/publicaties/2019/mei/01/ict-beveiligingsrichtlijnen-voor-transport-layer-security-tls
+"""@en ;
+    cav:refersTo camssa:4a8cd351-fab2-43d9-b4f0-e7397b4b626a .
+
+camssa:5794dec7-74c2-49ee-a7ba-3140db87827c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cac1c963ee5c3624035d7a98a8577db18d04ad6528afc51785f1230f23566ff1 ;
+    cav:value "1"^^xsd:int .
+
+camssa:63d2bd8e-198b-471d-9456-d9201f1f76f2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-4386f49ebcfb474f011867d54ec0e7a7c561f91c288f5809299a05d781432bf0 ;
+    cav:value "1"^^xsd:int .
+
+camssa:6d1d03aa-4453-4ff9-a510-7604b2ac250a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ab118934e7af3d561b9036668a1de9f17c020207e8ebb0ed33d9405e12eeef4c ;
+    cav:value "1"^^xsd:int .
+
+camssa:70471fde-2a19-45c8-b066-c5950ca5413c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "There is no adoption of competing, new European Standards foreseen covering the same area with the same level of security as TLS 1.3.   "@en ;
+    cav:refersTo camssa:c2d1ac6c-9970-4195-a722-a12d8d4ed2bd .
+
+camssa:74261f33-bdc3-4fc9-93cc-c3f8187ab119 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-33b5b305bcc0a995fd3c592dc8a6f52d0749a6e817aa85844f3e4f31c7dea344 ;
+    cav:value "1"^^xsd:int .
+
+camssa:75ebda60-aabd-4d1c-85a6-df55b1c66536 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """All the IETF standards are free and open technical specification, built on IETF standards and licenses from the Open Web Foundation. The specification is therefore licensed on a royalty-free basis._x000D_
+_x000D_
+See:_x000D_
+https://tools.ietf.org/html/rfc3668  """@en ;
+    cav:refersTo camssa:1e63923d-2014-4774-9ef2-b8be80b88ec5 .
+
+camssa:8b23219e-a9dc-49d4-b34a-ab3c1133c962 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-df3d12df0d66137fac78fd8e7edde75f94e132cb64f645594cd2a27d3c726bb1 ;
+    cav:value "1"^^xsd:int .
+
+camssa:8bd50455-307d-4665-a62c-6e7f90c35477 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """All the IETF standards are free and open technical specification, built on IETF standards and licenses from the Open Web Foundation._x000D_
+_x000D_
+See:_x000D_
+https://www.ietf.org/rfc/rfc6749.txt  """@en ;
+    cav:refersTo camssa:33fe22bb-d5b5-4d0d-86a3-6ca2747e4efa .
+
+camssa:91476e75-0233-48eb-b289-d712b8362372 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-164f43cef11b50b88c51c7115a7b37e506af696852ddaf46dfc1cb1c1521ec6d ;
+    cav:value "1"^^xsd:int .
+
+camssa:93872d78-bb7c-4a96-9786-9edd42458d9e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-54c6979e14b0fde712302882b436570c15837c2941dd6060e9b8615052bca4e1 ;
+    cav:value "1"^^xsd:int .
+
+camssa:9a4ce816-1ff2-4405-bcfc-dd3bb9449c56 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "TLS is the de-facto open standard for securing internet traffic. It is therefore very important that it is used safely. TLS is used for client-server links and server-server links. Large-scale personal information is exchanged by government parties through these last links. When parties work on (too) old versions of TLS, vulnerable situations arise for the secure exchange of data.  "@en ;
+    cav:refersTo camssa:93872d78-bb7c-4a96-9786-9edd42458d9e .
+
+camssa:9bb446b2-725d-402a-a688-20485ac97bef a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-aa6ea51e02f049efbd153499fb071e07c5f49ba6a0343203440380497057d70e ;
+    cav:value "1"^^xsd:int .
+
+camssa:a044753e-06e0-4c57-a040-812fdad25c36 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "There are no competitors for TLS 1.3 since no standards with overlapping functional scope have been found. No interoperability issues with the implementation of existing European or international standards exist."@en ;
+    cav:refersTo camssa:e9dc51a3-bea6-43f1-ab98-1e76f54e42d4 .
+
+camssa:a6284b6f-7dd3-4bb1-bfe1-769d6582825d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d310596912dbc916997008f4aed16a81cf5e708cd907e3c53a2e4207468b468b ;
+    cav:value "1"^^xsd:int .
+
+camssa:a9491f7e-c931-4d5b-943c-79229e71a57d a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """IETF has a defined set of processes for the modification and revocation of standards. _x000D_
 _x000D_
 See:_x000D_
 https://www.ietf.org/standards/process/  _x000D_
 https://tools.ietf.org/html/rfc2026  """@en ;
-    cav:refersTo camssa:6a356492-dc97-4bdf-89cd-860485ded355 .
+    cav:refersTo camssa:5794dec7-74c2-49ee-a7ba-3140db87827c .
 
-camssa:d4e85ff4-c5f3-40a2-b409-078de0501cfc a cav:Statement,
+camssa:af788e4e-4fd0-418a-bced-4272a5b29ad3 a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement """The IETF is completely open to newcomers. There is no formal membership, no membership fee, and nothing to sign. The IETF's standards development work is organized into 8 Areas Each Area has 1 or more Area Directors (ADs), which together comprise the Internet Engineering Steering Group (IESG). The IESG is responsible for technical management of IETF activities, the Internet standards process, and for the actions associated with entry into and movement along the Internet ''standards track'', including final approval of specifications as Internet Standards and publication as an RFC. Within each Area there are multiple Working Groups (WG). Each WG has one or more chairs who manage the work, and a written charter defining what the work is and when it is due. There are more than 100 WGs. The WGs produce Internet Drafts (I-Ds) which often lead to the publication of an Internet standard as an RFC._x000D_
-See: http://www.ietf.org/newcomers.html """@en ;
-    cav:refersTo camssa:16b4e2c1-5089-4b86-af41-8dbc2e9be231 .
-
-camssa:d8c3e3d8-42da-42fa-913e-6d04cceb469a a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-df3d12df0d66137fac78fd8e7edde75f94e132cb64f645594cd2a27d3c726bb1 ;
+    cav:assignedTo sc:c-5b29a4581c52656a3bcf08224b259c29610cb540c56af4512ebe0ded3adeeac1 ;
     cav:value "1"^^xsd:int .
 
-camssa:dc1a9e04-c188-4d0b-a31b-3042e63a3a96 a cav:Score,
+camssa:b5ef5880-2a89-4e94-a67e-df578e5a64b3 a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-8aee43521f6b3ab69785784831b651574a5496fd5996bb8c61a80e479f633fa0 ;
+    cav:assignedTo sc:c-ab118934e7af3d561b9036668a1de9f17c020207e8ebb0ed33d9405e12eeef4c ;
     cav:value "1"^^xsd:int .
 
-camssa:e891e7e8-169b-4bea-9298-189866bf4839 a cav:Score,
+camssa:bdc03b03-f455-48cc-8aa1-290c41249bb3 a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-33b5b305bcc0a995fd3c592dc8a6f52d0749a6e817aa85844f3e4f31c7dea344 ;
+    cav:judgement "TLS 1.3 provides secure internet connections, with the aim of secure data exchange between internet systems (such as websites or mail servers). The Enterprise Transport Security (ETS) technical specification from ETSI also works in that area, but does not cover the same level of security, it does not have the exact same application area."@en ;
+    cav:refersTo camssa:ce49e708-e441-4f62-bc7b-a0c5e2b686d8 .
+
+camssa:bebb799e-a37f-4e4e-9732-b1d8d34acf90 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The specification can be used independently from specific vendor products."@en ;
+    cav:refersTo camssa:74261f33-bdc3-4fc9-93cc-c3f8187ab119 .
+
+camssa:c2d1ac6c-9970-4195-a722-a12d8d4ed2bd a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c3d200f09880d91d08826557de1524471d65e2807cbd8bc6c5c2bbed77fe47ea ;
+    cav:value "0"^^xsd:int .
+
+camssa:c7830007-8e6d-45bb-9e2d-9d33ef948123 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """TLS 1.3 offers better performance compared to earlier versions due to TLS false start and Zero Round Trip Time (0-RTT). These performance improvements are especially evident in browser traffic and less with server-server connection (ebMS).
+
+The biggest improvements are in the area of security, because a number of security risks are limited. This is because unsafe options from TLS 1.2 are excluded, SHA-1, RC4, DES, 3DES, AES-CBC and MD5, which reduces the chance of the protocol being configured in an unsafe manner. Configuration is also simpler, which means there is less chance of incorrect configuration
+"""@en ;
+    cav:refersTo camssa:8b23219e-a9dc-49d4-b34a-ab3c1133c962 .
+
+camssa:c79a583c-57c9-4c7a-928b-252d7bec27c7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a085272697eadd8638ed45af45c77ae88aed7cadb14f84d957c5c3b2248bd986 ;
     cav:value "1"^^xsd:int .
 
-camssa:f66e6731-67ee-472c-adb2-7268c3d45fae a schema:ContactPoint,
+camssa:cd24eb1a-4d00-431d-b140-209bcf502740 a cav:Statement,
         owl:NamedIndividual ;
-    schema:email "CAMSS@everis.com" .
-
-camssa:f78a0cbe-5311-4317-b42b-045c2e5348be a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """All the IETF standards are free and open technical specification, built on IETF standards and licenses from the Open Web Foundation. The specification is therefore licensed on a royalty-free basis._x000D_
-_x000D_
+    cav:judgement """All the IETF specifications are made available free of charge to the general public via the website. IETF drafts are published publicly discussions take place online in archived mailing lists. Moreover, the IETF Datatracker is the day-to-day front-end to the IETF database for people who work on IETF standards. It contains data about the documents, working groups, meetings, agendas, minutes, presentations, and more, of the IETF._x000D_
+During the development of a specification, draft versions of the document are made available for informal review and comment by placing them in the IETF's Internet-Drafts directory. This makes an evolving working document readily available to a wide audience, facilitating the process of review and revision._x000D_
 See:_x000D_
-https://tools.ietf.org/html/rfc3668  """@en ;
-    cav:refersTo camssa:3508e6a7-b29a-4f4c-a961-159a92893fbd .
+https://datatracker.ietf.org/_x000D_
+http://www.ietf.org/id-info/"""@en ;
+    cav:refersTo camssa:a6284b6f-7dd3-4bb1-bfe1-769d6582825d .
 
-camssa:f7df5486-f9a3-4411-875b-61a8ac5dd230 a cav:Score,
+camssa:ce49e708-e441-4f62-bc7b-a0c5e2b686d8 a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-d310596912dbc916997008f4aed16a81cf5e708cd907e3c53a2e4207468b468b ;
-    cav:value "1"^^xsd:int .
+    cav:assignedTo sc:c-f6669d041c301e6aadc132bb9de2d1d2f620f9fcb8b5d147c7b08c0393b53d0c ;
+    cav:value "0"^^xsd:int .
 
-camssa:fc5fb52c-f40f-4141-a723-6cd0c1ff6088 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """IETF is a non-profit making organisation. It is large open community of network designers, operators, vendors, and researchers. It is open to any interested individual with the evolution of the Internet architecture and the smooth operation of the Internet._x000D_
-See: https://www.ietf.org/rfc/rfc3935.txt"""@en ;
-    cav:refersTo camssa:8f3ec70b-e3fc-4fed-8e0b-aef3264584e5 .
-
-camssa:ff66844b-7a95-4224-aeb2-84b56bff02fa a cav:Score,
+camssa:ceb1d6d7-080c-4255-8625-92cde49a7465 a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-923825ea86a7939a1cbdcdeb83be96b047beaaeb51b65f1f119e75f841841181 ;
     cav:value "0"^^xsd:int .
 
-camssa:ffcdb52f-1aa3-46c3-bbb3-c8514bb46d19 a cav:Statement,
+camssa:d47a3685-6208-4686-9173-bf01ea39face a cav:Statement,
         owl:NamedIndividual ;
-    cav:judgement "The specification can be used independently from specific vendor products."@en ;
-    cav:refersTo camssa:e891e7e8-169b-4bea-9298-189866bf4839 .
+    cav:judgement """The information on (new) standardisation activities is widely announced via the IETF websites and working group activities. There also is a mailing list one can subscribe to for announcements. This so-called IETF Announce list receives announcements about IETF meetings, the activities and actions of the IESG, the RFC Editor, the NomCom, and other announcements of interest to the IETF community._x000D_
+See:_x000D_
+https://www.ietf.org/how/lists/announcement/"""@en ;
+    cav:refersTo camssa:fbb2c668-3750-4e01-9318-e24dd2bbf320 .
+
+camssa:d7d0b13d-df6a-47ac-88e0-bc6a0d9fef6a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """IETF is a non-profit making organisation. It is large open community of network designers, operators, vendors, and researchers. It is open to any interested individual with the evolution of the Internet architecture and the smooth operation of the Internet._x000D_
+See: https://www.ietf.org/rfc/rfc3935.txt"""@en ;
+    cav:refersTo camssa:c79a583c-57c9-4c7a-928b-252d7bec27c7 .
+
+camssa:dc877c24-2423-4999-a5d6-4fdb39420b20 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The information on (new) standardisation activities is widely announced via the IETF websites and working group activities. There also is a mailing list one can subscribe to for announcements. This so-called IETF Announce list receives announcements about IETF meetings, the activities and actions of the IESG, the RFC Editor, the NomCom, and other announcements of interest to the IETF community._x000D_
+See:_x000D_
+https://www.ietf.org/how/lists/announcement/"""@en ;
+    cav:refersTo camssa:af788e4e-4fd0-418a-bced-4272a5b29ad3 .
+
+camssa:e9dc51a3-bea6-43f1-ab98-1e76f54e42d4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17edaee27de1ada5f8ee772a0aff160ecdce7a05ce9db18b9a2025f463d0e3a7 ;
+    cav:value "0"^^xsd:int .
+
+camssa:fbb2c668-3750-4e01-9318-e24dd2bbf320 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5b29a4581c52656a3bcf08224b259c29610cb540c56af4512ebe0ded3adeeac1 ;
+    cav:value "1"^^xsd:int .
 

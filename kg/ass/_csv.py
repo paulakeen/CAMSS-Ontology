@@ -2,7 +2,7 @@ import pandas as p
 from cfg.conf import Cfg
 
 
-class CSV:
+class _CSV:
 
     cfg: Cfg
     df: p.DataFrame

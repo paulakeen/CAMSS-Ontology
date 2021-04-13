@@ -14,7 +14,7 @@
 
 camssa:ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164 a owl:NamedIndividual,
         org:Organization ;
-    camss:contactPoint camssa:b6ec38bb-701d-44c9-8a9c-770c8f96eacc ;
+    camss:contactPoint camssa:be2a4fd5-e505-4c86-8285-2c131a6e771f ;
     skos:prefLabel "CAMSS Team"@en .
 
 camssa:ed17d56fad15ec46172efb194a75b55409f7848a3cea67ff057291a1fdd0331a a cav:Assessment,
@@ -24,174 +24,95 @@ camssa:ed17d56fad15ec46172efb194a75b55409f7848a3cea67ff057291a1fdd0331a a cav:As
     camss:submissionDate "2019-10-31"^^xsd:date ;
     camss:toolVersion tool:3.0.0 ;
     cav:contextualisedBy sc:s-fa3a7cf6ccb859ff672f6579e000e61d96f0756c83c13b96e3139ae97beb13bd ;
-    cav:resultsIn camssa:05a5ba26-2989-45b0-80f6-bf012df1342f,
-        camssa:1511ed17-2f56-4a30-b669-f5fd8b4ef249,
-        camssa:16dc01d6-f53e-4d11-a8d4-b950e2c88c6a,
-        camssa:17d297c4-492a-4e91-b64a-1dab8e29a67f,
-        camssa:1ed5ef61-95f5-4f3b-8218-d72e674a1a96,
-        camssa:228192a2-9315-41d5-bb5e-85524e3c21f1,
-        camssa:22dc532d-8958-42f2-9027-6fc741dc2a81,
-        camssa:29cbbee7-a762-4b44-842f-0bfaf03c3c02,
-        camssa:35a92cd9-e74e-4047-9dbd-f55d092cc07c,
-        camssa:46feeb87-ce34-4b37-a1f8-1e4544189b50,
-        camssa:48b8171f-1de8-4108-9c11-f4250de98499,
-        camssa:499ac524-cb80-46ef-8b1d-226264d07851,
-        camssa:56e2dbf2-03ed-46af-9e69-c1d02de39268,
-        camssa:5f0e9923-eadd-446b-b7c0-8494d1243f74,
-        camssa:66923d65-cacc-4116-acb4-563cc66f1fab,
-        camssa:69a97cc5-8764-4ee1-b527-a65b5cc76081,
-        camssa:779d08a6-65e7-42d6-a5f9-3ac8c6c459ca,
-        camssa:7b6b4185-1141-45ff-b0a7-478eec92bc56,
-        camssa:7cedb4de-9e7e-41a4-baf3-7f39121519e5,
-        camssa:7d51514b-4f68-4dbe-b43d-3e7ed6c717e2,
-        camssa:7df9ebb8-90cc-427e-bb0d-97bc32b30245,
-        camssa:81f108bb-6600-46f5-8b1b-4d2934e7f969,
-        camssa:8db344e2-bc78-4daf-8dd6-e0e0cd00e366,
-        camssa:92cebaff-4211-4f9e-952d-bea5f317e131,
-        camssa:933efdde-c837-4fc2-940b-09402189e45c,
-        camssa:ab347d11-7402-4e65-91e5-1c760489140d,
-        camssa:ab6d75b5-76ce-4b5d-a332-86157d28f8e7,
-        camssa:ae69b62a-c818-49df-99f8-a0ff84061e16,
-        camssa:bea5fbdd-1ee1-4ce8-8b22-8cf7d6627cf6,
-        camssa:c2eb2e1e-49a7-4c47-bc5b-bdb032cb3867,
-        camssa:c9b84037-af2b-430a-92e5-4aa2b1106c98,
-        camssa:cc153b0c-25cc-4f75-8ca4-a70c3c8c221f,
-        camssa:d60f1053-5820-4914-bd07-da37b1a07870,
-        camssa:dbe7fc0f-7cdf-4552-8c50-f47cd287aebd,
-        camssa:e295d508-b142-4750-ac3f-23f7f110cbe7,
-        camssa:e3c97ecf-18c0-4efc-875f-92f63351ad0b,
-        camssa:f0167a9e-cab0-4326-af5c-9def5ed5966e ;
+    cav:resultsIn camssa:101468ba-553b-48a7-83c0-11c073cbd35b,
+        camssa:11d7fa42-ed1d-4e16-901c-0e9a1da9ec91,
+        camssa:1b365f83-3077-420e-bd88-5876902b40c7,
+        camssa:1d092938-7734-4e58-a435-9ee37eb6f64b,
+        camssa:21ade32f-a74f-4b65-a999-865021b2ac00,
+        camssa:21c02773-3e96-4715-ae3f-3ee361885df5,
+        camssa:36376e76-9ba8-48b9-b75d-df51c9fc1d6b,
+        camssa:36f2c23c-f0f3-466d-9ec2-f35369f90ac6,
+        camssa:3c480548-6c51-47c0-bf1d-ebc7df6ee550,
+        camssa:3e9b3e39-6ab5-4536-8c5a-35eb15369dc2,
+        camssa:442e3162-2b8e-4108-bca4-3f1e24e43cd1,
+        camssa:46e0eeb6-f563-40fe-8e0d-40c3526fa958,
+        camssa:503217e4-40ce-4f67-beda-ac761a360f29,
+        camssa:5ced8bc8-d50e-4d3b-bf09-5815e80816cc,
+        camssa:5f39370c-05dc-4949-af72-e4fe32822c78,
+        camssa:66de516f-528c-44dc-95a1-315f5f578fcf,
+        camssa:6de9eef2-c305-4cd9-aaf6-0285399e33f0,
+        camssa:6f4627aa-2e87-4b1a-9ef2-6f582c9418cc,
+        camssa:7a099f36-8b87-4a26-8d3c-6d73c4867c38,
+        camssa:8ef88d32-cbc4-4621-8f9b-4bb779aeec76,
+        camssa:8fef5326-2995-40fe-b53c-198fd193c6af,
+        camssa:9160603a-0a6e-42fe-929d-694a53ec8bb8,
+        camssa:91b8e490-db40-4174-9758-7fb341b5fa29,
+        camssa:9784cd28-2e03-4cb7-a321-eb3c9eab2cb8,
+        camssa:a48984d2-8c6c-42f6-bcf2-36a009834bf3,
+        camssa:a8db3b8a-bab3-4603-adda-1c8ae188d8f8,
+        camssa:ae1f6a7b-520c-4bc6-a5a7-07a009d7c33c,
+        camssa:b8b1ba1d-6922-4faf-8b85-96f598222805,
+        camssa:c76bcae2-a1e2-405c-9b99-ecb58e82b7c6,
+        camssa:c86c5596-26fd-43d7-82f6-f552a2c42667,
+        camssa:d1aa7b91-11ae-4e8b-a319-63355f4117f3,
+        camssa:daa62328-e00e-4536-9ad1-918c946f511c,
+        camssa:e1f1a7fe-ba70-4bf9-92fe-5fbf8fccf486,
+        camssa:ed4cc6dd-95f1-4436-b6ce-6df9009ce4a0,
+        camssa:ee5ba9fa-008f-4826-8775-8ee3dc26ffd3,
+        camssa:f2d28a50-9cf5-472f-a2ea-8006cc5257b3,
+        camssa:f2dd206e-cbf5-4f3c-9c11-942e1695e360 ;
     cav:status status:Complete ;
     dct:title "File Transfer Protocol (FTP)"@en .
 
-camssa:018f6b7e-e368-41d9-bdc8-659525b19fc9 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-3671439b412291ce208a0ade6313c64aeb2942059c7543ca39322c56458bcf96 ;
-    cav:value "1"^^xsd:int .
-
-camssa:05a5ba26-2989-45b0-80f6-bf012df1342f a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """6 Member States are recommending FTP in their ICT Catalogues. 
-
-See: 
-https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards """@en ;
-    cav:refersTo camssa:6c6551ec-8d66-4155-b541-46819ffcdab5 .
-
-camssa:071c035b-e191-4a5b-bb50-77871c88266a a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-483e8900c47b40bc67a6bd1cbfce07884b9ac5f2c85e0214f334cc37e4e65c35 ;
-    cav:value "0"^^xsd:int .
-
-camssa:099adddc-cc2e-440b-8fc9-577bbaec7940 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-ef096f898c938883daab1b22e784cfaf985b5e5c855e170ecf6eab6f37b01b50 ;
-    cav:value "1"^^xsd:int .
-
-camssa:0d0fb561-adad-443d-a838-c67a327381e5 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-396b6535162f7bba7733ebcc30d2e467321ce07cd8e48b86ab8201acf27031f9 ;
-    cav:value "1"^^xsd:int .
-
-camssa:0dc57cb4-1054-498b-86fd-8e0f30d3f9a4 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-e9e0cf4a339c837607828404dd0e9b360d643528fcc1df488a95ca67166acea3 ;
-    cav:value "1"^^xsd:int .
-
-camssa:0f52ce67-d9f8-4eb3-b144-6e4534e77299 a cav:Score,
+camssa:0581dd77-abbc-4063-96b4-7e4c944ca061 a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-39e7870e79b2999a8b61c97f0c356312b88174320d6464fce5639e57ec0de011 ;
     cav:value "1"^^xsd:int .
 
-camssa:1511ed17-2f56-4a30-b669-f5fd8b4ef249 a cav:Statement,
+camssa:0e521129-f325-4aef-8b00-d2c30fe84426 a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement """FTP is known to negatively impact the scalability of systems using it. The protocol faces problems when transferring high volumes of data.
+    cav:assignedTo sc:c-e8c3529a6146f0b0d269112be717ba4e9c5979ea4f43f57d217c0f998d26ce17 ;
+    cav:value "0"^^xsd:int .
+
+camssa:101468ba-553b-48a7-83c0-11c073cbd35b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The FTP is published as a reusable solution in Joinup, the collaborative platform for Reusable IT Solutions funded by the European Commission. 
 
 See: 
-https://sapinsider.wispubs.com/Assets/Articles/2012/January/Using-FTP-Know-The-Risks"""@en ;
-    cav:refersTo camssa:6b6c853b-7aaa-49a1-9e90-dfb92760923e .
+https://joinup.ec.europa.eu/solution/file-transfer-protocol/distribution/file-transfer-protocol"""@en ;
+    cav:refersTo camssa:e975cf49-3f68-4030-b256-23c5eb1d85c3 .
 
-camssa:15553470-2c64-4bcc-8aea-f86782513c21 a cav:Score,
+camssa:11d7fa42-ed1d-4e16-901c-0e9a1da9ec91 a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-0c9dd43038136296b52f50e05f9d6eef39f7b8018517224007990b15be2eb19e ;
-    cav:value "1"^^xsd:int .
+    cav:judgement """IETF has a formal review and approval so that all the relevant stakeholders can formally appeal or raise objections to the development and approval of specifications.
 
-camssa:16dc01d6-f53e-4d11-a8d4-b950e2c88c6a a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The rules on European standardisation allow the European Commission to identify information and communication technology (ICT) technical specifications - that are not national, European or international standards - to be eligible for referencing in public procurement. This allows public authorities to make use of the full range of specifications when buying IT hardware, software and services, allowing for more competition in the field and reducing the risk of lock-in to proprietary systems.
+Each distinct version of an Internet standards-related specification is published as part of the "Request for Comments" (RFC) document series. This archival series is the official publication channel for Internet standards documents and other publications.
 
-After being evaluated compliant with the regulation on standardisation 1025/2012, FTP has been identified by Commission Implementing Decision and included in the European list of ICT Standards for e-procurement.
+During the development of a specification, draft versions of the document are made available for informal review and comment by placing them in the IETF's "Internet-Drafts" directory, which is replicated on a number of Internet hosts. This makes an evolving working document readily available to a wide audience, facilitating the process of review and revision.
 
-See: 
-https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en """@en ;
-    cav:refersTo camssa:15553470-2c64-4bcc-8aea-f86782513c21 .
+See:
+https://www.ietf.org/standards/process/ 
+https://tools.ietf.org/html/rfc2026"""@en ;
+    cav:refersTo camssa:11db76d2-46d6-4f6a-99d4-4e789b5b867c .
 
-camssa:17d297c4-492a-4e91-b64a-1dab8e29a67f a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "The purpose of FTP is not related to organisational interoperability. Therefore, this criterion is not applicable to the specification."@en ;
-    cav:refersTo camssa:a1b334c5-6744-4ea9-ae94-c93852256c4f .
-
-camssa:1c30989d-ad56-4d21-9d00-0842159b0f28 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-a0101cb11c30c1bbf94adb74479472f2a40c53ccc4b442180fece91506c20a9d ;
-    cav:value "2"^^xsd:int .
-
-camssa:1ed5ef61-95f5-4f3b-8218-d72e674a1a96 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """FTP is developed and maintained by IETF, a widely recognised open international community developing standards to enhance the internet. 
-
-See: 
-https://www.ietf.org/"""@en ;
-    cav:refersTo camssa:e8d704bc-7e87-4fc9-b8ba-3c852745774d .
-
-camssa:21aa8a4e-4890-489d-8536-fdeb53a39a21 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-a1eafd9c95081eeabe19f0511239b88139f02f95e2349049eeea058a89c80f49 ;
-    cav:value "1"^^xsd:int .
-
-camssa:228192a2-9315-41d5-bb5e-85524e3c21f1 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """6 Member States are recommending FTP in their ICT Catalogues. 
-
-See CAMSS List of Standards:
-https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards """@en ;
-    cav:refersTo camssa:018f6b7e-e368-41d9-bdc8-659525b19fc9 .
-
-camssa:22dc532d-8958-42f2-9027-6fc741dc2a81 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """FTP allows public administration to exchange information and therefore to avoid requesting standard information to citizens or businesses several times. 
-
-FTP is used by MAGA, an initiative from the Flemish Region of Belgium  consisting in a common platform for data reuse between administrations.
-
-See: 
-https://joinup.ec.europa.eu/solution/magda-platform/about
-"""@en ;
-    cav:refersTo camssa:bbf096a2-6df7-4190-a341-77f072cc30cf .
-
-camssa:284726d7-b272-4494-ab9c-e03b949c6e63 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-1d35b341bcafc21377ae6ac358b9dc087e8ad32870012c2743e49e4566440f41 ;
-    cav:value "2"^^xsd:int .
-
-camssa:29cbbee7-a762-4b44-842f-0bfaf03c3c02 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The FTP is used in the context of the CIRCABC, a cross-border initiative that provides a web application enabling collaboration, communication and document exchange between European Union stakeholders. 
-
-See: 
-https://ec.europa.eu/isa2/sites/isa/files/circabc.pdf 
-https://circabc.europa.eu/faces/jsp/extension/wai/navigation/container.jsp"""@en ;
-    cav:refersTo camssa:21aa8a4e-4890-489d-8536-fdeb53a39a21 .
-
-camssa:2cefc1e1-1e81-48d6-b846-d7972dced703 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-450e8a1f4cffbbf3de202e37bd642f098174559028df90ccc657473a6086bc0b ;
-    cav:value "1"^^xsd:int .
-
-camssa:2fd61484-abb8-4ee7-a12b-1a2785dc3a17 a cav:Score,
+camssa:11db76d2-46d6-4f6a-99d4-4e789b5b867c a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-f70d8bc1b4b6e186d69ea3f7f8cc7b2d75314b84e7f481ebe13b4e6ed8b36598 ;
     cav:value "1"^^xsd:int .
 
-camssa:35a92cd9-e74e-4047-9dbd-f55d092cc07c a cav:Statement,
+camssa:15152649-35f9-4730-95b7-14b6fa86e4c9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-396b6535162f7bba7733ebcc30d2e467321ce07cd8e48b86ab8201acf27031f9 ;
+    cav:value "1"^^xsd:int .
+
+camssa:1b365f83-3077-420e-bd88-5876902b40c7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """FTP is an internet protocol for the exchange of data over an Internet network. It supports the first level of maturity defined in the Tim Berners-Lee´s  5 stars Open Data deployment scheme, "Make your data accessible on the web". 
+
+See: https://www.w3c.es/Eventos/2013/Uruguay/Presentaciones/W3CdayMVD_LOD_LorenaEtcheverry2013.pdf"""@en ;
+    cav:refersTo camssa:59b0719f-8106-4456-bdc8-5ded3bc293f5 .
+
+camssa:1d092938-7734-4e58-a435-9ee37eb6f64b a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """IETF is a consensus-based group, and authority to act on behalf of the community requires a high degree of consensus and the continued consent of the community. The process of creating and Internet Standard is straightforward: a specification undergoes a period of development and several iterations of review by the Internet community and revision based upon experience, is adopted as a Standard by the appropriate body... and is published. In practice, the process is more complicated, due to (1) the difficulty of creating specifications of high technical quality; (2) the need to consider the interests of all of the affected parties; (3) the importance of establishing widespread community consensus; and (4) the difficulty of evaluating the utility of a particular specification for the Internet community. The goals of the Internet Standards Process are:
 - Technical excellence;
@@ -203,28 +124,75 @@ The goal of technical competence, the requirement for prior implementation and t
 
 See:
 https://www.ietf.org/standards/process/"""@en ;
-    cav:refersTo camssa:68d1da6c-36d8-4c96-9be5-98b27a71a1cf .
+    cav:refersTo camssa:beee1936-a9b5-447e-9a20-dcf726c61b20 .
 
-camssa:3bf005b5-c530-4b98-9307-97351579bdaf a cav:Score,
+camssa:21ade32f-a74f-4b65-a999-865021b2ac00 a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-58010a47630ff9ea23336bf3fc558deff59905e0292551fcabc95740082cb378 ;
+    cav:judgement """FTP is known to negatively impact the scalability of systems using it. The protocol faces problems when transferring high volumes of data.
+
+See: 
+https://sapinsider.wispubs.com/Assets/Articles/2012/January/Using-FTP-Know-The-Risks"""@en ;
+    cav:refersTo camssa:245a2ffd-c92b-49e5-9bb4-c1904c43fcaf .
+
+camssa:21c02773-3e96-4715-ae3f-3ee361885df5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """IETF is a vendor neutral SDO. However, FTP relies on TCP to ensure that all data exchanged is sent correctly to the proper destination.
+
+See:
+https://tools.ietf.org/html/rfc959
+https://tools.ietf.org/html/rfc793"""@en ;
+    cav:refersTo camssa:0e521129-f325-4aef-8b00-d2c30fe84426 .
+
+camssa:245a2ffd-c92b-49e5-9bb4-c1904c43fcaf a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1435ad894742693c2b99e329ef12399cd411ed6900f49b9658fd2231de3f201a ;
+    cav:value "0"^^xsd:int .
+
+camssa:27d4a128-7c76-4562-8d4d-739c0adc02c2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-19c639047dab46befb5839503733c8f1e7ed8278f788a089d11d2caee84a8f7c ;
+    cav:value "2"^^xsd:int .
+
+camssa:2db42a2e-f3a5-4b41-9c01-7d21b2d26d6b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-83d21357ecad07668ab7f2010aefed3cebb92dab384eeae6eb7aa77def06cfc3 ;
+    cav:value "2"^^xsd:int .
+
+camssa:3128f76b-31ce-4f10-9d31-8c701d75bcd2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0c9dd43038136296b52f50e05f9d6eef39f7b8018517224007990b15be2eb19e ;
     cav:value "1"^^xsd:int .
 
-camssa:46feeb87-ce34-4b37-a1f8-1e4544189b50 a cav:Statement,
+camssa:36376e76-9ba8-48b9-b75d-df51c9fc1d6b a cav:Statement,
         owl:NamedIndividual ;
-    cav:judgement """FTP is an internet protocol for the exchange of data over an Internet network. It supports the first level of maturity defined in the Tim Berners-Lee´s  5 stars Open Data deployment scheme, "Make your data accessible on the web". 
+    cav:judgement """The purpose of FTP is not related to the definition of a data model. Therefore this criterion is not applicable to this specification. 
 
-See: https://www.w3c.es/Eventos/2013/Uruguay/Presentaciones/W3CdayMVD_LOD_LorenaEtcheverry2013.pdf"""@en ;
-    cav:refersTo camssa:2cefc1e1-1e81-48d6-b846-d7972dced703 .
+See: 
+https://tools.ietf.org/html/rfc959"""@en ;
+    cav:refersTo camssa:3f170c95-aff3-4854-a7f0-6aa9d98daf8b .
 
-camssa:48b8171f-1de8-4108-9c11-f4250de98499 a cav:Statement,
+camssa:36f2c23c-f0f3-466d-9ec2-f35369f90ac6 a cav:Statement,
         owl:NamedIndividual ;
-    cav:judgement """FTP is included in the ICT national catalogues of the Netherlands and Spain. These Member States comply with at least 4 out of 5 sections of the EIF according to the NIFO factsheets.
+    cav:judgement """FTP is already associated to EIRA ABBs in the European Library Of Specifications (ELIS). More specifically, FTP can define the interoperability aspects of the "Network",  "Network Service", "Private Network" and "Public Network" ABBs of the EIRA Technical View.
 
-See:                                                                                                                                               https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards """@en ;
-    cav:refersTo camssa:d51f67e3-f63d-40de-b82b-0e269205c2a5 .
+See: 
+https://joinup.ec.europa.eu/solution/elis/distribution/eliscataloguev100betaxlsx"""@en ;
+    cav:refersTo camssa:d43a7f75-7fe1-4cee-a637-91341fd6fdfe .
 
-camssa:499ac524-cb80-46ef-8b1d-226264d07851 a cav:Statement,
+camssa:37c493ef-1c25-47bb-8afe-542874a66a19 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-093c1e09f5a65e4cba0247dcab5a8f4854f3e512db336b1855b9a4c48d3659e0 ;
+    cav:value "0"^^xsd:int .
+
+camssa:3c480548-6c51-47c0-bf1d-ebc7df6ee550 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """FTP is developed and maintained by IETF, a widely recognised open international community developing standards to enhance the internet. 
+
+See: 
+https://www.ietf.org/"""@en ;
+    cav:refersTo camssa:4d7d425b-2c6c-49a9-ae34-d81db4cd5f06 .
+
+camssa:3e9b3e39-6ab5-4536-8c5a-35eb15369dc2 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """FTP has been widely used for the exchange of data in the past years and  has been supported for long time by most of the web browsers. 
 
@@ -232,70 +200,57 @@ However FTP is beginning to be considered obsolete by major browser. For instanc
 
 See: 
 https://www.chromestatus.com/feature/6246151319715840"""@en ;
-    cav:refersTo camssa:da741e41-08b2-46ed-8c17-c51380d5b101 .
+    cav:refersTo camssa:5da1b82b-c06f-40c5-aba8-671740866da5 .
 
-camssa:5224641f-4b02-4a11-ade2-f1d75176544e a cav:Score,
+camssa:3f170c95-aff3-4854-a7f0-6aa9d98daf8b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a0101cb11c30c1bbf94adb74479472f2a40c53ccc4b442180fece91506c20a9d ;
+    cav:value "2"^^xsd:int .
+
+camssa:442e3162-2b8e-4108-bca4-3f1e24e43cd1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of FTP is not related to  e-accessibility. Therefore this criterion is considered not applicable to this specification."@en ;
+    cav:refersTo camssa:9206b8ab-c327-437e-81f3-3a094f9270ca .
+
+camssa:4436892e-d7ab-4ff2-85ff-59142d18ccdf a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d7be9f0dd52944e6c25f5469c86355a42ae446838bd9759b4986d21f7db4814b ;
+    cav:value "1"^^xsd:int .
+
+camssa:46e0eeb6-f563-40fe-8e0d-40c3526fa958 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Like all the IETF standards, HTTPS is  a free and open technical specification, built on IETF standards and licenses from the Open Web Foundation. FTP is licensed on a F(RAND) basis.
+
+See:
+https://tools.ietf.org/html/rfc3668"""@en ;
+    cav:refersTo camssa:758a7159-df40-4e9d-a100-3d2a07c49c49 .
+
+camssa:47e4bdc0-4858-4e94-aca3-8523eb2a9994 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-483e8900c47b40bc67a6bd1cbfce07884b9ac5f2c85e0214f334cc37e4e65c35 ;
+    cav:value "0"^^xsd:int .
+
+camssa:4a9f0ead-00a5-40cf-933e-1214692654ce a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-4017a1ae4d077fbb3847280a1c20b41bf00c32d65fc9beaa2bea8cce550ac463 ;
+    cav:value "1"^^xsd:int .
+
+camssa:4cb63f81-8d2b-4ff2-bf8c-4f940cc11951 a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-f41cca0d171e6f64dbc2bdeae9fbc87f2ea51ac00185b22114d59ab8a06e78d0 ;
     cav:value "1"^^xsd:int .
 
-camssa:56e2dbf2-03ed-46af-9e69-c1d02de39268 a cav:Statement,
+camssa:4d7d425b-2c6c-49a9-ae34-d81db4cd5f06 a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement "The purpose of FTP is not related to  e-accessibility. Therefore this criterion is considered not applicable to this specification."@en ;
-    cav:refersTo camssa:d66db1be-7c98-4388-8a9f-b5f3fe1ae92c .
-
-camssa:5f0e9923-eadd-446b-b7c0-8494d1243f74 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """FTP is publicly available for study and use at no cost on the IETF webpage. 
-
-See:
-https://tools.ietf.org/html/rfc959"""@en ;
-    cav:refersTo camssa:fd819d81-fa8f-491f-b655-20ad71e86001 .
-
-camssa:66923d65-cacc-4116-acb4-563cc66f1fab a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """FTP is an internet protocol for the exchange of data over an Internet network. It supports the first level of maturity defined in the Tim Berners-Lee´s  5 stars Open Data deployment scheme, "Make your data accessible on the web". 
-
-See: 
-https://5stardata.info/en/                                                                                                                                            https://tools.ietf.org/html/rfc959"""@en ;
-    cav:refersTo camssa:9db31d8b-50f3-4c91-995b-8d0af9f07373 .
-
-camssa:68d1da6c-36d8-4c96-9be5-98b27a71a1cf a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-7aa038b5496afb8cb229c692be9a2adc175deb2d5d47e35ad67e027c9eac28ba ;
+    cav:assignedTo sc:c-0229101dfe08cbe58da1e454363d30a8178a2e120466c8db23965488cae5c8b1 ;
     cav:value "1"^^xsd:int .
 
-camssa:69a97cc5-8764-4ee1-b527-a65b5cc76081 a cav:Statement,
+camssa:4daf1f17-4137-479e-a696-f95f2b35ed47 a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement "As a business domain agnostic specification, FTP, can be used for the exchange of documents addressing any domain."@en ;
-    cav:refersTo camssa:ab3409b4-a1d0-4031-8deb-f63e921c368e .
-
-camssa:6b6c853b-7aaa-49a1-9e90-dfb92760923e a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-1435ad894742693c2b99e329ef12399cd411ed6900f49b9658fd2231de3f201a ;
-    cav:value "0"^^xsd:int .
-
-camssa:6c6551ec-8d66-4155-b541-46819ffcdab5 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-b4f0d1b7f1d41c70797fa200c6fc73ac01f2f1659319e5cb1cebe8f5e79c1fcb ;
+    cav:assignedTo sc:c-ef096f898c938883daab1b22e784cfaf985b5e5c855e170ecf6eab6f37b01b50 ;
     cav:value "1"^^xsd:int .
 
-camssa:74aa2fac-f902-4cdc-b68a-13c339597764 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-e370a4af17e89cbb70bb5079082a1e21cdee85435c8fc30b12a8987f18db367f ;
-    cav:value "1"^^xsd:int .
-
-camssa:779d08a6-65e7-42d6-a5f9-3ac8c6c459ca a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The rules on European standardisation allow the European Commission to identify information and communication technology (ICT) technical specifications - that are not national, European or international standards - to be eligible for referencing in public procurement. This allows public authorities to make use of the full range of specifications when buying IT hardware, software and services, allowing for more competition in the field and reducing the risk of lock-in to proprietary systems.
-
-After being evaluated compliant with the regulation on standardisation 1025/2012, FTP has been identified by Commission Implementing Decision.
-
-See: 
-https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en """@en ;
-    cav:refersTo camssa:0dc57cb4-1054-498b-86fd-8e0f30d3f9a4 .
-
-camssa:7b6b4185-1141-45ff-b0a7-478eec92bc56 a cav:Statement,
+camssa:503217e4-40ce-4f67-beda-ac761a360f29 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """No tools assessing the conformity of implementations with the specification have been found
 
@@ -303,205 +258,47 @@ However, there are tools developed by the FTP community assessing FTP servers pe
 
 See: 
 https://ftptest.net/"""@en ;
-    cav:refersTo camssa:94b296e0-4623-4dac-8e70-2ee205821a94 .
+    cav:refersTo camssa:37c493ef-1c25-47bb-8afe-542874a66a19 .
 
-camssa:7cedb4de-9e7e-41a4-baf3-7f39121519e5 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "The purpose of FTP is not related to the delivery of multilingual European public services. Therefore this criterion is considered not applicable specification."@en ;
-    cav:refersTo camssa:cf2690a2-388a-42ee-a0d4-65ec00794972 .
-
-camssa:7d51514b-4f68-4dbe-b43d-3e7ed6c717e2 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """FTP is published on Joinup, the collaborative platform for reusable IT Solutions funded by the European Commission.
-
-See:
-https://joinup.ec.europa.eu/solution/file-transfer-protocol/distribution/file-transfer-protocol"""@en ;
-    cav:refersTo camssa:e15fb1ce-d6df-43fc-8f63-a66444829c60 .
-
-camssa:7df9ebb8-90cc-427e-bb0d-97bc32b30245 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """FTP is a protocol exclusively designed for the  transfer of files which does not secure the traffic.
-
-However,  there are existing extensions of FTP that secure the information delivery. For instance,  FTP over TLS, known as FTPS, uses the Transport Layer Security (TLS) to secure FTP communications over a network.
-
-See: 
-https://tools.ietf.org/html/rfc959 
-https://tools.ietf.org/html/rfc4217"""@en ;
-    cav:refersTo camssa:071c035b-e191-4a5b-bb50-77871c88266a .
-
-camssa:81f108bb-6600-46f5-8b1b-4d2934e7f969 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """FTP is already associated to EIRA ABBs in the European Library Of Specifications (ELIS). More specifically, FTP can define the interoperability aspects of the "Network",  "Network Service", "Private Network" and "Public Network" ABBs of the EIRA Technical View.
-
-See: 
-https://joinup.ec.europa.eu/solution/elis/distribution/eliscataloguev100betaxlsx"""@en ;
-    cav:refersTo camssa:ea4fdfbf-93de-4e9b-944a-443da82b5c2f .
-
-camssa:8b617573-a4c7-4f64-9af0-d94a50919371 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-b45c8f7e446b1343c6b6961290d2106768aa43c1f123f5e436d0255c003abb50 ;
-    cav:value "1"^^xsd:int .
-
-camssa:8db344e2-bc78-4daf-8dd6-e0e0cd00e366 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """IETF has a formal review and approval so that all the relevant stakeholders can formally appeal or raise objections to the development and approval of specifications.
-
-Each distinct version of an Internet standards-related specification is published as part of the "Request for Comments" (RFC) document series. This archival series is the official publication channel for Internet standards documents and other publications.
-
-During the development of a specification, draft versions of the document are made available for informal review and comment by placing them in the IETF's "Internet-Drafts" directory, which is replicated on a number of Internet hosts. This makes an evolving working document readily available to a wide audience, facilitating the process of review and revision.
-
-See:
-https://www.ietf.org/standards/process/ 
-https://tools.ietf.org/html/rfc2026"""@en ;
-    cav:refersTo camssa:2fd61484-abb8-4ee7-a12b-1a2785dc3a17 .
-
-camssa:92cebaff-4211-4f9e-952d-bea5f317e131 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The purpose of FTP is not related to the definition of a data model. Therefore this criterion is not applicable to this specification. 
-
-See: 
-https://tools.ietf.org/html/rfc959"""@en ;
-    cav:refersTo camssa:1c30989d-ad56-4d21-9d00-0842159b0f28 .
-
-camssa:933efdde-c837-4fc2-940b-09402189e45c a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "At the time of elaborating this assessment, FTP does not foster the creation of innovative solutions. Since its development in 1971, it has been used in combination with other specifications in order to enhance security (e.g. TLS & SSL). However, even these extensions of FTP are not considered innovative solutions."@en ;
-    cav:refersTo camssa:b72f9b7f-9e2f-40db-9bc0-9ff1f2ec3da5 .
-
-camssa:94b296e0-4623-4dac-8e70-2ee205821a94 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-093c1e09f5a65e4cba0247dcab5a8f4854f3e512db336b1855b9a4c48d3659e0 ;
-    cav:value "0"^^xsd:int .
-
-camssa:9db31d8b-50f3-4c91-995b-8d0af9f07373 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-b6ba3f2f556446c68c55833e72b217be87ad5f0dd07744e2c39c6070aff6c10f ;
-    cav:value "1"^^xsd:int .
-
-camssa:a1b334c5-6744-4ea9-ae94-c93852256c4f a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-73a8058bec757a2fdb0f8513c2f11841e982cbef76c3be82af67707c294da8b8 ;
-    cav:value "2"^^xsd:int .
-
-camssa:ab3409b4-a1d0-4031-8deb-f63e921c368e a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-41c6fd2dadb03cc64aad82cfa14f545c084f1a955a3ab7a61aab416a138c5dce ;
-    cav:value "1"^^xsd:int .
-
-camssa:ab347d11-7402-4e65-91e5-1c760489140d a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The FTP is published as a reusable solution in Joinup, the collaborative platform for Reusable IT Solutions funded by the European Commission. 
-
-See: 
-https://joinup.ec.europa.eu/solution/file-transfer-protocol/distribution/file-transfer-protocol"""@en ;
-    cav:refersTo camssa:8b617573-a4c7-4f64-9af0-d94a50919371 .
-
-camssa:ab6d75b5-76ce-4b5d-a332-86157d28f8e7 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """IETF is a vendor neutral SDO. However, FTP relies on TCP to ensure that all data exchanged is sent correctly to the proper destination.
-
-See:
-https://tools.ietf.org/html/rfc959
-https://tools.ietf.org/html/rfc793"""@en ;
-    cav:refersTo camssa:c075db9c-2c9c-439c-8da0-a13668ba8a07 .
-
-camssa:ae69b62a-c818-49df-99f8-a0ff84061e16 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """Like all the IETF standards, HTTPS is  a free and open technical specification, built on IETF standards and licenses from the Open Web Foundation. FTP is licensed on a F(RAND) basis.
-
-See:
-https://tools.ietf.org/html/rfc3668"""@en ;
-    cav:refersTo camssa:74aa2fac-f902-4cdc-b68a-13c339597764 .
-
-camssa:b6ec38bb-701d-44c9-8a9c-770c8f96eacc a schema:ContactPoint,
-        owl:NamedIndividual ;
-    schema:email "CAMSS@everis.com" .
-
-camssa:b72f9b7f-9e2f-40db-9bc0-9ff1f2ec3da5 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-cf1de0bf03a8ee372af0deddf9ef5c4609f5a7bb9c7e001c89d887c6789eaf56 ;
-    cav:value "0"^^xsd:int .
-
-camssa:b8479410-a4f8-436c-b559-489eb96fd29d a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-6ec33e201b803a1cc0150c0da8dc42b2a0f1029cf31e7a2c0fc81d1d8336ef36 ;
-    cav:value "1"^^xsd:int .
-
-camssa:bbf096a2-6df7-4190-a341-77f072cc30cf a cav:Score,
+camssa:56ba6392-85a0-407a-ad96-789e070003e0 a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-01e6c1ce016de128117697d51a8fdaebb57c1f50343c081dfd72e2fbc56733a8 ;
     cav:value "1"^^xsd:int .
 
-camssa:bea5fbdd-1ee1-4ce8-8b22-8cf7d6627cf6 a cav:Statement,
+camssa:59b0719f-8106-4456-bdc8-5ded3bc293f5 a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement """There are several studies assessing the adoption, strengths, weaknesses, effectiveness and efficiency of FTP.
-
-See: 
-https://dzone.com/articles/potential-downsides-of-using-an-ftp-solution 
-https://themanifest.com/development/how-evaluate-your-file-transfer-protocol-system 
-https://sapinsider.wispubs.com/Assets/Articles/2012/January/Using-FTP-Know-The-Risks """@en ;
-    cav:refersTo camssa:3bf005b5-c530-4b98-9307-97351579bdaf .
-
-camssa:c075db9c-2c9c-439c-8da0-a13668ba8a07 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-e8c3529a6146f0b0d269112be717ba4e9c5979ea4f43f57d217c0f998d26ce17 ;
-    cav:value "0"^^xsd:int .
-
-camssa:c2eb2e1e-49a7-4c47-bc5b-bdb032cb3867 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """As  protocol for data exchange, FTP can be used for the exchange of documents solving administrative burden. Additionally, it can avoid the exchange of non-digital documents that are generally source of administrative burden.
-
-See: 
-https://tools.ietf.org/html/rfc959 """@en ;
-    cav:refersTo camssa:0f52ce67-d9f8-4eb3-b144-6e4534e77299 .
-
-camssa:c9b84037-af2b-430a-92e5-4aa2b1106c98 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """As a protocol for data exchange, FTP allows the provision of data using an endpoint and therefore makes available interfaces of public administrations internal information systems.
-
-An example of implementation support this fact would be the Flemish initiative MAGDA. This initiative provides a platform that allows the different administrations to reuse the information contained within their registries. FTP has been selected by MAGDA to enable data exchange between the different administrations. 
-
-See: 
-https://joinup.ec.europa.eu/solution/magda-platform/about
-https://cordis.europa.eu/project/rcn/198414/factsheet/en"""@en ;
-    cav:refersTo camssa:5224641f-4b02-4a11-ade2-f1d75176544e .
-
-camssa:cc153b0c-25cc-4f75-8ca4-a70c3c8c221f a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "The purpose of FTP is to allow the exchange of documents between systems and applications. "@en ;
-    cav:refersTo camssa:b8479410-a4f8-436c-b559-489eb96fd29d .
-
-camssa:cf2690a2-388a-42ee-a0d4-65ec00794972 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-19c639047dab46befb5839503733c8f1e7ed8278f788a089d11d2caee84a8f7c ;
-    cav:value "2"^^xsd:int .
-
-camssa:d51f67e3-f63d-40de-b82b-0e269205c2a5 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-d7be9f0dd52944e6c25f5469c86355a42ae446838bd9759b4986d21f7db4814b ;
+    cav:assignedTo sc:c-450e8a1f4cffbbf3de202e37bd642f098174559028df90ccc657473a6086bc0b ;
     cav:value "1"^^xsd:int .
 
-camssa:d60f1053-5820-4914-bd07-da37b1a07870 a cav:Statement,
+camssa:5ced8bc8-d50e-4d3b-bf09-5815e80816cc a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """The rules on European standardisation allow the European Commission to identify information and communication technology (ICT) technical specifications - that are not national, European or international standards - to be eligible for referencing in public procurement. This allows public authorities to make use of the full range of specifications when buying IT hardware, software and services, allowing for more competition in the field and reducing the risk of lock-in to proprietary systems.
 
-After being evaluated compliant with the regulation on standardisation 1025/2012, FTP has been identified by Commission Implementing Decision. During the evaluation process, all the Member States are invited to share their doubts. The positive evaluation of FTP and its identification is considered an interoperability agreement.
+After being evaluated compliant with the regulation on standardisation 1025/2012, FTP has been identified by Commission Implementing Decision.
 
 See: 
 https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en """@en ;
-    cav:refersTo camssa:0d0fb561-adad-443d-a838-c67a327381e5 .
+    cav:refersTo camssa:c91a79cb-4e0a-4460-9aea-3283f9205112 .
 
-camssa:d66db1be-7c98-4388-8a9f-b5f3fe1ae92c a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-7a64b01ca9e737c550b205ba3a8a46b3fcfc9447b648ba8ef15d62d3ada26141 ;
-    cav:value "2"^^xsd:int .
-
-camssa:da741e41-08b2-46ed-8c17-c51380d5b101 a cav:Score,
+camssa:5da1b82b-c06f-40c5-aba8-671740866da5 a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-a67ecbc29e70e62b18dba3ae4f8d1f91d5b3196777dbf8b58c6713cd517eb768 ;
     cav:value "0"^^xsd:int .
 
-camssa:dbe7fc0f-7cdf-4552-8c50-f47cd287aebd a cav:Statement,
+camssa:5f39370c-05dc-4949-af72-e4fe32822c78 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """6 Member States are recommending FTP in their ICT Catalogues. 
+
+See: 
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards """@en ;
+    cav:refersTo camssa:91002c54-7982-4cc3-bf9a-e1fe18a98328 .
+
+camssa:66de516f-528c-44dc-95a1-315f5f578fcf a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of FTP is not related to the delivery of multilingual European public services. Therefore this criterion is considered not applicable specification."@en ;
+    cav:refersTo camssa:27d4a128-7c76-4562-8d4d-739c0adc02c2 .
+
+camssa:6de9eef2-c305-4cd9-aaf6-0285399e33f0 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """FTP is used as the main protocol for file exchange  by many public organisations. By allowing public administration to share information with others, it  fosters the visibility of data (e.g. Administrative rules, processes etc.) and facilitates public administrations decision-making. 
 
@@ -510,53 +307,256 @@ An example of implementation supporting this fact would be CIRCABC, a project wi
 See: 
 https://ec.europa.eu/isa2/sites/isa/files/circabc.pdf 
 https://circabc.europa.eu/faces/jsp/extension/wai/navigation/container.jsp"""@en ;
-    cav:refersTo camssa:f6215959-bf90-41ed-a2f8-53a3a63319a1 .
+    cav:refersTo camssa:ddd47361-d76c-486e-9e76-ebf413a99573 .
 
-camssa:e15fb1ce-d6df-43fc-8f63-a66444829c60 a cav:Score,
+camssa:6f4627aa-2e87-4b1a-9ef2-6f582c9418cc a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-4017a1ae4d077fbb3847280a1c20b41bf00c32d65fc9beaa2bea8cce550ac463 ;
+    cav:judgement """FTP is included in the ICT national catalogues of the Netherlands and Spain. These Member States comply with at least 4 out of 5 sections of the EIF according to the NIFO factsheets.
+
+See:                                                                                                                                               https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards """@en ;
+    cav:refersTo camssa:4436892e-d7ab-4ff2-85ff-59142d18ccdf .
+
+camssa:758a7159-df40-4e9d-a100-3d2a07c49c49 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e370a4af17e89cbb70bb5079082a1e21cdee85435c8fc30b12a8987f18db367f ;
     cav:value "1"^^xsd:int .
 
-camssa:e295d508-b142-4750-ac3f-23f7f110cbe7 a cav:Statement,
+camssa:7a099f36-8b87-4a26-8d3c-6d73c4867c38 a cav:Statement,
         owl:NamedIndividual ;
-    cav:judgement "The purpose of FTP is not related  to the modelling of business processes. Therefore, this criterion is not applicable to the specification."@en ;
-    cav:refersTo camssa:284726d7-b272-4494-ab9c-e03b949c6e63 .
+    cav:judgement """The rules on European standardisation allow the European Commission to identify information and communication technology (ICT) technical specifications - that are not national, European or international standards - to be eligible for referencing in public procurement. This allows public authorities to make use of the full range of specifications when buying IT hardware, software and services, allowing for more competition in the field and reducing the risk of lock-in to proprietary systems.
 
-camssa:e3c97ecf-18c0-4efc-875f-92f63351ad0b a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "The purpose of FTP is not related to long term preservation of electronic records. Therefore this criterion is considered not applicable to this specification"@en ;
-    cav:refersTo camssa:f195697a-8f6b-4c91-b68d-f61e144f3fc9 .
+After being evaluated compliant with the regulation on standardisation 1025/2012, FTP has been identified by Commission Implementing Decision. During the evaluation process, all the Member States are invited to share their doubts. The positive evaluation of FTP and its identification is considered an interoperability agreement.
 
-camssa:e8d704bc-7e87-4fc9-b8ba-3c852745774d a cav:Score,
+See: 
+https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en """@en ;
+    cav:refersTo camssa:15152649-35f9-4730-95b7-14b6fa86e4c9 .
+
+camssa:8a98efb0-a3e2-4a18-b904-c382d39d40fd a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-0229101dfe08cbe58da1e454363d30a8178a2e120466c8db23965488cae5c8b1 ;
+    cav:assignedTo sc:c-73a8058bec757a2fdb0f8513c2f11841e982cbef76c3be82af67707c294da8b8 ;
+    cav:value "2"^^xsd:int .
+
+camssa:8e02876a-55a3-4357-925f-4c41c49bb04b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b6ba3f2f556446c68c55833e72b217be87ad5f0dd07744e2c39c6070aff6c10f ;
     cav:value "1"^^xsd:int .
 
-camssa:ea4fdfbf-93de-4e9b-944a-443da82b5c2f a cav:Score,
+camssa:8ef88d32-cbc4-4621-8f9b-4bb779aeec76 a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-5839144ecfb6c41a2c3cf5c1e86a6b3ad7a9e3ec9c4efa5650a6e7b9e3586335 ;
+    cav:judgement """FTP is an internet protocol for the exchange of data over an Internet network. It supports the first level of maturity defined in the Tim Berners-Lee´s  5 stars Open Data deployment scheme, "Make your data accessible on the web". 
+
+See: 
+https://5stardata.info/en/                                                                                                                                            https://tools.ietf.org/html/rfc959"""@en ;
+    cav:refersTo camssa:8e02876a-55a3-4357-925f-4c41c49bb04b .
+
+camssa:8fef5326-2995-40fe-b53c-198fd193c6af a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """FTP allows public administration to exchange information and therefore to avoid requesting standard information to citizens or businesses several times. 
+
+FTP is used by MAGA, an initiative from the Flemish Region of Belgium  consisting in a common platform for data reuse between administrations.
+
+See: 
+https://joinup.ec.europa.eu/solution/magda-platform/about
+"""@en ;
+    cav:refersTo camssa:56ba6392-85a0-407a-ad96-789e070003e0 .
+
+camssa:90bc2faa-d9de-496a-84bd-60647f8c24c3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-6ec33e201b803a1cc0150c0da8dc42b2a0f1029cf31e7a2c0fc81d1d8336ef36 ;
     cav:value "1"^^xsd:int .
 
-camssa:f0167a9e-cab0-4326-af5c-9def5ed5966e a cav:Statement,
+camssa:90eb701d-bb0c-490f-9702-6ab174a1ab3c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cf1de0bf03a8ee372af0deddf9ef5c4609f5a7bb9c7e001c89d887c6789eaf56 ;
+    cav:value "0"^^xsd:int .
+
+camssa:91002c54-7982-4cc3-bf9a-e1fe18a98328 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b4f0d1b7f1d41c70797fa200c6fc73ac01f2f1659319e5cb1cebe8f5e79c1fcb ;
+    cav:value "1"^^xsd:int .
+
+camssa:9160603a-0a6e-42fe-929d-694a53ec8bb8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """As a protocol for data exchange, FTP allows the provision of data using an endpoint and therefore makes available interfaces of public administrations internal information systems.
+
+An example of implementation support this fact would be the Flemish initiative MAGDA. This initiative provides a platform that allows the different administrations to reuse the information contained within their registries. FTP has been selected by MAGDA to enable data exchange between the different administrations. 
+
+See: 
+https://joinup.ec.europa.eu/solution/magda-platform/about
+https://cordis.europa.eu/project/rcn/198414/factsheet/en"""@en ;
+    cav:refersTo camssa:4cb63f81-8d2b-4ff2-bf8c-4f940cc11951 .
+
+camssa:91b8e490-db40-4174-9758-7fb341b5fa29 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """FTP is publicly available for study and use at no cost on the IETF webpage. 
+
+See:
+https://tools.ietf.org/html/rfc959"""@en ;
+    cav:refersTo camssa:b3789950-e364-40ad-9dc9-c772c042896f .
+
+camssa:9206b8ab-c327-437e-81f3-3a094f9270ca a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7a64b01ca9e737c550b205ba3a8a46b3fcfc9447b648ba8ef15d62d3ada26141 ;
+    cav:value "2"^^xsd:int .
+
+camssa:972cc2f3-2f29-4764-9607-660e28e1514c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a1eafd9c95081eeabe19f0511239b88139f02f95e2349049eeea058a89c80f49 ;
+    cav:value "1"^^xsd:int .
+
+camssa:9784cd28-2e03-4cb7-a321-eb3c9eab2cb8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of FTP is to allow the exchange of documents between systems and applications. "@en ;
+    cav:refersTo camssa:90bc2faa-d9de-496a-84bd-60647f8c24c3 .
+
+camssa:98339a89-c418-4bb5-b50c-87a826e3c695 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3671439b412291ce208a0ade6313c64aeb2942059c7543ca39322c56458bcf96 ;
+    cav:value "1"^^xsd:int .
+
+camssa:a48984d2-8c6c-42f6-bcf2-36a009834bf3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are several studies assessing the adoption, strengths, weaknesses, effectiveness and efficiency of FTP.
+
+See: 
+https://dzone.com/articles/potential-downsides-of-using-an-ftp-solution 
+https://themanifest.com/development/how-evaluate-your-file-transfer-protocol-system 
+https://sapinsider.wispubs.com/Assets/Articles/2012/January/Using-FTP-Know-The-Risks """@en ;
+    cav:refersTo camssa:bacfaf3a-ba1a-4f11-9547-fd6f270248ef .
+
+camssa:a8db3b8a-bab3-4603-adda-1c8ae188d8f8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """FTP is published on Joinup, the collaborative platform for reusable IT Solutions funded by the European Commission.
+
+See:
+https://joinup.ec.europa.eu/solution/file-transfer-protocol/distribution/file-transfer-protocol"""@en ;
+    cav:refersTo camssa:4a9f0ead-00a5-40cf-933e-1214692654ce .
+
+camssa:ae1f6a7b-520c-4bc6-a5a7-07a009d7c33c a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """Like all the IETF standards, HTTPS is  a free and open technical specification, built on IETF standards and licenses from the Open Web Foundation. FTP is therefore licensed on a royalty-free basis.
 
 See:
 https://tools.ietf.org/html/rfc3668"""@en ;
-    cav:refersTo camssa:099adddc-cc2e-440b-8fc9-577bbaec7940 .
+    cav:refersTo camssa:4daf1f17-4137-479e-a696-f95f2b35ed47 .
 
-camssa:f195697a-8f6b-4c91-b68d-f61e144f3fc9 a cav:Score,
+camssa:b3789950-e364-40ad-9dc9-c772c042896f a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-83d21357ecad07668ab7f2010aefed3cebb92dab384eeae6eb7aa77def06cfc3 ;
-    cav:value "2"^^xsd:int .
+    cav:assignedTo sc:c-4a006ad6785e066d16c13daf48a60ee43ec33d1de1b06613c8e656ccf330a6d5 ;
+    cav:value "1"^^xsd:int .
 
-camssa:f6215959-bf90-41ed-a2f8-53a3a63319a1 a cav:Score,
+camssa:b8b1ba1d-6922-4faf-8b85-96f598222805 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """6 Member States are recommending FTP in their ICT Catalogues. 
+
+See CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards """@en ;
+    cav:refersTo camssa:98339a89-c418-4bb5-b50c-87a826e3c695 .
+
+camssa:bacfaf3a-ba1a-4f11-9547-fd6f270248ef a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-58010a47630ff9ea23336bf3fc558deff59905e0292551fcabc95740082cb378 ;
+    cav:value "1"^^xsd:int .
+
+camssa:be2a4fd5-e505-4c86-8285-2c131a6e771f a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "CAMSS@everis.com" .
+
+camssa:beee1936-a9b5-447e-9a20-dcf726c61b20 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7aa038b5496afb8cb229c692be9a2adc175deb2d5d47e35ad67e027c9eac28ba ;
+    cav:value "1"^^xsd:int .
+
+camssa:c76bcae2-a1e2-405c-9b99-ecb58e82b7c6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """As  protocol for data exchange, FTP can be used for the exchange of documents solving administrative burden. Additionally, it can avoid the exchange of non-digital documents that are generally source of administrative burden.
+
+See: 
+https://tools.ietf.org/html/rfc959 """@en ;
+    cav:refersTo camssa:0581dd77-abbc-4063-96b4-7e4c944ca061 .
+
+camssa:c86c5596-26fd-43d7-82f6-f552a2c42667 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "As a business domain agnostic specification, FTP, can be used for the exchange of documents addressing any domain."@en ;
+    cav:refersTo camssa:e22a70f9-7294-4cac-aadc-7813cf087232 .
+
+camssa:c91a79cb-4e0a-4460-9aea-3283f9205112 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e9e0cf4a339c837607828404dd0e9b360d643528fcc1df488a95ca67166acea3 ;
+    cav:value "1"^^xsd:int .
+
+camssa:d1aa7b91-11ae-4e8b-a319-63355f4117f3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of FTP is not related to long term preservation of electronic records. Therefore this criterion is considered not applicable to this specification"@en ;
+    cav:refersTo camssa:2db42a2e-f3a5-4b41-9c01-7d21b2d26d6b .
+
+camssa:d43a7f75-7fe1-4cee-a637-91341fd6fdfe a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5839144ecfb6c41a2c3cf5c1e86a6b3ad7a9e3ec9c4efa5650a6e7b9e3586335 ;
+    cav:value "1"^^xsd:int .
+
+camssa:daa62328-e00e-4536-9ad1-918c946f511c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """FTP is a protocol exclusively designed for the  transfer of files which does not secure the traffic.
+
+However,  there are existing extensions of FTP that secure the information delivery. For instance,  FTP over TLS, known as FTPS, uses the Transport Layer Security (TLS) to secure FTP communications over a network.
+
+See: 
+https://tools.ietf.org/html/rfc959 
+https://tools.ietf.org/html/rfc4217"""@en ;
+    cav:refersTo camssa:47e4bdc0-4858-4e94-aca3-8523eb2a9994 .
+
+camssa:ddd47361-d76c-486e-9e76-ebf413a99573 a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-105c699a138c27ab9a1af9174253cd7488b278f700acdbb1bdbcc3e0b9c5ec3d ;
     cav:value "1"^^xsd:int .
 
-camssa:fd819d81-fa8f-491f-b655-20ad71e86001 a cav:Score,
+camssa:e1f1a7fe-ba70-4bf9-92fe-5fbf8fccf486 a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-4a006ad6785e066d16c13daf48a60ee43ec33d1de1b06613c8e656ccf330a6d5 ;
+    cav:judgement "The purpose of FTP is not related to organisational interoperability. Therefore, this criterion is not applicable to the specification."@en ;
+    cav:refersTo camssa:8a98efb0-a3e2-4a18-b904-c382d39d40fd .
+
+camssa:e22a70f9-7294-4cac-aadc-7813cf087232 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-41c6fd2dadb03cc64aad82cfa14f545c084f1a955a3ab7a61aab416a138c5dce ;
     cav:value "1"^^xsd:int .
+
+camssa:e975cf49-3f68-4030-b256-23c5eb1d85c3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b45c8f7e446b1343c6b6961290d2106768aa43c1f123f5e436d0255c003abb50 ;
+    cav:value "1"^^xsd:int .
+
+camssa:ecb033b7-05a4-4bdb-b490-8756ba7c3abb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1d35b341bcafc21377ae6ac358b9dc087e8ad32870012c2743e49e4566440f41 ;
+    cav:value "2"^^xsd:int .
+
+camssa:ed4cc6dd-95f1-4436-b6ce-6df9009ce4a0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "At the time of elaborating this assessment, FTP does not foster the creation of innovative solutions. Since its development in 1971, it has been used in combination with other specifications in order to enhance security (e.g. TLS & SSL). However, even these extensions of FTP are not considered innovative solutions."@en ;
+    cav:refersTo camssa:90eb701d-bb0c-490f-9702-6ab174a1ab3c .
+
+camssa:ee5ba9fa-008f-4826-8775-8ee3dc26ffd3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of FTP is not related  to the modelling of business processes. Therefore, this criterion is not applicable to the specification."@en ;
+    cav:refersTo camssa:ecb033b7-05a4-4bdb-b490-8756ba7c3abb .
+
+camssa:f2d28a50-9cf5-472f-a2ea-8006cc5257b3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The rules on European standardisation allow the European Commission to identify information and communication technology (ICT) technical specifications - that are not national, European or international standards - to be eligible for referencing in public procurement. This allows public authorities to make use of the full range of specifications when buying IT hardware, software and services, allowing for more competition in the field and reducing the risk of lock-in to proprietary systems.
+
+After being evaluated compliant with the regulation on standardisation 1025/2012, FTP has been identified by Commission Implementing Decision and included in the European list of ICT Standards for e-procurement.
+
+See: 
+https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en """@en ;
+    cav:refersTo camssa:3128f76b-31ce-4f10-9d31-8c701d75bcd2 .
+
+camssa:f2dd206e-cbf5-4f3c-9c11-942e1695e360 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The FTP is used in the context of the CIRCABC, a cross-border initiative that provides a web application enabling collaboration, communication and document exchange between European Union stakeholders. 
+
+See: 
+https://ec.europa.eu/isa2/sites/isa/files/circabc.pdf 
+https://circabc.europa.eu/faces/jsp/extension/wai/navigation/container.jsp"""@en ;
+    cav:refersTo camssa:972cc2f3-2f29-4764-9607-660e28e1514c .
 

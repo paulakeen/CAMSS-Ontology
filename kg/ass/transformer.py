@@ -1,7 +1,7 @@
 import os
 import uuid
 import pandas as p
-from ass.csv import CSV
+from ass._csv import _CSV
 from cfg.conf import Cfg
 from rdflib import URIRef, Literal, Namespace, Graph
 from rdflib.namespace import RDF, SKOS, OWL, DCTERMS, XSD
@@ -27,11 +27,11 @@ class Transformer:
 
     g: Graph
     df: p.DataFrame
-    csv: CSV
+    csv: _CSV
     cfg: Cfg
     ttl: str
 
-    def __init__(self, csv: CSV):
+    def __init__(self, csv: _CSV):
         self.cfg = csv.cfg
         self.g = None
         self.csv = csv

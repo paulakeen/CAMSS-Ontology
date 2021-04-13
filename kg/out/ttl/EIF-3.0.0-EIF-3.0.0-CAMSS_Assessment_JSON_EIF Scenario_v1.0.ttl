@@ -19,102 +19,115 @@ camssa:bb289f35acb2c7a95b9748b23050a32faa6de6ae8a4ab15a8550ac37827d8916 a cav:As
     camss:submissionDate "CAMSS@everis.com"^^xsd:date ;
     camss:toolVersion tool:3.0.0 ;
     cav:contextualisedBy sc:s-fa3a7cf6ccb859ff672f6579e000e61d96f0756c83c13b96e3139ae97beb13bd ;
-    cav:resultsIn camssa:03321b30-5972-45ae-a0de-4a170c6514f7,
-        camssa:0993a9de-6ff3-45d2-aacd-2f1ce6f66601,
-        camssa:0ea8ac9f-5751-41d5-b04d-8f1a9eb1c886,
-        camssa:12b10f63-91a3-4a00-9486-42dccf382826,
-        camssa:15ec171e-4575-4c7a-9af7-de1a26519c05,
-        camssa:209c28c2-2637-4d1b-8d75-bc6b546abf6a,
-        camssa:2643f384-dac9-4274-b2d9-d2e80a803fbc,
-        camssa:26cd1fea-e907-4fa6-abde-2ed751fc0774,
-        camssa:29d1b426-cda1-401b-9625-58f21aef29a7,
-        camssa:2b5eb650-b4a2-4a3b-9857-07e3e2a32e9e,
-        camssa:2bf97113-1416-4d55-aadf-efbfc3d38fad,
-        camssa:3191edf0-f4b9-4490-883e-2a1dd51f607d,
-        camssa:38358347-c80b-4ac1-9eae-776ee5dcf0aa,
-        camssa:3a20bb3f-a156-4e91-a679-902c49442d21,
-        camssa:3b29cde2-84a8-4954-9bdd-08e94950501e,
-        camssa:438c4252-cb8e-46a1-94e3-3dd85e458878,
-        camssa:49508a31-6242-4833-a7b7-4e7018ed4c01,
-        camssa:4987c8b1-dddb-4e7c-8d5f-681a18cdddcb,
-        camssa:4e01920b-01b8-4ded-a719-041f9c718e40,
-        camssa:62cec2dc-9b3f-4e32-8b9b-24e015243516,
-        camssa:66ddda34-30f1-4c7a-abeb-9177d55ce971,
-        camssa:6702ab1d-8be4-4fea-8a83-e620bf2dbfc6,
-        camssa:7657c1d0-d271-4870-baf2-3f87786e18ff,
-        camssa:7681343d-111f-49a7-bc64-123595a667ca,
-        camssa:769a54e7-d174-4032-afad-d4a2bf229be9,
-        camssa:8f69df47-7a0e-432b-a16a-4fbaa08d3f26,
-        camssa:932f69a9-c12e-4402-af27-00071aea1e68,
-        camssa:a6250e44-360d-46c4-9e2f-560450f54ff3,
-        camssa:be283d20-be11-45f3-b34d-1be946e26ade,
-        camssa:c64cd387-a56f-4023-a1b1-c6363c028a43,
-        camssa:e025657c-5ed4-4a63-a3ca-8c4f068b4bfa,
-        camssa:e3784ddd-ace2-4f55-bd70-44a9e2e7e645,
-        camssa:e3ac0fbf-c7b9-4f63-9919-ed2f60a4419e,
-        camssa:e9d84563-734e-4774-8560-b481ad38252b,
-        camssa:eecd42c2-1837-4e21-a855-bad86655ccca,
-        camssa:ef9f85f8-dc95-43ef-886b-0b7c608ea6f3,
-        camssa:f0a906a9-fdab-49ce-8431-c34968e0cc5e ;
+    cav:resultsIn camssa:01b6b9a2-df1c-4681-8cb9-b4ac8c7e8b38,
+        camssa:03818e05-72d1-42fb-8606-082e2d144df0,
+        camssa:161482b1-884a-42ad-9818-c3015a73b0e6,
+        camssa:1a3b67e6-972a-4330-a15c-338e8003410d,
+        camssa:1b8f299c-0f21-41ee-847a-f7d3fa633a22,
+        camssa:1c21f27d-0c99-4295-bd03-0664bce8ff6f,
+        camssa:1ccd1632-0ac9-4ae6-a1ae-519a02b370e0,
+        camssa:21b4535d-e5fa-4e38-8e84-b5c69ac466cc,
+        camssa:21ce2e8e-4c43-4ce7-94b7-7910508b8f30,
+        camssa:2a750d79-6ca2-4f67-89f1-dfe5f2529bb3,
+        camssa:35c09315-2584-440c-a918-3d83d6103158,
+        camssa:4245384c-9bb9-44cc-b0c0-ba1cff231dc6,
+        camssa:430343c7-2346-4442-9b09-03c5020957f8,
+        camssa:4a966d85-c09e-4b98-b42c-ac228f0b56f3,
+        camssa:553d89a7-d8ed-42fd-ae20-f4bd370f2752,
+        camssa:555dc7fb-33b5-4c32-befd-cd3246b6207a,
+        camssa:57ee5012-55bb-4185-b140-5f82702e13a3,
+        camssa:6209a6d5-cec2-46f3-a55f-3d88e16d4189,
+        camssa:6b25f02c-0f13-482c-9afd-fb7e35746578,
+        camssa:7102bee6-5e68-4a8e-806f-38adbc1558f8,
+        camssa:7573a35c-146e-485b-89e6-4a800f139a87,
+        camssa:785e360e-8241-4f70-add7-49e9c410aac8,
+        camssa:7e99ab98-16d0-46b5-854f-5c2f6aed9936,
+        camssa:8590ed89-3d0f-4679-8a44-16929e285a39,
+        camssa:86f4b0de-03a6-46b5-ab59-7afacf9aaa32,
+        camssa:89569a84-4857-4d55-94a9-f33ac44ca395,
+        camssa:8a9f2d6f-3a1f-4057-8ac8-fae0acf01869,
+        camssa:8c869a42-b051-4f52-a8fd-a48a1f3a3c6a,
+        camssa:95a367cd-dc6b-4ff0-9a25-6afc0c9672db,
+        camssa:a46c321a-9e57-4fef-9a13-675d865c8d70,
+        camssa:ad765245-c9cb-48fa-92f4-8b876f1aaba7,
+        camssa:af48ed1f-0b5c-43b5-baa4-63f9641d746f,
+        camssa:b1f2b1a5-9ba4-432d-9848-284a5aa2c8fc,
+        camssa:b33bf9a2-9120-4a9b-8e41-8584672ae35e,
+        camssa:b4746ff0-3fb6-4424-9c64-0f5deae1f03f,
+        camssa:e17e142d-43c1-4212-a93e-fbef25606861,
+        camssa:f6391985-2830-469c-b2cb-1901d84dc046 ;
     cav:status status:Complete ;
     dct:title "JavaScript Object Notation (JSON)"@en .
 
 camssa:ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164 a owl:NamedIndividual,
         org:Organization ;
-    camss:contactPoint camssa:d5ddbea5-d5c3-496b-a23b-4bc390eeca4a ;
+    camss:contactPoint camssa:11f96956-7f03-4128-8b23-39f411ed3982 ;
     skos:prefLabel "CAMSS Team"@en .
 
-camssa:03321b30-5972-45ae-a0de-4a170c6514f7 a cav:Statement,
+camssa:012b0580-2b6c-461f-a133-8d35c6776f00 a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement "JSON is defining a set of rules to format data in order to ensure the proper data exchange between applications and platforms. Even defining rules, it can not be considered as a data model in itself, therefore, JSON is not defining a cross-sector data model. "@en ;
-    cav:refersTo camssa:1ed074a1-63f6-4383-aaba-fcb94cd16685 .
-
-camssa:0474e088-b848-452f-be4c-fe22a7679bf2 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-1d35b341bcafc21377ae6ac358b9dc087e8ad32870012c2743e49e4566440f41 ;
-    cav:value "2"^^xsd:int .
-
-camssa:04f57488-28c6-40e4-b037-1d513274d592 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-e8c3529a6146f0b0d269112be717ba4e9c5979ea4f43f57d217c0f998d26ce17 ;
+    cav:assignedTo sc:c-450e8a1f4cffbbf3de202e37bd642f098174559028df90ccc657473a6086bc0b ;
     cav:value "1"^^xsd:int .
 
-camssa:05edd173-1495-42e4-bb87-83ea7c296818 a cav:Score,
+camssa:01b6b9a2-df1c-4681-8cb9-b4ac8c7e8b38 a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-7a64b01ca9e737c550b205ba3a8a46b3fcfc9447b648ba8ef15d62d3ada26141 ;
-    cav:value "2"^^xsd:int .
+    cav:judgement "After checking the assessments performed by CAMSS and the list of specifications identified by the MSP Multi-stakeholder-platform, no assessment verifying the compliance of the specification with the European standardisation regulation has been found."@en ;
+    cav:refersTo camssa:a46fd927-fb46-4b93-8f33-03009cd358fb .
 
-camssa:073b5e05-5a03-4eb2-9cff-3d1fdf453a25 a cav:Score,
+camssa:03818e05-72d1-42fb-8606-082e2d144df0 a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-4017a1ae4d077fbb3847280a1c20b41bf00c32d65fc9beaa2bea8cce550ac463 ;
-    cav:value "1"^^xsd:int .
-
-camssa:0993a9de-6ff3-45d2-aacd-2f1ce6f66601 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """JSON is available for its use, study and implementation at ECMA International and EITF's webpages. 
+    cav:judgement """ECMA International's purpose is to make available the developed standards and specifications in a non-discriminatory and free of charges. Therefore, JSON is licensed under (F)RAND and Royalty-free basis. Terms and conditions for IPR disclosures can be found in ECMA's webpage. 
 See:
-https://www.ecma-international.org/publications/standards/Ecma-404.htm
-https://tools.ietf.org/html/rfc8259"""@en ;
-    cav:refersTo camssa:88c2ff01-3281-4213-8fc6-185621e86b82 .
+http://www.ecma-international.org/memento/Ecma%20IPR%20policies.htm"""@en ;
+    cav:refersTo camssa:21ed9c03-cd6c-47fd-9fb1-195e042f42bb .
 
-camssa:0ea8ac9f-5751-41d5-b04d-8f1a9eb1c886 a cav:Statement,
+camssa:0b38475c-01c2-41cd-9279-36d2c611d23f a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement """JSON strongly supports Tim Berners Lee's 5-star schema for open data. The adoption of JSON fosters the publication of data as open data by means of providing structured data and the usage of non-proprietary formats. Moreover, it helps to link data by means of embedding metadata. 
+    cav:assignedTo sc:c-a0101cb11c30c1bbf94adb74479472f2a40c53ccc4b442180fece91506c20a9d ;
+    cav:value "0"^^xsd:int .
 
-See: 
-https://www.europeandataportal.eu/sites/default/files/european_data_portal_-_open_data_goldbook.pdf
-https://5stardata.info/en/"""@en ;
-    cav:refersTo camssa:2e5a0239-7eb3-45c4-a915-af23e8b27745 .
-
-camssa:12b10f63-91a3-4a00-9486-42dccf382826 a cav:Statement,
+camssa:11f96956-7f03-4128-8b23-39f411ed3982 a schema:ContactPoint,
         owl:NamedIndividual ;
-    cav:judgement """There are already existing documents and studies assessing the JSON's features and performance. In some cases, the study has been carried out in a comprehensive comparison between XML and JSON. 
-See: 
-https://www.researchgate.net/profile/Hanif_Ullah/publication/321361853_Behavior_based_Comparative_analysis_of_XML_and_JSON_web_technologies/links/5a1eb56f0f7e9b9d5e000bfd/Behavior-based-Comparative-analysis-of-XML-and-JSON-web-technologies.pdf 
-https://www.researchgate.net/profile/Kamir_Yusof/publication/320045078_Efficiency_of_JSON_for_data_retrieval_in_big_data/links/5a3f14ea458515f6b0456f54/Efficiency-of-JSON-for-data-retrieval-in-big-data.pdf"""@en ;
-    cav:refersTo camssa:ad950fbc-f403-44a6-ada1-66ff4b1bd185 .
+    schema:email "NaN"^^xsd:double .
 
-camssa:15ec171e-4575-4c7a-9af7-de1a26519c05 a cav:Statement,
+camssa:12199be6-153a-44ef-b327-aa94a8ec185a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-58010a47630ff9ea23336bf3fc558deff59905e0292551fcabc95740082cb378 ;
+    cav:value "1"^^xsd:int .
+
+camssa:155fab30-959c-4ff8-b2be-a9d032ef70e8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-19c639047dab46befb5839503733c8f1e7ed8278f788a089d11d2caee84a8f7c ;
+    cav:value "1"^^xsd:int .
+
+camssa:161482b1-884a-42ad-9818-c3015a73b0e6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "Nowadays, JSON is not included in any supra-national catalogue of standards. "@en ;
+    cav:refersTo camssa:b28f7d0e-1082-415a-8d06-0b7461888976 .
+
+camssa:164c20ca-502e-4cd3-8ed1-24a6a521bf86 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-73a8058bec757a2fdb0f8513c2f11841e982cbef76c3be82af67707c294da8b8 ;
+    cav:value "2"^^xsd:int .
+
+camssa:1a3b67e6-972a-4330-a15c-338e8003410d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "JSON sector agnostic specification that can be reused in any business domain requiring a common format to exchange data between different programs."@en ;
+    cav:refersTo camssa:c42aeb9f-38ae-4fe3-b17c-2a60d27813a8 .
+
+camssa:1b8f299c-0f21-41ee-847a-f7d3fa633a22 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "JSON in itself does not provide security features, which is a weakness per se. The storage of private date as JSON format is not recommended in order to avoid malicious activities against stored information. Despite this, there are several additional features with the aim of protecting data exchange."@en ;
+    cav:refersTo camssa:e5f3a139-f3a6-4fd0-a5e2-bacade9139f7 .
+
+camssa:1c21f27d-0c99-4295-bd03-0664bce8ff6f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """JSON is already associated with EIRA ABBs in the European Library Of Specifications (ELIS). Specifically, JSON can define the interoperability aspects of the "Machine to machine interface" ABB of the EIRA Technical View. In addition, JSON can define also the "representation" ABB of the EIRA semantic view. 
+See: 
+https://joinup.ec.europa.eu/solution/elis/distribution/eliscataloguev100betaxlsx"""@en ;
+    cav:refersTo camssa:59d4c1f8-353a-4b38-91eb-fa1f45be005f .
+
+camssa:1ccd1632-0ac9-4ae6-a1ae-519a02b370e0 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """The Executive Committee has to review and co-ordinate the progress of the TCs and, from time to time, review the terms of reference given to Technical Committees. 
 
@@ -122,41 +135,144 @@ In addition, the Technical Committee shall review and approve the minutes of the
 
 See:
 http://www.ecma-international.org/memento/policies.htm"""@en ;
-    cav:refersTo camssa:e9216787-3c1d-4e84-8b68-9eef70cf0fa5 .
+    cav:refersTo camssa:6439e60e-a566-4a7c-8831-f48933b0a4b4 .
 
-camssa:1d9e0e33-0445-4a76-914e-895adecaa35d a cav:Score,
+camssa:2019c91b-3553-4651-bee6-0547136a5722 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-01e6c1ce016de128117697d51a8fdaebb57c1f50343c081dfd72e2fbc56733a8 ;
+    cav:value "1"^^xsd:int .
+
+camssa:21b4535d-e5fa-4e38-8e84-b5c69ac466cc a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of JSON is not related to e-accessibility. Therefore this criterion is not applicable to this specification."@en ;
+    cav:refersTo camssa:2fc84a10-6935-4b69-bf25-343d1daecfdd .
+
+camssa:21ce2e8e-4c43-4ce7-94b7-7910508b8f30 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """JSON is available for its use an implementation at ECMA International and EITF's webpages. 
+See:
+https://www.ecma-international.org/publications/standards/Ecma-404.htm
+https://tools.ietf.org/html/rfc8259#section-14.1"""@en ;
+    cav:refersTo camssa:6f1033c0-faac-4f28-ae6a-711bdb231d25 .
+
+camssa:21ed9c03-cd6c-47fd-9fb1-195e042f42bb a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-e370a4af17e89cbb70bb5079082a1e21cdee85435c8fc30b12a8987f18db367f ;
     cav:value "1"^^xsd:int .
 
-camssa:1ec53f3a-4507-4ed2-8eb3-b778f4e3555f a cav:Score,
+camssa:221b363a-66e8-4ed1-89b9-39622a747c08 a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-0c9dd43038136296b52f50e05f9d6eef39f7b8018517224007990b15be2eb19e ;
-    cav:value "0"^^xsd:int .
+    cav:assignedTo sc:c-e8c3529a6146f0b0d269112be717ba4e9c5979ea4f43f57d217c0f998d26ce17 ;
+    cav:value "1"^^xsd:int .
 
-camssa:1ed074a1-63f6-4383-aaba-fcb94cd16685 a cav:Score,
+camssa:24963d00-1851-4316-9f9f-44936f430189 a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-a0101cb11c30c1bbf94adb74479472f2a40c53ccc4b442180fece91506c20a9d ;
-    cav:value "0"^^xsd:int .
+    cav:assignedTo sc:c-1435ad894742693c2b99e329ef12399cd411ed6900f49b9658fd2231de3f201a ;
+    cav:value "1"^^xsd:int .
 
-camssa:209c28c2-2637-4d1b-8d75-bc6b546abf6a a cav:Statement,
+camssa:24b185ec-d5b4-4606-badb-d90fd7595bf4 a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement "JSON is a text format that is completely language independent.  The specification uses conventions that are familiars to C-family of languages, including C, C++, C#, Java, JavaScript, Perl, Python, and many others. For these reasons, JSON is an optimum data exchange and interchange language."@en ;
-    cav:refersTo camssa:04f57488-28c6-40e4-b037-1d513274d592 .
+    cav:assignedTo sc:c-ef096f898c938883daab1b22e784cfaf985b5e5c855e170ecf6eab6f37b01b50 ;
+    cav:value "1"^^xsd:int .
 
-camssa:2643f384-dac9-4274-b2d9-d2e80a803fbc a cav:Statement,
+camssa:2a43cc60-eb5e-40bf-988d-9db40325a1a3 a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement "The purpose of JSON is not related to e-accessibility. Therefore this criterion is not applicable to this specification."@en ;
-    cav:refersTo camssa:05edd173-1495-42e4-bb87-83ea7c296818 .
+    cav:assignedTo sc:c-6ec33e201b803a1cc0150c0da8dc42b2a0f1029cf31e7a2c0fc81d1d8336ef36 ;
+    cav:value "1"^^xsd:int .
 
-camssa:26cd1fea-e907-4fa6-abde-2ed751fc0774 a cav:Statement,
+camssa:2a750d79-6ca2-4f67-89f1-dfe5f2529bb3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of JSON is not related to ensuring the availability of interfaces. Therefore this criterion is not applicable to this specification."@en ;
+    cav:refersTo camssa:64b34240-4a11-401f-9586-d7f3e078857b .
+
+camssa:2e0874f3-650d-44ce-9baf-c26e5ff75037 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cf1de0bf03a8ee372af0deddf9ef5c4609f5a7bb9c7e001c89d887c6789eaf56 ;
+    cav:value "1"^^xsd:int .
+
+camssa:2fc84a10-6935-4b69-bf25-343d1daecfdd a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7a64b01ca9e737c550b205ba3a8a46b3fcfc9447b648ba8ef15d62d3ada26141 ;
+    cav:value "2"^^xsd:int .
+
+camssa:35c09315-2584-440c-a918-3d83d6103158 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Douglas Crockford was the creator of JSON. The system was sold to Sun Microsystems, Amazon.com and EDS. The website of the specification was launched in 2002. JSON reuses conventions from other programming languages, in consequence, many libraries of programming use it. Therefore, it is demonstrated that JSON has enough maturity and market acceptance for its use in the development of products and services. 
+
+See:
+https://www.json.org/json-en.html"""@en ;
+    cav:refersTo camssa:7b1591ce-c2d8-45a5-9313-027809a84bb9 .
+
+camssa:4245384c-9bb9-44cc-b0c0-ba1cff231dc6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """JSON is available for its use, study and implementation at ECMA International and EITF's webpages. 
+See:
+https://www.ecma-international.org/publications/standards/Ecma-404.htm
+https://tools.ietf.org/html/rfc8259"""@en ;
+    cav:refersTo camssa:7e7c6ecf-e07f-4950-85e9-3e4bea14aa0e .
+
+camssa:430343c7-2346-4442-9b09-03c5020957f8 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """The specification is included in 5 Member States' catalogues of recommended specifications. Some examples of Member States including JSON on their catalogues are the Netherlands, Spain or Belgium.
 See: 
 https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
-    cav:refersTo camssa:6a259061-f297-4d50-bbdb-d6c6db11a263 .
+    cav:refersTo camssa:6b8f76eb-6aa9-42df-8af5-d4100e375a8f .
 
-camssa:29d1b426-cda1-401b-9625-58f21aef29a7 a cav:Statement,
+camssa:4a966d85-c09e-4b98-b42c-ac228f0b56f3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of JSON is not related  to the modelling of business processes. Therefore, this criterion is not applicable to the specification."@en ;
+    cav:refersTo camssa:84dfe06b-a3aa-4155-bd56-7ed474ba1f01 .
+
+camssa:51fb6cd5-e8ec-4f39-a80c-805d052b826d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a1eafd9c95081eeabe19f0511239b88139f02f95e2349049eeea058a89c80f49 ;
+    cav:value "1"^^xsd:int .
+
+camssa:553d89a7-d8ed-42fd-ae20-f4bd370f2752 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "No formal interoperability agreement has been found involving European public services providers. "@en ;
+    cav:refersTo camssa:be5143df-12fb-496b-8e0c-b135b0c20bb7 .
+
+camssa:555dc7fb-33b5-4c32-befd-cd3246b6207a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """5 Member States are recommending JSON in their ICT National Catalogues. 
+See: 
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:72471344-71df-4f21-b6a2-322418020081 .
+
+camssa:57b958fc-a02e-4c12-802c-ce88e59c50ba a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-105c699a138c27ab9a1af9174253cd7488b278f700acdbb1bdbcc3e0b9c5ec3d ;
+    cav:value "1"^^xsd:int .
+
+camssa:57ee5012-55bb-4185-b140-5f82702e13a3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "JSON is a text format that is completely language independent.  The specification uses conventions that are familiars to C-family of languages, including C, C++, C#, Java, JavaScript, Perl, Python, and many others. For these reasons, JSON is an optimum data exchange and interchange language."@en ;
+    cav:refersTo camssa:221b363a-66e8-4ed1-89b9-39622a747c08 .
+
+camssa:59d4c1f8-353a-4b38-91eb-fa1f45be005f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5839144ecfb6c41a2c3cf5c1e86a6b3ad7a9e3ec9c4efa5650a6e7b9e3586335 ;
+    cav:value "1"^^xsd:int .
+
+camssa:6209a6d5-cec2-46f3-a55f-3d88e16d4189 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """ECMA International's purpose is to make available the developed standards and specifications in a non-discriminatory and free of charges. Therefore, JSON is licensed under (F)RAND and Royalty-free basis. Terms and conditions for IPR disclosures can be found in ECMA's webpage. 
+See:
+http://www.ecma-international.org/memento/Ecma%20IPR%20policies.htm"""@en ;
+    cav:refersTo camssa:24b185ec-d5b4-4606-badb-d90fd7595bf4 .
+
+camssa:6439e60e-a566-4a7c-8831-f48933b0a4b4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7aa038b5496afb8cb229c692be9a2adc175deb2d5d47e35ad67e027c9eac28ba ;
+    cav:value "1"^^xsd:int .
+
+camssa:64b34240-4a11-401f-9586-d7f3e078857b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f41cca0d171e6f64dbc2bdeae9fbc87f2ea51ac00185b22114d59ab8a06e78d0 ;
+    cav:value "2"^^xsd:int .
+
+camssa:6b25f02c-0f13-482c-9afd-fb7e35746578 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """JSON highly supports Tim Berners Lee's 5 star schema for open data. The adoption of JSON fosters the publication of data as open data by means of providing structured data and the usage of non-proprietary formats. Moreover, it helps to link data by means of embedding metadata. 
 
@@ -165,18 +281,34 @@ Moreover, there is an existing extension of JSON which aims to help and support 
 See:
 https://www.w3.org/community/json-ld/
 https://json-ld.org"""@en ;
-    cav:refersTo camssa:f526b22e-21a8-4408-a5f6-418dde9e371a .
+    cav:refersTo camssa:012b0580-2b6c-461f-a133-8d35c6776f00 .
 
-camssa:2b5eb650-b4a2-4a3b-9857-07e3e2a32e9e a cav:Statement,
+camssa:6b8f76eb-6aa9-42df-8af5-d4100e375a8f a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement """There are several existing mechanisms to assess JSON conformity. Different types of validators depending on users’ needs.
-See: 
-https://github.com/nst/JSONTestSuite
-https://jsoncompare.com/#!/simple/
-https://jsonformatter.curiousconcept.com/"""@en ;
-    cav:refersTo camssa:9259cc91-067f-4617-9aca-058326cef031 .
+    cav:assignedTo sc:c-3671439b412291ce208a0ade6313c64aeb2942059c7543ca39322c56458bcf96 ;
+    cav:value "1"^^xsd:int .
 
-camssa:2bf97113-1416-4d55-aadf-efbfc3d38fad a cav:Statement,
+camssa:6f1033c0-faac-4f28-ae6a-711bdb231d25 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b45c8f7e446b1343c6b6961290d2106768aa43c1f123f5e436d0255c003abb50 ;
+    cav:value "1"^^xsd:int .
+
+camssa:7102bee6-5e68-4a8e-806f-38adbc1558f8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of JSON is not related to long-term preservation of electronic records. Therefore this criterion is considered not applicable to this specification."@en ;
+    cav:refersTo camssa:c4fd2e60-bfe6-46c7-ae5c-6dd3d6e4941a .
+
+camssa:72471344-71df-4f21-b6a2-322418020081 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b4f0d1b7f1d41c70797fa200c6fc73ac01f2f1659319e5cb1cebe8f5e79c1fcb ;
+    cav:value "1"^^xsd:int .
+
+camssa:7573a35c-146e-485b-89e6-4a800f139a87 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "By allowing the data exchange between applications and systems talking different languages JSON fosters the data portability of European public services. "@en ;
+    cav:refersTo camssa:2a43cc60-eb5e-40bf-988d-9db40325a1a3 .
+
+camssa:785e360e-8241-4f70-add7-49e9c410aac8 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """ECMA International has clearly defined the procedures that have to be carried out in order to publish standards or technical reports. The procedures are defined in a set of documents that can be found at ECMA's webpage. 
 
@@ -184,255 +316,108 @@ ECMA International’s decision procedure is basically a two-step process: The f
 
 See:
 http://www.ecma-international.org/memento/policies.htm"""@en ;
-    cav:refersTo camssa:f3f7edd9-6bcb-488a-afbc-444b149fc9ce .
+    cav:refersTo camssa:f0bd8871-9d4a-40a9-a76d-b407180a0617 .
 
-camssa:2e5a0239-7eb3-45c4-a915-af23e8b27745 a cav:Score,
+camssa:7b1591ce-c2d8-45a5-9313-027809a84bb9 a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-b6ba3f2f556446c68c55833e72b217be87ad5f0dd07744e2c39c6070aff6c10f ;
+    cav:assignedTo sc:c-a67ecbc29e70e62b18dba3ae4f8d1f91d5b3196777dbf8b58c6713cd517eb768 ;
     cav:value "1"^^xsd:int .
 
-camssa:3191edf0-f4b9-4490-883e-2a1dd51f607d a cav:Statement,
+camssa:7e7c6ecf-e07f-4950-85e9-3e4bea14aa0e a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement "JSON in itself does not provide security features, which is a weakness per se. The storage of private date as JSON format is not recommended in order to avoid malicious activities against stored information. Despite this, there are several additional features with the aim of protecting data exchange."@en ;
-    cav:refersTo camssa:6931191e-724d-4760-b868-c14b2ccf4985 .
+    cav:assignedTo sc:c-4a006ad6785e066d16c13daf48a60ee43ec33d1de1b06613c8e656ccf330a6d5 ;
+    cav:value "1"^^xsd:int .
 
-camssa:38358347-c80b-4ac1-9eae-776ee5dcf0aa a cav:Statement,
+camssa:7e99ab98-16d0-46b5-854f-5c2f6aed9936 a cav:Statement,
         owl:NamedIndividual ;
-    cav:judgement "The purpose of JSON is not related to ensuring the availability of interfaces. Therefore this criterion is not applicable to this specification."@en ;
-    cav:refersTo camssa:9a1cf35b-6134-4326-8116-0bd504b185e1 .
+    cav:judgement "JSON is a data-interchange format is used by APIs, which are involved in the delivery of information between platforms, and in consequence service delivery. This fact makes JSON an element that fosters de delivery of European Public services, including multilingual ones."@en ;
+    cav:refersTo camssa:155fab30-959c-4ff8-b2be-a9d032ef70e8 .
 
-camssa:3a20bb3f-a156-4e91-a679-902c49442d21 a cav:Statement,
+camssa:7f5d8012-9c03-4410-8a01-b9a0c6bb9161 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-093c1e09f5a65e4cba0247dcab5a8f4854f3e512db336b1855b9a4c48d3659e0 ;
+    cav:value "1"^^xsd:int .
+
+camssa:84dfe06b-a3aa-4155-bd56-7ed474ba1f01 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1d35b341bcafc21377ae6ac358b9dc087e8ad32870012c2743e49e4566440f41 ;
+    cav:value "2"^^xsd:int .
+
+camssa:8590ed89-3d0f-4679-8a44-16929e285a39 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "JSON is defining a set of rules to format data in order to ensure the proper data exchange between applications and platforms. Even defining rules, it can not be considered as a data model in itself, therefore, JSON is not defining a cross-sector data model. "@en ;
+    cav:refersTo camssa:0b38475c-01c2-41cd-9279-36d2c611d23f .
+
+camssa:86f4b0de-03a6-46b5-ab59-7afacf9aaa32 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """JSON is available for its use an implementation at ECMA International and EITF's webpages. 
 See:
 https://www.ecma-international.org/publications/standards/Ecma-404.htm
 https://tools.ietf.org/html/rfc8259"""@en ;
-    cav:refersTo camssa:62912372-17f9-4a43-bf93-5a1f3fa8a974 .
+    cav:refersTo camssa:d6d28ddc-4c0e-4211-85c2-da737228263d .
 
-camssa:3b29cde2-84a8-4954-9bdd-08e94950501e a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """JSON is available for its use an implementation at ECMA International and EITF's webpages. 
-See:
-https://www.ecma-international.org/publications/standards/Ecma-404.htm
-https://tools.ietf.org/html/rfc8259#section-14.1"""@en ;
-    cav:refersTo camssa:eaa8550b-cf07-4cd8-ae80-75567b37ae98 .
-
-camssa:3b9b5b37-4205-4fc3-b6da-cb4082c30279 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-ef096f898c938883daab1b22e784cfaf985b5e5c855e170ecf6eab6f37b01b50 ;
-    cav:value "1"^^xsd:int .
-
-camssa:3d070284-c94b-4750-bc5d-2951409fc5a6 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-105c699a138c27ab9a1af9174253cd7488b278f700acdbb1bdbcc3e0b9c5ec3d ;
-    cav:value "1"^^xsd:int .
-
-camssa:3d3fd473-dab2-4c85-9dc5-e1a2f0df414c a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-19c639047dab46befb5839503733c8f1e7ed8278f788a089d11d2caee84a8f7c ;
-    cav:value "1"^^xsd:int .
-
-camssa:438c4252-cb8e-46a1-94e3-3dd85e458878 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """Douglas Crockford was the creator of JSON. The system was sold to Sun Microsystems, Amazon.com and EDS. The website of the specification was launched in 2002. JSON reuses conventions from other programming languages, in consequence, many libraries of programming use it. Therefore, it is demonstrated that JSON has enough maturity and market acceptance for its use in the development of products and services. 
-
-See:
-https://www.json.org/json-en.html"""@en ;
-    cav:refersTo camssa:bedf834f-f745-4c37-810b-c7fff8fccf69 .
-
-camssa:49508a31-6242-4833-a7b7-4e7018ed4c01 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "After checking the assessments performed by CAMSS and the list of specifications identified by the MSP Multi-stakeholder-platform, no assessment verifying the compliance of the specification with the European standardisation regulation has been found."@en ;
-    cav:refersTo camssa:e56b41fd-d1d2-437e-8451-927aca0a83b1 .
-
-camssa:4987c8b1-dddb-4e7c-8d5f-681a18cdddcb a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "Nowadays, JSON is not included in any supra-national catalogue of standards. "@en ;
-    cav:refersTo camssa:1ec53f3a-4507-4ed2-8eb3-b778f4e3555f .
-
-camssa:4e01920b-01b8-4ded-a719-041f9c718e40 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "The purpose of JSON is not related to organisational interoperability. Therefore, this criterion is not applicable to the specification."@en ;
-    cav:refersTo camssa:661cd443-a8c6-4e30-8aee-3d2487c3f839 .
-
-camssa:58b11a3e-746e-4740-9b3c-c6ebe4ccd009 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-a1eafd9c95081eeabe19f0511239b88139f02f95e2349049eeea058a89c80f49 ;
-    cav:value "1"^^xsd:int .
-
-camssa:62912372-17f9-4a43-bf93-5a1f3fa8a974 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-0229101dfe08cbe58da1e454363d30a8178a2e120466c8db23965488cae5c8b1 ;
-    cav:value "1"^^xsd:int .
-
-camssa:62cec2dc-9b3f-4e32-8b9b-24e015243516 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "JSON is a data-interchange format is used by APIs, which are involved in the delivery of information between platforms, and in consequence service delivery. This fact makes JSON an element that fosters de delivery of European Public services, including multilingual ones."@en ;
-    cav:refersTo camssa:3d3fd473-dab2-4c85-9dc5-e1a2f0df414c .
-
-camssa:661cd443-a8c6-4e30-8aee-3d2487c3f839 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-73a8058bec757a2fdb0f8513c2f11841e982cbef76c3be82af67707c294da8b8 ;
-    cav:value "2"^^xsd:int .
-
-camssa:66ddda34-30f1-4c7a-abeb-9177d55ce971 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "Currently, JSON is a widely used specification for data interchange between applications and platforms. It is used in a REST API applications in order to ensure data exchange, this application is extensively used for the creation of solutions, including innovative ones."@en ;
-    cav:refersTo camssa:9990adf2-617f-48b6-bba8-589d17a488a0 .
-
-camssa:6702ab1d-8be4-4fea-8a83-e620bf2dbfc6 a cav:Statement,
+camssa:89569a84-4857-4d55-94a9-f33ac44ca395 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """JSON is a lightweight specification that allows data exchange between different applications fostering interoperability and data visibility. The specification is scarcely used for document exchange. Therefore, JSON adoption does not hamper the interoperability and scalability of systems. 
 
 See:
 https://www.json.org/xml.html"""@en ;
-    cav:refersTo camssa:e7b4d54d-5863-4dd7-95fb-3a017244ac52 .
+    cav:refersTo camssa:24963d00-1851-4316-9f9f-44936f430189 .
 
-camssa:6931191e-724d-4760-b868-c14b2ccf4985 a cav:Score,
+camssa:8a9f2d6f-3a1f-4057-8ac8-fae0acf01869 a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-483e8900c47b40bc67a6bd1cbfce07884b9ac5f2c85e0214f334cc37e4e65c35 ;
+    cav:judgement "As a key enabler for the data exchange and interchange between administrations and stakeholders, JSON enhances the communication and information exchange across borders between public administrations. Therefore, the adoption of the specification avoids citizens and businesses to provide information in several times."@en ;
+    cav:refersTo camssa:2019c91b-3553-4651-bee6-0547136a5722 .
+
+camssa:8c869a42-b051-4f52-a8fd-a48a1f3a3c6a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "JSON allows the data exchange and consumption from different administrations stakeholders. Ensuring data exchange through applications avoids the interaction by means of reducing the non-digital data exchange. Therefore, the adoption of JSON eases the reduction of administrative burden."@en ;
+    cav:refersTo camssa:d7660a65-7e72-449f-bf75-f4ff90b7c3d6 .
+
+camssa:95a367cd-dc6b-4ff0-9a25-6afc0c9672db a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are already existing documents and studies assessing the JSON's features and performance. In some cases, the study has been carried out in a comprehensive comparison between XML and JSON. 
+See: 
+https://www.researchgate.net/profile/Hanif_Ullah/publication/321361853_Behavior_based_Comparative_analysis_of_XML_and_JSON_web_technologies/links/5a1eb56f0f7e9b9d5e000bfd/Behavior-based-Comparative-analysis-of-XML-and-JSON-web-technologies.pdf 
+https://www.researchgate.net/profile/Kamir_Yusof/publication/320045078_Efficiency_of_JSON_for_data_retrieval_in_big_data/links/5a3f14ea458515f6b0456f54/Efficiency-of-JSON-for-data-retrieval-in-big-data.pdf"""@en ;
+    cav:refersTo camssa:12199be6-153a-44ef-b327-aa94a8ec185a .
+
+camssa:a0f0a0a1-c76b-47a4-8d7d-82d7f151b4d7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-4017a1ae4d077fbb3847280a1c20b41bf00c32d65fc9beaa2bea8cce550ac463 ;
+    cav:value "1"^^xsd:int .
+
+camssa:a46c321a-9e57-4fef-9a13-675d865c8d70 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """JSON strongly supports Tim Berners Lee's 5-star schema for open data. The adoption of JSON fosters the publication of data as open data by means of providing structured data and the usage of non-proprietary formats. Moreover, it helps to link data by means of embedding metadata. 
+
+See: 
+https://www.europeandataportal.eu/sites/default/files/european_data_portal_-_open_data_goldbook.pdf
+https://5stardata.info/en/"""@en ;
+    cav:refersTo camssa:edb670e2-ad5b-4e76-980d-569e795f3c85 .
+
+camssa:a46fd927-fb46-4b93-8f33-03009cd358fb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e9e0cf4a339c837607828404dd0e9b360d643528fcc1df488a95ca67166acea3 ;
     cav:value "0"^^xsd:int .
 
-camssa:6a259061-f297-4d50-bbdb-d6c6db11a263 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-3671439b412291ce208a0ade6313c64aeb2942059c7543ca39322c56458bcf96 ;
-    cav:value "1"^^xsd:int .
-
-camssa:6c7ebd94-7c46-4222-a720-4836d36eca1c a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-6ec33e201b803a1cc0150c0da8dc42b2a0f1029cf31e7a2c0fc81d1d8336ef36 ;
-    cav:value "1"^^xsd:int .
-
-camssa:70b9a9ab-ca55-48fa-a8ad-c1b706549adf a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-5839144ecfb6c41a2c3cf5c1e86a6b3ad7a9e3ec9c4efa5650a6e7b9e3586335 ;
-    cav:value "1"^^xsd:int .
-
-camssa:7657c1d0-d271-4870-baf2-3f87786e18ff a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "No formal interoperability agreement has been found involving European public services providers. "@en ;
-    cav:refersTo camssa:87ac212b-8d05-4fdf-b9e5-0b44a0690644 .
-
-camssa:7681343d-111f-49a7-bc64-123595a667ca a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """JSON is already associated with EIRA ABBs in the European Library Of Specifications (ELIS). Specifically, JSON can define the interoperability aspects of the "Machine to machine interface" ABB of the EIRA Technical View. In addition, JSON can define also the "representation" ABB of the EIRA semantic view. 
-See: 
-https://joinup.ec.europa.eu/solution/elis/distribution/eliscataloguev100betaxlsx"""@en ;
-    cav:refersTo camssa:70b9a9ab-ca55-48fa-a8ad-c1b706549adf .
-
-camssa:769a54e7-d174-4032-afad-d4a2bf229be9 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "By allowing the data exchange between applications and systems talking different languages JSON fosters the data portability of European public services. "@en ;
-    cav:refersTo camssa:6c7ebd94-7c46-4222-a720-4836d36eca1c .
-
-camssa:86046911-9d34-4543-be5d-5e8e74668dd2 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-83d21357ecad07668ab7f2010aefed3cebb92dab384eeae6eb7aa77def06cfc3 ;
-    cav:value "2"^^xsd:int .
-
-camssa:87ac212b-8d05-4fdf-b9e5-0b44a0690644 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-396b6535162f7bba7733ebcc30d2e467321ce07cd8e48b86ab8201acf27031f9 ;
-    cav:value "0"^^xsd:int .
-
-camssa:88c2ff01-3281-4213-8fc6-185621e86b82 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-4a006ad6785e066d16c13daf48a60ee43ec33d1de1b06613c8e656ccf330a6d5 ;
-    cav:value "1"^^xsd:int .
-
-camssa:8f69df47-7a0e-432b-a16a-4fbaa08d3f26 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """5 Member States are recommending JSON in their ICT National Catalogues. 
-See: 
-https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
-    cav:refersTo camssa:8fb47a9c-68f6-43e4-ae0a-8c34e7d8528e .
-
-camssa:8fb47a9c-68f6-43e4-ae0a-8c34e7d8528e a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-b4f0d1b7f1d41c70797fa200c6fc73ac01f2f1659319e5cb1cebe8f5e79c1fcb ;
-    cav:value "1"^^xsd:int .
-
-camssa:9259cc91-067f-4617-9aca-058326cef031 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-093c1e09f5a65e4cba0247dcab5a8f4854f3e512db336b1855b9a4c48d3659e0 ;
-    cav:value "1"^^xsd:int .
-
-camssa:932f69a9-c12e-4402-af27-00071aea1e68 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """ECMA International's purpose is to make available the developed standards and specifications in a non-discriminatory and free of charges. Therefore, JSON is licensed under (F)RAND and Royalty-free basis. Terms and conditions for IPR disclosures can be found in ECMA's webpage. 
-See:
-http://www.ecma-international.org/memento/Ecma%20IPR%20policies.htm"""@en ;
-    cav:refersTo camssa:1d9e0e33-0445-4a76-914e-895adecaa35d .
-
-camssa:9787616d-eec3-4f30-b88f-5796298a7abe a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-01e6c1ce016de128117697d51a8fdaebb57c1f50343c081dfd72e2fbc56733a8 ;
-    cav:value "1"^^xsd:int .
-
-camssa:9990adf2-617f-48b6-bba8-589d17a488a0 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-cf1de0bf03a8ee372af0deddf9ef5c4609f5a7bb9c7e001c89d887c6789eaf56 ;
-    cav:value "1"^^xsd:int .
-
-camssa:9a1cf35b-6134-4326-8116-0bd504b185e1 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-f41cca0d171e6f64dbc2bdeae9fbc87f2ea51ac00185b22114d59ab8a06e78d0 ;
-    cav:value "2"^^xsd:int .
-
-camssa:a6250e44-360d-46c4-9e2f-560450f54ff3 a cav:Statement,
+camssa:ad765245-c9cb-48fa-92f4-8b876f1aaba7 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """JSON is available for free at the European Collaborative Platform Joinup. 
 See:
 https://joinup.ec.europa.eu/solution/json-rfc7159-javascript-object-notation-json/distribution/json-rfc7159-javascript-object-notation-json"""@en ;
-    cav:refersTo camssa:073b5e05-5a03-4eb2-9cff-3d1fdf453a25 .
+    cav:refersTo camssa:a0f0a0a1-c76b-47a4-8d7d-82d7f151b4d7 .
 
-camssa:acc02a2d-9795-4a6f-a22d-44f847cf78dd a cav:Score,
+camssa:af48ed1f-0b5c-43b5-baa4-63f9641d746f a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-41c6fd2dadb03cc64aad82cfa14f545c084f1a955a3ab7a61aab416a138c5dce ;
-    cav:value "1"^^xsd:int .
+    cav:judgement """There are several existing mechanisms to assess JSON conformity. Different types of validators depending on users’ needs.
+See: 
+https://github.com/nst/JSONTestSuite
+https://jsoncompare.com/#!/simple/
+https://jsonformatter.curiousconcept.com/"""@en ;
+    cav:refersTo camssa:7f5d8012-9c03-4410-8a01-b9a0c6bb9161 .
 
-camssa:ad950fbc-f403-44a6-ada1-66ff4b1bd185 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-58010a47630ff9ea23336bf3fc558deff59905e0292551fcabc95740082cb378 ;
-    cav:value "1"^^xsd:int .
-
-camssa:ba4cc09d-691b-4425-ad82-c268f8b7661b a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-d7be9f0dd52944e6c25f5469c86355a42ae446838bd9759b4986d21f7db4814b ;
-    cav:value "1"^^xsd:int .
-
-camssa:be283d20-be11-45f3-b34d-1be946e26ade a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "JSON is a specification used for data exchange between different platforms, this fact facilitates the visibility and comprehensibility of administration's data. Moreover, it eases the communication between administrations enhancing the decision-making process. "@en ;
-    cav:refersTo camssa:3d070284-c94b-4750-bc5d-2951409fc5a6 .
-
-camssa:bedf834f-f745-4c37-810b-c7fff8fccf69 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-a67ecbc29e70e62b18dba3ae4f8d1f91d5b3196777dbf8b58c6713cd517eb768 ;
-    cav:value "1"^^xsd:int .
-
-camssa:c64cd387-a56f-4023-a1b1-c6363c028a43 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "JSON allows the data exchange and consumption from different administrations stakeholders. Ensuring data exchange through applications avoids the interaction by means of reducing the non-digital data exchange. Therefore, the adoption of JSON eases the reduction of administrative burden."@en ;
-    cav:refersTo camssa:e72abb33-fc9f-4d7e-9d59-bf817140ffc4 .
-
-camssa:d5ddbea5-d5c3-496b-a23b-4bc390eeca4a a schema:ContactPoint,
-        owl:NamedIndividual ;
-    schema:email "NaN"^^xsd:double .
-
-camssa:e025657c-5ed4-4a63-a3ca-8c4f068b4bfa a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "JSON sector agnostic specification that can be reused in any business domain requiring a common format to exchange data between different programs."@en ;
-    cav:refersTo camssa:acc02a2d-9795-4a6f-a22d-44f847cf78dd .
-
-camssa:e3784ddd-ace2-4f55-bd70-44a9e2e7e645 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """JSON is included in 2 national catalogues of recommended specifications. They belong to the Netherlands and Slovenia. The National Interoperability Framework (NIF) of these Member States is fully aligned with at least 4 out of 5 sections of the European Interoperability Framework (EIF) according to the National Interoperability Framework Observatory (NIFO) factsheets.
-See:
-https://joinup.ec.europa.eu/collection/national-interoperability-framework-observatory-nifo/nifo-factsheets"""@en ;
-    cav:refersTo camssa:ba4cc09d-691b-4425-ad82-c268f8b7661b .
-
-camssa:e3ac0fbf-c7b9-4f63-9919-ed2f60a4419e a cav:Statement,
+camssa:b1f2b1a5-9ba4-432d-9848-284a5aa2c8fc a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """The specification has been selected as one of the key elements for the data interchange between administrations and stakeholders. 
 
@@ -444,62 +429,77 @@ See:
 https://pro.europeana.eu/resources/apis/search
 https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/support/apis
 http://data.europa.eu/euodp/en/data/dataset/eu-open-data-portal-api"""@en ;
-    cav:refersTo camssa:58b11a3e-746e-4740-9b3c-c6ebe4ccd009 .
+    cav:refersTo camssa:51fb6cd5-e8ec-4f39-a80c-805d052b826d .
 
-camssa:e56b41fd-d1d2-437e-8451-927aca0a83b1 a cav:Score,
+camssa:b28f7d0e-1082-415a-8d06-0b7461888976 a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-e9e0cf4a339c837607828404dd0e9b360d643528fcc1df488a95ca67166acea3 ;
+    cav:assignedTo sc:c-0c9dd43038136296b52f50e05f9d6eef39f7b8018517224007990b15be2eb19e ;
     cav:value "0"^^xsd:int .
 
-camssa:e72abb33-fc9f-4d7e-9d59-bf817140ffc4 a cav:Score,
+camssa:b33bf9a2-9120-4a9b-8e41-8584672ae35e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "Currently, JSON is a widely used specification for data interchange between applications and platforms. It is used in a REST API applications in order to ensure data exchange, this application is extensively used for the creation of solutions, including innovative ones."@en ;
+    cav:refersTo camssa:2e0874f3-650d-44ce-9baf-c26e5ff75037 .
+
+camssa:b4746ff0-3fb6-4424-9c64-0f5deae1f03f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of JSON is not related to organisational interoperability. Therefore, this criterion is not applicable to the specification."@en ;
+    cav:refersTo camssa:164c20ca-502e-4cd3-8ed1-24a6a521bf86 .
+
+camssa:be5143df-12fb-496b-8e0c-b135b0c20bb7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-396b6535162f7bba7733ebcc30d2e467321ce07cd8e48b86ab8201acf27031f9 ;
+    cav:value "0"^^xsd:int .
+
+camssa:c42aeb9f-38ae-4fe3-b17c-2a60d27813a8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-41c6fd2dadb03cc64aad82cfa14f545c084f1a955a3ab7a61aab416a138c5dce ;
+    cav:value "1"^^xsd:int .
+
+camssa:c4fd2e60-bfe6-46c7-ae5c-6dd3d6e4941a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-83d21357ecad07668ab7f2010aefed3cebb92dab384eeae6eb7aa77def06cfc3 ;
+    cav:value "2"^^xsd:int .
+
+camssa:d6d28ddc-4c0e-4211-85c2-da737228263d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0229101dfe08cbe58da1e454363d30a8178a2e120466c8db23965488cae5c8b1 ;
+    cav:value "1"^^xsd:int .
+
+camssa:d7660a65-7e72-449f-bf75-f4ff90b7c3d6 a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-39e7870e79b2999a8b61c97f0c356312b88174320d6464fce5639e57ec0de011 ;
     cav:value "1"^^xsd:int .
 
-camssa:e7b4d54d-5863-4dd7-95fb-3a017244ac52 a cav:Score,
+camssa:d964915b-2634-4796-bcff-3a72a7554992 a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-1435ad894742693c2b99e329ef12399cd411ed6900f49b9658fd2231de3f201a ;
+    cav:assignedTo sc:c-d7be9f0dd52944e6c25f5469c86355a42ae446838bd9759b4986d21f7db4814b ;
     cav:value "1"^^xsd:int .
 
-camssa:e9216787-3c1d-4e84-8b68-9eef70cf0fa5 a cav:Score,
+camssa:e17e142d-43c1-4212-a93e-fbef25606861 a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-7aa038b5496afb8cb229c692be9a2adc175deb2d5d47e35ad67e027c9eac28ba ;
+    cav:judgement "JSON is a specification used for data exchange between different platforms, this fact facilitates the visibility and comprehensibility of administration's data. Moreover, it eases the communication between administrations enhancing the decision-making process. "@en ;
+    cav:refersTo camssa:57b958fc-a02e-4c12-802c-ce88e59c50ba .
+
+camssa:e5f3a139-f3a6-4fd0-a5e2-bacade9139f7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-483e8900c47b40bc67a6bd1cbfce07884b9ac5f2c85e0214f334cc37e4e65c35 ;
+    cav:value "0"^^xsd:int .
+
+camssa:edb670e2-ad5b-4e76-980d-569e795f3c85 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b6ba3f2f556446c68c55833e72b217be87ad5f0dd07744e2c39c6070aff6c10f ;
     cav:value "1"^^xsd:int .
 
-camssa:e9d84563-734e-4774-8560-b481ad38252b a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "The purpose of JSON is not related  to the modelling of business processes. Therefore, this criterion is not applicable to the specification."@en ;
-    cav:refersTo camssa:0474e088-b848-452f-be4c-fe22a7679bf2 .
-
-camssa:eaa8550b-cf07-4cd8-ae80-75567b37ae98 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-b45c8f7e446b1343c6b6961290d2106768aa43c1f123f5e436d0255c003abb50 ;
-    cav:value "1"^^xsd:int .
-
-camssa:eecd42c2-1837-4e21-a855-bad86655ccca a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "The purpose of JSON is not related to long-term preservation of electronic records. Therefore this criterion is considered not applicable to this specification."@en ;
-    cav:refersTo camssa:86046911-9d34-4543-be5d-5e8e74668dd2 .
-
-camssa:ef9f85f8-dc95-43ef-886b-0b7c608ea6f3 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "As a key enabler for the data exchange and interchange between administrations and stakeholders, JSON enhances the communication and information exchange across borders between public administrations. Therefore, the adoption of the specification avoids citizens and businesses to provide information in several times."@en ;
-    cav:refersTo camssa:9787616d-eec3-4f30-b88f-5796298a7abe .
-
-camssa:f0a906a9-fdab-49ce-8431-c34968e0cc5e a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """ECMA International's purpose is to make available the developed standards and specifications in a non-discriminatory and free of charges. Therefore, JSON is licensed under (F)RAND and Royalty-free basis. Terms and conditions for IPR disclosures can be found in ECMA's webpage. 
-See:
-http://www.ecma-international.org/memento/Ecma%20IPR%20policies.htm"""@en ;
-    cav:refersTo camssa:3b9b5b37-4205-4fc3-b6da-cb4082c30279 .
-
-camssa:f3f7edd9-6bcb-488a-afbc-444b149fc9ce a cav:Score,
+camssa:f0bd8871-9d4a-40a9-a76d-b407180a0617 a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-f70d8bc1b4b6e186d69ea3f7f8cc7b2d75314b84e7f481ebe13b4e6ed8b36598 ;
     cav:value "1"^^xsd:int .
 
-camssa:f526b22e-21a8-4408-a5f6-418dde9e371a a cav:Score,
+camssa:f6391985-2830-469c-b2cb-1901d84dc046 a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-450e8a1f4cffbbf3de202e37bd642f098174559028df90ccc657473a6086bc0b ;
-    cav:value "1"^^xsd:int .
+    cav:judgement """JSON is included in 2 national catalogues of recommended specifications. They belong to the Netherlands and Slovenia. The National Interoperability Framework (NIF) of these Member States is fully aligned with at least 4 out of 5 sections of the European Interoperability Framework (EIF) according to the National Interoperability Framework Observatory (NIFO) factsheets.
+See:
+https://joinup.ec.europa.eu/collection/national-interoperability-framework-observatory-nifo/nifo-factsheets"""@en ;
+    cav:refersTo camssa:d964915b-2634-4796-bcff-3a72a7554992 .
 

@@ -19,427 +19,448 @@ camssa:acd42aa8da5a437ca9f0091ac6aeb34a48c9dafaa432b1b4d0a8ca3eaa5e375e a cav:As
     camss:submissionDate "2019-12-31"^^xsd:date ;
     camss:toolVersion tool:3.0.0 ;
     cav:contextualisedBy sc:s-fa3a7cf6ccb859ff672f6579e000e61d96f0756c83c13b96e3139ae97beb13bd ;
-    cav:resultsIn camssa:09ff42d5-b7e4-4b38-8106-d523e1abc6d2,
-        camssa:11c532a2-034f-4357-a170-7a46d8468032,
-        camssa:1263c558-52ea-49bf-a49d-4f0c44d30b9b,
-        camssa:1cf91f2d-f4b3-4901-b613-92b8de03338c,
-        camssa:21ec571b-fc00-4527-9228-b5030a0b09de,
-        camssa:2d550bc5-1d19-4752-a34e-fc5a91166493,
-        camssa:32341810-59e7-40cb-bbd8-9d2a894da13c,
-        camssa:3ddbc469-721b-4f6f-b17c-1a511a1341c7,
-        camssa:44c5d4cc-7c70-4b08-83a6-86c7ebf50e75,
-        camssa:4917eae9-ad69-4546-8b0a-3fd3ed4b7419,
-        camssa:5610ce23-1f3c-42e5-b73e-8475edb0be1e,
-        camssa:5b5250e2-06d5-4596-99b9-a265145ec08d,
-        camssa:5f30d169-ade3-41e7-b863-8922b839d808,
-        camssa:6200adbf-2f10-44a0-8668-70f642f3eabf,
-        camssa:6a156a89-ff5a-4413-85b3-0f4df8be7dec,
-        camssa:6a53e03c-b7f1-4329-afd9-472fa7fab173,
-        camssa:782ffcf5-0c8c-4951-9877-46bde2cf6eb4,
-        camssa:87f439dc-3f27-4e5a-a521-ebab26a8153b,
-        camssa:8ec0a12d-defc-44d4-9fb0-5e878e98026d,
-        camssa:94934691-e3ce-4d3a-b615-1c0a418c8913,
-        camssa:96a77c30-70d9-4026-bc68-5bb4fa7c6cd6,
-        camssa:9842ba1b-594f-4464-9e18-9ab1d9ec8d59,
-        camssa:9ca04111-9e35-4b47-84d2-d3264fd119c9,
-        camssa:a04e562b-471c-41d6-8a97-65d8d386614d,
-        camssa:a56290a0-1a4d-4cee-b00a-f0c57a634983,
-        camssa:b1550e05-253d-4791-b7d1-c27b04a27c45,
-        camssa:b2d2879d-799a-4108-bbb2-57598fc4082a,
-        camssa:b4645f68-f04c-4065-ae27-ab25a329ed56,
-        camssa:b60a1c9e-3ebe-4d7a-9ca1-5363c2bd1030,
-        camssa:bb70411c-c744-4d5e-9bc2-3635829937ba,
-        camssa:d23d0bf8-4edf-4032-9d7d-3c6a74234c0d,
-        camssa:db9b5c50-b733-4c66-8ec5-3d7015d6f4f9,
-        camssa:df350488-4469-478a-a654-2066a8bd069a,
-        camssa:ed795c3a-ceca-4033-82e1-42d0a80bbdc3,
-        camssa:ef5069d2-f37b-4bc1-9229-8fa4835026e6,
-        camssa:f092aa9d-05fa-40ce-95c9-0a7c72ff0d66,
-        camssa:fd026fb6-6540-401e-8ab0-e48bf51784da ;
+    cav:resultsIn camssa:036264de-510c-425e-933f-0095d48b5321,
+        camssa:16e6dba2-87ce-491c-8c74-61a9ab9e1225,
+        camssa:1797d50c-7c4e-4fc7-a8f7-3da09161c30e,
+        camssa:1f096413-d7d4-4460-bc02-1d33a948fe6a,
+        camssa:1f381b1f-9dab-404b-8d87-6a5c631d6090,
+        camssa:21b88119-94ca-4335-8a77-8f1675f438b5,
+        camssa:2488f91f-1cb7-4486-af85-c0d9b3dc60fa,
+        camssa:25f4a9fb-5655-48f1-b428-81599ed96e24,
+        camssa:380cea3d-01f5-4924-8e52-fc7020abde36,
+        camssa:3a0df88b-81e0-4ec8-907e-2c6786dad65f,
+        camssa:46702cf8-0679-4835-9fb7-680807063edb,
+        camssa:4ca38a6b-43b6-43f8-9da5-ffb7b9dea6db,
+        camssa:518da2b3-36cf-4ca4-820f-0db0aaa905a0,
+        camssa:5830febc-4fe8-4d0a-b64d-182b3398362a,
+        camssa:63aca019-1918-42d1-8df4-1bb73d6f62c8,
+        camssa:6640ae94-1041-4e60-b7e4-8528c19e0403,
+        camssa:66ac553f-5106-47d9-8e88-3cfa9bb8ae0a,
+        camssa:6f1c715e-827f-440f-aff9-8aa4638a556f,
+        camssa:70db0b1a-08ab-487d-a4b2-0275884eed63,
+        camssa:75c53641-e109-4a0f-80b1-ec7f35038d44,
+        camssa:826d1212-92e7-427e-b51f-ea64e6c1ddf4,
+        camssa:89077b5d-94a8-4da9-8d67-413006ca2892,
+        camssa:8abd7ade-1e38-4e01-b9ed-c8224a9f7736,
+        camssa:8d7ec295-d76e-4c23-9c2d-ce3bb4d82bcb,
+        camssa:8f111604-342b-4b54-aac7-74ad87e99402,
+        camssa:979268a3-f48a-448e-b05f-500229bc9460,
+        camssa:ab667c55-9c44-4a8a-ba0e-79b0e1707ec5,
+        camssa:ba7e446f-d316-43b6-950f-9d3b385f5529,
+        camssa:c28c751f-741f-4f70-b577-7721699b804f,
+        camssa:c5d12b01-1b33-467f-9b82-8bb763bec408,
+        camssa:d4891340-3a72-4813-b7bc-e571719758d4,
+        camssa:d627e28d-e95d-48eb-9ce7-2fb3c2e65a1b,
+        camssa:e4b530bb-ca1f-498b-b3e5-a38b9adeeabf,
+        camssa:e5fd9b95-fa24-45bc-84ce-9f24293ffe48,
+        camssa:ed2b70a8-a7fb-42db-896a-4c76ce093ae1,
+        camssa:f69af70f-7fcc-424c-9339-cc7657e07c7f,
+        camssa:f84a95f7-e50d-4edf-a7d5-aea644817d62 ;
     cav:status status:Complete ;
     dct:title "Universal Description, Discovery and Integration (UDDI)"@en .
 
 camssa:ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164 a owl:NamedIndividual,
         org:Organization ;
-    camss:contactPoint camssa:ca1598cc-d46d-489a-9264-be89219c12f0 ;
+    camss:contactPoint camssa:f6c5f510-94f9-4ef0-bb9c-78ceac83c001 ;
     skos:prefLabel "CAMSS Team"@en .
 
-camssa:0049b3e3-f699-4e46-ab0b-b607a7b0331d a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-4017a1ae4d077fbb3847280a1c20b41bf00c32d65fc9beaa2bea8cce550ac463 ;
-    cav:value "1"^^xsd:int .
-
-camssa:095d044d-6256-4c42-870e-40a2fd13c611 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-7a64b01ca9e737c550b205ba3a8a46b3fcfc9447b648ba8ef15d62d3ada26141 ;
-    cav:value "2"^^xsd:int .
-
-camssa:09ff42d5-b7e4-4b38-8106-d523e1abc6d2 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "After checking the assessments performed by CAMSS and the list of specifications identified by the MSP Multi-stakeholder-platform, no assessment verifying the compliance of the specification with the European standardisation regulation has been found."@en ;
-    cav:refersTo camssa:2af4bf70-9bd7-42f1-b663-0bd194c7b78a .
-
-camssa:0fed2f7b-d970-4c55-a9f2-f6eb127731a7 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-1435ad894742693c2b99e329ef12399cd411ed6900f49b9658fd2231de3f201a ;
-    cav:value "1"^^xsd:int .
-
-camssa:11c532a2-034f-4357-a170-7a46d8468032 a cav:Statement,
+camssa:036264de-510c-425e-933f-0095d48b5321 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """UDDI is available for free for its use and study at OASIS' webpage. 
 See:
 http://www.uddi.org/pubs/uddi_v3.htm"""@en ;
-    cav:refersTo camssa:50031b12-d260-4717-b93a-f8f304a80f7b .
+    cav:refersTo camssa:a0eacd01-75d3-47d7-9d7f-a36957e19099 .
 
-camssa:1263c558-52ea-49bf-a49d-4f0c44d30b9b a cav:Statement,
+camssa:03dea83d-3f74-48db-93b4-2d115bb6a9aa a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement "The purpose of UDDI is not related to the delivery of multilingual services. Therefore this criterion is not applicable to this specification."@en ;
-    cav:refersTo camssa:4d76dd35-0f93-40c8-b12b-3e3c4cbcac49 .
-
-camssa:13137b6d-519b-4530-82d1-1c1112bbab1c a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-a67ecbc29e70e62b18dba3ae4f8d1f91d5b3196777dbf8b58c6713cd517eb768 ;
-    cav:value "1"^^xsd:int .
-
-camssa:13798700-cf61-4c32-b41f-280cf86f8e21 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-cf1de0bf03a8ee372af0deddf9ef5c4609f5a7bb9c7e001c89d887c6789eaf56 ;
-    cav:value "1"^^xsd:int .
-
-camssa:1cf91f2d-f4b3-4901-b613-92b8de03338c a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The OASIS UDDI Specification Technical Committee in charge of the development of UDDI, operates under RF on RAND Mode of the OASIS IPR Policy. The specification is licensed on a Royalty-free and (F)RAND basis.
-See:
-https://www.oasis-open.org/policies-guidelines/ipr
-https://www.oasis-open.org/committees/uddi-spec/ipr.php"""@en ;
-    cav:refersTo camssa:a7f102fc-a433-4356-9ce3-f873ac557c5f .
-
-camssa:1d3ea99b-0f4d-47f9-ac2c-641f7f612310 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-a0101cb11c30c1bbf94adb74479472f2a40c53ccc4b442180fece91506c20a9d ;
-    cav:value "1"^^xsd:int .
-
-camssa:1de2d1bb-fade-4966-9a8c-bc8197626baa a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-b45c8f7e446b1343c6b6961290d2106768aa43c1f123f5e436d0255c003abb50 ;
-    cav:value "1"^^xsd:int .
-
-camssa:21de2846-f6cd-41c1-a0bc-322711b6a9b3 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-d7be9f0dd52944e6c25f5469c86355a42ae446838bd9759b4986d21f7db4814b ;
-    cav:value "1"^^xsd:int .
-
-camssa:21ec571b-fc00-4527-9228-b5030a0b09de a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "The specification is not related to the publication of public data as open data. Therefore this criterion is not applicable to this specification."@en ;
-    cav:refersTo camssa:fd4380b4-8ffe-4547-839b-30917ba69eae .
-
-camssa:2af4bf70-9bd7-42f1-b663-0bd194c7b78a a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-e9e0cf4a339c837607828404dd0e9b360d643528fcc1df488a95ca67166acea3 ;
-    cav:value "0"^^xsd:int .
-
-camssa:2d550bc5-1d19-4752-a34e-fc5a91166493 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "UDDI is a sector agnostic specification that can be used under any business domain. "@en ;
-    cav:refersTo camssa:400cdac2-1034-4b26-80ad-a9a6f2db2d11 .
-
-camssa:30878620-69ca-4b1b-9546-4869b8cf6c77 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-1d35b341bcafc21377ae6ac358b9dc087e8ad32870012c2743e49e4566440f41 ;
+    cav:assignedTo sc:c-6ec33e201b803a1cc0150c0da8dc42b2a0f1029cf31e7a2c0fc81d1d8336ef36 ;
     cav:value "2"^^xsd:int .
 
-camssa:32341810-59e7-40cb-bbd8-9d2a894da13c a cav:Statement,
+camssa:080ab924-dc32-4b2c-a8ba-8ece84409e5d a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement "The purpose of UDDI is not related to organisational interoperability. Therefore, this criterion is not applicable to the specification."@en ;
-    cav:refersTo camssa:72ebd138-07f6-4693-8089-cbade14df6f6 .
-
-camssa:3795b343-774e-47e6-a045-fafefbf48ef6 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-7aa038b5496afb8cb229c692be9a2adc175deb2d5d47e35ad67e027c9eac28ba ;
-    cav:value "1"^^xsd:int .
-
-camssa:383a4e2c-d01b-4f1b-9eb8-5bf216f3b4b7 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-e370a4af17e89cbb70bb5079082a1e21cdee85435c8fc30b12a8987f18db367f ;
-    cav:value "1"^^xsd:int .
-
-camssa:3ddbc469-721b-4f6f-b17c-1a511a1341c7 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "The purpose of UDDI is not related to e-accessibility. Therefore this criterion is considered not applicable to this specification."@en ;
-    cav:refersTo camssa:095d044d-6256-4c42-870e-40a2fd13c611 .
-
-camssa:400cdac2-1034-4b26-80ad-a9a6f2db2d11 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-41c6fd2dadb03cc64aad82cfa14f545c084f1a955a3ab7a61aab416a138c5dce ;
-    cav:value "1"^^xsd:int .
-
-camssa:4377247b-c811-4185-865e-da050aec9c1d a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-f70d8bc1b4b6e186d69ea3f7f8cc7b2d75314b84e7f481ebe13b4e6ed8b36598 ;
-    cav:value "1"^^xsd:int .
-
-camssa:44c5d4cc-7c70-4b08-83a6-86c7ebf50e75 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """UDDI Specification Technical Committee was composed by members coming from the most important IT companies as are IBM, Microsoft, SAP or Oracle. 
-UDDI is along with SOAP and WSDL stack the pillars for the implementation of web services. UDDI is a key enabler for creating an effective service ecosystem. Additionally, the main market share companies support the use and implementation of UDDI, so it is demonstrated its maturity and market acceptance."""@en ;
-    cav:refersTo camssa:13137b6d-519b-4530-82d1-1c1112bbab1c .
-
-camssa:4917eae9-ad69-4546-8b0a-3fd3ed4b7419 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """There are already existing studies and documents assessing and documenting UDDI features and providing possible improvements of its performance among other aspects. 
-See: 
-https://www.researchgate.net/publication/303921682_INDEXING_TRADITIONAL_UDDI_FOR_EFFICIENT_DISCOVERY_OF_WEB_SERVICES
-https://www.academia.edu/14435163/Binding_now_or_binding_later_The_performance_of_UDDI_registries"""@en ;
-    cav:refersTo camssa:db41adfd-c6bc-4079-80f4-1403f22f47cf .
-
-camssa:4d76dd35-0f93-40c8-b12b-3e3c4cbcac49 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-19c639047dab46befb5839503733c8f1e7ed8278f788a089d11d2caee84a8f7c ;
+    cav:assignedTo sc:c-7a64b01ca9e737c550b205ba3a8a46b3fcfc9447b648ba8ef15d62d3ada26141 ;
     cav:value "2"^^xsd:int .
 
-camssa:50031b12-d260-4717-b93a-f8f304a80f7b a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-4a006ad6785e066d16c13daf48a60ee43ec33d1de1b06613c8e656ccf330a6d5 ;
-    cav:value "1"^^xsd:int .
-
-camssa:5610ce23-1f3c-42e5-b73e-8475edb0be1e a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "By listing and describing administrations' web services and improving the discoverability of them, UDDI fosters the visibility of public administration web services. "@en ;
-    cav:refersTo camssa:fabb8d3f-2c96-4087-8a6b-12ae168d9dd8 .
-
-camssa:5b5250e2-06d5-4596-99b9-a265145ec08d a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "UDDI registries or nodes depend on WSDL to complete the data exchange transaction and provide the requester with information. Additionally, UDDI relies on SOAP to enable the service invoke by the requester. "@en ;
-    cav:refersTo camssa:6935e064-6727-44bf-9588-ab5b36099d50 .
-
-camssa:5c1c087f-f69f-4ed2-95c8-60f0b8e84357 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-093c1e09f5a65e4cba0247dcab5a8f4854f3e512db336b1855b9a4c48d3659e0 ;
-    cav:value "0"^^xsd:int .
-
-camssa:5f30d169-ade3-41e7-b863-8922b839d808 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The OASIS decision-making process for the approval of a specification is clearly defined. Decisions are taken based on votes requiring a Simple Majority Vote to pass. Furthermore, a public review is included in the TC process. 
-See: 
-https://www.oasis-open.org/policies-guidelines/tc-process-2017-05-26"""@en ;
-    cav:refersTo camssa:3795b343-774e-47e6-a045-fafefbf48ef6 .
-
-camssa:6200adbf-2f10-44a0-8668-70f642f3eabf a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "No conformity tool has been found belonging to OASIS in order to provide the means to evaluate UDDI implementation. "@en ;
-    cav:refersTo camssa:5c1c087f-f69f-4ed2-95c8-60f0b8e84357 .
-
-camssa:6935e064-6727-44bf-9588-ab5b36099d50 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-e8c3529a6146f0b0d269112be717ba4e9c5979ea4f43f57d217c0f998d26ce17 ;
-    cav:value "0"^^xsd:int .
-
-camssa:6a156a89-ff5a-4413-85b3-0f4df8be7dec a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "The flexibility provided by UDDI allows its use in a public or internal way. The information model is widely adaptable to user needs, what means that UDDI nodes and registries can be modelled following Informational model guidelines. The implementation of UDDI does not hamper the scalability of systems. "@en ;
-    cav:refersTo camssa:0fed2f7b-d970-4c55-a9f2-f6eb127731a7 .
-
-camssa:6a53e03c-b7f1-4329-afd9-472fa7fab173 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """UDDI is developed and maintained by OASIS, which is an International Organisation developing Standards. After finishing UDDI's last version (v3, which is being assessed) the Technical Committee was closed. 
-See:
-https://www.oasis-open.org/committees/uddi-spec/doc/spec/v3/uddi-v3.0.2-20041019.htm#_Toc85907967"""@en ;
-    cav:refersTo camssa:85043aac-3a95-46bc-a65e-9ae506d10c37 .
-
-camssa:6e2db3a8-09ab-4834-987d-b884cf16195f a cav:Score,
+camssa:0c045b6a-7b48-48f3-a402-8382efaec755 a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-396b6535162f7bba7733ebcc30d2e467321ce07cd8e48b86ab8201acf27031f9 ;
     cav:value "0"^^xsd:int .
 
-camssa:72ebd138-07f6-4693-8089-cbade14df6f6 a cav:Score,
+camssa:0f1caa96-eb7a-4174-8d6c-02a16dd020c0 a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-73a8058bec757a2fdb0f8513c2f11841e982cbef76c3be82af67707c294da8b8 ;
+    cav:assignedTo sc:c-d7be9f0dd52944e6c25f5469c86355a42ae446838bd9759b4986d21f7db4814b ;
+    cav:value "1"^^xsd:int .
+
+camssa:16e6dba2-87ce-491c-8c74-61a9ab9e1225 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of UDDI is not related to the delivery of multilingual services. Therefore this criterion is not applicable to this specification."@en ;
+    cav:refersTo camssa:52e29668-df1e-4611-9f82-fd1758d4857f .
+
+camssa:1797d50c-7c4e-4fc7-a8f7-3da09161c30e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """UDDI is developed and maintained by OASIS, which is an International Organisation developing Standards. After finishing UDDI's last version (v3, which is being assessed) the Technical Committee was closed. 
+See:
+https://www.oasis-open.org/committees/uddi-spec/doc/spec/v3/uddi-v3.0.2-20041019.htm#_Toc85907967"""@en ;
+    cav:refersTo camssa:1d80f0fe-f97d-4be0-a5ab-49d138004ae3 .
+
+camssa:1bebf761-8b35-4992-8b8f-a0ff322ea89e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-83d21357ecad07668ab7f2010aefed3cebb92dab384eeae6eb7aa77def06cfc3 ;
     cav:value "2"^^xsd:int .
 
-camssa:782ffcf5-0c8c-4951-9877-46bde2cf6eb4 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """UDDI is included in 2 national catalogues. They belong to Member States which comply with at least 4 out of 5 sections of the EIF according to the NIFO factsheets. The Member States are the Netherlands, and Spain.
-See:
-https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards
-https://joinup.ec.europa.eu/collection/national-interoperability-framework-observatory-nifo/nifo-factsheets"""@en ;
-    cav:refersTo camssa:21de2846-f6cd-41c1-a0bc-322711b6a9b3 .
-
-camssa:85043aac-3a95-46bc-a65e-9ae506d10c37 a cav:Score,
+camssa:1d80f0fe-f97d-4be0-a5ab-49d138004ae3 a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-0229101dfe08cbe58da1e454363d30a8178a2e120466c8db23965488cae5c8b1 ;
     cav:value "1"^^xsd:int .
 
-camssa:87f439dc-3f27-4e5a-a521-ebab26a8153b a cav:Statement,
+camssa:1f096413-d7d4-4460-bc02-1d33a948fe6a a cav:Statement,
         owl:NamedIndividual ;
-    cav:judgement """The OASIS UDDI Specification Technical Committee in charge of the development of UDDI, operates under RF on RAND Mode of the OASIS IPR Policy. The specification is licensed on a Royalty-free and (F)RAND basis.
+    cav:judgement """7 Member States are recommending UDDI in their ICT National Catalogues. 
 See: 
-https://www.oasis-open.org/policies-guidelines/ipr
-https://www.oasis-open.org/committees/uddi-spec/ipr.php"""@en ;
-    cav:refersTo camssa:383a4e2c-d01b-4f1b-9eb8-5bf216f3b4b7 .
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:a90ee470-7ea8-484a-ae5c-bad821457156 .
 
-camssa:8b3ee0bd-7f04-42de-a832-8b8f20ec74a9 a cav:Score,
+camssa:1f381b1f-9dab-404b-8d87-6a5c631d6090 a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-f41cca0d171e6f64dbc2bdeae9fbc87f2ea51ac00185b22114d59ab8a06e78d0 ;
-    cav:value "0"^^xsd:int .
+    cav:judgement "The purpose of UDDI is not related to the modelling of business processes. Therefore, this criterion is not applicable to the specification."@en ;
+    cav:refersTo camssa:6767f3a4-5bb1-4389-b064-5285a6c83b38 .
 
-camssa:8c585573-4ed5-4c96-bcd6-4976795dcb31 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-450e8a1f4cffbbf3de202e37bd642f098174559028df90ccc657473a6086bc0b ;
-    cav:value "2"^^xsd:int .
-
-camssa:8ec0a12d-defc-44d4-9fb0-5e878e98026d a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "At the moment of performing the assessment, UDDI is one of the foundations of web services together with SOAP and WSDL. Even there is a new implementation mode as is REST, SOAP is still active and highly used in the creation of new solutions including innovative solutions. "@en ;
-    cav:refersTo camssa:13798700-cf61-4c32-b41f-280cf86f8e21 .
-
-camssa:94934691-e3ce-4d3a-b615-1c0a418c8913 a cav:Statement,
+camssa:21b88119-94ca-4335-8a77-8f1675f438b5 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement "UDDI does not help the availability of interfaces with internal information. In fact, the purpose of the specifications is not related to this action. Despite this, UDDI supports the availability of technical interfaces that may be used to access web services."@en ;
-    cav:refersTo camssa:8b3ee0bd-7f04-42de-a832-8b8f20ec74a9 .
+    cav:refersTo camssa:ea2f8db7-1116-44eb-ab31-90c6581bcc27 .
 
-camssa:96a77c30-70d9-4026-bc68-5bb4fa7c6cd6 a cav:Statement,
+camssa:2488f91f-1cb7-4486-af85-c0d9b3dc60fa a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "By allowing the publication and discovery of web services, UDDI helps to reduce administrative burden avoiding administration and stakeholders to expend time searching for web services and improving the results while integrating services and exchanging data. "@en ;
+    cav:refersTo camssa:ba31699f-74d4-49c4-92e4-d75f76bfc7fa .
+
+camssa:25f4a9fb-5655-48f1-b428-81599ed96e24 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """UDDI has been selected several times for European administrations in order to make their web services available and discoverable for each other, and their stakeholders
 An example of this kind UDDI use case is SELIS project, which aims to ease the eInvoicing processes. It is included within the Digital Single Market framework. 
 See:
 https://joinup.ec.europa.eu/collection/eprocurement/document/secure-electronic-invoicing-service-selis
 """@en ;
-    cav:refersTo camssa:e465c541-dff5-4e20-909d-42f383223fbd .
+    cav:refersTo camssa:4b598d8f-80ea-4cb1-bd16-5e003f99d10a .
 
-camssa:9842ba1b-594f-4464-9e18-9ab1d9ec8d59 a cav:Statement,
+camssa:2cc0a969-40a8-4335-8939-82448fa18033 a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement """7 Member States are recommending UDDI in their ICT National Catalogues. 
-See: 
-https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
-    cav:refersTo camssa:ff1ce86d-5c8b-4fb4-be00-3548c25b953c .
-
-camssa:9ca04111-9e35-4b47-84d2-d3264fd119c9 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "The purpose of UDDI is not related data portability, therefore this criterion is considered not applicable to this specification. "@en ;
-    cav:refersTo camssa:a6189955-fa6a-4fa8-88f9-34096d4a4d46 .
-
-camssa:a04e562b-471c-41d6-8a97-65d8d386614d a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The specification is included in the European collaborative platform for the development of ICT solution Joinup.  
-See:
-https://joinup.ec.europa.eu/solution/universal-description-discovery-and-integration/distribution/uddi-specification"""@en ;
-    cav:refersTo camssa:0049b3e3-f699-4e46-ab0b-b607a7b0331d .
-
-camssa:a56290a0-1a4d-4cee-b00a-f0c57a634983 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "UDDI is not included within any catalogue of standards at European level. "@en ;
-    cav:refersTo camssa:aa36387e-7d50-4623-a00a-63d902bdae73 .
-
-camssa:a5b518d5-e97e-4670-af26-066607ac5ae8 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-5839144ecfb6c41a2c3cf5c1e86a6b3ad7a9e3ec9c4efa5650a6e7b9e3586335 ;
-    cav:value "1"^^xsd:int .
-
-camssa:a6189955-fa6a-4fa8-88f9-34096d4a4d46 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-6ec33e201b803a1cc0150c0da8dc42b2a0f1029cf31e7a2c0fc81d1d8336ef36 ;
-    cav:value "2"^^xsd:int .
-
-camssa:a6e091f3-bf90-4a4a-b239-9b4f2e41a015 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-483e8900c47b40bc67a6bd1cbfce07884b9ac5f2c85e0214f334cc37e4e65c35 ;
-    cav:value "1"^^xsd:int .
-
-camssa:a7f102fc-a433-4356-9ce3-f873ac557c5f a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-ef096f898c938883daab1b22e784cfaf985b5e5c855e170ecf6eab6f37b01b50 ;
-    cav:value "1"^^xsd:int .
-
-camssa:aa36387e-7d50-4623-a00a-63d902bdae73 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-0c9dd43038136296b52f50e05f9d6eef39f7b8018517224007990b15be2eb19e ;
+    cav:assignedTo sc:c-e9e0cf4a339c837607828404dd0e9b360d643528fcc1df488a95ca67166acea3 ;
     cav:value "0"^^xsd:int .
 
-camssa:b1550e05-253d-4791-b7d1-c27b04a27c45 a cav:Statement,
+camssa:3145bfbd-696c-4af2-89eb-5b8d115d4e3d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cf1de0bf03a8ee372af0deddf9ef5c4609f5a7bb9c7e001c89d887c6789eaf56 ;
+    cav:value "1"^^xsd:int .
+
+camssa:380cea3d-01f5-4924-8e52-fc7020abde36 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "By listing and describing administrations' web services and improving the discoverability of them, UDDI fosters the visibility of public administration web services. "@en ;
+    cav:refersTo camssa:894877e7-0d73-4f56-a08d-5d727e837707 .
+
+camssa:3a0df88b-81e0-4ec8-907e-2c6786dad65f a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement "No evidence has been found of the specification being included in an interoperability agreement between organisations involved in the European public services provision."@en ;
-    cav:refersTo camssa:6e2db3a8-09ab-4834-987d-b884cf16195f .
+    cav:refersTo camssa:0c045b6a-7b48-48f3-a402-8382efaec755 .
 
-camssa:b2d2879d-799a-4108-bbb2-57598fc4082a a cav:Statement,
+camssa:3d86cc9d-c821-4299-854f-270f3da23fd3 a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement "The purpose of UDDI is not related to long term preservation of electronic records. Therefore this criterion is considered not applicable to this specification."@en ;
-    cav:refersTo camssa:bdef4f0d-7cac-48a4-814d-a047cb63d885 .
+    cav:assignedTo sc:c-3671439b412291ce208a0ade6313c64aeb2942059c7543ca39322c56458bcf96 ;
+    cav:value "1"^^xsd:int .
 
-camssa:b4645f68-f04c-4065-ae27-ab25a329ed56 a cav:Statement,
+camssa:3de272c4-2b63-4d75-99f0-ca3f4931d98d a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement "The purpose of UDDI is not related to the modelling of business processes. Therefore, this criterion is not applicable to the specification."@en ;
-    cav:refersTo camssa:30878620-69ca-4b1b-9546-4869b8cf6c77 .
+    cav:assignedTo sc:c-01e6c1ce016de128117697d51a8fdaebb57c1f50343c081dfd72e2fbc56733a8 ;
+    cav:value "1"^^xsd:int .
 
-camssa:b60a1c9e-3ebe-4d7a-9ca1-5363c2bd1030 a cav:Statement,
+camssa:4063b1b2-76eb-4766-b963-4dd1d903abe7 a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement """UDDI is available for free for its use and study at OASIS' webpage. 
-See:
-http://www.uddi.org/pubs/uddi_v3.htm"""@en ;
-    cav:refersTo camssa:1de2d1bb-fade-4966-9a8c-bc8197626baa .
+    cav:assignedTo sc:c-41c6fd2dadb03cc64aad82cfa14f545c084f1a955a3ab7a61aab416a138c5dce ;
+    cav:value "1"^^xsd:int .
 
-camssa:bb70411c-c744-4d5e-9bc2-3635829937ba a cav:Statement,
+camssa:46702cf8-0679-4835-9fb7-680807063edb a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "No conformity tool has been found belonging to OASIS in order to provide the means to evaluate UDDI implementation. "@en ;
+    cav:refersTo camssa:c591409e-f753-4e88-abe7-4c8479bb1fe8 .
+
+camssa:4b598d8f-80ea-4cb1-bd16-5e003f99d10a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a1eafd9c95081eeabe19f0511239b88139f02f95e2349049eeea058a89c80f49 ;
+    cav:value "1"^^xsd:int .
+
+camssa:4ca38a6b-43b6-43f8-9da5-ffb7b9dea6db a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "UDDI registries or nodes depend on WSDL to complete the data exchange transaction and provide the requester with information. Additionally, UDDI relies on SOAP to enable the service invoke by the requester. "@en ;
+    cav:refersTo camssa:e813c2bf-d88a-4699-859a-cb74b8edc70b .
+
+camssa:4db83bb2-bcba-4f51-9635-6d863fbee295 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1435ad894742693c2b99e329ef12399cd411ed6900f49b9658fd2231de3f201a ;
+    cav:value "1"^^xsd:int .
+
+camssa:518da2b3-36cf-4ca4-820f-0db0aaa905a0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """UDDI is not defining a data model per se, instead of providing a data model the specification provides an Information model with the features and constraints for using it. Each initiative or specific type of repository can map information from the informational model to build their own data model. 
+See: 
+uddi.org/pubs/uddi_v3.htm#_Toc85908471"""@en ;
+    cav:refersTo camssa:da1cc2e5-53ab-42cd-aa9f-b2434d0970c9 .
+
+camssa:52e29668-df1e-4611-9f82-fd1758d4857f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-19c639047dab46befb5839503733c8f1e7ed8278f788a089d11d2caee84a8f7c ;
+    cav:value "2"^^xsd:int .
+
+camssa:5339fe8f-1cb5-4bd2-8d3a-52a0e33f1bfb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7aa038b5496afb8cb229c692be9a2adc175deb2d5d47e35ad67e027c9eac28ba ;
+    cav:value "1"^^xsd:int .
+
+camssa:5830febc-4fe8-4d0a-b64d-182b3398362a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """UDDI Specification Technical Committee was composed by members coming from the most important IT companies as are IBM, Microsoft, SAP or Oracle. 
+UDDI is along with SOAP and WSDL stack the pillars for the implementation of web services. UDDI is a key enabler for creating an effective service ecosystem. Additionally, the main market share companies support the use and implementation of UDDI, so it is demonstrated its maturity and market acceptance."""@en ;
+    cav:refersTo camssa:87c2aa25-4d1a-4255-b360-aea47d921256 .
+
+camssa:63aca019-1918-42d1-8df4-1bb73d6f62c8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of UDDI is not related data portability, therefore this criterion is considered not applicable to this specification. "@en ;
+    cav:refersTo camssa:03dea83d-3f74-48db-93b4-2d115bb6a9aa .
+
+camssa:6640ae94-1041-4e60-b7e4-8528c19e0403 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """The specification is included in 7 Member States' catalogues of recommended specifications. Some examples of Member States including UDDI on their catalogues are the Netherlands, Spain or Belgium.
 See: 
 https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
-    cav:refersTo camssa:e1fd6b25-edaa-4aa3-8245-d8704987edf0 .
+    cav:refersTo camssa:3d86cc9d-c821-4299-854f-270f3da23fd3 .
 
-camssa:bdef4f0d-7cac-48a4-814d-a047cb63d885 a cav:Score,
+camssa:66ac553f-5106-47d9-8e88-3cfa9bb8ae0a a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-83d21357ecad07668ab7f2010aefed3cebb92dab384eeae6eb7aa77def06cfc3 ;
+    cav:judgement "The specification is not related to the publication of public data as open data. Therefore this criterion is not applicable to this specification."@en ;
+    cav:refersTo camssa:e6a07500-9dee-41fd-bef0-295873abdfd3 .
+
+camssa:6767f3a4-5bb1-4389-b064-5285a6c83b38 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1d35b341bcafc21377ae6ac358b9dc087e8ad32870012c2743e49e4566440f41 ;
     cav:value "2"^^xsd:int .
 
-camssa:ca1598cc-d46d-489a-9264-be89219c12f0 a schema:ContactPoint,
+camssa:6e65d005-15df-42f9-bd02-094f82c8e256 a cav:Score,
         owl:NamedIndividual ;
-    schema:email "CAMSS@everis.com" .
+    cav:assignedTo sc:c-483e8900c47b40bc67a6bd1cbfce07884b9ac5f2c85e0214f334cc37e4e65c35 ;
+    cav:value "1"^^xsd:int .
 
-camssa:d23d0bf8-4edf-4032-9d7d-3c6a74234c0d a cav:Statement,
+camssa:6f1c715e-827f-440f-aff9-8aa4638a556f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The OASIS UDDI Specification Technical Committee in charge of the development of UDDI, operates under RF on RAND Mode of the OASIS IPR Policy. The specification is licensed on a Royalty-free and (F)RAND basis.
+See:
+https://www.oasis-open.org/policies-guidelines/ipr
+https://www.oasis-open.org/committees/uddi-spec/ipr.php"""@en ;
+    cav:refersTo camssa:dbd90ae9-e59c-4d8f-be03-a933df240c6a .
+
+camssa:70db0b1a-08ab-487d-a4b2-0275884eed63 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """UDDI includes features and capabilities to manage and maintain data integrity and access to UDDI repositories or nodes. This fact, helps to the secure and trustworthy data exchange between administration and stakeholders. 
+
+See: 
+http://www.uddi.org/pubs/uddi_v3.htm#_Toc85907992"""@en ;
+    cav:refersTo camssa:6e65d005-15df-42f9-bd02-094f82c8e256 .
+
+camssa:75c53641-e109-4a0f-80b1-ec7f35038d44 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """UDDI is available for free for its use and study at OASIS' webpage. 
+See:
+http://www.uddi.org/pubs/uddi_v3.htm"""@en ;
+    cav:refersTo camssa:e290cce2-71fe-48f6-a219-0f381e10663f .
+
+camssa:823f51b0-8541-4e30-8aa9-921913c92f35 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0c9dd43038136296b52f50e05f9d6eef39f7b8018517224007990b15be2eb19e ;
+    cav:value "0"^^xsd:int .
+
+camssa:826d1212-92e7-427e-b51f-ea64e6c1ddf4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """UDDI is included in 2 national catalogues. They belong to Member States which comply with at least 4 out of 5 sections of the EIF according to the NIFO factsheets. The Member States are the Netherlands, and Spain.
+See:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards
+https://joinup.ec.europa.eu/collection/national-interoperability-framework-observatory-nifo/nifo-factsheets"""@en ;
+    cav:refersTo camssa:0f1caa96-eb7a-4174-8d6c-02a16dd020c0 .
+
+camssa:87c2aa25-4d1a-4255-b360-aea47d921256 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a67ecbc29e70e62b18dba3ae4f8d1f91d5b3196777dbf8b58c6713cd517eb768 ;
+    cav:value "1"^^xsd:int .
+
+camssa:89077b5d-94a8-4da9-8d67-413006ca2892 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are already existing studies and documents assessing and documenting UDDI features and providing possible improvements of its performance among other aspects. 
+See: 
+https://www.researchgate.net/publication/303921682_INDEXING_TRADITIONAL_UDDI_FOR_EFFICIENT_DISCOVERY_OF_WEB_SERVICES
+https://www.academia.edu/14435163/Binding_now_or_binding_later_The_performance_of_UDDI_registries"""@en ;
+    cav:refersTo camssa:9983a8c1-7051-444f-a8bd-161ec93edf2a .
+
+camssa:894877e7-0d73-4f56-a08d-5d727e837707 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-105c699a138c27ab9a1af9174253cd7488b278f700acdbb1bdbcc3e0b9c5ec3d ;
+    cav:value "1"^^xsd:int .
+
+camssa:8abd7ade-1e38-4e01-b9ed-c8224a9f7736 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "UDDI is a sector agnostic specification that can be used under any business domain. "@en ;
+    cav:refersTo camssa:4063b1b2-76eb-4766-b963-4dd1d903abe7 .
+
+camssa:8d7ec295-d76e-4c23-9c2d-ce3bb4d82bcb a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of UDDI is not related to organisational interoperability. Therefore, this criterion is not applicable to the specification."@en ;
+    cav:refersTo camssa:d86ca728-7265-4719-9767-bd3b9115550a .
+
+camssa:8f111604-342b-4b54-aac7-74ad87e99402 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of UDDI is not related to e-accessibility. Therefore this criterion is considered not applicable to this specification."@en ;
+    cav:refersTo camssa:080ab924-dc32-4b2c-a8ba-8ece84409e5d .
+
+camssa:979268a3-f48a-448e-b05f-500229bc9460 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of UDDI is not related to long term preservation of electronic records. Therefore this criterion is considered not applicable to this specification."@en ;
+    cav:refersTo camssa:1bebf761-8b35-4992-8b8f-a0ff322ea89e .
+
+camssa:9983a8c1-7051-444f-a8bd-161ec93edf2a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-58010a47630ff9ea23336bf3fc558deff59905e0292551fcabc95740082cb378 ;
+    cav:value "1"^^xsd:int .
+
+camssa:9cb95841-e249-4eae-b702-b50d4b7c9d8d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-4017a1ae4d077fbb3847280a1c20b41bf00c32d65fc9beaa2bea8cce550ac463 ;
+    cav:value "1"^^xsd:int .
+
+camssa:9ebdd91b-5223-4f46-acc8-d6e1d38b1c41 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f70d8bc1b4b6e186d69ea3f7f8cc7b2d75314b84e7f481ebe13b4e6ed8b36598 ;
+    cav:value "1"^^xsd:int .
+
+camssa:a0eacd01-75d3-47d7-9d7f-a36957e19099 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-4a006ad6785e066d16c13daf48a60ee43ec33d1de1b06613c8e656ccf330a6d5 ;
+    cav:value "1"^^xsd:int .
+
+camssa:a90ee470-7ea8-484a-ae5c-bad821457156 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b4f0d1b7f1d41c70797fa200c6fc73ac01f2f1659319e5cb1cebe8f5e79c1fcb ;
+    cav:value "1"^^xsd:int .
+
+camssa:a9c99c6a-c63d-4698-b2ac-d8074dfd050c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5839144ecfb6c41a2c3cf5c1e86a6b3ad7a9e3ec9c4efa5650a6e7b9e3586335 ;
+    cav:value "1"^^xsd:int .
+
+camssa:ab667c55-9c44-4a8a-ba0e-79b0e1707ec5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "At the moment of performing the assessment, UDDI is one of the foundations of web services together with SOAP and WSDL. Even there is a new implementation mode as is REST, SOAP is still active and highly used in the creation of new solutions including innovative solutions. "@en ;
+    cav:refersTo camssa:3145bfbd-696c-4af2-89eb-5b8d115d4e3d .
+
+camssa:ba31699f-74d4-49c4-92e4-d75f76bfc7fa a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-39e7870e79b2999a8b61c97f0c356312b88174320d6464fce5639e57ec0de011 ;
+    cav:value "1"^^xsd:int .
+
+camssa:ba7e446f-d316-43b6-950f-9d3b385f5529 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The OASIS decision-making process for the approval of a specification is clearly defined. Decisions are taken based on votes requiring a Simple Majority Vote to pass. Furthermore, a public review is included in the TC process. 
+See: 
+https://www.oasis-open.org/policies-guidelines/tc-process-2017-05-26"""@en ;
+    cav:refersTo camssa:5339fe8f-1cb5-4bd2-8d3a-52a0e33f1bfb .
+
+camssa:bd01cd2a-d559-42aa-ba42-957b707b7d14 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e370a4af17e89cbb70bb5079082a1e21cdee85435c8fc30b12a8987f18db367f ;
+    cav:value "1"^^xsd:int .
+
+camssa:c28c751f-741f-4f70-b577-7721699b804f a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """OASIS has defined a clear Technical Committee (hereby TC) process where all the stakeholders involved has the opportunity to participate in the development of the specification being formulated. 
 All the information related to a TC activity is hosted and can be consulted. 
 See: 
 https://www.oasis-open.org/policies-guidelines/tc-process-2017-05-26"""@en ;
-    cav:refersTo camssa:4377247b-c811-4185-865e-da050aec9c1d .
+    cav:refersTo camssa:9ebdd91b-5223-4f46-acc8-d6e1d38b1c41 .
 
-camssa:db41adfd-c6bc-4079-80f4-1403f22f47cf a cav:Score,
+camssa:c591409e-f753-4e88-abe7-4c8479bb1fe8 a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-58010a47630ff9ea23336bf3fc558deff59905e0292551fcabc95740082cb378 ;
-    cav:value "1"^^xsd:int .
+    cav:assignedTo sc:c-093c1e09f5a65e4cba0247dcab5a8f4854f3e512db336b1855b9a4c48d3659e0 ;
+    cav:value "0"^^xsd:int .
 
-camssa:db9b5c50-b733-4c66-8ec5-3d7015d6f4f9 a cav:Statement,
+camssa:c5d12b01-1b33-467f-9b82-8bb763bec408 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "UDDI is not included within any catalogue of standards at European level. "@en ;
+    cav:refersTo camssa:823f51b0-8541-4e30-8aa9-921913c92f35 .
+
+camssa:d4891340-3a72-4813-b7bc-e571719758d4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The OASIS UDDI Specification Technical Committee in charge of the development of UDDI, operates under RF on RAND Mode of the OASIS IPR Policy. The specification is licensed on a Royalty-free and (F)RAND basis.
+See: 
+https://www.oasis-open.org/policies-guidelines/ipr
+https://www.oasis-open.org/committees/uddi-spec/ipr.php"""@en ;
+    cav:refersTo camssa:bd01cd2a-d559-42aa-ba42-957b707b7d14 .
+
+camssa:d627e28d-e95d-48eb-9ce7-2fb3c2e65a1b a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement "The specification is not related to the publication of public data as open data. Therefore this criterion is not applicable to this specification."@en ;
-    cav:refersTo camssa:8c585573-4ed5-4c96-bcd6-4976795dcb31 .
+    cav:refersTo camssa:f7328360-9636-480e-aa4e-9a1eaf79ce57 .
 
-camssa:df350488-4469-478a-a654-2066a8bd069a a cav:Statement,
+camssa:d86ca728-7265-4719-9767-bd3b9115550a a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement """UDDI is not defining a data model per se, instead of providing a data model the specification provides an Information model with the features and constraints for using it. Each initiative or specific type of repository can map information from the informational model to build their own data model. 
+    cav:assignedTo sc:c-73a8058bec757a2fdb0f8513c2f11841e982cbef76c3be82af67707c294da8b8 ;
+    cav:value "2"^^xsd:int .
+
+camssa:da1cc2e5-53ab-42cd-aa9f-b2434d0970c9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a0101cb11c30c1bbf94adb74479472f2a40c53ccc4b442180fece91506c20a9d ;
+    cav:value "1"^^xsd:int .
+
+camssa:dbd90ae9-e59c-4d8f-be03-a933df240c6a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ef096f898c938883daab1b22e784cfaf985b5e5c855e170ecf6eab6f37b01b50 ;
+    cav:value "1"^^xsd:int .
+
+camssa:e290cce2-71fe-48f6-a219-0f381e10663f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b45c8f7e446b1343c6b6961290d2106768aa43c1f123f5e436d0255c003abb50 ;
+    cav:value "1"^^xsd:int .
+
+camssa:e4b530bb-ca1f-498b-b3e5-a38b9adeeabf a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is included in the European collaborative platform for the development of ICT solution Joinup.  
+See:
+https://joinup.ec.europa.eu/solution/universal-description-discovery-and-integration/distribution/uddi-specification"""@en ;
+    cav:refersTo camssa:9cb95841-e249-4eae-b702-b50d4b7c9d8d .
+
+camssa:e5fd9b95-fa24-45bc-84ce-9f24293ffe48 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """UDDI is already associated with EIRA ABBs in the European Library Of Specifications (ELIS). Specifically, UDDI can define the interoperability aspects of the "Service Discovery Component", "Service Discovery Service", "Service Registration Service "and "Service Registry Component" ABBs of the EIRA Technical View.
 See: 
-uddi.org/pubs/uddi_v3.htm#_Toc85908471"""@en ;
-    cav:refersTo camssa:1d3ea99b-0f4d-47f9-ac2c-641f7f612310 .
+https://joinup.ec.europa.eu/solution/elis/distribution/eliscataloguev100betaxlsx"""@en ;
+    cav:refersTo camssa:a9c99c6a-c63d-4698-b2ac-d8074dfd050c .
 
-camssa:e1fd6b25-edaa-4aa3-8245-d8704987edf0 a cav:Score,
+camssa:e6a07500-9dee-41fd-bef0-295873abdfd3 a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-3671439b412291ce208a0ade6313c64aeb2942059c7543ca39322c56458bcf96 ;
-    cav:value "1"^^xsd:int .
+    cav:assignedTo sc:c-450e8a1f4cffbbf3de202e37bd642f098174559028df90ccc657473a6086bc0b ;
+    cav:value "2"^^xsd:int .
 
-camssa:e465c541-dff5-4e20-909d-42f383223fbd a cav:Score,
+camssa:e813c2bf-d88a-4699-859a-cb74b8edc70b a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-a1eafd9c95081eeabe19f0511239b88139f02f95e2349049eeea058a89c80f49 ;
-    cav:value "1"^^xsd:int .
+    cav:assignedTo sc:c-e8c3529a6146f0b0d269112be717ba4e9c5979ea4f43f57d217c0f998d26ce17 ;
+    cav:value "0"^^xsd:int .
 
-camssa:ec5c8bf0-3f1c-46c7-ae6a-ef58831d03f2 a cav:Score,
+camssa:ea2f8db7-1116-44eb-ab31-90c6581bcc27 a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-39e7870e79b2999a8b61c97f0c356312b88174320d6464fce5639e57ec0de011 ;
-    cav:value "1"^^xsd:int .
+    cav:assignedTo sc:c-f41cca0d171e6f64dbc2bdeae9fbc87f2ea51ac00185b22114d59ab8a06e78d0 ;
+    cav:value "0"^^xsd:int .
 
-camssa:ed795c3a-ceca-4033-82e1-42d0a80bbdc3 a cav:Statement,
+camssa:ed2b70a8-a7fb-42db-896a-4c76ce093ae1 a cav:Statement,
         owl:NamedIndividual ;
-    cav:judgement "By allowing the publication and discovery of web services, UDDI helps to reduce administrative burden avoiding administration and stakeholders to expend time searching for web services and improving the results while integrating services and exchanging data. "@en ;
-    cav:refersTo camssa:ec5c8bf0-3f1c-46c7-ae6a-ef58831d03f2 .
+    cav:judgement "The flexibility provided by UDDI allows its use in a public or internal way. The information model is widely adaptable to user needs, what means that UDDI nodes and registries can be modelled following Informational model guidelines. The implementation of UDDI does not hamper the scalability of systems. "@en ;
+    cav:refersTo camssa:4db83bb2-bcba-4f51-9635-6d863fbee295 .
 
-camssa:ef5069d2-f37b-4bc1-9229-8fa4835026e6 a cav:Statement,
+camssa:f69af70f-7fcc-424c-9339-cc7657e07c7f a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """By providing structure for the registry of web services, the specification acts as a repository that contains web services descriptions, services providers data and information related to how to access these web services. These registries help to administration and stakeholders to provide information and meet each other with the minimum effort. More specifically, the specification contributes to putting together both, requester and provider, minimising efforts and creating effective services ecosystems. 
 
@@ -448,40 +469,19 @@ Evidence of its implication on the OOP is that SELIS project is included within 
 See: 
 https://joinup.ec.europa.eu/collection/eprocurement/document/secure-electronic-invoicing-service-selis
 https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/2018/10/25/TOOP%3A+The+Once-Only+Principle"""@en ;
-    cav:refersTo camssa:f0256184-1e28-4624-85fa-d184ca19821e .
+    cav:refersTo camssa:3de272c4-2b63-4d75-99f0-ca3f4931d98d .
 
-camssa:f0256184-1e28-4624-85fa-d184ca19821e a cav:Score,
+camssa:f6c5f510-94f9-4ef0-bb9c-78ceac83c001 a schema:ContactPoint,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-01e6c1ce016de128117697d51a8fdaebb57c1f50343c081dfd72e2fbc56733a8 ;
-    cav:value "1"^^xsd:int .
+    schema:email "CAMSS@everis.com" .
 
-camssa:f092aa9d-05fa-40ce-95c9-0a7c72ff0d66 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """UDDI is already associated with EIRA ABBs in the European Library Of Specifications (ELIS). Specifically, UDDI can define the interoperability aspects of the "Service Discovery Component", "Service Discovery Service", "Service Registration Service "and "Service Registry Component" ABBs of the EIRA Technical View.
-See: 
-https://joinup.ec.europa.eu/solution/elis/distribution/eliscataloguev100betaxlsx"""@en ;
-    cav:refersTo camssa:a5b518d5-e97e-4670-af26-066607ac5ae8 .
-
-camssa:fabb8d3f-2c96-4087-8a6b-12ae168d9dd8 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-105c699a138c27ab9a1af9174253cd7488b278f700acdbb1bdbcc3e0b9c5ec3d ;
-    cav:value "1"^^xsd:int .
-
-camssa:fd026fb6-6540-401e-8ab0-e48bf51784da a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """UDDI includes features and capabilities to manage and maintain data integrity and access to UDDI repositories or nodes. This fact, helps to the secure and trustworthy data exchange between administration and stakeholders. 
-
-See: 
-http://www.uddi.org/pubs/uddi_v3.htm#_Toc85907992"""@en ;
-    cav:refersTo camssa:a6e091f3-bf90-4a4a-b239-9b4f2e41a015 .
-
-camssa:fd4380b4-8ffe-4547-839b-30917ba69eae a cav:Score,
+camssa:f7328360-9636-480e-aa4e-9a1eaf79ce57 a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-b6ba3f2f556446c68c55833e72b217be87ad5f0dd07744e2c39c6070aff6c10f ;
     cav:value "2"^^xsd:int .
 
-camssa:ff1ce86d-5c8b-4fb4-be00-3548c25b953c a cav:Score,
+camssa:f84a95f7-e50d-4edf-a7d5-aea644817d62 a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-b4f0d1b7f1d41c70797fa200c6fc73ac01f2f1659319e5cb1cebe8f5e79c1fcb ;
-    cav:value "1"^^xsd:int .
+    cav:judgement "After checking the assessments performed by CAMSS and the list of specifications identified by the MSP Multi-stakeholder-platform, no assessment verifying the compliance of the specification with the European standardisation regulation has been found."@en ;
+    cav:refersTo camssa:2cc0a969-40a8-4335-8939-82448fa18033 .
 

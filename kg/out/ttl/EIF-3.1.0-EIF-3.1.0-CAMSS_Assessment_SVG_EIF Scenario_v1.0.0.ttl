@@ -19,286 +19,153 @@ camssa:1dc51647f40da8d73fb323c884d5158e973eba9dab60ec33b1baad729e200d9f a cav:As
     camss:submissionDate "2020-07-31"^^xsd:date ;
     camss:toolVersion tool:3.1.0 ;
     cav:contextualisedBy sc:s-fa3a7cf6ccb859ff672f6579e000e61d96f0756c83c13b96e3139ae97beb13bd ;
-    cav:resultsIn camssa:03483e03-25cb-4cc8-b0f4-ba171a40fc72,
-        camssa:04559244-f992-4ec1-b904-4da9050df97a,
-        camssa:1586afb7-cc56-4938-b9b8-257825708f24,
-        camssa:1968a6a9-b2d2-4931-b092-8117f7757b53,
-        camssa:27014c82-0e1f-4f9a-b552-1a8b760ff1f3,
-        camssa:298c927d-418c-443b-baa8-934436e44b55,
-        camssa:2b9d1950-ecb0-4c4f-b051-52eac52b2854,
-        camssa:2ec448dd-4be4-4263-84fd-6ede34f4b97b,
-        camssa:30d76ee1-6938-4482-a278-d6d126972fbd,
-        camssa:3533a4da-03cf-4b55-afaf-736552734522,
-        camssa:38569fc9-f270-4bba-9a4d-7f795bbabac3,
-        camssa:39419aa7-fbfd-4715-a08e-4db1f61ae7fd,
-        camssa:403a0c2c-8e07-4f63-8117-c190de3cb73c,
-        camssa:4145f033-da71-42b4-b259-48e3b0101b4c,
-        camssa:4733c16f-fa80-4076-bfe4-b4b2e7b8ede4,
-        camssa:4c6a1436-e94e-487a-9e57-84a47e2671db,
-        camssa:68f5dd26-7013-4ddd-a710-44796179139f,
-        camssa:6aec776a-eee9-4e44-9851-221f9d47978c,
-        camssa:6ed2dec6-22c5-474e-b167-b0a82f70096a,
-        camssa:754d77e4-3a4e-4e65-8296-7ec4bf956d64,
-        camssa:7a29b65e-896b-4914-a875-345f5170a059,
-        camssa:7aaff1dd-c6c7-40bb-b888-4e177fb7888f,
-        camssa:858cf9e0-4ab2-4dbb-ba59-755c855f2295,
-        camssa:8816407d-a2ed-4eea-8701-ee1e78d7ce1b,
-        camssa:88bda200-1344-464b-89bb-e03085d9cbf7,
-        camssa:8d9c69e3-183c-46ed-bf46-bb7221f6226f,
-        camssa:99e3e502-90f9-470b-866e-b43ef1d69cb9,
-        camssa:9ca7620a-d016-4867-83be-7561f4fabbbf,
-        camssa:a1d7adac-d407-4d85-9cb5-e7fe991f8804,
-        camssa:a79046fa-d108-41c3-8db1-a67ae9baf335,
-        camssa:a91e0bc0-fc64-4acc-82be-2364d44bcbe6,
-        camssa:b224513a-ca3a-4bd9-a17f-81e8d1dbb81d,
-        camssa:b2e04c24-15a6-4b00-8b7e-87aafc131e9d,
-        camssa:ddc31ed4-b3d4-4c62-8714-51d3c6affae1,
-        camssa:dfacd937-c69b-4722-9727-6305842e23a4,
-        camssa:e03c03d7-f3bd-41ee-9b9a-db47cfcb8eef,
-        camssa:e745bd8b-791f-4a6a-8e91-6943bab7ffbc,
-        camssa:ec33b123-dcf3-4ce4-8f64-568660cc2064,
-        camssa:efb74558-fbf0-4847-8eb6-8b2994b73c62 ;
+    cav:resultsIn camssa:054e2635-7182-49ee-8354-0fa32f065a4c,
+        camssa:097fa18b-e764-4955-a9d9-6e68cdbe82b1,
+        camssa:192c4d76-f8ae-46b5-a2fc-53d95361c598,
+        camssa:20195244-f165-4c5a-9bb8-64bb8d1f680c,
+        camssa:24825d42-4def-4c45-b965-4dd4df82d826,
+        camssa:2c06421b-cfb3-41f5-b46d-b173daafb7f7,
+        camssa:37d506e0-9492-48bf-a534-bdf0db322c2f,
+        camssa:39a7b036-8381-40ab-9918-f0bcbb307e99,
+        camssa:3f6afff7-9cdc-40d0-beac-d33fca54f6f2,
+        camssa:4b1d17f8-15e9-4df2-b890-c9c87a52f6ae,
+        camssa:4c1dc11e-f843-4ad0-a275-0798cf09f836,
+        camssa:500583cb-51f4-4aba-a0f8-a56dcd3f6e8e,
+        camssa:50ba3803-60e4-467d-807a-f037bdbeb94e,
+        camssa:54d2a87c-0466-466c-a747-ce3eb27cef8e,
+        camssa:5d5f108d-7a66-4972-95dd-8f8e191b9aea,
+        camssa:6210c3fd-d4bb-45b7-b366-eaa3e2a1173f,
+        camssa:6941bb34-3014-4782-9920-98e3a1384087,
+        camssa:6b2e0e79-46ed-454b-adb6-718cb3d91a4b,
+        camssa:6cf9a3df-1696-461e-9724-c4d9b2594bbe,
+        camssa:7bd951ba-9e61-47cf-a132-da80fe56ffd3,
+        camssa:97ce2539-fc05-4f1d-b094-a782b22da3cb,
+        camssa:99184e14-005b-4cc4-a11b-6d8e0b68b95e,
+        camssa:9c5d1615-5ded-452d-aa08-8f0af9cea2e6,
+        camssa:a2d063ec-0d29-4c67-a5de-5b68ec081319,
+        camssa:a74248c5-ae54-4994-8d6f-fc593c8e7848,
+        camssa:a7735408-c9a6-4d62-8b06-ab4408471750,
+        camssa:a7bc98bf-3e75-4655-8e3b-4f1a8df71893,
+        camssa:b8510306-1ed5-4f98-91c2-80e8761744de,
+        camssa:b8eb39e7-7399-4536-9e17-5b9edff7ac9f,
+        camssa:c2ea2f27-8be6-4e3f-b594-1c415f968ac9,
+        camssa:c56f2927-31e1-4952-a9ac-4f9995a00260,
+        camssa:cb8ada9b-7913-46a4-ab2d-440742b9f42f,
+        camssa:d0cc83ec-dbbe-471b-a014-72cd895add52,
+        camssa:dc33e88e-658b-45e9-9eb3-c25bd45df85c,
+        camssa:e679a6f7-3ebd-4e8f-b693-bb6f2a95d03f,
+        camssa:ea21c144-a199-4882-bb16-9798745c346b,
+        camssa:eb8372c3-2f51-4d44-8c75-b6d4e4c42608,
+        camssa:f70a8440-2b5c-4fb6-862e-26718d7daf47,
+        camssa:fae2243b-de3d-49f3-822d-8134c29c6d45 ;
     cav:status status:Complete ;
     dct:title "Scalable Vector Graphics (SVG) v1.1 (Second Edition)"@en .
 
 camssa:ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164 a owl:NamedIndividual,
         org:Organization ;
-    camss:contactPoint camssa:49bfb58a-7a09-47fd-a1af-23d402ffe4f7 ;
+    camss:contactPoint camssa:44d9e3ba-7139-48a8-9cf2-a73637fb9d6f ;
     skos:prefLabel "CAMSS Team"@en .
 
-camssa:03483e03-25cb-4cc8-b0f4-ba171a40fc72 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The specification was developed by 2011 and has been broadly implemented and used for the representation of graphical information containing vectors and mixed vector/raster. Also, it is interesting to mention that it has been evolving along with other specifications to ensure the interoperability between some of them.
-
-SVG W3C reference: 
-https://www.w3.org/TR/SVG11/"""@en ;
-    cav:refersTo camssa:eb07278a-355f-4f9f-ba91-4cefab575231 .
-
-camssa:0392400c-9e92-4c61-a275-dc3cca76cef6 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-31bf959b6c4a983ec70eb87e0177f2739575ebce42c7c3b95b9012ef3bfe673e ;
-    cav:value "1"^^xsd:int .
-
-camssa:04559244-f992-4ec1-b904-4da9050df97a a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The W3C Royalty-Free IPR licenses granted under the W3C Patent Policy apply to all W3C specifications, including ADMS.
-
-Patent policy:
-https://www.w3.org/TR/patent-practice#ref-AC"""@en ;
-    cav:refersTo camssa:cb71f163-07ee-4498-bf20-685f3b61e276 .
-
-camssa:0ddd1cbf-5ee4-43cb-bba1-a5f7cb8cd3de a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-6d48464387e608d3022bd07338cd3859acfb0f84139186a979ef3b96baa51086 ;
-    cav:value "2"^^xsd:int .
-
-camssa:1586afb7-cc56-4938-b9b8-257825708f24 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The purpose of SVG is not related to the delivery of multilingual public services. Therefore, this criterion is not applicable to the specification.
-
-SVG W3C reference: 
-https://www.w3.org/TR/SVG11/"""@en ;
-    cav:refersTo camssa:a9c4e7af-b924-4065-a615-9688c6d25526 .
-
-camssa:1968a6a9-b2d2-4931-b092-8117f7757b53 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """SVG is supported by several products and services like WordPress, HTML, or different versions of CSS. Also, it is widely used for the development of the icons with different purposes as logos for webpages or as part of the content of these web pages. Moreover, it is a step further from other graphical representation specifications by allowing a better description and representations of vectors and d mixed vector/raster.
-
-SVG W3C reference: 
-https://www.w3.org/TR/SVG11/"""@en ;
-    cav:refersTo camssa:7655b970-cfaa-44e5-a833-915b137e8df9 .
-
-camssa:1df368fc-6fbf-4176-a450-4ee9a3ba5d47 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-ab64f97c21ac8b84c75d6f52a89765b1c8fd1856d2d2060926d05e94f306a88d ;
-    cav:value "1"^^xsd:int .
-
-camssa:216a4d72-9b3b-4885-bf0b-cf4ca6cb746c a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-7a18abe4842e04b608025fd70e54c3db5c2a10130c0dab0495479e7d5effb55d ;
-    cav:value "0"^^xsd:int .
-
-camssa:21fdbd67-3d47-4646-aef1-2e1ac7a906e2 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-5879b43fc249f0098f3ed687235f432f71bf0c11bd3aa95e063dfdacd64606c8 ;
-    cav:value "1"^^xsd:int .
-
-camssa:27014c82-0e1f-4f9a-b552-1a8b760ff1f3 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """Even though the purpose of the SVG is not the availability of digital services from the administration to the stakeholders, the usage of SVG graphics to represent the information contained in Public Administration webpages can help to do so. It can help the understanding of the information provided allowing all people to access electronic public services. Moreover, the specification includes a few comments on how to improve the accessibility to the content making it more discoverable and accessible.
-
-SVG W3C reference:
-https://www.w3.org/TR/SVG11/access.html"""@en ;
-    cav:refersTo camssa:674d1865-38fa-44dd-8f81-834206ed0d66 .
-
-camssa:27692797-9a54-47ce-8123-e1523c9f51c5 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-8954ddabf37f4899562b9ea4c8f0bbf204f3e48c9203043bc231f368092396a2 ;
-    cav:value "0"^^xsd:int .
-
-camssa:298c927d-418c-443b-baa8-934436e44b55 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """SVG is publicly available for everyone to study and free of charge at the W3C webpage.
-
-W3C Specification: 
-https://www.w3.org/TR/SVG11/"""@en ;
-    cav:refersTo camssa:0392400c-9e92-4c61-a275-dc3cca76cef6 .
-
-camssa:2b9d1950-ecb0-4c4f-b051-52eac52b2854 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """W3C has a defined and publicly available Process for the Development and approval process of the specification as a recommended standard, including a public review.
-
-W3C Process document:
-https://www.w3.org/2018/Process-20180201/#Policies"""@en ;
-    cav:refersTo camssa:fa939fc1-180a-44ae-9a46-af1469544921 .
-
-camssa:2ec448dd-4be4-4263-84fd-6ede34f4b97b a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The W3C Royalty-Free IPR licenses granted under the W3C Patent Policy apply to all W3C specifications, including ADMS.
-
-Patent policy:
-https://www.w3.org/TR/patent-practice#ref-AC"""@en ;
-    cav:refersTo camssa:5c207df7-f426-4dc8-bb62-1569e16e555f .
-
-camssa:30d76ee1-6938-4482-a278-d6d126972fbd a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "After searching for a certification or conformity test to validate SVG no tool has been found that assess the conformity of the specification."@en ;
-    cav:refersTo camssa:3782d36f-00d1-4347-b7e6-a37989db2a5f .
-
-camssa:3533a4da-03cf-4b55-afaf-736552734522 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """SVG is included in 4 national catalogues of recommended specifications. They belong to Estonia, the Netherlands, Spain and Sweden. The National Interoperability Framework (NIF) of these Member States is fully aligned with at least 4 out of 5 sections of the European Interoperability Framework (EIF) according to the National Interoperability Framework Observatory (NIFO) factsheets.
-
-CAMSS List of Standards
-https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards
-
-NIFO FactSheets:
-https://joinup.ec.europa.eu/collection/national-interoperability-framework-observatory-nifo/nifo-factsheets"""@en ;
-    cav:refersTo camssa:de40bb69-6331-4a48-bcee-b3b2e868ea61 .
-
-camssa:3782d36f-00d1-4347-b7e6-a37989db2a5f a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-c967c90bfc7bc13426924eca012de349ae51d4e8f652fe64bfbec2cccc8c8146 ;
-    cav:value "0"^^xsd:int .
-
-camssa:38569fc9-f270-4bba-9a4d-7f795bbabac3 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The specification is included in 10 Member States' catalogues of recommended specifications. They belong to the Croatia, Estonia, France, Germany, Malta, Netherlands, Norway, Poland, Spain and Sweden.
-
-CAMSS List of Standards:
-https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
-    cav:refersTo camssa:b48e9f99-9657-4c57-9cf6-8561017846ff .
-
-camssa:39419aa7-fbfd-4715-a08e-4db1f61ae7fd a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """Even though SVG is supporting the first level of maturity from the Tim Berners-Lee 5-star schema for the Open data, it is not supporting the main principles for the publication of data as Linked Open Data.
-
-W3C Linked Data:
-https://www.w3.org/wiki/LinkedData
-
-5 Stars Schema:
-https://5stardata.info/en/"""@en ;
-    cav:refersTo camssa:795cbb16-86ce-42ea-818d-b3863e25a61b .
-
-camssa:403a0c2c-8e07-4f63-8117-c190de3cb73c a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """At the time of elaborating this assessment, this specification is not included in any EIRA ABB in the current European Library Of Specifications (ELIS).
-
-EIRA Library of Interoperability Specifications (ELIS):
-https://joinup.ec.europa.eu/solution/elis/release/v100"""@en ;
-    cav:refersTo camssa:bf98186f-82f5-41e6-b4b7-53554e1a8444 .
-
-camssa:40446d7d-4ec6-4581-9d42-b20873f94457 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-c265ca0c56e0f29a34039d496ba707b5486ccf6d445f9f058c19b4ece977861f ;
-    cav:value "2"^^xsd:int .
-
-camssa:4145f033-da71-42b4-b259-48e3b0101b4c a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The specification does not include security features to foster secure and trustworthy data exchange between administrations and stakeholders.
-
-SVG W3C reference: 
-https://www.w3.org/TR/SVG11/"""@en ;
-    cav:refersTo camssa:cac82b04-d1ab-4a2b-86e3-6f50c4020893 .
-
-camssa:4733c16f-fa80-4076-bfe4-b4b2e7b8ede4 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The specification is independent of any software, hardware, or operating system. So it can be said that SVG is independent of any specific technology or platform.
-
-SVG W3C reference: 
-https://www.w3.org/TR/SVG11/"""@en ;
-    cav:refersTo camssa:21fdbd67-3d47-4646-aef1-2e1ac7a906e2 .
-
-camssa:49bfb58a-7a09-47fd-a1af-23d402ffe4f7 a schema:ContactPoint,
-        owl:NamedIndividual ;
-    schema:email "CAMSS@everis.com" .
-
-camssa:4c6a1436-e94e-487a-9e57-84a47e2671db a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """SVG is a business agnostic document format that can be reused in a cross-domain way.
-
-SVG W3C reference: 
-https://www.w3.org/TR/SVG11/"""@en ;
-    cav:refersTo camssa:c827583c-9165-4550-82a8-5fb40c742c77 .
-
-camssa:5c207df7-f426-4dc8-bb62-1569e16e555f a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-a81c4b8658f57e819297eb0b7977407f8d814c6fe749c74a8ac497277ca7d9d8 ;
-    cav:value "1"^^xsd:int .
-
-camssa:674d1865-38fa-44dd-8f81-834206ed0d66 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-fef5941bab92019b7692f8544de94715a42ed9ff76d89cbec4fb6f9821611925 ;
-    cav:value "1"^^xsd:int .
-
-camssa:68f5dd26-7013-4ddd-a710-44796179139f a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "Even though at the moment of elaborating the assessment the specification is widely used, no evidence has been found to demonstrate the specification can be used on the development of innovative solutions."@en ;
-    cav:refersTo camssa:8073bc13-983a-4862-80e3-7aae6b1d5df5 .
-
-camssa:6aec776a-eee9-4e44-9851-221f9d47978c a cav:Statement,
+camssa:054e2635-7182-49ee-8354-0fa32f065a4c a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """Different documents and studies are assessing the effectiveness and efficiency of the SVG while rendering images and textures. Also, there are other studies and documentation about the usage of the specification in another context such as the creation of graphical content for comics, even though it is not under the scope of this assessment it can demonstrate the potential of SVG for graphical content.
 
 eCommons: Feature Based-Textures: 
 https://ecommons.cornell.edu/handle/1813/5648"""@en ;
-    cav:refersTo camssa:db1000ab-0460-4184-8658-db07bb96ce0a .
+    cav:refersTo camssa:b46f28c8-387d-452c-a8be-a214bd066040 .
 
-camssa:6ed2dec6-22c5-474e-b167-b0a82f70096a a cav:Statement,
+camssa:0708ea0b-ff9e-45fe-acc4-d0f5cb40bf5a a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement """The purpose of SVG is not related to organisational interoperability. Therefore, this criterion is not applicable to the specification.
+    cav:assignedTo sc:c-5df7a9f6081c945a22f500aa0ba2c452b8b9cd9497bd643ac76c39d34a18c319 ;
+    cav:value "0"^^xsd:int .
+
+camssa:097fa18b-e764-4955-a9d9-6e68cdbe82b1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of SVG is not related to the delivery of multilingual public services. Therefore, this criterion is not applicable to the specification.
 
 SVG W3C reference: 
 https://www.w3.org/TR/SVG11/"""@en ;
-    cav:refersTo camssa:0ddd1cbf-5ee4-43cb-bba1-a5f7cb8cd3de .
+    cav:refersTo camssa:5bc67f31-6d7a-4ffc-ae61-88b577d0a122 .
 
-camssa:754d77e4-3a4e-4e65-8296-7ec4bf956d64 a cav:Statement,
+camssa:11c0758d-5691-420c-ad23-904f1d120e95 a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement """10 Member States are recommending SVG in their ICT National Catalogues. They belong to the Croatia, Estonia, France, Germany, Malta, Netherlands, Norway, Poland, Spain and Sweden.
-
-CAMSS List of Standards:
-https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
-    cav:refersTo camssa:bf5623cb-d286-445a-b759-29acbd79a1bf .
-
-camssa:7655b970-cfaa-44e5-a833-915b137e8df9 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-d129862d6c9639e131c7d5eef095af16ef94d57ec0d52f955bf909ba8ec688e8 ;
+    cav:assignedTo sc:c-19598487b8ba278c3438dcfd74b74d9aad51beac08c53dbf40bf108ed09e72b2 ;
     cav:value "1"^^xsd:int .
 
-camssa:795cbb16-86ce-42ea-818d-b3863e25a61b a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-138786a6e7517e10b94e83ec3b3e7ac79b4c49dcbeaef8d8e993c8df0d173529 ;
-    cav:value "0"^^xsd:int .
-
-camssa:7a29b65e-896b-4914-a875-345f5170a059 a cav:Statement,
+camssa:192c4d76-f8ae-46b5-a2fc-53d95361c598 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """W3C has a defined and publicly available Process for the Development and approval process of the specification as a recommended standard. Also, a clear Release Notes tracking the changes of the different versions is archived.
 
 W3C Process document
 https://www.w3.org/2018/Process-20180201/#Policies"""@en ;
-    cav:refersTo camssa:f49d8298-547a-4982-b057-d03659841672 .
+    cav:refersTo camssa:f66d1d17-1c03-4a49-9ed1-c9cce8e7330d .
 
-camssa:7aaff1dd-c6c7-40bb-b888-4e177fb7888f a cav:Statement,
+camssa:1a4f9636-e699-4b4b-82ae-76331ab73af4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5879b43fc249f0098f3ed687235f432f71bf0c11bd3aa95e063dfdacd64606c8 ;
+    cav:value "1"^^xsd:int .
+
+camssa:1c746476-1ef0-4e15-93d0-96bf6ca856ca a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-6d48464387e608d3022bd07338cd3859acfb0f84139186a979ef3b96baa51086 ;
+    cav:value "2"^^xsd:int .
+
+camssa:1e823644-5699-4b21-b927-200f93cc2f65 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8954ddabf37f4899562b9ea4c8f0bbf204f3e48c9203043bc231f368092396a2 ;
+    cav:value "0"^^xsd:int .
+
+camssa:20195244-f165-4c5a-9bb8-64bb8d1f680c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification of SVG is available for free, it can be checked on the W3C official webpage.
+
+SVG W3C reference: 
+https://www.w3.org/TR/SVG11/"""@en ;
+    cav:refersTo camssa:929a8190-a792-4955-aad8-649d1021393e .
+
+camssa:215d96a3-61e4-4447-b468-6e70faf110ee a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fef5941bab92019b7692f8544de94715a42ed9ff76d89cbec4fb6f9821611925 ;
+    cav:value "1"^^xsd:int .
+
+camssa:22340ed7-caca-4049-891f-53741951c9d9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8eb17470327d32b3bb523447fe72ee5c60ddb03e81dae318b485fbe05f48a844 ;
+    cav:value "1"^^xsd:int .
+
+camssa:22c03f0b-bdbb-401f-9c18-4a236ea4e173 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1cd71a7b6d54631ba58cc8b0655a443d696f49ec74a0f4cccc871de7789d6a60 ;
+    cav:value "1"^^xsd:int .
+
+camssa:24825d42-4def-4c45-b965-4dd4df82d826 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Even though SVG is supporting the first and second level of maturity from the Tim Berners-Lee 5-star schema for the Open data, it can be considered that could foster the publication of open data but not directly, as the SVG is compatible with XSL.
+
+SVG W3C reference: 
+https://www.w3.org/TR/SVG11/
+
+Tim Berners-Lee 5-star schema for Open Data:
+https://5stardata.info/en/"""@en ;
+    cav:refersTo camssa:4526e07e-2f2f-4638-8dc3-b7cbcfc0b999 .
+
+camssa:2c06421b-cfb3-41f5-b46d-b173daafb7f7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is included in 10 Member States' catalogues of recommended specifications. They belong to the Croatia, Estonia, France, Germany, Malta, Netherlands, Norway, Poland, Spain and Sweden.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:601bcd4b-2995-415e-b065-b654556234c2 .
+
+camssa:37d506e0-9492-48bf-a534-bdf0db322c2f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The W3C Royalty-Free IPR licenses granted under the W3C Patent Policy apply to all W3C specifications, including ADMS.
+
+Patent policy:
+https://www.w3.org/TR/patent-practice#ref-AC"""@en ;
+    cav:refersTo camssa:22c03f0b-bdbb-401f-9c18-4a236ea4e173 .
+
+camssa:39a7b036-8381-40ab-9918-f0bcbb307e99 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """The specification of SVG is available for free, at the European Platform Joinup. Also, it can be checked on the W3C official webpage:
 
@@ -307,77 +174,89 @@ https://joinup.ec.europa.eu/solution/scalable-vector-graphics-svg-11-specificati
 
 W3C Specification: 
 https://www.w3.org/TR/SVG11/"""@en ;
-    cav:refersTo camssa:a3004c0f-5b85-4787-95c1-639ae2c83849 .
+    cav:refersTo camssa:ae64082f-425c-4fe8-89af-3e6c909a125b .
 
-camssa:8073bc13-983a-4862-80e3-7aae6b1d5df5 a cav:Score,
+camssa:3efb92a5-7559-47a3-bbbb-3ad9ac603704 a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-21276471c1781fa2c7e78c8e03851e076b840beddbf5cf64f53b54b8855a01b8 ;
-    cav:value "0"^^xsd:int .
+    cav:assignedTo sc:c-624bc49501d58649e27cae4fb89fb5a56844685e54c5ce1625633894f8f752e1 ;
+    cav:value "2"^^xsd:int .
 
-camssa:858cf9e0-4ab2-4dbb-ba59-755c855f2295 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "No formal agreement has been found established between organisations or administrations involved in European public service provision including the usage of SVG."@en ;
-    cav:refersTo camssa:c86a9f6b-eeb0-4011-b202-85670531e86e .
-
-camssa:8816407d-a2ed-4eea-8701-ee1e78d7ce1b a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """SVG is developed by the W3C community, an international organisation aimed to develop open standards and specifications.
-
-SVG W3C reference: 
-https://www.w3.org/TR/SVG11/"""@en ;
-    cav:refersTo camssa:8c669d61-d6db-4c15-9703-2d4c83ea6c56 .
-
-camssa:88bda200-1344-464b-89bb-e03085d9cbf7 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The purpose of SVG is not related to the once-only principle. Therefore, this criterion is not applicable to the specification.
-
-SVG W3C reference: 
-https://www.w3.org/TR/SVG11/"""@en ;
-    cav:refersTo camssa:ec2ba0b7-facf-4af9-ae71-6131f4367801 .
-
-camssa:8c669d61-d6db-4c15-9703-2d4c83ea6c56 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-b21a3eb972a2119979bc57368474efa809e8dd16cede48bc492e8b64da1abee9 ;
-    cav:value "1"^^xsd:int .
-
-camssa:8d9c69e3-183c-46ed-bf46-bb7221f6226f a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """SVG is a specification that supports the graphical data exchange, which can be combined with XSL. It helps to the combination and exchange and integrations within other formats as XML, which is widely used for the data transmission across borders and between administrations.
-
-SVG and XSL: 
-https://www.w3.org/People/maxf/papers/2002-07-SVGOpen/svgopen.html#id2590005"""@en ;
-    cav:refersTo camssa:1df368fc-6fbf-4176-a450-4ee9a3ba5d47 .
-
-camssa:99e3e502-90f9-470b-866e-b43ef1d69cb9 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The main purpose of SVG is to exchange and represent graphical information over the internet. Its compatibility with XML, CSS and other transformation elements like XSLT, allows the data portability of the information contained in SVG files. Also, it can represent graphical content from simple XML inputs.
-
-SVG W3C reference: 
-https://www.w3.org/TR/SVG11/
-
-SVG and XSL: 
-https://www.w3.org/People/maxf/papers/2002-07-SVGOpen/svgopen.html#id2590005"""@en ;
-    cav:refersTo camssa:f2dff114-7956-4491-8b32-4be480ad8030 .
-
-camssa:9ca7620a-d016-4867-83be-7561f4fabbbf a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "No evidences have been found of the specification being included in a formal interoperability agreement between organisations involved in the European public services provision."@en ;
-    cav:refersTo camssa:f15c4395-33ac-470d-aae0-04515dd42fdc .
-
-camssa:a1d7adac-d407-4d85-9cb5-e7fe991f8804 a cav:Statement,
+camssa:3f6afff7-9cdc-40d0-beac-d33fca54f6f2 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """After checking the assessments performed by CAMSS and the list of specifications identified by the MSP Multi-stakeholder-platform, no assessment verifying the compliance of the specification with the European standardisation regulation has been found.
 
 ICT technical specifications:
 https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en"""@en ;
-    cav:refersTo camssa:e05c4da1-ac05-44b5-a083-f5d5a1254d2a .
+    cav:refersTo camssa:a7b2d215-f2aa-41bd-bd5a-2d5808a43b6f .
 
-camssa:a3004c0f-5b85-4787-95c1-639ae2c83849 a cav:Score,
+camssa:430a2a7c-22d4-40f6-aca2-6202bdfc63aa a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-17bea234285e6e633e4e21105358610ad5f5f0eaaf82f4bd50cb64ec11538984 ;
+    cav:assignedTo sc:c-31bf959b6c4a983ec70eb87e0177f2739575ebce42c7c3b95b9012ef3bfe673e ;
     cav:value "1"^^xsd:int .
 
-camssa:a79046fa-d108-41c3-8db1-a67ae9baf335 a cav:Statement,
+camssa:443e35d1-7716-436f-ae7b-22832521683c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8a34a40e5bc5436b3530d898d75a57cf0488591887b31a5169499fe78952d84c ;
+    cav:value "2"^^xsd:int .
+
+camssa:44d9e3ba-7139-48a8-9cf2-a73637fb9d6f a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "CAMSS@everis.com" .
+
+camssa:4526e07e-2f2f-4638-8dc3-b7cbcfc0b999 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-02333ef99fbcb4f101a106bcf97c9559888756b085b1729b7c2ac9626dc4bc63 ;
+    cav:value "1"^^xsd:int .
+
+camssa:45f7c745-6f18-44f4-8b05-a058c9941b2d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c967c90bfc7bc13426924eca012de349ae51d4e8f652fe64bfbec2cccc8c8146 ;
+    cav:value "0"^^xsd:int .
+
+camssa:4b1d17f8-15e9-4df2-b890-c9c87a52f6ae a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """SVG is supported by several products and services like WordPress, HTML, or different versions of CSS. Also, it is widely used for the development of the icons with different purposes as logos for webpages or as part of the content of these web pages. Moreover, it is a step further from other graphical representation specifications by allowing a better description and representations of vectors and d mixed vector/raster.
+
+SVG W3C reference: 
+https://www.w3.org/TR/SVG11/"""@en ;
+    cav:refersTo camssa:c6d95292-dcb4-435c-a537-c794f905b762 .
+
+camssa:4c1dc11e-f843-4ad0-a275-0798cf09f836 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Even though SVG is supporting the first level of maturity from the Tim Berners-Lee 5-star schema for the Open data, it is not supporting the main principles for the publication of data as Linked Open Data.
+
+W3C Linked Data:
+https://www.w3.org/wiki/LinkedData
+
+5 Stars Schema:
+https://5stardata.info/en/"""@en ;
+    cav:refersTo camssa:b3fc5146-ee05-4ad6-a627-98c90d32be5c .
+
+camssa:4f454ae2-457f-4447-8906-7369453036a3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7a18abe4842e04b608025fd70e54c3db5c2a10130c0dab0495479e7d5effb55d ;
+    cav:value "0"^^xsd:int .
+
+camssa:500583cb-51f4-4aba-a0f8-a56dcd3f6e8e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """SVG is publicly available for everyone to study and free of charge at the W3C webpage.
+
+W3C Specification: 
+https://www.w3.org/TR/SVG11/"""@en ;
+    cav:refersTo camssa:430a2a7c-22d4-40f6-aca2-6202bdfc63aa .
+
+camssa:50ba3803-60e4-467d-807a-f037bdbeb94e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """SVG is included in 4 national catalogues of recommended specifications. They belong to Estonia, the Netherlands, Spain and Sweden. The National Interoperability Framework (NIF) of these Member States is fully aligned with at least 4 out of 5 sections of the European Interoperability Framework (EIF) according to the National Interoperability Framework Observatory (NIFO) factsheets.
+
+CAMSS List of Standards
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards
+
+NIFO FactSheets:
+https://joinup.ec.europa.eu/collection/national-interoperability-framework-observatory-nifo/nifo-factsheets"""@en ;
+    cav:refersTo camssa:22340ed7-caca-4049-891f-53741951c9d9 .
+
+camssa:54d2a87c-0466-466c-a747-ce3eb27cef8e a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """After checking the different standard catalogues at supra-national level, there is no evidence of the inclusion of SVG within any European catalogue of standards.
 
@@ -389,197 +268,318 @@ https://standards.cen.eu/dyn/www/f?p=CENWEB:105::RESET::::
 
 CENELEC search tool catalogue:
 https://www.cenelec.eu/dyn/www/f?p=104:107:0::::FSP_LANG_ID:25"""@en ;
-    cav:refersTo camssa:216a4d72-9b3b-4885-bf0b-cf4ca6cb746c .
+    cav:refersTo camssa:4f454ae2-457f-4447-8906-7369453036a3 .
 
-camssa:a91e0bc0-fc64-4acc-82be-2364d44bcbe6 a cav:Statement,
+camssa:57fbd0b6-a9bc-4e95-aee0-7d2ef47b6474 a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement """Representing the graphical information from several sources as XML, it can help the comprehensibility of administrative data. In this sense, it can also help the decision-making process by displaying graphics and data that is relevant for the administration.
+    cav:assignedTo sc:c-ffdbd22af1ff3c1ebb100043d062a3df160007af761caf0a8c9f50f02e609c9e ;
+    cav:value "1"^^xsd:int .
 
-SVG W3C reference: 
-https://www.w3.org/TR/SVG11/"""@en ;
-    cav:refersTo camssa:d5e79821-ba3c-4820-93e5-5a8deb703161 .
+camssa:5a489c24-7e23-4aff-ac6f-d2de18759d93 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7aa038b5496afb8cb229c692be9a2adc175deb2d5d47e35ad67e027c9eac28ba ;
+    cav:value "1"^^xsd:int .
 
-camssa:a9c4e7af-b924-4065-a615-9688c6d25526 a cav:Score,
+camssa:5b590120-aa7c-4439-8b87-c7a2890e9210 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b21a3eb972a2119979bc57368474efa809e8dd16cede48bc492e8b64da1abee9 ;
+    cav:value "1"^^xsd:int .
+
+camssa:5bc67f31-6d7a-4ffc-ae61-88b577d0a122 a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-4ac14cafe608f1dbe7e48f96edd7574c55f0aac2c2e99ede0418dae7225977af ;
     cav:value "2"^^xsd:int .
 
-camssa:a9dd630f-1cd7-40ff-8611-d6546f31f0de a cav:Score,
+camssa:5d5f108d-7a66-4972-95dd-8f8e191b9aea a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-02333ef99fbcb4f101a106bcf97c9559888756b085b1729b7c2ac9626dc4bc63 ;
+    cav:judgement """W3C has a defined and publicly available Process for the Development and approval process of the specification as a recommended standard, including a public review.
+
+W3C Process document:
+https://www.w3.org/2018/Process-20180201/#Policies"""@en ;
+    cav:refersTo camssa:5a489c24-7e23-4aff-ac6f-d2de18759d93 .
+
+camssa:601bcd4b-2995-415e-b065-b654556234c2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-838030847fa0adf54939e3feaac0ac2510924c54035e1cb671b223b54b02fd70 ;
     cav:value "1"^^xsd:int .
 
-camssa:aa2e3d17-7bdd-4c98-925f-cb89b968dd05 a cav:Score,
+camssa:608fa18d-7665-43bc-94b0-c33fe0fb1a89 a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-19598487b8ba278c3438dcfd74b74d9aad51beac08c53dbf40bf108ed09e72b2 ;
+    cav:assignedTo sc:c-6bedf555bffb837990b9eb353447fa116eb9d2384770b1dd3de46d3c5901d4f4 ;
     cav:value "1"^^xsd:int .
 
-camssa:b224513a-ca3a-4bd9-a17f-81e8d1dbb81d a cav:Statement,
+camssa:6210c3fd-d4bb-45b7-b366-eaa3e2a1173f a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """The purpose of SVG is not related to the modelling of business processes. Therefore, this criterion is not applicable to the specification.
 
 SVG W3C reference: 
 https://www.w3.org/TR/SVG11/"""@en ;
-    cav:refersTo camssa:40446d7d-4ec6-4581-9d42-b20873f94457 .
+    cav:refersTo camssa:9165f5e3-7b9a-40da-b451-cd0c93b014d0 .
 
-camssa:b2e04c24-15a6-4b00-8b7e-87aafc131e9d a cav:Statement,
+camssa:6941bb34-3014-4782-9920-98e3a1384087 a cav:Statement,
         owl:NamedIndividual ;
-    cav:judgement """Even though SVG is supporting the first and second level of maturity from the Tim Berners-Lee 5-star schema for the Open data, it can be considered that could foster the publication of open data but not directly, as the SVG is compatible with XSL.
+    cav:judgement """The main purpose of SVG is to exchange and represent graphical information over the internet. Its compatibility with XML, CSS and other transformation elements like XSLT, allows the data portability of the information contained in SVG files. Also, it can represent graphical content from simple XML inputs.
 
 SVG W3C reference: 
 https://www.w3.org/TR/SVG11/
 
-Tim Berners-Lee 5-star schema for Open Data:
-https://5stardata.info/en/"""@en ;
-    cav:refersTo camssa:a9dd630f-1cd7-40ff-8611-d6546f31f0de .
+SVG and XSL: 
+https://www.w3.org/People/maxf/papers/2002-07-SVGOpen/svgopen.html#id2590005"""@en ;
+    cav:refersTo camssa:bb7e715a-a269-456e-9c76-5ce565573bd5 .
 
-camssa:b48e9f99-9657-4c57-9cf6-8561017846ff a cav:Score,
+camssa:6b2e0e79-46ed-454b-adb6-718cb3d91a4b a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-838030847fa0adf54939e3feaac0ac2510924c54035e1cb671b223b54b02fd70 ;
-    cav:value "1"^^xsd:int .
+    cav:judgement "Even though at the moment of elaborating the assessment the specification is widely used, no evidence has been found to demonstrate the specification can be used on the development of innovative solutions."@en ;
+    cav:refersTo camssa:a45f22cf-bb65-476d-ab22-aa63cbed595a .
 
-camssa:bf5623cb-d286-445a-b759-29acbd79a1bf a cav:Score,
+camssa:6cf9a3df-1696-461e-9724-c4d9b2594bbe a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-8c09094de9d71f12686896827a205db683b6df58fa363bc5be2a7d99989e7dd0 ;
-    cav:value "1"^^xsd:int .
+    cav:judgement "No formal agreement has been found established between organisations or administrations involved in European public service provision including the usage of SVG."@en ;
+    cav:refersTo camssa:8a5c3489-74b7-4c3a-a366-8d520afe7e46 .
 
-camssa:bf98186f-82f5-41e6-b4b7-53554e1a8444 a cav:Score,
+camssa:7bd951ba-9e61-47cf-a132-da80fe56ffd3 a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-7d28663fdb5deb361d5ad773d7b7ece3c6acf8d2eb7a1222a60cb08df4c93aac ;
-    cav:value "0"^^xsd:int .
+    cav:judgement """The purpose of SVG is not related to organisational interoperability. Therefore, this criterion is not applicable to the specification.
 
-camssa:c827583c-9165-4550-82a8-5fb40c742c77 a cav:Score,
+SVG W3C reference: 
+https://www.w3.org/TR/SVG11/"""@en ;
+    cav:refersTo camssa:1c746476-1ef0-4e15-93d0-96bf6ca856ca .
+
+camssa:86c22a14-05c0-46ea-94a0-df9c813f5368 a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-3aec34db3622bf18675b8216d0fc1d68fc7eeb501b4f3326402038a3ceb95c21 ;
     cav:value "1"^^xsd:int .
 
-camssa:c86a9f6b-eeb0-4011-b202-85670531e86e a cav:Score,
+camssa:8a5c3489-74b7-4c3a-a366-8d520afe7e46 a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-39ffef052c31580b50b418f3991e9de7db4dc182fcf96f5a447d7f8e09560612 ;
     cav:value "0"^^xsd:int .
 
-camssa:cac82b04-d1ab-4a2b-86e3-6f50c4020893 a cav:Score,
+camssa:9165f5e3-7b9a-40da-b451-cd0c93b014d0 a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-483e8900c47b40bc67a6bd1cbfce07884b9ac5f2c85e0214f334cc37e4e65c35 ;
-    cav:value "0"^^xsd:int .
-
-camssa:cb71f163-07ee-4498-bf20-685f3b61e276 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-1cd71a7b6d54631ba58cc8b0655a443d696f49ec74a0f4cccc871de7789d6a60 ;
-    cav:value "1"^^xsd:int .
-
-camssa:cd787f00-0cb5-41f9-aaa5-8485d189ee3f a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-ffdbd22af1ff3c1ebb100043d062a3df160007af761caf0a8c9f50f02e609c9e ;
-    cav:value "1"^^xsd:int .
-
-camssa:d5e79821-ba3c-4820-93e5-5a8deb703161 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-7ab883158b51681c78f90d1a00bbb3840aa2c86e309a9abd1ad6e6eedb5e2735 ;
-    cav:value "1"^^xsd:int .
-
-camssa:db1000ab-0460-4184-8658-db07bb96ce0a a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-cc5bd9a7d0b2acc7f246522414fd5f5d579b977180bb04fa60a545cb35dae90f ;
-    cav:value "1"^^xsd:int .
-
-camssa:ddc31ed4-b3d4-4c62-8714-51d3c6affae1 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "SVG does not define a cross-sector reusable data model. It defines a common XML schem using XML based tools. By being written in XML, SVG builds on this strong foundation and gains many advantages such as a sound basis for internationalization, powerful structuring capability, an object model, and so on."@en ;
-    cav:refersTo camssa:27692797-9a54-47ce-8123-e1523c9f51c5 .
-
-camssa:de40bb69-6331-4a48-bcee-b3b2e868ea61 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-8eb17470327d32b3bb523447fe72ee5c60ddb03e81dae318b485fbe05f48a844 ;
-    cav:value "1"^^xsd:int .
-
-camssa:dfacd937-c69b-4722-9727-6305842e23a4 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The purpose of the specification is not related to the preservation of information. Therefore, this criterion is not applicable to the specification.
-
-SVG W3C reference: 
-https://www.w3.org/TR/SVG11/"""@en ;
-    cav:refersTo camssa:e194600c-2972-40df-981a-0ebbafd01f76 .
-
-camssa:e03c03d7-f3bd-41ee-9b9a-db47cfcb8eef a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """As a document exchange format, SVG is a valuable tool for sharing information through the internet between administrations and stakeholders. Allowing sharing data and information the standard fosters the visibility of administration data and services. Fostering the collaboration between public administrations, the specification eases the decision-making process of institutions.
-
-SVG W3C reference: 
-https://www.w3.org/TR/SVG11/"""@en ;
-    cav:refersTo camssa:aa2e3d17-7bdd-4c98-925f-cb89b968dd05 .
-
-camssa:e05c4da1-ac05-44b5-a083-f5d5a1254d2a a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-53abe85b1365f86aa58a25566e54e082ea2d70ee8d9fbaf09ccab20af30f3332 ;
-    cav:value "0"^^xsd:int .
-
-camssa:e194600c-2972-40df-981a-0ebbafd01f76 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-8a34a40e5bc5436b3530d898d75a57cf0488591887b31a5169499fe78952d84c ;
+    cav:assignedTo sc:c-c265ca0c56e0f29a34039d496ba707b5486ccf6d445f9f058c19b4ece977861f ;
     cav:value "2"^^xsd:int .
 
-camssa:e5aa8467-ebd4-469f-9eda-4f488f3d5cdc a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-ba46c76c10ad769a23ce4a9a34cb4d96a00407d5fc14ad1c791a870be7563c2b ;
-    cav:value "1"^^xsd:int .
-
-camssa:e745bd8b-791f-4a6a-8e91-6943bab7ffbc a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The specification of SVG is available for free, it can be checked on the W3C official webpage.
-
-SVG W3C reference: 
-https://www.w3.org/TR/SVG11/"""@en ;
-    cav:refersTo camssa:ed66f175-23e4-4a90-b2c3-56394f070447 .
-
-camssa:eb07278a-355f-4f9f-ba91-4cefab575231 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-6bedf555bffb837990b9eb353447fa116eb9d2384770b1dd3de46d3c5901d4f4 ;
-    cav:value "1"^^xsd:int .
-
-camssa:ec2ba0b7-facf-4af9-ae71-6131f4367801 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-624bc49501d58649e27cae4fb89fb5a56844685e54c5ce1625633894f8f752e1 ;
-    cav:value "2"^^xsd:int .
-
-camssa:ec33b123-dcf3-4ce4-8f64-568660cc2064 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The adoption of SVG as a document format for exchanging photographs helps citizens, businesses, and administrations to share information. Moreover, as it is stated in the specification document, as a graphics technology for the web it allows the scalability in terms of amounts of data, users, and different applications without hampering the interoperability nor scalability of systems.
-
-SVG W3C reference: 
-https://www.w3.org/TR/SVG11/"""@en ;
-    cav:refersTo camssa:e5aa8467-ebd4-469f-9eda-4f488f3d5cdc .
-
-camssa:ed66f175-23e4-4a90-b2c3-56394f070447 a cav:Score,
+camssa:929a8190-a792-4955-aad8-649d1021393e a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-c2cedd44f05183dae5548108bdeace2c092b84c7c5d89c475b0741ddae7fc7b2 ;
     cav:value "1"^^xsd:int .
 
-camssa:efb74558-fbf0-4847-8eb6-8b2994b73c62 a cav:Statement,
+camssa:97ce2539-fc05-4f1d-b094-a782b22da3cb a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "After searching for a certification or conformity test to validate SVG no tool has been found that assess the conformity of the specification."@en ;
+    cav:refersTo camssa:45f7c745-6f18-44f4-8b05-a058c9941b2d .
+
+camssa:99184e14-005b-4cc4-a11b-6d8e0b68b95e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Even though the purpose of the SVG is not the availability of digital services from the administration to the stakeholders, the usage of SVG graphics to represent the information contained in Public Administration webpages can help to do so. It can help the understanding of the information provided allowing all people to access electronic public services. Moreover, the specification includes a few comments on how to improve the accessibility to the content making it more discoverable and accessible.
+
+SVG W3C reference:
+https://www.w3.org/TR/SVG11/access.html"""@en ;
+    cav:refersTo camssa:215d96a3-61e4-4447-b468-6e70faf110ee .
+
+camssa:9c5d1615-5ded-452d-aa08-8f0af9cea2e6 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """By allowing the exchange of digital graphics, it improves the representation of information avoiding sharing non-digital documents and therefore helps the reduction of the administrative burden.
 
 SVG W3C reference: 
 https://www.w3.org/TR/SVG11/"""@en ;
-    cav:refersTo camssa:cd787f00-0cb5-41f9-aaa5-8485d189ee3f .
+    cav:refersTo camssa:57fbd0b6-a9bc-4e95-aee0-7d2ef47b6474 .
 
-camssa:f15c4395-33ac-470d-aae0-04515dd42fdc a cav:Score,
+camssa:a2d063ec-0d29-4c67-a5de-5b68ec081319 a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-5df7a9f6081c945a22f500aa0ba2c452b8b9cd9497bd643ac76c39d34a18c319 ;
+    cav:judgement """The specification does not include security features to foster secure and trustworthy data exchange between administrations and stakeholders.
+
+SVG W3C reference: 
+https://www.w3.org/TR/SVG11/"""@en ;
+    cav:refersTo camssa:dde24482-3214-4d62-a7ac-dc9b12795a82 .
+
+camssa:a45f22cf-bb65-476d-ab22-aa63cbed595a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-21276471c1781fa2c7e78c8e03851e076b840beddbf5cf64f53b54b8855a01b8 ;
     cav:value "0"^^xsd:int .
 
-camssa:f2dff114-7956-4491-8b32-4be480ad8030 a cav:Score,
+camssa:a74248c5-ae54-4994-8d6f-fc593c8e7848 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "No evidences have been found of the specification being included in a formal interoperability agreement between organisations involved in the European public services provision."@en ;
+    cav:refersTo camssa:0708ea0b-ff9e-45fe-acc4-d0f5cb40bf5a .
+
+camssa:a7735408-c9a6-4d62-8b06-ab4408471750 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The adoption of SVG as a document format for exchanging photographs helps citizens, businesses, and administrations to share information. Moreover, as it is stated in the specification document, as a graphics technology for the web it allows the scalability in terms of amounts of data, users, and different applications without hampering the interoperability nor scalability of systems.
+
+SVG W3C reference: 
+https://www.w3.org/TR/SVG11/"""@en ;
+    cav:refersTo camssa:a9fdd54b-a47f-4610-b10d-71c16c593acd .
+
+camssa:a7b2d215-f2aa-41bd-bd5a-2d5808a43b6f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-53abe85b1365f86aa58a25566e54e082ea2d70ee8d9fbaf09ccab20af30f3332 ;
+    cav:value "0"^^xsd:int .
+
+camssa:a7bc98bf-3e75-4655-8e3b-4f1a8df71893 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification was developed by 2011 and has been broadly implemented and used for the representation of graphical information containing vectors and mixed vector/raster. Also, it is interesting to mention that it has been evolving along with other specifications to ensure the interoperability between some of them.
+
+SVG W3C reference: 
+https://www.w3.org/TR/SVG11/"""@en ;
+    cav:refersTo camssa:608fa18d-7665-43bc-94b0-c33fe0fb1a89 .
+
+camssa:a9fdd54b-a47f-4610-b10d-71c16c593acd a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ba46c76c10ad769a23ce4a9a34cb4d96a00407d5fc14ad1c791a870be7563c2b ;
+    cav:value "1"^^xsd:int .
+
+camssa:ac8f695a-3758-487d-8028-7e0efec806c2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a81c4b8658f57e819297eb0b7977407f8d814c6fe749c74a8ac497277ca7d9d8 ;
+    cav:value "1"^^xsd:int .
+
+camssa:ae64082f-425c-4fe8-89af-3e6c909a125b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17bea234285e6e633e4e21105358610ad5f5f0eaaf82f4bd50cb64ec11538984 ;
+    cav:value "1"^^xsd:int .
+
+camssa:b3fc5146-ee05-4ad6-a627-98c90d32be5c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-138786a6e7517e10b94e83ec3b3e7ac79b4c49dcbeaef8d8e993c8df0d173529 ;
+    cav:value "0"^^xsd:int .
+
+camssa:b46f28c8-387d-452c-a8be-a214bd066040 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cc5bd9a7d0b2acc7f246522414fd5f5d579b977180bb04fa60a545cb35dae90f ;
+    cav:value "1"^^xsd:int .
+
+camssa:b8510306-1ed5-4f98-91c2-80e8761744de a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of SVG is not related to the once-only principle. Therefore, this criterion is not applicable to the specification.
+
+SVG W3C reference: 
+https://www.w3.org/TR/SVG11/"""@en ;
+    cav:refersTo camssa:3efb92a5-7559-47a3-bbbb-3ad9ac603704 .
+
+camssa:b8eb39e7-7399-4536-9e17-5b9edff7ac9f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """SVG is a business agnostic document format that can be reused in a cross-domain way.
+
+SVG W3C reference: 
+https://www.w3.org/TR/SVG11/"""@en ;
+    cav:refersTo camssa:86c22a14-05c0-46ea-94a0-df9c813f5368 .
+
+camssa:bb7e715a-a269-456e-9c76-5ce565573bd5 a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-33ea90f5c1bb01d4398c57d03a25934dc5722d5ddbc98a43911ea4fb302ec54c ;
     cav:value "1"^^xsd:int .
 
-camssa:f49d8298-547a-4982-b057-d03659841672 a cav:Score,
+camssa:bf42f3ef-233e-4234-83aa-6214545301c2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8c09094de9d71f12686896827a205db683b6df58fa363bc5be2a7d99989e7dd0 ;
+    cav:value "1"^^xsd:int .
+
+camssa:c2ea2f27-8be6-4e3f-b594-1c415f968ac9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """As a document exchange format, SVG is a valuable tool for sharing information through the internet between administrations and stakeholders. Allowing sharing data and information the standard fosters the visibility of administration data and services. Fostering the collaboration between public administrations, the specification eases the decision-making process of institutions.
+
+SVG W3C reference: 
+https://www.w3.org/TR/SVG11/"""@en ;
+    cav:refersTo camssa:11c0758d-5691-420c-ad23-904f1d120e95 .
+
+camssa:c56f2927-31e1-4952-a9ac-4f9995a00260 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """SVG is developed by the W3C community, an international organisation aimed to develop open standards and specifications.
+
+SVG W3C reference: 
+https://www.w3.org/TR/SVG11/"""@en ;
+    cav:refersTo camssa:5b590120-aa7c-4439-8b87-c7a2890e9210 .
+
+camssa:c6d95292-dcb4-435c-a537-c794f905b762 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d129862d6c9639e131c7d5eef095af16ef94d57ec0d52f955bf909ba8ec688e8 ;
+    cav:value "1"^^xsd:int .
+
+camssa:ca09b9b3-a7f5-4720-b06c-460361fde4e9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d28663fdb5deb361d5ad773d7b7ece3c6acf8d2eb7a1222a60cb08df4c93aac ;
+    cav:value "0"^^xsd:int .
+
+camssa:cb8ada9b-7913-46a4-ab2d-440742b9f42f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The W3C Royalty-Free IPR licenses granted under the W3C Patent Policy apply to all W3C specifications, including ADMS.
+
+Patent policy:
+https://www.w3.org/TR/patent-practice#ref-AC"""@en ;
+    cav:refersTo camssa:ac8f695a-3758-487d-8028-7e0efec806c2 .
+
+camssa:d0cc83ec-dbbe-471b-a014-72cd895add52 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """10 Member States are recommending SVG in their ICT National Catalogues. They belong to the Croatia, Estonia, France, Germany, Malta, Netherlands, Norway, Poland, Spain and Sweden.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:bf42f3ef-233e-4234-83aa-6214545301c2 .
+
+camssa:dc33e88e-658b-45e9-9eb3-c25bd45df85c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "SVG does not define a cross-sector reusable data model. It defines a common XML schem using XML based tools. By being written in XML, SVG builds on this strong foundation and gains many advantages such as a sound basis for internationalization, powerful structuring capability, an object model, and so on."@en ;
+    cav:refersTo camssa:1e823644-5699-4b21-b927-200f93cc2f65 .
+
+camssa:dde24482-3214-4d62-a7ac-dc9b12795a82 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-483e8900c47b40bc67a6bd1cbfce07884b9ac5f2c85e0214f334cc37e4e65c35 ;
+    cav:value "0"^^xsd:int .
+
+camssa:e679a6f7-3ebd-4e8f-b693-bb6f2a95d03f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is independent of any software, hardware, or operating system. So it can be said that SVG is independent of any specific technology or platform.
+
+SVG W3C reference: 
+https://www.w3.org/TR/SVG11/"""@en ;
+    cav:refersTo camssa:1a4f9636-e699-4b4b-82ae-76331ab73af4 .
+
+camssa:ea21c144-a199-4882-bb16-9798745c346b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """SVG is a specification that supports the graphical data exchange, which can be combined with XSL. It helps to the combination and exchange and integrations within other formats as XML, which is widely used for the data transmission across borders and between administrations.
+
+SVG and XSL: 
+https://www.w3.org/People/maxf/papers/2002-07-SVGOpen/svgopen.html#id2590005"""@en ;
+    cav:refersTo camssa:f16537f5-6341-4676-849e-4c292f63b875 .
+
+camssa:eb8372c3-2f51-4d44-8c75-b6d4e4c42608 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """At the time of elaborating this assessment, this specification is not included in any EIRA ABB in the current European Library Of Specifications (ELIS).
+
+EIRA Library of Interoperability Specifications (ELIS):
+https://joinup.ec.europa.eu/solution/elis/release/v100"""@en ;
+    cav:refersTo camssa:ca09b9b3-a7f5-4720-b06c-460361fde4e9 .
+
+camssa:f16537f5-6341-4676-849e-4c292f63b875 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ab64f97c21ac8b84c75d6f52a89765b1c8fd1856d2d2060926d05e94f306a88d ;
+    cav:value "1"^^xsd:int .
+
+camssa:f417290d-5cc9-43c9-bdbb-16d856810ed3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7ab883158b51681c78f90d1a00bbb3840aa2c86e309a9abd1ad6e6eedb5e2735 ;
+    cav:value "1"^^xsd:int .
+
+camssa:f66d1d17-1c03-4a49-9ed1-c9cce8e7330d a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-f70d8bc1b4b6e186d69ea3f7f8cc7b2d75314b84e7f481ebe13b4e6ed8b36598 ;
     cav:value "1"^^xsd:int .
 
-camssa:fa939fc1-180a-44ae-9a46-af1469544921 a cav:Score,
+camssa:f70a8440-2b5c-4fb6-862e-26718d7daf47 a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-7aa038b5496afb8cb229c692be9a2adc175deb2d5d47e35ad67e027c9eac28ba ;
-    cav:value "1"^^xsd:int .
+    cav:judgement """The purpose of the specification is not related to the preservation of information. Therefore, this criterion is not applicable to the specification.
+
+SVG W3C reference: 
+https://www.w3.org/TR/SVG11/"""@en ;
+    cav:refersTo camssa:443e35d1-7716-436f-ae7b-22832521683c .
+
+camssa:fae2243b-de3d-49f3-822d-8134c29c6d45 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Representing the graphical information from several sources as XML, it can help the comprehensibility of administrative data. In this sense, it can also help the decision-making process by displaying graphics and data that is relevant for the administration.
+
+SVG W3C reference: 
+https://www.w3.org/TR/SVG11/"""@en ;
+    cav:refersTo camssa:f417290d-5cc9-43c9-bdbb-16d856810ed3 .
 

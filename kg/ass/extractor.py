@@ -88,6 +88,7 @@ class Extractor:
         rd = self.in_df.loc[14, 'Unnamed: 4']
         self.metadata['tool_release_date'] = rd[len(rd) - 10:]
         self.metadata['scenario'] = self.in_df.loc[18, 'Unnamed: 4'].strip()
+        self.metadata['scenario_purpose'] = self.in_df.loc[28, 'Unnamed: 1'].strip()
         # Setup_EIF
         self.in_df = self.ass.sheet('Setup_EIF')
         self.metadata['submitter_unit_id'] = sha256(str(self.in_df.loc[5, 'Unnamed: 7']))  # Submitter_id
@@ -146,6 +147,8 @@ class Extractor:
             criterion.append(element)
             # SHA Criterion ID
             criterion.append(sha256(str(self.in_df.loc[line, 'Unnamed: 2'])))
+            # Criterion Description
+            criterion.append(str(self.in_df.loc[line, 'Unnamed: 2']))
             # Score element ID and Value
             criterion.append(str(uuid.uuid4()))
             criterion.append(self._eif_choice(str(self.in_df.loc[line, 'Unnamed: 6'])))
@@ -223,6 +226,7 @@ class Extractor:
         rd = self.in_df.loc[14, 'Unnamed: 4']
         self.metadata['tool_release_date'] = rd[len(rd) - 10:]
         self.metadata['scenario'] = self.in_df.loc[18, 'Unnamed: 4'].strip()
+        self.metadata['scenario_purpose'] = self.in_df.loc[28, 'Unnamed: 1'].strip()
         # Setup_MSP
         self.in_df = self.ass.sheet('Setup_MSP')
         self.metadata['submitter_unit_id'] = sha256(str(self.in_df.loc[5, 'Unnamed: 7']))  # Submitter_id
@@ -288,6 +292,8 @@ class Extractor:
             criterion.append(element + sub_element)
             # SHA Criterion ID
             criterion.append(sha256(str(self.in_df.loc[line, 'Unnamed: 4'])))
+            # Criterion description
+            criterion.append(self.in_df.loc[line, 'Unnamed: 4'])
             # Score element ID and Value
             criterion.append(str(uuid.uuid4()))
             criterion.append(self._msp_choice(str(self.in_df.loc[line, 'Unnamed: 8'])))
@@ -352,6 +358,7 @@ class Extractor:
             columns = list(self.metadata.keys()) + \
                       ['criterion_camss_id',
                        'criterion_sha_id',
+                       'criterion_description',
                        'score_id',
                        'score',
                        'statement_id',

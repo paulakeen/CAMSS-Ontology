@@ -1,9 +1,9 @@
 import criterion.transformer as criterion
 import camssutil.files as camss
 from cfg.conf import Cfg
-from util.io import get_files, pv, slash
+from util.io import get_files, pv
 from ass.assessment import Assessment
-from ass.csv import CSV
+from ass._csv import _CSV
 
 
 """
@@ -52,6 +52,7 @@ def _capture_samples(cfg: Cfg) -> (int, Assessment):
         # If the key does not exist, this means that this is the first time that the such a key is encountered.
         # Hence the key is used to create the entry when the exception is thrown.
         try:
+            pv(top=f'Testing file {ass_file_path} as sample candidate...')
             test = processed_ass_types[key]
         except:
             pv(top=f'Capturing assessment {ass.ass_file_path} as a sample for the extraction of scenarios '
@@ -66,7 +67,7 @@ def _run(cfg: Cfg):
     i = 0
     for x, ass in _capture_samples(cfg):
         if ass is not None:
-            csv = CSV(cfg=cfg, file_pathname=camss.get_csv_file_pathname(cfg, ass), filename=ass.ass_filename)
+            csv = _CSV(cfg=cfg, file_pathname=camss.get_csv_file_pathname(cfg, ass), filename=ass.ass_filename)
             criterion.Transformer(csv).to_ttl()
             i = x
     pv(f'Scenarios and criteria have been generated our of {i} CSV samples.')

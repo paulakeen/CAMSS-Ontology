@@ -2,7 +2,7 @@ import sys
 from cfg.conf import Cfg
 from util.io import get_files, pv
 from ass.assessment import Assessment
-from ass.csv import CSV
+from ass._csv import _CSV
 from ass.extractor import Extractor
 from ass.transformer import Transformer
 
@@ -18,7 +18,7 @@ def _get_camss_assessments(cfg: Cfg) -> ():
 def _get_csv_assessments(cfg: Cfg) -> ():
     # The CSV files have been saved in the out dir during the extraction process
     for index, csv_file_path, csv_filename, _ in get_files(cfg.get[6]['out.csv']):
-        csv = CSV(cfg=cfg, file_pathname=csv_file_path, filename=csv_filename)
+        csv = _CSV(cfg=cfg, file_pathname=csv_file_path, filename=csv_filename)
         yield index, csv
 
 
@@ -30,7 +30,7 @@ def _run(cfg: Cfg, x: bool, t: bool, s: bool, v: bool):
             pv(top=f"{i}. Extracting data from '{ass.ass_file_path}' into CSV file...", nl=False, verbose=True)
             Extractor(ass).to_csv()
             pv(top="done!")
-    pv("All CSV files successfully created!")
+        pv("All CSV files successfully created!")
     if t:
         for i, csv in _get_csv_assessments(cfg):
             # Parses out directory where the csv files have been created and, per each csv a new ttl file is created.
@@ -38,7 +38,7 @@ def _run(cfg: Cfg, x: bool, t: bool, s: bool, v: bool):
             pv(top=f"{i}. Transforming data from '{csv.file_pathname}' into TTL file...", nl=False, verbose=True)
             Transformer(csv).to_ttl()
             pv(top="done!")
-    pv("All TTL files successfully created!")
+        pv("All TTL files successfully created!")
     return
 
 
@@ -48,5 +48,9 @@ if __name__ == '__main__':
     _t = True if '-t' in a else False
     _s = True if '-s' in a else False
     _v = True if '-v' in a else False
+
+    if not _x and not _t and not _s:
+        pv("Nothing was done, please specify one or more options: -x (Extract), -t (Transform), -s (Store).")
+        exit(-1)
 
     _run(Cfg(CFG_FILE), _x, _t, _s, _v)

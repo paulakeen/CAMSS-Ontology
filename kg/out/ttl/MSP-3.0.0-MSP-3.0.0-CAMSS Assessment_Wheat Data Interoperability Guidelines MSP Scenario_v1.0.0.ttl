@@ -19,71 +19,252 @@ camssa:67c51df40c6688816c3f07396650a3a1cb693c105908bf71bcea7545dbf763f5 a cav:As
     camss:submissionDate "2020-03-31"^^xsd:date ;
     camss:toolVersion tool:3.0.0 ;
     cav:contextualisedBy sc:s-9b2d5b4678781e53038e91ea5324530a03f27dc1d0e5f6c9bc9d493a23be9de0 ;
-    cav:resultsIn camssa:03a316f1-4878-4e2f-8120-5da40a38020f,
-        camssa:1b644fef-7e70-4ee9-a969-b4551a66f1c5,
-        camssa:1e2a6dae-6284-49d1-a742-80bff04c4731,
-        camssa:223d3ca8-e607-4167-b056-5c99aded2acd,
-        camssa:3286a309-cf6e-4d78-8b93-bd5b3f083b9b,
-        camssa:35429bab-1c9e-46e5-b3c0-f18e0d46e148,
-        camssa:3df202a5-58ca-4641-9e89-85e0e4bd5c19,
-        camssa:4d462171-0646-4edc-a3ad-c998b636fb78,
-        camssa:549ca072-96af-4c5c-8a2b-f0264ad0a04e,
-        camssa:5e264c54-0a42-455c-9a4c-e382892f4fab,
-        camssa:6b863863-827b-4006-aa8a-462f30581a61,
-        camssa:8addd83f-5b86-4ccc-a730-e01626feeb2d,
-        camssa:8c04b136-9305-4e88-84b2-e1e6e5912351,
-        camssa:9114fafb-65e8-4712-92ba-9875983f7fb6,
-        camssa:93337574-30ae-4c71-8aa3-71466a17a27c,
-        camssa:9853c878-bcb1-4016-9a12-ef2eb5d56573,
-        camssa:9aba7103-30ab-4003-891b-2fd6dc6fe44e,
-        camssa:af797522-8642-4b6b-9e4c-f7aa57bca490,
-        camssa:b665706c-fde4-4eb4-b1d7-3876bcbe249c,
-        camssa:bbf63a4b-1f49-4cd7-b9fe-e5ef7d2d11f3,
-        camssa:c7ef1125-011d-40b2-97ce-399485d633b3,
-        camssa:eadb0286-c81d-41b8-af3f-fa99350394c9,
-        camssa:f5527fbb-b6c2-4589-bd77-7eaef31394d7,
-        camssa:fcf94e2b-5a03-48a8-86e7-6e50fe5249e9 ;
+    cav:resultsIn camssa:06322f5f-ab45-4223-a98e-555569f0e85f,
+        camssa:167e5dfc-e133-4f29-9854-1406f1926a01,
+        camssa:2491b6c4-69bf-4c04-87b5-355ff13a2ef5,
+        camssa:26d21ee6-70cf-4457-b0cd-52042237da5a,
+        camssa:2f8f7e0b-95bd-4324-9e30-1a2dcdfabde7,
+        camssa:31e93ba7-4994-4d09-8a17-ddc6e4ca970a,
+        camssa:3312f5e3-d530-4ca6-acf1-94d73fd4111c,
+        camssa:4a25864c-0b7c-4e64-be1f-18381d083181,
+        camssa:4da33b42-86aa-41db-850e-55d2e2c858c7,
+        camssa:5e2d7499-e2ce-4f4f-8af3-d346b845df2e,
+        camssa:72ccaa6d-d6d1-425c-a228-e37e135aaafc,
+        camssa:82c6cf16-4b76-4103-9072-2011320efbdd,
+        camssa:865e202e-ea70-420b-8c64-a70f9bd8dc43,
+        camssa:9128aaaf-9baf-4817-b46d-e58054751960,
+        camssa:91413cbb-09b6-4dd1-b7d6-d0d29237e338,
+        camssa:c7a1e6fe-c2f7-4e9b-a7ed-863cd150a379,
+        camssa:db3816e7-942f-4283-947e-3bf7f8d278b5,
+        camssa:e2580fb3-127e-4d34-9312-39695ae8b565,
+        camssa:e4dc93ca-f653-482c-b59c-aa9756abf367,
+        camssa:e5907a21-e21a-41a0-8a12-5d9f2bd3c792,
+        camssa:ef02c951-dd98-44df-ba24-9d3b69e01a1a,
+        camssa:f4441a6f-1e0c-48cd-a890-613b933752cb,
+        camssa:fe6ec60c-9732-4878-ad33-ce8ecd055707,
+        camssa:ffe6c375-e4be-458c-acf0-391fee3c9d12 ;
     cav:status status:Complete ;
     dct:title "Wheat Data Interoperability Guidelines"@en .
 
 camssa:ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164 a owl:NamedIndividual,
         org:Organization ;
-    camss:contactPoint camssa:e89ec0df-c8e7-45db-a000-a845c953e03e ;
+    camss:contactPoint camssa:c4ccb7f6-09bf-4949-ba04-92ef48f3c918 ;
     skos:prefLabel "CAMSS Team"@en .
 
-camssa:03a316f1-4878-4e2f-8120-5da40a38020f a cav:Statement,
+camssa:06322f5f-ab45-4223-a98e-555569f0e85f a cav:Statement,
         owl:NamedIndividual ;
-    cav:judgement """All Outputs packages have been published under the Creative Commons Attribution (CC-BY) licence. RDA’s IPR policy:
-See: 
- http://dx.doi.org/10.15497/DA8C2CC2-A7AF-4E3A-A4D6-C100E5C27492"""@en ;
-    cav:refersTo camssa:5cfe645e-8f9d-4f20-ac6e-b224642037cd .
+    cav:judgement "The Working Group in charge of developing the specification initially provides a light-weight maintenance plan . However, it does not consist in a process for a long-term maintenance of the specification. For instance, no development or review process are described, and no versioning policy is specified."@en ;
+    cav:refersTo camssa:a3d0ed51-df08-430f-a7d8-b19aa40d616d .
 
-camssa:06865468-600c-4b59-8f21-6af8191bc343 a cav:Score,
+camssa:0b3f0b1c-675c-4a7b-9b55-69a510b3c130 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-df3d12df0d66137fac78fd8e7edde75f94e132cb64f645594cd2a27d3c726bb1 ;
+    cav:value "1"^^xsd:int .
+
+camssa:12496af8-465f-424a-ac7c-8887064c8c9b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c3d200f09880d91d08826557de1524471d65e2807cbd8bc6c5c2bbed77fe47ea ;
+    cav:value "0"^^xsd:int .
+
+camssa:167e5dfc-e133-4f29-9854-1406f1926a01 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The Wheat Data Interoperability Guidelines Specification covers a specific area of application, wheat-related data exchange; that is actually not covered by any other technical specification being under consideration to become a European standard. This conclusion has been drawn from the examination of all the programming mandates addressed to CEN, CENELEC and ETSI to the date, CEN’s webpage , CENELEC’s webpage , CEN-CENELEC’s webpage ICT section , the EC Information Providers Guide, Directive (EU) 2016/2102 of the European Parliament and of the Council of 26 October 2016 on the accessibility of the websites and mobile applications of public sector bodies , the standards and tools for exchange and processing of actionable information inventory of ENISA  and the ENISA Programming Document 2018-2020 ."@en ;
+    cav:refersTo camssa:d11e1059-d2a7-4b4b-a19d-09a28f1b2e9d .
+
+camssa:174475bc-1ca1-4c9e-a6a4-f6ca5c13efb1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-54c6979e14b0fde712302882b436570c15837c2941dd6060e9b8615052bca4e1 ;
+    cav:value "1"^^xsd:int .
+
+camssa:195c1a9e-5e1e-44f3-aaa7-713a65b8836e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d310596912dbc916997008f4aed16a81cf5e708cd907e3c53a2e4207468b468b ;
+    cav:value "1"^^xsd:int .
+
+camssa:23f6c83a-c927-44fc-a4cb-150f4a1b7689 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-33b5b305bcc0a995fd3c592dc8a6f52d0749a6e817aa85844f3e4f31c7dea344 ;
+    cav:value "1"^^xsd:int .
+
+camssa:2491b6c4-69bf-4c04-87b5-355ff13a2ef5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The specification can be used independently from specific vendor products."@en ;
+    cav:refersTo camssa:23f6c83a-c927-44fc-a4cb-150f4a1b7689 .
+
+camssa:26d21ee6-70cf-4457-b0cd-52042237da5a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The Research Data Alliance (RDA) is a non-profit organisation
+See: https://www.rd-alliance.org"""@en ;
+    cav:refersTo camssa:769fefab-4f8e-4aa8-b363-c40d662d6343 .
+
+camssa:2c610ce9-218d-4641-b22f-0fcf2d15b6ee a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-4386f49ebcfb474f011867d54ec0e7a7c561f91c288f5809299a05d781432bf0 ;
     cav:value "1"^^xsd:int .
 
-camssa:0d1bad01-954a-4a92-8294-9b99971dfdf6 a cav:Score,
+camssa:2f8f7e0b-95bd-4324-9e30-1a2dcdfabde7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """No overlap has been detected with European standardisation organisations activities at EU level.
+This conclusion is based on the work programme of CEN  and ETSI  as published on their respective websites, and on the ENISA Programming Document 2018-2020 .
+"""@en ;
+    cav:refersTo camssa:41866570-f75f-42f6-898a-c9c661a6b16b .
+
+camssa:31e387a5-8910-4a4c-bc9e-496bd32ed7f7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7ede9122e530b12ca81694e3ce1f21fa7cf4d6d071d0edb0a2082a0e0d2ad8e4 ;
+    cav:value "1"^^xsd:int .
+
+camssa:31e93ba7-4994-4d09-8a17-ddc6e4ca970a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The RDA website also collects expressions of interest from potential adopters via “Become an RDA Adopter” section  and encourages adopters to submit “Adoption Stories” . RDA has organised a series of webinars  focused on the adoption of the RDA Outputs & Recommendations encouraging dialogue and interaction and facilitating uptake."@en ;
+    cav:refersTo camssa:0b3f0b1c-675c-4a7b-9b55-69a510b3c130 .
+
+camssa:3312f5e3-d530-4ca6-acf1-94d73fd4111c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "Consensus is a foundation upon which the Alliance is built and all processes and procedures, particularly in connection to the focus, work plans, deliverables, milestones and tangible specifications / recommendations are consensus based."@en ;
+    cav:refersTo camssa:3ac57394-d559-40ab-901c-7219c9762b28 .
+
+camssa:3ac57394-d559-40ab-901c-7219c9762b28 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-2614723a75c6a002b733f97562482608046dd2e6da97e3073312dbbdaf482279 ;
+    cav:value "1"^^xsd:int .
+
+camssa:41866570-f75f-42f6-898a-c9c661a6b16b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-923825ea86a7939a1cbdcdeb83be96b047beaaeb51b65f1f119e75f841841181 ;
+    cav:value "0"^^xsd:int .
+
+camssa:4a25864c-0b7c-4e64-be1f-18381d083181 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The adoption of the specification aims to foster interoperability between public administrations and cross-border exchange of wheat-related data. 
+Although the specification is not applicable to several business domains, the several implementations are evidence that there is a need for the exchange of wheat-related data across borders.
+"""@en ;
+    cav:refersTo camssa:174475bc-1ca1-4c9e-a6a4-f6ca5c13efb1 .
+
+camssa:4da33b42-86aa-41db-850e-55d2e2c858c7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """RDA specification and recommendation processes are open from inception. Individual membership to RDA is free and open to all, as long as individuals subscribe to the RDA Guiding Principles (https://rd-alliance.org/about/get-involved.html):
+• Openness – Membership is open to all interested individuals who subscribe to the RDA’s Guiding Principles. RDA community meetings and processes are open, and the deliverables of RDA Working Groups will be publicly disseminated.
+• Consensus – The RDA moves forward by achieving consensus among its membership. RDA processes and procedures include appropriate mechanisms to resolve conflicts.
+• Balance – The RDA seeks to promote balanced representation of its membership and stakeholder communities.
+• Harmonization – The RDA works to achieve harmonization across data standards, policies, technologies, infrastructure, and communities.
+• Community-driven – The RDA is a public, community-driven body constituted of volunteer members and organizations, supported by the RDA Secretariat.
+• Non-profit - RDA does not promote, endorse, or sell commercial products, technologies, or services.
+
+Organisations may join RDA as members for an annual fee. Full details are provided at https://rd-alliance.org/organisation/rda-organisation-affiliate-members/rda-organisational-membership.html
+
+RDA Specifications, upon delivery, are assessed by the RDA Technical Advisory Board (TAB) and feedback / comments are given. All outputs go through an open and transparent Request for Comments process of 1 month on the RDA web platform. Details on the process are available at - https://www.rd-alliance.org/groups/creating-and-managing-rda-groups/working-group-outputs.htm"""@en ;
+    cav:refersTo camssa:2c610ce9-218d-4641-b22f-0fcf2d15b6ee .
+
+camssa:5348a3d3-4f46-41c1-89b7-404f3293bc9d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d310596912dbc916997008f4aed16a81cf5e708cd907e3c53a2e4207468b468b ;
+    cav:value "1"^^xsd:int .
+
+camssa:5e2d7499-e2ce-4f4f-8af3-d346b845df2e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Each of the specification approval phases (TAB, Council, Public RfCs / Consultation) allow for objections and appeals.
+See: 
+https://www.rd-alliance.org/groups/creating-and-managing-rda-groups/working-group-outputs.html"""@en ;
+    cav:refersTo camssa:839b7843-c663-4a0f-8299-0d3266d97bb9 .
+
+camssa:5ee95f3b-fb6f-43f6-8a64-7b64b8830294 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5b29a4581c52656a3bcf08224b259c29610cb540c56af4512ebe0ded3adeeac1 ;
+    cav:value "1"^^xsd:int .
+
+camssa:6b96b389-1559-4888-846c-1faad0564187 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17edaee27de1ada5f8ee772a0aff160ecdce7a05ce9db18b9a2025f463d0e3a7 ;
+    cav:value "0"^^xsd:int .
+
+camssa:72ccaa6d-d6d1-425c-a228-e37e135aaafc a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "Transparency of the development process is evidenced by a defined and publicly available documentation on the development and maintenance of the specification."@en ;
+    cav:refersTo camssa:5348a3d3-4f46-41c1-89b7-404f3293bc9d .
+
+camssa:769fefab-4f8e-4aa8-b363-c40d662d6343 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a085272697eadd8638ed45af45c77ae88aed7cadb14f84d957c5c3b2248bd986 ;
+    cav:value "1"^^xsd:int .
+
+camssa:798eb193-ad03-43a5-a083-33b9cab06b4e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cd828c0ec9887027bdb6b981560bde593cda27c080298ab36323ba5441ba4c31 ;
+    cav:value "1"^^xsd:int .
+
+camssa:7f32727b-d031-4ec5-ab53-48bb9638e5af a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-6f7b3377cc1836eb056d44786260085e36fc1d6856a3aa3d37fe017e16cfc319 ;
+    cav:value "1"^^xsd:int .
+
+camssa:82c6cf16-4b76-4103-9072-2011320efbdd a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement " The recommendation is aiming to achieve seamless interoperability, trust, and ultimately to provide growth and employment opportunities by facilitating data exchange across organisations, disciplines and geographical borders."@en ;
+    cav:refersTo camssa:6b96b389-1559-4888-846c-1faad0564187 .
+
+camssa:839b7843-c663-4a0f-8299-0d3266d97bb9 a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-ab118934e7af3d561b9036668a1de9f17c020207e8ebb0ed33d9405e12eeef4c ;
     cav:value "1"^^xsd:int .
 
-camssa:1b644fef-7e70-4ee9-a969-b4551a66f1c5 a cav:Statement,
+camssa:865e202e-ea70-420b-8c64-a70f9bd8dc43 a cav:Statement,
         owl:NamedIndividual ;
-    cav:judgement "The specification can be used independently from specific vendor products."@en ;
-    cav:refersTo camssa:b2303823-d8f1-47f0-b909-e1a4870a8c74 .
+    cav:judgement "The specification can be used independently from specific operating systems and hardware platforms."@en ;
+    cav:refersTo camssa:8fd15a34-858a-433e-b599-1061d2bbca1a .
 
-camssa:1e2a6dae-6284-49d1-a742-80bff04c4731 a cav:Statement,
+camssa:8fd15a34-858a-433e-b599-1061d2bbca1a a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement "Transparency of the development process is evidenced by a defined and publicly available documentation on the development and maintenance of the specification."@en ;
-    cav:refersTo camssa:d30d4c48-17c0-4d31-86eb-26bff2a5c130 .
-
-camssa:1f4d0a1f-3aa7-4b44-bb4e-160bf7252abe a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-8aee43521f6b3ab69785784831b651574a5496fd5996bb8c61a80e479f633fa0 ;
+    cav:assignedTo sc:c-aa6ea51e02f049efbd153499fb071e07c5f49ba6a0343203440380497057d70e ;
     cav:value "1"^^xsd:int .
 
-camssa:223d3ca8-e607-4167-b056-5c99aded2acd a cav:Statement,
+camssa:9128aaaf-9baf-4817-b46d-e58054751960 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "Transparency of the development process is evidenced by a defined and publicly available documentation on the development and maintenance of the specification."@en ;
+    cav:refersTo camssa:195c1a9e-5e1e-44f3-aaa7-713a65b8836e .
+
+camssa:91413cbb-09b6-4dd1-b7d6-d0d29237e338 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "Every new version of the specification goes through a defined process with open and public consultations. Request for comments are not restricted to the RDA members but are open to all."@en ;
+    cav:refersTo camssa:e7c447a7-aa69-4c15-bb7d-19665ba66863 .
+
+camssa:a3d0ed51-df08-430f-a7d8-b19aa40d616d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cac1c963ee5c3624035d7a98a8577db18d04ad6528afc51785f1230f23566ff1 ;
+    cav:value "0"^^xsd:int .
+
+camssa:c4ccb7f6-09bf-4949-ba04-92ef48f3c918 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "CAMSS@everis.com" .
+
+camssa:c7a1e6fe-c2f7-4e9b-a7ed-863cd150a379 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The fact that the specification has been widely adopted and the strong interest by different organisations and initiatives demonstrates that the specification has sufficient completeness and consistency for the use and development of products and services required to gather or exchange wheat-related data. "@en ;
+    cav:refersTo camssa:7f32727b-d031-4ec5-ab53-48bb9638e5af .
+
+camssa:d11e1059-d2a7-4b4b-a19d-09a28f1b2e9d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f6669d041c301e6aadc132bb9de2d1d2f620f9fcb8b5d147c7b08c0393b53d0c ;
+    cav:value "1"^^xsd:int .
+
+camssa:d4073217-d424-4c3e-b765-7534e92979a3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ab118934e7af3d561b9036668a1de9f17c020207e8ebb0ed33d9405e12eeef4c ;
+    cav:value "1"^^xsd:int .
+
+camssa:db3816e7-942f-4283-947e-3bf7f8d278b5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """All Outputs packages have been published under the Creative Commons Attribution (CC-BY) licence. RDA’s IPR policy:
+See: 
+ http://dx.doi.org/10.15497/DA8C2CC2-A7AF-4E3A-A4D6-C100E5C27492"""@en ;
+    cav:refersTo camssa:dfaec278-c318-452e-9b91-1a67eb45889e .
+
+camssa:dfaec278-c318-452e-9b91-1a67eb45889e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-164f43cef11b50b88c51c7115a7b37e506af696852ddaf46dfc1cb1c1521ec6d ;
+    cav:value "1"^^xsd:int .
+
+camssa:e2580fb3-127e-4d34-9312-39695ae8b565 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """The initial members of the RDA WG have implemented and widely promoted the adoption of the data framework. 
 The most relevant evidence of the market acceptance of is the adoption of the Wheat Data Interoperability Guidelines by WheatIS , an International Wheat Information System that provides a single-access web base system to seamlessly access to a wealth of distributed wheat-related data resources. The WheatIS relies on several data nodes which are representatives of the most important players in wheat research. 
@@ -100,236 +281,55 @@ Other organisations which implemented the specification are:
 • Creation of a Query interface for phenotyping data
 The wide implementation of the specification by these organisations demonstrate that the specification is widely accepted by the very specific market it addresses, the exchange of wheat-related data.
 """@en ;
-    cav:refersTo camssa:b2688ff4-9a9f-4d5b-8ebd-613c94a43594 .
+    cav:refersTo camssa:f14e1689-3c6b-4448-9b2d-4a90c1d19b60 .
 
-camssa:2d725df2-7d5e-4a3d-a017-0c11c0d97fcc a cav:Score,
+camssa:e4dc93ca-f653-482c-b59c-aa9756abf367 a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-aa6ea51e02f049efbd153499fb071e07c5f49ba6a0343203440380497057d70e ;
-    cav:value "1"^^xsd:int .
+    cav:judgement "Every new version of the specification goes through a defined process with open and public consultations. Request for comments are not restricted to the RDA members but are open to all."@en ;
+    cav:refersTo camssa:5ee95f3b-fb6f-43f6-8a64-7b64b8830294 .
 
-camssa:309dbec3-d60a-4665-b6aa-e75c55bbb238 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-7ede9122e530b12ca81694e3ce1f21fa7cf4d6d071d0edb0a2082a0e0d2ad8e4 ;
-    cav:value "1"^^xsd:int .
-
-camssa:3286a309-cf6e-4d78-8b93-bd5b3f083b9b a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "Consensus is a foundation upon which the Alliance is built and all processes and procedures, particularly in connection to the focus, work plans, deliverables, milestones and tangible specifications / recommendations are consensus based."@en ;
-    cav:refersTo camssa:7b0310d8-a26a-470f-8f59-4a8fdcf4f09e .
-
-camssa:35429bab-1c9e-46e5-b3c0-f18e0d46e148 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """Each of the specification approval phases (TAB, Council, Public RfCs / Consultation) allow for objections and appeals.
-See: 
-https://www.rd-alliance.org/groups/creating-and-managing-rda-groups/working-group-outputs.html"""@en ;
-    cav:refersTo camssa:712c1685-9413-4ab5-9dfb-b6216a42e60f .
-
-camssa:3df202a5-58ca-4641-9e89-85e0e4bd5c19 a cav:Statement,
+camssa:e5907a21-e21a-41a0-8a12-5d9f2bd3c792 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """Having checked the documentation included in point 2.2.1, the conclusion has been reached of the “RDA Wheat Data Interoperability Guidelines” specification not being foreseen to be transposed into a European standard within a reasonable time period.
 """@en ;
-    cav:refersTo camssa:dd92cbef-ab88-4201-b1ae-4b3384439bfd .
+    cav:refersTo camssa:12496af8-465f-424a-ac7c-8887064c8c9b .
 
-camssa:4d462171-0646-4edc-a3ad-c998b636fb78 a cav:Statement,
+camssa:e7c447a7-aa69-4c15-bb7d-19665ba66863 a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement """The adoption of the specification aims to foster interoperability between public administrations and cross-border exchange of wheat-related data. 
-Although the specification is not applicable to several business domains, the several implementations are evidence that there is a need for the exchange of wheat-related data across borders.
-"""@en ;
-    cav:refersTo camssa:e6406c18-8246-4707-9420-a7619207c5ff .
-
-camssa:549ca072-96af-4c5c-8a2b-f0264ad0a04e a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "Every new version of the specification goes through a defined process with open and public consultations. Request for comments are not restricted to the RDA members but are open to all."@en ;
-    cav:refersTo camssa:e9953083-9996-4896-8d43-694c7e44980a .
-
-camssa:5cfe645e-8f9d-4f20-ac6e-b224642037cd a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-164f43cef11b50b88c51c7115a7b37e506af696852ddaf46dfc1cb1c1521ec6d ;
+    cav:assignedTo sc:c-5b29a4581c52656a3bcf08224b259c29610cb540c56af4512ebe0ded3adeeac1 ;
     cav:value "1"^^xsd:int .
 
-camssa:5e264c54-0a42-455c-9a4c-e382892f4fab a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "The Working Group in charge of developing the specification initially provides a light-weight maintenance plan . However, it does not consist in a process for a long-term maintenance of the specification. For instance, no development or review process are described, and no versioning policy is specified."@en ;
-    cav:refersTo camssa:f698bb40-f174-43a8-8270-73848be9de57 .
-
-camssa:6b863863-827b-4006-aa8a-462f30581a61 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """All Outputs packages have been published under the Creative Commons Attribution (CC-BY) licence. RDA’s IPR policy:
-See: 
- http://dx.doi.org/10.15497/DA8C2CC2-A7AF-4E3A-A4D6-C100E5C27492"""@en ;
-    cav:refersTo camssa:b949c7d5-5eeb-4bcc-8b79-eb99271d4956 .
-
-camssa:712c1685-9413-4ab5-9dfb-b6216a42e60f a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-ab118934e7af3d561b9036668a1de9f17c020207e8ebb0ed33d9405e12eeef4c ;
-    cav:value "1"^^xsd:int .
-
-camssa:7b0310d8-a26a-470f-8f59-4a8fdcf4f09e a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-2614723a75c6a002b733f97562482608046dd2e6da97e3073312dbbdaf482279 ;
-    cav:value "1"^^xsd:int .
-
-camssa:81c6b10c-665a-4539-9338-96ea115aae2a a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-17edaee27de1ada5f8ee772a0aff160ecdce7a05ce9db18b9a2025f463d0e3a7 ;
-    cav:value "0"^^xsd:int .
-
-camssa:8addd83f-5b86-4ccc-a730-e01626feeb2d a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """RDA specification and recommendation processes are open from inception. Individual membership to RDA is free and open to all, as long as individuals subscribe to the RDA Guiding Principles (https://rd-alliance.org/about/get-involved.html):
-• Openness – Membership is open to all interested individuals who subscribe to the RDA’s Guiding Principles. RDA community meetings and processes are open, and the deliverables of RDA Working Groups will be publicly disseminated.
-• Consensus – The RDA moves forward by achieving consensus among its membership. RDA processes and procedures include appropriate mechanisms to resolve conflicts.
-• Balance – The RDA seeks to promote balanced representation of its membership and stakeholder communities.
-• Harmonization – The RDA works to achieve harmonization across data standards, policies, technologies, infrastructure, and communities.
-• Community-driven – The RDA is a public, community-driven body constituted of volunteer members and organizations, supported by the RDA Secretariat.
-• Non-profit - RDA does not promote, endorse, or sell commercial products, technologies, or services.
-
-Organisations may join RDA as members for an annual fee. Full details are provided at https://rd-alliance.org/organisation/rda-organisation-affiliate-members/rda-organisational-membership.html
-
-RDA Specifications, upon delivery, are assessed by the RDA Technical Advisory Board (TAB) and feedback / comments are given. All outputs go through an open and transparent Request for Comments process of 1 month on the RDA web platform. Details on the process are available at - https://www.rd-alliance.org/groups/creating-and-managing-rda-groups/working-group-outputs.htm"""@en ;
-    cav:refersTo camssa:06865468-600c-4b59-8f21-6af8191bc343 .
-
-camssa:8c04b136-9305-4e88-84b2-e1e6e5912351 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "The Wheat Data Interoperability Guidelines Specification covers a specific area of application, wheat-related data exchange; that is actually not covered by any other technical specification being under consideration to become a European standard. This conclusion has been drawn from the examination of all the programming mandates addressed to CEN, CENELEC and ETSI to the date, CEN’s webpage , CENELEC’s webpage , CEN-CENELEC’s webpage ICT section , the EC Information Providers Guide, Directive (EU) 2016/2102 of the European Parliament and of the Council of 26 October 2016 on the accessibility of the websites and mobile applications of public sector bodies , the standards and tools for exchange and processing of actionable information inventory of ENISA  and the ENISA Programming Document 2018-2020 ."@en ;
-    cav:refersTo camssa:980debf3-e5b5-46fb-b566-7ff29d1a38e9 .
-
-camssa:9114fafb-65e8-4712-92ba-9875983f7fb6 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "The RDA website also collects expressions of interest from potential adopters via “Become an RDA Adopter” section  and encourages adopters to submit “Adoption Stories” . RDA has organised a series of webinars  focused on the adoption of the RDA Outputs & Recommendations encouraging dialogue and interaction and facilitating uptake."@en ;
-    cav:refersTo camssa:fbbe5cad-0476-4829-9860-53741112b91e .
-
-camssa:93337574-30ae-4c71-8aa3-71466a17a27c a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "Transparency of the development process is evidenced by a defined and publicly available documentation on the development and maintenance of the specification."@en ;
-    cav:refersTo camssa:a1feb6f5-c94a-4047-9b26-d5c916c73f85 .
-
-camssa:980debf3-e5b5-46fb-b566-7ff29d1a38e9 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-f6669d041c301e6aadc132bb9de2d1d2f620f9fcb8b5d147c7b08c0393b53d0c ;
-    cav:value "1"^^xsd:int .
-
-camssa:9853c878-bcb1-4016-9a12-ef2eb5d56573 a cav:Statement,
+camssa:ef02c951-dd98-44df-ba24-9d3b69e01a1a a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement "All of the RDA specifications are openly available and free of charge."@en ;
-    cav:refersTo camssa:309dbec3-d60a-4665-b6aa-e75c55bbb238 .
+    cav:refersTo camssa:31e387a5-8910-4a4c-bc9e-496bd32ed7f7 .
 
-camssa:9aba7103-30ab-4003-891b-2fd6dc6fe44e a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "The specification can be used independently from specific operating systems and hardware platforms."@en ;
-    cav:refersTo camssa:2d725df2-7d5e-4a3d-a017-0c11c0d97fcc .
-
-camssa:a1feb6f5-c94a-4047-9b26-d5c916c73f85 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-d310596912dbc916997008f4aed16a81cf5e708cd907e3c53a2e4207468b468b ;
-    cav:value "1"^^xsd:int .
-
-camssa:ad84abe3-0bea-43f5-877f-0f3e11114b22 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-923825ea86a7939a1cbdcdeb83be96b047beaaeb51b65f1f119e75f841841181 ;
-    cav:value "0"^^xsd:int .
-
-camssa:af797522-8642-4b6b-9e4c-f7aa57bca490 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "Every new version of the specification goes through a defined process with open and public consultations. Request for comments are not restricted to the RDA members but are open to all."@en ;
-    cav:refersTo camssa:bb74cbbf-1ed9-4471-9813-38a36350e4e1 .
-
-camssa:b2303823-d8f1-47f0-b909-e1a4870a8c74 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-33b5b305bcc0a995fd3c592dc8a6f52d0749a6e817aa85844f3e4f31c7dea344 ;
-    cav:value "1"^^xsd:int .
-
-camssa:b2688ff4-9a9f-4d5b-8ebd-613c94a43594 a cav:Score,
+camssa:f14e1689-3c6b-4448-9b2d-4a90c1d19b60 a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-2d94fbefdcc4c566f135fc475a1c159d175029719782a303705dfb2e4cada6a6 ;
     cav:value "1"^^xsd:int .
 
-camssa:b665706c-fde4-4eb4-b1d7-3876bcbe249c a cav:Statement,
+camssa:f4441a6f-1e0c-48cd-a890-613b933752cb a cav:Statement,
         owl:NamedIndividual ;
-    cav:judgement "Examples of public institutions or organisations are provided in in the criteria 1. (e.g EMBL European Bioinformatics Institute, and Australian Center for Plant Functional Genomics)"@en ;
-    cav:refersTo camssa:1f4d0a1f-3aa7-4b44-bb4e-160bf7252abe .
+    cav:judgement """All Outputs packages have been published under the Creative Commons Attribution (CC-BY) licence. RDA’s IPR policy:
+See: 
+ http://dx.doi.org/10.15497/DA8C2CC2-A7AF-4E3A-A4D6-C100E5C27492"""@en ;
+    cav:refersTo camssa:798eb193-ad03-43a5-a083-33b9cab06b4e .
 
-camssa:b949c7d5-5eeb-4bcc-8b79-eb99271d4956 a cav:Score,
+camssa:fb0c7a26-52ec-4bc7-b542-2d9a6e35b873 a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-cd828c0ec9887027bdb6b981560bde593cda27c080298ab36323ba5441ba4c31 ;
+    cav:assignedTo sc:c-8aee43521f6b3ab69785784831b651574a5496fd5996bb8c61a80e479f633fa0 ;
     cav:value "1"^^xsd:int .
 
-camssa:bb74cbbf-1ed9-4471-9813-38a36350e4e1 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-5b29a4581c52656a3bcf08224b259c29610cb540c56af4512ebe0ded3adeeac1 ;
-    cav:value "1"^^xsd:int .
-
-camssa:bbf63a4b-1f49-4cd7-b9fe-e5ef7d2d11f3 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "The fact that the specification has been widely adopted and the strong interest by different organisations and initiatives demonstrates that the specification has sufficient completeness and consistency for the use and development of products and services required to gather or exchange wheat-related data. "@en ;
-    cav:refersTo camssa:f3167de0-c961-4ec1-a252-13ee6c8bce6d .
-
-camssa:bc236de7-8da1-4897-835c-91e9e1a5dd44 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-a085272697eadd8638ed45af45c77ae88aed7cadb14f84d957c5c3b2248bd986 ;
-    cav:value "1"^^xsd:int .
-
-camssa:c7ef1125-011d-40b2-97ce-399485d633b3 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement " The recommendation is aiming to achieve seamless interoperability, trust, and ultimately to provide growth and employment opportunities by facilitating data exchange across organisations, disciplines and geographical borders."@en ;
-    cav:refersTo camssa:81c6b10c-665a-4539-9338-96ea115aae2a .
-
-camssa:d30d4c48-17c0-4d31-86eb-26bff2a5c130 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-d310596912dbc916997008f4aed16a81cf5e708cd907e3c53a2e4207468b468b ;
-    cav:value "1"^^xsd:int .
-
-camssa:dd92cbef-ab88-4201-b1ae-4b3384439bfd a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-c3d200f09880d91d08826557de1524471d65e2807cbd8bc6c5c2bbed77fe47ea ;
-    cav:value "0"^^xsd:int .
-
-camssa:e6406c18-8246-4707-9420-a7619207c5ff a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-54c6979e14b0fde712302882b436570c15837c2941dd6060e9b8615052bca4e1 ;
-    cav:value "1"^^xsd:int .
-
-camssa:e89ec0df-c8e7-45db-a000-a845c953e03e a schema:ContactPoint,
-        owl:NamedIndividual ;
-    schema:email "CAMSS@everis.com" .
-
-camssa:e9953083-9996-4896-8d43-694c7e44980a a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-5b29a4581c52656a3bcf08224b259c29610cb540c56af4512ebe0ded3adeeac1 ;
-    cav:value "1"^^xsd:int .
-
-camssa:eadb0286-c81d-41b8-af3f-fa99350394c9 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """The Research Data Alliance (RDA) is a non-profit organisation
-See: https://www.rd-alliance.org"""@en ;
-    cav:refersTo camssa:bc236de7-8da1-4897-835c-91e9e1a5dd44 .
-
-camssa:f3167de0-c961-4ec1-a252-13ee6c8bce6d a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-6f7b3377cc1836eb056d44786260085e36fc1d6856a3aa3d37fe017e16cfc319 ;
-    cav:value "1"^^xsd:int .
-
-camssa:f5527fbb-b6c2-4589-bd77-7eaef31394d7 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """No overlap has been detected with European standardisation organisations activities at EU level.
-This conclusion is based on the work programme of CEN  and ETSI  as published on their respective websites, and on the ENISA Programming Document 2018-2020 .
-"""@en ;
-    cav:refersTo camssa:ad84abe3-0bea-43f5-877f-0f3e11114b22 .
-
-camssa:f698bb40-f174-43a8-8270-73848be9de57 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-cac1c963ee5c3624035d7a98a8577db18d04ad6528afc51785f1230f23566ff1 ;
-    cav:value "0"^^xsd:int .
-
-camssa:fbbe5cad-0476-4829-9860-53741112b91e a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-df3d12df0d66137fac78fd8e7edde75f94e132cb64f645594cd2a27d3c726bb1 ;
-    cav:value "1"^^xsd:int .
-
-camssa:fcf94e2b-5a03-48a8-86e7-6e50fe5249e9 a cav:Statement,
+camssa:fe6ec60c-9732-4878-ad33-ce8ecd055707 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """Each of the specification approval phases (TAB, Council, Public RfCs / Consultation) allow for objections and appeals.
 See: 
 https://www.rd-alliance.org/groups/creating-and-managing-rda-groups/working-group-outputs.html"""@en ;
-    cav:refersTo camssa:0d1bad01-954a-4a92-8294-9b99971dfdf6 .
+    cav:refersTo camssa:d4073217-d424-4c3e-b765-7534e92979a3 .
+
+camssa:ffe6c375-e4be-458c-acf0-391fee3c9d12 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "Examples of public institutions or organisations are provided in in the criteria 1. (e.g EMBL European Bioinformatics Institute, and Australian Center for Plant Functional Genomics)"@en ;
+    cav:refersTo camssa:fb0c7a26-52ec-4bc7-b542-2d9a6e35b873 .
 
