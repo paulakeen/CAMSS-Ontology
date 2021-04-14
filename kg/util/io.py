@@ -38,16 +38,8 @@ def slash(path):
     return os.path.join(path, '')
 
 
-def pv(top: str, verbose: bool = True, log_info_level: bool = False, nl: bool = True):
+def pv(top: str, verbose: bool = True, nl: bool = True):
     if verbose:
-        prn_log_verbose(top, verbose, log_info_level, nl)
-
-
-def prn_log_verbose(top: str, verbose: bool = True, log_info_level: bool = False, nl: bool = True):
-    if verbose:
-        if log_info_level:
-            logging.basicConfig(level=logging.INFO)
-            logging.info("Extracting and transforming documents...")
         print(top, end='' if not nl else '\n')
 
 

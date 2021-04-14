@@ -1,0 +1,29 @@
+@prefix cssv: <http://data.europa.eu/2sa/cssv#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+rsc:1986b44c-92b6-4083-880e-f554609080c5 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf rsc:3a08a1d09270bc9b29481f881b3a21eb3360cc2e879906ae2ebad37df1a6800d ;
+    schema:email "CAMSS@everis.com" .
+
+rsc:b8ed390470bf8ebbbf573f68a7e7bb80643b7e4ccad211857b531e53ec489616 a cssv:Standard,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy rsc:3a08a1d09270bc9b29481f881b3a21eb3360cc2e879906ae2ebad37df1a6800d ;
+    dct:title "XAdES Baseline Profile "@en ;
+    dcat:distribution rsc:5be4e11f-260e-41a4-a995-0432b8614fd2 .
+
+rsc:5be4e11f-260e-41a4-a995-0432b8614fd2 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.w3.org/TR/XAdES/"^^xsd:anyURI .
+
+rsc:3a08a1d09270bc9b29481f881b3a21eb3360cc2e879906ae2ebad37df1a6800d a owl:NamedIndividual,
+        org:Organization ;
+    skos:prefLabel "ETSI (http://www.etsi.org/)"^^xsd:string .
+

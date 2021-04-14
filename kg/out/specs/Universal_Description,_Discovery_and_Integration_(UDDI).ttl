@@ -1,0 +1,29 @@
+@prefix cssv: <http://data.europa.eu/2sa/cssv#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+rsc:2b2127c8-e658-49f3-aff9-3246db0fbf45 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf rsc:2ea8014113d1baad45397361a10c5b39e782ca8b5765b0f8144aea8615fa552b ;
+    schema:email "CAMSS@everis.com" .
+
+rsc:2d537e8d36b69a52f7fa4f16d23f00c25701f6ce500e4150eefb592599c32344 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy rsc:2ea8014113d1baad45397361a10c5b39e782ca8b5765b0f8144aea8615fa552b ;
+    dct:title "Universal Description, Discovery and Integration (UDDI)"@en ;
+    dcat:distribution rsc:16876a65-3b8b-4f45-b998-8c60087c1e0d .
+
+rsc:16876a65-3b8b-4f45-b998-8c60087c1e0d a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "http://www.uddi.org/pubs/uddi_v3.htm"^^xsd:anyURI .
+
+rsc:2ea8014113d1baad45397361a10c5b39e782ca8b5765b0f8144aea8615fa552b a owl:NamedIndividual,
+        org:Organization ;
+    skos:prefLabel "OASIS (https://www.oasis-open.org/)"^^xsd:string .
+

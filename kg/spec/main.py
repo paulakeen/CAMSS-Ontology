@@ -1,5 +1,7 @@
+import logging
 import spec.transformer as spec
 import camssutil.files as camss
+from util.io import slash, drop_file
 from cfg.conf import Cfg
 from util.io import get_files, pv
 from ass.assessment import Assessment
@@ -13,36 +15,34 @@ serialised into a TTL file and loaded into a Graph Store.
 CFG_FILE = '../cfg/cfg.json'
 
 
-def _capture_samples(cfg: Cfg) -> (int, Assessment):
+def _configure_log(cfg: Cfg):
+    log = slash(cfg.get[9]['log']) + 'specs.log'
+    drop_file(log)  # Remove previous logs
+    logging.basicConfig(filename=log, level=logging.INFO, format='%(asctime)s %(message)s')
+    return
+
+
+def _get_assessment(cfg: Cfg) -> (int, Assessment):
     # Control of which types of assessment have already been processed
     processed_ass_types = {}
     # After the execution of this loop, only assessments of existing scenarios are loaded in the dictionary
-    x = 0
     for index, ass_file_path, filename, _ in get_files(cfg.get[0]['corpus']):
         ass = Assessment(cfg=cfg, file_path=ass_file_path, filename=filename)
-        key = ass.scenario + str(ass.tool_version.value)
-        # If the key does not exist, this means that this is the first time that the such a key is encountered.
-        # Hence the key is used to create the entry when the exception is thrown.
-        try:
-            pv(top=f'Testing file {ass_file_path} as sample candidate...')
-            test = processed_ass_types[key]
-        except:
-            pv(top=f'Capturing assessment {ass.ass_file_path} as a sample for the extraction of scenarios '
-                   f'and criteria...', verbose=True, nl=False)
-            processed_ass_types[key] = ass
-            pv(f'done!')
-            x += 1
-            yield x, ass
+        yield index, ass
 
 
 def _run(cfg: Cfg):
-    i = 0
-    for x, ass in _capture_samples(cfg):
-        if ass is not None:
-            csv = _CSV(cfg=cfg, file_pathname=camss.get_csv_file_pathname(cfg, ass), filename=ass.ass_filename)
-            spec.Transformer(csv).to_ttl()
-            i = x
-    pv(f'Scenarios and criteria have been generated our of {i} CSV samples.')
+    _configure_log(cfg)
+    for index, ass in _get_assessment(cfg):
+        csv = _CSV(cfg=cfg, file_pathname=camss.get_csv_file_pathname(cfg, ass), filename=ass.ass_filename)
+        filename = str(csv.df.loc[0, 'P1']).strip()
+        filename = filename.replace('/', '-').replace(' ', '_').replace(':', '-').replace(';', '-').strip()
+        ttl = slash(cfg.get[8]['out.specs']) + filename + '.ttl'
+        pv(top=f'{index}. Extracting specification-related data from the Assessment {ttl} ... ', verbose=True, nl=False)
+        spec.Transformer(csv).to_ttl(ttl)
+        pv("Done!")
+        logging.info(f'{index}. Specification {filename} extracted from file {ass.ass_file_path}.')
+    pv(f'Done! All specifications extracted!')
     return
 
 

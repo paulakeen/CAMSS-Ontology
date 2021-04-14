@@ -1,0 +1,58 @@
+2021-04-14 16:13:14,478 1. Specification Transport_Layer_Security_1.3_(TLS_1.3) extracted from file ../corpus/MSP300/CAMSS Assessment TLS 1.3 MSP Scenariov1.0.0.xlsm.
+2021-04-14 16:13:14,641 2. Specification Wheat_Data_Interoperability_Guidelines extracted from file ../corpus/MSP300/CAMSS Assessment_Wheat Data Interoperability Guidelines MSP Scenario_v1.0.0.xlsm.
+2021-04-14 16:13:14,791 3. Specification Data_Collections_API extracted from file ../corpus/MSP300/CAMSS Assessment RDA Data Collection API MSP_v1.0.0.xlsm.
+2021-04-14 16:13:14,931 4. Specification WDS_Publishing_Data_Services extracted from file ../corpus/MSP300/CAMSS WDS Publishing Data Services v1.0.0(4).xlsm.
+2021-04-14 16:13:15,109 5. Specification Resource_Public_Key_Infrastructure extracted from file ../corpus/MSP300/CAMSS Assessment RKPI MSP Scenariov1.0.0.xlsm.
+2021-04-14 16:13:15,257 6. Specification Research_Data_Repository_Interoperability_Recommendations extracted from file ../corpus/MSP300/CAMSS Assessment RDA Reasearch Data Repository IoP Recommendations MSPv1.0.0.xlsm.
+2021-04-14 16:13:15,405 7. Specification Electronic_Signatures_and_Infrastructures_(ESI)-
+PAdES_Baseline_Profile extracted from file ../corpus/EIF300/CAMSS Assessment_EIF Scenario_PAdES_v.1.0.0.xlsm.
+2021-04-14 16:13:15,579 8. Specification SOAP extracted from file ../corpus/EIF300/CAMSS_Assessment_SOAP 1.2_EIF Scenario_v1.0.xlsm.
+2021-04-14 16:13:15,733 9. Specification Hypertext_Markup_Language_v5_(HTML5) extracted from file ../corpus/EIF300/CAMSS_Assessment_HTML5 0.1_EIF Scenario_v1.0.xlsm.
+2021-04-14 16:13:15,913 10. Specification Universal_Description,_Discovery_and_Integration_(UDDI) extracted from file ../corpus/EIF300/CAMSS Assessment_UDDI_EIF Scenario_v1.0.xlsm.
+2021-04-14 16:13:16,061 11. Specification Electronic_Signatures_and_Infrastructures_(ESI)- extracted from file ../corpus/EIF300/CAMSS Assessment_ASiC Baseline Profile_EIF Scenario_v.1.0.0.xlsm.
+2021-04-14 16:13:16,202 12. Specification Internet_Protocol_Security_(IPSec) extracted from file ../corpus/EIF300/CAMSS Assessment_IPSec_EIF Scenario_v1.0.xlsm.
+2021-04-14 16:13:16,380 13. Specification WS-Security_(Web_Services_Security) extracted from file ../corpus/EIF300/CAMSS_Assessment_WSS_v1.0.xlsm.
+2021-04-14 16:13:16,524 14. Specification Electronic_Signatures_and_Infrastructures_(ESI)-
+CAdES_Baseline_Profile extracted from file ../corpus/EIF300/CAMSS Assessment_EIF Scenario_CAdES Baseline Profile_v.1.0.0.xlsm.
+2021-04-14 16:13:16,671 15. Specification File_Transfer_Protocol_(FTP) extracted from file ../corpus/EIF300/CAMSS Assessment_FTP_EIF Scenario_v1.0.0.xlsm.
+2021-04-14 16:13:16,842 16. Specification Transport_Layer_Security_(TLS) extracted from file ../corpus/EIF300/CAMSS Assessment_TLS 1.2_EIF Scenario_v1.0.xlsm.
+2021-04-14 16:13:17,056 17. Specification Portable_Document_Format_v_1.7_(PDF_1.7) extracted from file ../corpus/EIF300/CAMSS_Assessment_PDF 1.7_EIF Scenario_v1.0.xlsm.
+2021-04-14 16:13:17,261 18. Specification Resource_Description_Framework_1.1_(RDF_1.1) extracted from file ../corpus/EIF300/CAMSS Assessment_RDF_EIF Scenario_v1.0.xlsm.
+2021-04-14 16:13:17,437 19. Specification SAML_2.0_(Security_Assertion_Markup_Language_(SAML)_V2.0) extracted from file ../corpus/EIF300/CAMSS_Assessment_SAML 2.0_EIF Scenario_v1.0.xlsm.
+2021-04-14 16:13:17,573 20. Specification SHACL,_Shapes_constraint_language extracted from file ../corpus/EIF300/CAMSS_Assessment_SHACL_EIF Scenario_v1.0.0.xlsm.
+2021-04-14 16:13:17,716 21. Specification Data_Catalog_Vocabulary_-_Application_Profile_for_European_Data_Portals_(DCAT-AP_2.0) extracted from file ../corpus/EIF300/CAMSS Assessment_DCAT-AP_EIF Scenario_v1.0.0.xlsm.
+2021-04-14 16:13:17,889 22. Specification Hypertext_Transfer_Protocol_HTTP_1.1 extracted from file ../corpus/EIF300/CAMSS_Assessment_HTTP 1.1_EIF Scenario_v1.0.0.xlsm.
+2021-04-14 16:13:18,029 23. Specification JavaScript_Object_Notation_(JSON) extracted from file ../corpus/EIF300/CAMSS_Assessment_JSON_EIF Scenario_v1.0.xlsm.
+2021-04-14 16:13:18,178 24. Specification Internet_Protocol_version_4_(IPv4) extracted from file ../corpus/EIF300/CAMSS Assessment_IPv4_EIF Scenario_v1.0.xlsm.
+2021-04-14 16:13:18,350 25. Specification Comma-Separated_Values_(CSV) extracted from file ../corpus/EIF300/CAMSS_Assessment_CSV_EIF Scenario_v1.0.xlsm.
+2021-04-14 16:13:18,509 26. Specification UTF-8,_a_transformation_format_of_ISO_10646 extracted from file ../corpus/EIF300/CAMSS Assessment_UTF-8_EIF Scenario_v1.0.xlsm.
+2021-04-14 16:13:18,657 27. Specification Internet_Protocol_version_6_(IPv6) extracted from file ../corpus/EIF300/CAMSS Assessment_IPv6_EIF Scenario_v1.0.0.xlsm.
+2021-04-14 16:13:18,848 28. Specification XAdES_Baseline_Profile extracted from file ../corpus/EIF300/CAMSS_Assessment_XAdES_EIF Scenario_v1.0.0.xlsm.
+2021-04-14 16:13:18,995 29. Specification eDelivery_SMP_1.10 extracted from file ../corpus/EIF300/CAMSS Assessment_eDelivery SMP 1.10_v1.0.0.xlsm.
+2021-04-14 16:13:19,145 30. Specification XML,_Extensible_Markup_Language_1.1 extracted from file ../corpus/EIF300/CAMSS_Assessment_XML 1.1_EIF Scenario_v1.0.0.xlsm.
+2021-04-14 16:13:19,322 31. Specification Data_Catalogue_Vocabulary_2.0_(DCAT_2) extracted from file ../corpus/EIF300/CAMSS Assessment_DCAT_EIF Scenario_v1.0.0.xlsm.
+2021-04-14 16:13:19,465 32. Specification Web_Services_Description_Language_(WSDL) extracted from file ../corpus/EIF300/CAMSS Assessment_WSDL_EIF Scenario_v1.0.xlsm.
+2021-04-14 16:13:19,614 33. Specification HTTP_Over_TLS_(HTTPS) extracted from file ../corpus/EIF300/CAMSS_Assessment_HTTPS_EIF Scenario_v1.0.0.xlsm.
+2021-04-14 16:13:19,792 34. Specification XSLT extracted from file ../corpus/EIF300/CAMSS_Assessment_XSLT_EIF Scenario_v1.0.xlsm.
+2021-04-14 16:13:19,934 35. Specification XML_Schema_Definition_Language_(XSD)_1.1._Part_1_and_2. extracted from file ../corpus/EIF300/CAMSS Assessment of XSD 1.1v.1.0.0.xlsm.
+2021-04-14 16:13:20,077 36. Specification Domain_Name_System_(DNS) extracted from file ../corpus/EIF300/CAMSS Assessment_DNS_EIF Scenario_v1.0.0.xlsm.
+2021-04-14 16:13:21,546 37. Specification Cascading_Style_Sheets_(CSS)_v2.1 extracted from file ../corpus/EIF310/CAMSS_Assessment_CSS 2.1_EIF Scenario_v1.0.0.xlsm.
+2021-04-14 16:13:22,885 38. Specification Core_Public_Organisation_Vocabulary_(CPOV) extracted from file ../corpus/EIF310/CAMSS_Assessment_CPOV_EIF Scenario_v1.0.0.xlsm.
+2021-04-14 16:13:24,331 39. Specification OWL_2_Web_Ontology_Language_(OWL2) extracted from file ../corpus/EIF310/CAMSS_Assessment_OWL2_EIF Scenario_v1.0.0.xlsm.
+2021-04-14 16:13:25,663 40. Specification Core_Criterion_and_Core_Evidence_Vocabulary_(CCCEV)_v1.0 extracted from file ../corpus/EIF310/CAMSS_Assessment_CCCEV_EIF Scenario_v1.0.0.xlsm.
+2021-04-14 16:13:27,017 41. Specification Ogg extracted from file ../corpus/EIF310/CAMSS_Assessment_Ogg_EIF Scenario_v1.0.0.xlsm.
+2021-04-14 16:13:28,369 42. Specification Portable_Document_Format-A_(PDF-A) extracted from file ../corpus/EIF310/CAMSS_Assessment_PDF_A_EIF Scenario_v1.0.0.xlsm.
+2021-04-14 16:13:29,878 43. Specification File_Transfer_Protocol_over_Transport_Layer_Security_(FTPS_or_FTP_over_TLS) extracted from file ../corpus/EIF310/CAMSS_Assessment_FTPS_EIF Scenario_v1.0.0.xlsm.
+2021-04-14 16:13:31,359 44. Specification Scalable_Vector_Graphics_(SVG)_v1.1_(Second_Edition) extracted from file ../corpus/EIF310/CAMSS_Assessment_SVG_EIF Scenario_v1.0.0.xlsm.
+2021-04-14 16:13:32,699 45. Specification Multipurpose_Internet_Mail_Extensions_(MIME) extracted from file ../corpus/EIF310/CAMSS_Assessment_MIME_EIF Scenario_v1.0.0.xlsm.
+2021-04-14 16:13:34,101 46. Specification Lightweight_Directory_Access_Protocol_(LDAP) extracted from file ../corpus/EIF310/CAMSS_Assessment_LDAP_EIF Scenario_v1.0.0.xlsm.
+2021-04-14 16:13:35,604 47. Specification Asset_Description_Metadata_Schema_(ADMS) extracted from file ../corpus/EIF310/CAMSS_Assessment_ADMS_EIF Scenario_v1.0.0.xlsm.
+2021-04-14 16:13:36,980 48. Specification Hypertext_Markup_Language_(HTML)_v4.01 extracted from file ../corpus/EIF310/CAMSS_Assessment_HTML4_EIF Scenario_v1.0.0.xlsm.
+2021-04-14 16:13:38,324 49. Specification Tag_image_file_format_for_image_technology_(TIFF-IT) extracted from file ../corpus/EIF310/CAMSS_Assessment_TIFF_IT_EIF Scenario_v1.0.0.xlsm.
+2021-04-14 16:13:39,681 50. Specification Joint_Photographic_Experts_Group_(JPEG) extracted from file ../corpus/EIF310/CAMSS_Assessment_JPEG_EIF Scenario_v1.0.0.xlsm.
+2021-04-14 16:13:40,991 51. Specification Open_Document_Format_for_Office_Applications_(ODF)_v1.2 extracted from file ../corpus/EIF310/CAMSS_Assessment_ODF 1.2_EIF Scenario_v1.0.0.xlsm.
+2021-04-14 16:13:42,482 52. Specification Simple_Mail_Transfer_Protocol_(SMTP) extracted from file ../corpus/EIF310/CAMSS_Assessment_SMTP_EIF Scenario_v1.0.0.xlsm.
+2021-04-14 16:13:44,174 53. Specification Portable_Network_Graphics_(PNG) extracted from file ../corpus/EIF310/CAMSS_Assessment_PNG_EIF Scenario_v1.0.0.xlsm.
+2021-04-14 16:13:45,651 54. Specification eXtensible_Access_Control_Markup_Language_(XACML)_v3.0 extracted from file ../corpus/EIF310/CAMSS_Assessment_XACML_EIF Scenario_v1.0.0.xlsm.
+2021-04-14 16:13:47,292 55. Specification Web_Services_Business_Process_Execution_Language_(WS-BPEL)_v2.0 extracted from file ../corpus/EIF310/CAMSS_Assessment_WS-BPEL_EIF Scenario_v1.0.0.xlsm.
+2021-04-14 16:13:48,704 56. Specification Extensible_HyperText_Markup_Language_(XHTML)_v1.0 extracted from file ../corpus/EIF310/CAMSS_Assessment_XHTML_EIF Scenario_v1.0.0.xlsm.

@@ -44,23 +44,24 @@ class Transformer:
         return self.g
 
     def _add_scenario(self, row: p.Series) -> Graph:
-        sc_uri = URIRef(SC + 's-' + row['scenario_id'], SC)
-        self.g.add((sc_uri, SKOS.prefLabel, Literal(str(row['scenario'] + '-' + row['tool_version']), lang='en')))
+        sc_uri = URIRef(SC + row['scenario_id'], SC)
+        self.g.add((sc_uri, DCTERMS.title, Literal(str(row['scenario'] + '-' + row['tool_version']), lang='en')))
         self.g.add((sc_uri, RDF.type, CAV.Scenario))
         self.g.add((sc_uri, RDF.type, OWL.NamedIndividual))
         self.g.add((sc_uri, CAV.purpose, Literal(row['scenario_purpose'], lang='en')))
+        self.g.add((sc_uri, CAV.description, Literal(row['scenario_purpose'], lang='en')))
         return self.g
 
     def _add_criterion(self, row: p.Series) -> Graph:
-        uri_criterion = URIRef(SC + 'c-' + row['criterion_sha_id'], SC)
+        uri_criterion = URIRef(SC + row['criterion_sha_id'], SC)
         self.g.add((uri_criterion, RDF.type, CCCEV.Criterion))
         self.g.add((uri_criterion, RDF.type, OWL.NamedIndividual))
         self.g.add((uri_criterion, CCCEV.hasDescription, Literal(row['criterion_description'], lang='en')))
         return self.g
 
     def _link_criterion_to_scenario(self, row: p.Series) -> Graph:
-        sc_uri = URIRef(SC + 's-' + row['scenario_id'], SC)
-        crit_uri = URIRef(SC + 'c-' + row['criterion_sha_id'], SC)
+        sc_uri = URIRef(SC + row['scenario_id'], SC)
+        crit_uri = URIRef(SC + row['criterion_sha_id'], SC)
         self.g.add((sc_uri, CAV.includes, crit_uri))
         return self.g
 
